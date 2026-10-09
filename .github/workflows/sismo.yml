@@ -1,0 +1,39 @@
+name: Relatório sísmico Panamá
+
+on:
+  schedule:
+    # A cada hora, minuto 5 (UTC). O GitHub costuma atrasar jobs agendados em alguns minutos.
+    - cron: "5 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 = só imprimir o relatório, não enviar nada"
+        required: false
+        default: "0"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sismo-panama
+  cancel-in-progress: false
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar e enviar relatório
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          CALLMEBOT_RECIPIENTS: ${{ secrets.CALLMEBOT_RECIPIENTS }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MAINSHOCK_ID: ${{ vars.MAINSHOCK_ID }}
+          QUIET_AFTER_HOURS: ${{ vars.QUIET_AFTER_HOURS || '72' }}
+        run: python3 report.py

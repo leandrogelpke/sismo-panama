@@ -1,0 +1,1 @@
+{"type": "Feature", "id": "us7000test1", "properties": {"mag": 7.7, "products": {"oaf": [{"code": "us7000test1", "contents": {"forecast.json": {"url": "https://earthquake.usgs.gov/archive/product/oaf/us7000test1/us/1/forecast.json", "contentType": "application/json"}}}]}}, "geometry": {"type": "Point", "coordinates": [-80.55, 7.6, 10]}}
