@@ -12,7 +12,7 @@ on:
         default: "0"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: sismo-panama
@@ -37,3 +37,17 @@ jobs:
           MAINSHOCK_ID: ${{ vars.MAINSHOCK_ID }}
           QUIET_AFTER_HOURS: ${{ vars.QUIET_AFTER_HOURS || '72' }}
         run: python3 report.py
+
+      - name: Guardar relatório no repositório (reports/)
+        if: always()
+        run: |
+          git config user.name "sismo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/ || true
+          if git diff --cached --quiet; then
+            echo "nada para commitar"
+          else
+            git commit -m "relatório $(TZ=America/Panama date '+%d/%m %H:%M') (Panamá)"
+            git pull --rebase origin main || true
+            git push || echo "push falhou (sem bloquear o envio)"
+          fi

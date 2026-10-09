@@ -671,6 +671,26 @@ def main() -> int:
         with open(summary_path, "a", encoding="utf-8") as fh:
             fh.write(f"## {subject}\n\n```\n{body}\n```\n\n" + "\n".join(f"- {s}" for s in status) + "\n")
 
+    # Histórico no repositório (o workflow faz commit de reports/): último relatório + uma linha por rodada.
+    out_dir = os.environ.get("REPORTS_DIR", "reports")
+    try:
+        os.makedirs(out_dir, exist_ok=True)
+        with open(os.path.join(out_dir, "latest.txt"), "w", encoding="utf-8") as fh:
+            fh.write(body + "\n\nENVIO: " + " | ".join(status) + "\n")
+        with open(os.path.join(out_dir, "latest_whatsapp.txt"), "w", encoding="utf-8") as fh:
+            fh.write(wa + "\n")
+        hist = os.path.join(out_dir, "historico.md")
+        new_file = not os.path.exists(hist)
+        with open(hist, "a", encoding="utf-8") as fh:
+            if new_file:
+                fh.write("| data/hora (Panamá) | M3,5+ 1h | M4,5+ 1h | maior 1h | acum. M5+/M6+ | tendência | tsunami | P(M6+ 7d) | envio |\n|---|---|---|---|---|---|---|---|---|\n")
+            big = f"M{fmt_mag(a.biggest_last.mag)} {hhmm(a.biggest_last.time)}" if a.biggest_last else "—"
+            env_short = "; ".join(s.split(":")[0] + (":ok" if ("enviado" in s or "HTTP 200" in s) else ":-") for s in status)
+            fh.write(f"| {local(now):%d/%m %H:%M} | {a.n35} | {a.n45} | {big} | {a.cum5}/{a.cum6} | {a.trend.lower()} | "
+                     f"{'ALERTA' if a.tsunami.get('active') else 'ok'} | {pct(a.probs.get('p6_7d'))} | {env_short} |\n")
+    except OSError as exc:
+        print(f"[reports] não gravado: {exc}")
+
     failed = [s for s in status if "FALHOU" in s or "Traceback" in s]
     return 1 if failed else 0
 
