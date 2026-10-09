@@ -15,23 +15,24 @@ Tudo em `report.py` (Python padrão, sem dependências). O workflow está em `.g
 
 Em **Settings → Secrets and variables → Actions → New repository secret**:
 
-| Secret | Valor |
-|---|---|
-| `GMAIL_USER` | seu Gmail (remetente) |
-| `GMAIL_APP_PASSWORD` | senha de app do Google (16 caracteres; crie em myaccount.google.com/apppasswords — exige verificação em 2 etapas) |
-| `MAIL_TO` | destinatários separados por vírgula (pode incluir a esposa) |
-| `CALLMEBOT_RECIPIENTS` | `+507xxxxxxxx:APIKEY;+507yyyyyyyy:APIKEY` — um par por pessoa |
-| `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` | opcional |
+| Secret | Valor | Obrigatório? |
+|---|---|---|
+| `TELEGRAM_BOT_TOKEN` | token do bot criado no @BotFather (`/newbot`) | **sim** — é o canal de celular que não depende do Mac |
+| `GMAIL_USER` | seu Gmail (remetente) | opcional |
+| `GMAIL_APP_PASSWORD` | senha de app do Google (16 caracteres; myaccount.google.com/apppasswords — exige verificação em 2 etapas) | opcional |
+| `MAIL_TO` | destinatários separados por vírgula | opcional |
+| `CALLMEBOT_RECIPIENTS` | `+507xxxxxxxx:APIKEY;+507yyyyyyyy:APIKEY` | opcional — em out/2026 o número de ativação do CallMeBot passou a redirecionar para o serviço pago de chamadas; o canal de texto gratuito não é confiável |
 
-**CallMeBot (WhatsApp pessoal, gratuito):** cada número salva o contato **+34 644 20 47 56** e envia a ele, pelo WhatsApp,
-`I allow callmebot to send me messages`. A resposta traz a APIKEY daquele número. Não envia para grupos — cada pessoa recebe
-no próprio WhatsApp. Serviço de terceiros, "melhor esforço": pode atrasar alguns minutos.
+**Telegram (recomendado):** crie o bot no @BotFather, cole o token no secret e depois **mande `/start` ao bot** (e/ou adicione o bot
+a um grupo com a família e mande qualquer mensagem lá). Na rodada seguinte o script descobre sozinho os chats e grava em
+`reports/telegram_chats.json`; a partir daí envia para todos eles. Para fixar um chat específico, use a variável `TELEGRAM_CHAT_ID`.
 
 Variáveis opcionais (**Settings → Secrets and variables → Actions → Variables**):
 
 - `MAINSHOCK_ID` — força o id USGS do sismo principal (por padrão, o maior M6,5+ dos últimos 30 dias na região).
 - `QUIET_AFTER_HOURS` — horas após o principal para entrar em "hora tranquila" (padrão 72). Nesse modo o e-mail continua
-  de hora em hora e o WhatsApp sai só às 00/06/12/18 h.
+  de hora em hora e o Telegram/WhatsApp saem só às 00/06/12/18 h.
+- `TELEGRAM_CHAT_ID` — um ou mais chat ids separados por vírgula (desliga a descoberta automática).
 
 ## Rodar agora / testar
 

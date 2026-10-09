@@ -605,21 +605,70 @@ def send_callmebot(text: str) -> str:
     return "whatsapp: " + " | ".join(results)
 
 
-def send_telegram(text: str) -> str:
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat = os.environ.get("TELEGRAM_CHAT_ID")
-    if not (token and chat):
-        return "telegram: pulado"
-    if DRY_RUN:
-        return "telegram: DRY_RUN"
-    data = urllib.parse.urlencode({"chat_id": chat, "text": text}).encode()
+def _telegram_api(token: str, method: str, data: dict | None = None, timeout: int = 30) -> dict:
+    url = f"https://api.telegram.org/bot{token}/{method}"
+    body = urllib.parse.urlencode(data).encode() if data else None
+    req = urllib.request.Request(url, data=body, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return json.loads(resp.read().decode("utf-8", "ignore"))
+
+
+def telegram_discover_chats(token: str, store_path: str) -> dict[str, str]:
+    """Descobre os chats que falaram com o bot (ou o adicionaram a um grupo) e guarda em reports/.
+    Assim o Leandro só precisa do token: manda /start ao bot ou adiciona o bot a um grupo."""
+    chats: dict[str, str] = {}
     try:
-        req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage", data=data,
-                                     headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return f"telegram: HTTP {resp.status}"
+        if os.path.exists(store_path):
+            with open(store_path, encoding="utf-8") as fh:
+                chats = {str(k): str(v) for k, v in json.load(fh).items()}
+    except (OSError, json.JSONDecodeError):
+        chats = {}
+    try:
+        res = _telegram_api(token, "getUpdates", {"limit": 100, "allowed_updates": '["message","my_chat_member"]'})
+        for upd in res.get("result", []):
+            chat = None
+            if "message" in upd:
+                chat = upd["message"].get("chat")
+            elif "my_chat_member" in upd:
+                mcm = upd["my_chat_member"]
+                status = (mcm.get("new_chat_member") or {}).get("status")
+                if status in ("left", "kicked"):
+                    chats.pop(str(mcm.get("chat", {}).get("id")), None)
+                    continue
+                chat = mcm.get("chat")
+            if chat and chat.get("id") is not None:
+                label = chat.get("title") or chat.get("first_name") or chat.get("username") or chat.get("type")
+                chats[str(chat["id"])] = str(label)
     except Exception as exc:  # noqa: BLE001
-        return f"telegram: FALHOU {exc}"
+        log(f"[telegram] getUpdates falhou: {exc}")
+    try:
+        os.makedirs(os.path.dirname(store_path) or ".", exist_ok=True)
+        with open(store_path, "w", encoding="utf-8") as fh:
+            json.dump(chats, fh, ensure_ascii=False, indent=1)
+    except OSError as exc:
+        log(f"[telegram] não gravou {store_path}: {exc}")
+    return chats
+
+
+def send_telegram(text: str) -> str:
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+    if not token:
+        return "telegram: pulado (TELEGRAM_BOT_TOKEN ausente)"
+    forced = [x.strip() for x in os.environ.get("TELEGRAM_CHAT_ID", "").replace(";", ",").split(",") if x.strip()]
+    store = os.path.join(os.environ.get("REPORTS_DIR", "reports"), "telegram_chats.json")
+    chats = {c: "TELEGRAM_CHAT_ID" for c in forced} if forced else telegram_discover_chats(token, store)
+    if not chats:
+        return "telegram: nenhum chat ainda — mande /start ao bot (ou adicione o bot a um grupo) e aguarde a próxima rodada"
+    if DRY_RUN:
+        return "telegram: DRY_RUN para " + ", ".join(chats.values())
+    results = []
+    for chat_id, label in chats.items():
+        try:
+            res = _telegram_api(token, "sendMessage", {"chat_id": chat_id, "text": text, "disable_web_page_preview": "true"})
+            results.append(f"{label}: {'ok' if res.get('ok') else 'FALHOU ' + str(res.get('description'))[:60]}")
+        except Exception as exc:  # noqa: BLE001
+            results.append(f"{label}: FALHOU {str(exc)[:80]}")
+    return "telegram: " + " | ".join(results)
 
 
 # --------------------------------------------------------------------------- Main
@@ -661,10 +710,13 @@ def main() -> int:
     print("=" * 78 + "\n")
 
     # Em modo "hora tranquila" (72 h+ sem M4,5+), o WhatsApp sai só às 00/06/12/18 h; o e-mail segue de hora em hora.
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    tg_text = wa + (f"\n\nRelatório completo: https://github.com/{repo}/blob/main/reports/latest.txt" if repo else "")
     if a.quiet and local(now).hour % 6 != 0:
-        status = [send_email(subject, body), "whatsapp: pulado (hora tranquila — só às 00/06/12/18 h)", send_telegram(wa)]
+        status = [send_email(subject, body), "whatsapp: pulado (hora tranquila — só às 00/06/12/18 h)",
+                  "telegram: pulado (hora tranquila — só às 00/06/12/18 h)"]
     else:
-        status = [send_email(subject, body), send_callmebot(wa), send_telegram(wa)]
+        status = [send_email(subject, body), send_callmebot(wa), send_telegram(tg_text)]
     for s in status:
         print(s)
 
@@ -687,7 +739,7 @@ def main() -> int:
             if new_file:
                 fh.write("| data/hora (Panamá) | M3,5+ 1h | M4,5+ 1h | maior 1h | acum. M5+/M6+ | tendência | tsunami | P(M6+ 7d) | envio |\n|---|---|---|---|---|---|---|---|---|\n")
             big = f"M{fmt_mag(a.biggest_last.mag)} {hhmm(a.biggest_last.time)}" if a.biggest_last else "—"
-            env_short = "; ".join(s.split(":")[0] + (":ok" if ("enviado" in s or "HTTP 200" in s) else ":-") for s in status)
+            env_short = "; ".join(s.split(":")[0] + (":ok" if ("enviado" in s or ": ok" in s or "HTTP 200" in s) else ":-") for s in status)
             fh.write(f"| {local(now):%d/%m %H:%M} | {a.n35} | {a.n45} | {big} | {a.cum5}/{a.cum6} | {a.trend.lower()} | "
                      f"{'ALERTA' if a.tsunami.get('active') else 'ok'} | {pct(a.probs.get('p6_7d'))} | {env_short} |\n")
     except OSError as exc:
