@@ -307,7 +307,8 @@ def fetch_tsunami(now: datetime) -> dict:
             is_threat = any(k in text for k in ("threat", "warning", "advisory", "watch", "hazardous"))
             is_over = any(k in text for k in ("has now passed", "has passed", "no longer", "cancel", "no tsunami",
                                                "no threat", "ended", "final message", "is over", "not expected"))
-            relevant.append((when, f"{name} {hhmm(when)}: {title[:140]}", is_threat and not is_over))
+            snippet = " ".join(summary.split())[:110]
+            relevant.append((when, f"{name} {hhmm(when)}: {title[:60]} — {snippet}", is_threat and not is_over))
         relevant.sort(key=lambda r: r[0], reverse=True)
         result["lines"].extend(r[1] for r in relevant)
         # só o boletim MAIS RECENTE decide: se ele é cancelamento/"passed", não há alerta ativo
@@ -473,7 +474,8 @@ def family_message(a: Analysis) -> str:
         last_line,
         f"Desde o principal (M{fmt_mag(a.main.mag)}, {hhmm(a.main.time)}): {a.cum5} réplicas M5+, {a.cum6} M6+. "
         f"Tendência: {a.trend.lower()}. {big}".strip(),
-        f"Tsunami: {tsu}. P(M6+ em 7 dias): {pct(a.probs.get('p6_7d'))}.",
+        f"Tsunami: {tsu}. P(M6+ em 7 dias): {pct(a.probs.get('p6_7d'))}"
+        + (" (USGS)." if str(a.probs.get("label", "")).startswith("USGS") else " (estimativa genérica)."),
         "Agora: " + " ".join(top),
         "Próxima atualização em 1 h.",
     ]
