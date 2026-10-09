@@ -1,0 +1,50 @@
+Sismo PA 18:45: 3 réplicas M4,5+ na última hora, maior M5,4 às 18:12 — tendência reativada, tsunami sem alerta.
+
+SISMO PANAMÁ — relatório das 18:45 (09/10/2026), gerado pelo GitHub Actions
+Sismo principal: M7,7 em 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — há 5,8 h.
+
+ÚLTIMA HORA: 3 eventos M3,5+, 3 M4,5+. Maior: M5,4 às 18:12, 9 km SSE de Los Asientos, prof. 10 km.
+ACUMULADO desde o principal: 21 M4,5+ | 11 M5+ | 1 M6+. Maior réplica: M6,6 às 15:25, 14 km W de Río Grande.
+TENDÊNCIA: REATIVADA — 3 M4,5+ nesta hora vs 1 na hora anterior.
+PREVISÃO [estimativa, modelo genérico — USGS OAF indisponível]: P(M5+ em 24 h) 100% (~9 esperadas) / P(M6+ em 7 d) 91% / P(M7+ em 7 d) 25%.
+
+OFICIAL:
+  Tsunami (tsunami.gov): sem alerta ativo
+    - PTWC 15:34: PANAMA
+    - NTWC 15:37: in Panama
+  Imprensa (Google News, últimas 12 h — manchetes, não verificadas):
+    - 18:27 TVN Panamá: Temblor en Panamá: primer informe reporta 15 estudiantes con lesiones menores, daños en viviendas, carreteras y estaciones de bomberos
+    - 18:03 Infobae: Abelardo de la Espriella expresó su solidaridad con Panamá tras el terremoto de magnitud 7,6 y ofreció ayuda de Colombia: “No está sola”
+    - 18:03 CRÍTICA: Sismo de 7,5 estremeció a todo Panamá, brindan informe de afectaciones
+    - 17:53 Diario AS: Pasajero en el Aeropuerto de Panamá, aterrorizado tras el fuerte sismo: “Todos reaccionamos un poco con pánico
+    - 17:47 Infobae: La Caja de Seguro Social de Panamá mantendrá las urgencias abiertas las 24 horas después del terremoto
+    - 17:38 Diario Libre: Lo que se sabe hasta ahora sobre el terremoto en Panamá
+
+AÇÕES AGORA:
+  1. [Provável] Sequência reativada nesta hora: adiar deslocamentos não essenciais e manter a rota de saída livre.
+  2. [Certo] Elevador não — escada sempre, até o prédio ser inspecionado.
+  3. [Provável] Evitar viagens longas pela Panamericana rumo a Coclé/Azuero nas próximas 24–48 h: pontes e viadutos ainda estão sendo inspecionados.
+  4. [Estimativa] Réplica M6+ nos próximos 7 dias: 91% — sentida em prédios altos da capital; isso é esperado, não sinal de novo terremoto.
+
+ÚLTIMA HORA — lista (hora local, M, local, prof.):
+  18:23  M4,9  9 km SW de Río Grande  10 km
+  18:12  M5,4  9 km SSE de Los Asientos  10 km
+  18:10  M5,0  8 km ESE de La Tronosa  10 km
+
+MENSAGEM ENVIADA AO WHATSAPP:
+🔔 Sismo PA 18:45 (automático)
+Última hora: 3 tremores M3,5+ (3 de M4,5+). Maior: M5,4 às 18:12, 9 km SSE de Los Asientos.
+Desde o principal (M7,7, 12:56): 11 réplicas M5+, 1 M6+. Tendência: reativada. Maior réplica até agora: M6,6 às 15:25.
+Tsunami: sem alerta. P(M6+ em 7 dias): 91%.
+Agora: Réplicas aumentaram nesta hora: adiar saídas não essenciais, rota de saída livre. Elevador não, escada sempre.
+Próxima atualização em 1 h.
+
+FONTES:
+  https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
+  https://earthquake.usgs.gov/fdsnws/event/1/ (catálogo, caixa Panamá)
+  https://www.tsunami.gov/
+  https://news.google.com/ (busca: sismo Panamá / Sinaproc)
+
+Avisos desta rodada: [OAF] evento sem produto 'oaf' ainda
+
+ENVIO: e-mail: pulado (GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO ausentes) | whatsapp: pulado (CALLMEBOT_RECIPIENTS ausente) | telegram: pulado
