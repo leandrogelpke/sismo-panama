@@ -839,72 +839,145 @@ def make_pdf(a: Analysis, body: str, path: str) -> bool:
 
 def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
     from fpdf import FPDF  # type: ignore
+
+    class Doc(FPDF):
+        def footer(self):
+            self.set_y(-11)
+            self.set_font("DV", "", 7)
+            self.set_text_color(*INK2)
+            self.cell(0, 5, f"Monitor sísmico Panamá · fuentes: USGS, tsunami.gov, Google News (titulares sin verificar) · "
+                            f"página {self.page_no()}/{{nb}}", align="C")
+            self.set_text_color(*INK)
+
     t = local(a.now)
-    pdf = FPDF(format="A4")
+    pdf = Doc(format="A4")
+    pdf.alias_nb_pages()
     pdf.set_margins(14, 14, 14)
-    pdf.set_auto_page_break(auto=True, margin=14)
+    pdf.set_auto_page_break(auto=True, margin=16)
     pdf.add_font("DV", "", reg)
     pdf.add_font("DV", "B", bold)
     pdf.add_page()
+
+    def section(num: int, title: str, min_space: float = 30) -> None:
+        if pdf.get_y() + min_space > pdf.h - 18:
+            pdf.add_page()
+        pdf.ln(2)
+        y = pdf.get_y()
+        pdf.set_fill_color(*BLUE); pdf.rect(14, y, 1.6, 7, style="F")
+        pdf.set_fill_color(236, 241, 250); pdf.rect(15.6, y, pdf.w - 29.6, 7, style="F")
+        pdf.set_xy(18, y); pdf.set_font("DV", "B", 10.5); pdf.set_text_color(*INK)
+        pdf.cell(0, 7, f"{num}. {title}", new_x="LMARGIN", new_y="NEXT")
+        pdf.ln(1.5)
+
+    def para(text: str, size: float = 9, bold_: bool = False, indent: float = 0, color=INK) -> None:
+        pdf.set_font("DV", "B" if bold_ else "", size); pdf.set_text_color(*color)
+        pdf.set_x(14 + indent)
+        pdf.multi_cell(pdf.w - 28 - indent, 4.8, strip_emoji(text), new_x="LMARGIN", new_y="NEXT")
+        pdf.set_text_color(*INK)
+
+    # Encabezado
     pdf.set_font("DV", "B", 15)
     pdf.cell(0, 8, f"Sismo Panamá — informe de las {t:%H:%M} ({t:%d/%m/%Y})", new_x="LMARGIN", new_y="NEXT")
-    pdf.set_font("DV", "", 9)
-    pdf.set_text_color(90, 90, 90)
-    pdf.cell(0, 5, f"Principal M{fmt_mag(a.main.mag)} · {dhm(a.main.time)} · {a.main.place_short} · "
-                   f"hace {a.hours_since:.1f} h · generado automáticamente (GitHub Actions)", new_x="LMARGIN", new_y="NEXT")
-    pdf.set_text_color(0, 0, 0)
-    pdf.ln(2)
-    # Resumen en caja
-    pdf.set_fill_color(240, 244, 250)
-    pdf.set_font("DV", "B", 10)
+    pdf.set_font("DV", "", 9); pdf.set_text_color(*INK2)
+    pdf.cell(0, 5, f"Principal M{fmt_mag(a.main.mag)} · {dhm(a.main.time)} · {a.main.place_short} · prof. {a.main.depth:.0f} km · "
+                   f"hace {a.hours_since:.1f} h · generado automáticamente", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_text_color(*INK); pdf.ln(2)
+    pdf.set_fill_color(240, 244, 250); pdf.set_font("DV", "B", 10)
     pdf.multi_cell(0, 6, strip_emoji(body.split("\n", 1)[0]), fill=True, new_x="LMARGIN", new_y="NEXT")
-    pdf.ln(1)
-    # Resumen ejecutivo
-    pdf.set_font("DV", "B", 10)
-    pdf.cell(0, 6, "Resumen", new_x="LMARGIN", new_y="NEXT")
-    pdf.set_font("DV", "", 9)
+
+    # 1. Resumen
+    section(1, "Resumen")
     for ln in summary_bullets(a):
-        pdf.multi_cell(0, 5, "• " + strip_emoji(ln), new_x="LMARGIN", new_y="NEXT")
-    pdf.ln(1)
-    # Tabla de ventanas
-    pdf.set_font("DV", "B", 9)
-    pdf.cell(0, 6, "Réplicas por ventana (M4.5+ / M3.5+)", new_x="LMARGIN", new_y="NEXT")
+        para("• " + ln, indent=2)
+
+    # 2. Réplicas
+    section(2, "Réplicas — ventanas, por hora y decaimiento", min_space=60)
     pdf.set_font("DV", "", 9)
     w = (pdf.w - 28) / len(WINDOWS_H)
+    pdf.set_fill_color(246, 246, 244)
     for h in WINDOWS_H:
-        pdf.cell(w, 6, f"últimas {h} h", border=1, align="C")
+        pdf.cell(w, 6, f"últimas {h} h", border=1, align="C", fill=True)
     pdf.ln(6)
+    pdf.set_font("DV", "B", 9)
     for h in WINDOWS_H:
         pdf.cell(w, 6, f"{a.win45[h]} / {a.win35[h]}", border=1, align="C")
-    pdf.ln(8)
-    # Gráficos
+    pdf.ln(6)
+    para("Cada celda: réplicas M4.5+ / M3.5+ en la ventana (catálogo USGS, caja Panamá, sin contar el principal).", size=7.5, color=INK2)
+    if a.biggest_last:
+        para(f"Mayor de la última hora: M{fmt_mag(a.biggest_last.mag)} a las {hhmm(a.biggest_last.time)}, "
+             f"{a.biggest_last.place_short}, prof. {a.biggest_last.depth:.0f} km.", indent=2)
+    para(f"Acumulado desde el principal: {a.cum45} M4.5+ · {a.cum5} M5+ · {a.cum6} M6+"
+         + (f" · mayor réplica M{fmt_mag(a.biggest_after.mag)} a las {dhm(a.biggest_after.time)}, {a.biggest_after.place_short}."
+            if a.biggest_after else "."), indent=2)
+    pdf.ln(2)
     draw_hourly_bars(pdf, a)
     draw_magnitude_dots(pdf, a)
-    # Cuerpo: secciones en negrita, resto normal
-    skip_from = "MENSAJE CORTO (Telegram/WhatsApp):"
-    lines = body.split("\n")[2:]
-    for ln in lines:
-        if ln.startswith(skip_from):
-            break
-        if ln.startswith(("RÉPLICAS POR VENTANA", "  1 h:", "SISMO PANAMÁ —", "Sismo principal:")):
-            continue
-        if not ln.strip():
-            pdf.ln(2)
-            continue
-        is_head = (ln.rstrip().endswith(":") and not ln.startswith(" ")) or ln.startswith(("TENDENCIA", "PRONÓSTICO", "ACCIONES", "FUENTES"))
-        is_sub = ln.startswith("  ") and not ln.startswith("    ") and ln.rstrip().endswith(":")
-        pdf.set_font("DV", "B" if (is_head or is_sub) else "", 10 if is_head else 9)
-        pdf.multi_cell(0, 5, strip_emoji(ln.rstrip()), new_x="LMARGIN", new_y="NEXT")
-    pdf.set_y(-12)
-    pdf.set_font("DV", "", 7)
-    pdf.set_text_color(120, 120, 120)
-    pdf.cell(0, 5, f"Fuentes: USGS, tsunami.gov, Google News. Los titulares no se verifican. Página {pdf.page_no()}", align="C")
-    try:
-        pdf.output(path)
-        return True
-    except Exception as exc:  # noqa: BLE001
-        log(f"[pdf] no se pudo escribir: {exc}")
-        return False
+
+    # 3. Tendencia y pronóstico
+    section(3, "Tendencia y pronóstico", min_space=45)
+    para(f"TENDENCIA: {a.trend} — {a.trend_note}.", bold_=True)
+    fl = forecast_lines(a)
+    para(fl[0], bold_=True)
+    for ln in fl[1:]:
+        if ln.strip().startswith("AVISO"):
+            y = pdf.get_y(); pdf.set_fill_color(255, 244, 229)
+            pdf.set_x(14); pdf.set_font("DV", "", 8.5)
+            pdf.multi_cell(pdf.w - 28, 4.6, ln.strip(), fill=True, new_x="LMARGIN", new_y="NEXT")
+        else:
+            para(ln.strip(), indent=2)
+
+    # 4. Situación oficial y servicios
+    section(4, "Situación oficial y servicios", min_space=40)
+    para("Titulares de prensa de las últimas 12–24 h, con hora y medio. La ausencia de noticias NO confirma que un servicio esté normal.",
+         size=7.5, color=INK2)
+    para("Tsunami (tsunami.gov): " + ("ALERTA ACTIVA" if a.tsunami.get("active") else "sin alerta activa" if a.tsunami.get("ok") else "feed no disponible"),
+         bold_=True, size=9)
+    for ln in a.tsunami.get("lines", [])[:2]:
+        para("– " + ln, size=8.5, indent=4)
+    for label, lines in a.services:
+        para(label, bold_=True, size=9)
+        if lines:
+            for ln in lines:
+                para("– " + ln, size=8.5, indent=4)
+        else:
+            para("– sin titulares específicos en las últimas horas", size=8.5, indent=4, color=INK2)
+
+    # 5. Acciones
+    section(5, "Acciones ahora", min_space=35)
+    for i, act in enumerate(actions_for(a), 1):
+        para(f"{i}. {act}", indent=2)
+
+    # 6. Lista 24 h
+    section(6, "Réplicas M4.5+ en las últimas 24 h", min_space=30)
+    big24 = [q for q in a.day if q.mag >= 4.5]
+    if big24:
+        cols = (26, 14, pdf.w - 28 - 26 - 14 - 18, 18)
+        pdf.set_font("DV", "B", 8); pdf.set_fill_color(246, 246, 244)
+        for txt, cw in zip(("hora local", "M", "lugar", "prof."), cols):
+            pdf.cell(cw, 5.5, txt, border="B", fill=True)
+        pdf.ln(5.5)
+        pdf.set_font("DV", "", 8)
+        for q in big24[:40]:
+            if pdf.get_y() + 6 > pdf.h - 18:
+                pdf.add_page()
+            pdf.cell(cols[0], 5, dhm(q.time)); pdf.cell(cols[1], 5, fmt_mag(q.mag))
+            pdf.cell(cols[2], 5, q.place_short[:70]); pdf.cell(cols[3], 5, f"{q.depth:.0f} km")
+            pdf.ln(5)
+        if len(big24) > 40:
+            para(f"… y {len(big24) - 40} más", size=8, color=INK2)
+    else:
+        para("Ninguna en las últimas 24 h.", indent=2)
+
+    # 7. Fuentes
+    section(7, "Fuentes y avisos", min_space=25)
+    para("USGS: https://earthquake.usgs.gov/earthquakes/eventpage/" + a.main.id, size=8, indent=2)
+    para("USGS catálogo (caja Panamá): https://earthquake.usgs.gov/fdsnws/event/1/", size=8, indent=2)
+    para("Tsunami: https://www.tsunami.gov/ · Prensa: Google News (es-419, PA)", size=8, indent=2)
+    warnings = [x for x in LOG if x.startswith("[")]
+    if warnings:
+        para("Avisos de esta ronda: " + " | ".join(warnings[-6:]), size=8, indent=2, color=INK2)
+    pdf.output(path)
+    return True
 
 
 def _multipart(fields: dict[str, str], file_field: str, filename: str, content: bytes, mime: str) -> tuple[bytes, str]:
