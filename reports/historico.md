@@ -16,3 +16,4 @@
 | 10/10 04:04 | 0 | 8 | 20 | 38 | 38 | — | 13/2 | en descenso | ok | 67 % | no enviado — fuera de horario (informe regular a las 06:ok |
 | 10/10 04:56 | 0 | 6 | 16 | 38 | 38 | — | 13/2 | en descenso | ok | 67 % | no enviado — fuera de horario (informe regular a las 06:ok |
 | 10/10 06:35 | 0 | 3 | 13 | 39 | 39 | — | 13/2 | en descenso | ok | 67 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
+| 10/10 09:26 | 0 | 1 | 8 | 26 | 39 | — | 13/2 | en descenso | ok | 67 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
