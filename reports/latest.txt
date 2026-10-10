@@ -1,6 +1,6 @@
-Sismo PA 19:24: 0 réplicas M4,5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 19:27: 0 réplicas M4,5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 19:24 (09/10/2026), generado por GitHub Actions
+SISMO PANAMÁ — informe de las 19:27 (09/10/2026), generado por GitHub Actions
 Sismo principal: M7,7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 6,5 h.
 
 RÉPLICAS POR VENTANA (catálogo USGS, caja Panamá):
@@ -11,7 +11,7 @@ TENDENCIA: EN DESCENSO — 0 M4,5+ en la última hora vs 3.8/h en las 4 anterior
 PRONÓSTICO [MODELO GENÉRICO (sin pronóstico oficial del USGS todavía)]:
   AVISO: el USGS todavía no publicó el pronóstico oficial de este evento; los números abajo salen de un modelo genérico mundial y suelen ser más altos que la realidad. Úselos solo como orden de magnitud; la TENDENCIA observada (arriba) pesa más que estos porcentajes.
   próximas 24 h: M5+: 100 % (~9 esperadas) · M6+: 67 % (~1 esperadas) · M7+: 13 %
-  próximos 7 días: M5+: 100 % (~19 esperadas) · M6+: 90 % (~2 esperadas) · M7+: 25 %
+  próximos 7 días: M5+: 100 % (~19 esperadas) · M6+: 90 % (~2 esperadas) · M7+: 24 %
   próximos 30 días: M5+: 100 % (~26 esperadas) · M6+: 96 % (~3 esperadas) · M7+: 32 %
   Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica típica para un M7,7 ronda M6,5, y queda una probabilidad pequeña pero no nula de un evento igual o mayor.
 
@@ -29,14 +29,13 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 09/10 17:14 Infobae: Terremoto que sacudió Panamá dejó plantas de agua operando al mínimo de su capacidad y varios poblados sin electricidad
     - 09/10 16:52 Infobae: Nueva réplica de 6.9 sacude Panamá y ya son más de 95 movimientos tras el terremoto
   Electricidad (ENSA, Naturgy, ETESA):
-    - 09/10 17:25 Panamá América: ETESA confirma estabilidad en la red de transmisión eléctrica tras el sismo de 7.2
     - 09/10 17:14 Infobae: Terremoto que sacudió Panamá dejó plantas de agua operando al mínimo de su capacidad y varios poblados sin electricidad
   Aeropuerto de Tocumen:
     - 09/10 19:21 La Nación Costa Rica: Aeropuerto de Tocumen reanuda operaciones tras fuerte temblor de magnitud 7,7 en Panamá
     - 09/10 19:09 El Enviador: Terremoto en Panamá: vuelos afectados y situación de Tocumen
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
-    - 09/10 18:37 Panamá América: MOP desmiente rumores de cierre en los puentes de las Américas y Centenario tras el sismo
     - 09/10 18:26 Revista Merca2.0: Terremoto en Panamá hoy: videos captan momento exacto del fuerte sismo
+    - 09/10 18:23 El Universo: Cancillería activa atención prioritaria para ecuatorianos en Panamá tras sismo de magnitud 7,6
   Metro y transporte:
     - 09/10 18:28 7dias.com.do: Metro de Panamá restablece operaciones tras suspensión preventiva por fuerte sismo
     - 09/10 17:40 Destino Panamá: Bomberos inspeccionan las Línea 1 y 2 del Metro de Panamá, tras terremoto de 7.5
@@ -45,7 +44,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 09/10 15:01 ElCapitalFinanciero.com: Panamá ordena el cierre de colegios a nivel nacional por temblor de 7.2
   Sinaproc / autoridades:
     - 09/10 19:10 www.panama24horas.com.pa: Gobierno activa monitoreo nacional tras sismo de magnitud 7.0 en Panamá
-    - 09/10 19:05 Exitosa Noticias: Panamá: SINAPROC descarta víctimas mortales tras fuertes sismos de magnitud 7.2 y 8.0 grados en El Cacao
+    - 09/10 18:48 Infobae: Terremoto en Panamá deja al menos 15 estudiantes lesionados y daños en edificios públicos y viviendas
   Daños y víctimas:
     - 09/10 19:00 Diario del Oeste: Un terremoto sacudió Panamá hay heridos y varias réplicas intensas
     - 09/10 18:53 Facebook: 🔴🔵#ElInformativoDeExitosa📺📺 | El presidente de Panamá, José Raúl Mulino, no descartó que haya heridos o fallecidos tras el sismo de 7.2 que sacudió 
@@ -79,7 +78,7 @@ ACCIONES AHORA:
   09/10 13:22  M5,5  3 km SW de Bajo Corral  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 19:24 (automático)
+🔔 Sismo PA 19:27 (automático)
 Última hora: ningún temblor M3,5+ registrado.
 Réplicas M4,5+ por ventana — 1 h: 0 · 5 h: 15 · 10 h: 21 · 18 h: 21 · 24 h: 21. Tendencia: en descenso (0 M4,5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h). Mayor réplica hasta ahora: M6,6 a las 15:25.
 Desde el principal (M7,7, 12:56): 11 réplicas M5+, 1 M6+.
@@ -95,4 +94,4 @@ FUENTES:
 
 Avisos de esta ronda: [OAF] el USGS aún no publicó pronóstico oficial para este evento
 
-ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Leandro: ok
+ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: DRY_RUN para Leandro
