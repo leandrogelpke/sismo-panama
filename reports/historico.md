@@ -12,3 +12,4 @@
 | 09/10 19:43 | 1 | 14 | 22 | 22 | 22 | M4.5 18:54 | 11/1 | en descenso | ok | 90 % (gen.) | e-mail:-; whatsapp:-; telegram:ok |
 | 09/10 19:45 | 1 | 14 | 22 | 22 | 22 | M4.5 18:54 | 11/1 | en descenso | ok | 89 % (gen.) | e-mail:-; whatsapp:-; telegram:ok |
 | 09/10 19:54 | 1 | 12 | 22 | 22 | 22 | M4.5 18:54 | 11/1 | en descenso | ok | 89 % (gen.) | e-mail:-; whatsapp:-; telegram:ok |
+| 09/10 20:12 | 0 | 12 | 22 | 22 | 22 | — | 11/1 | en descenso | ok | 67 % | e-mail:-; whatsapp:-; telegram:ok |
