@@ -512,9 +512,15 @@ def analyse(now: datetime, main: Quake, day: list[Quake], cum: list[Quake], fc: 
     recent6h_45 = win45[5] > 0 or in_win(6, 5, 4.5) > 0
     quiet = hours_since > QUIET_AFTER_HOURS and not recent6h_45 and not tsunami.get("active")
     reasons = []
-    if tsunami.get("active"):
+    # lo que el vigía (watch.py) ya alertó no se vuelve a alertar aquí; sí entra en el informe regular
+    try:
+        with open(os.path.join(os.environ.get("REPORTS_DIR", "reports"), "alerts_sent.json"), encoding="utf-8") as fh:
+            already = json.load(fh)
+    except (OSError, json.JSONDecodeError):
+        already = {"events": {}, "tsunami": []}
+    if tsunami.get("active") and not any(u in already.get("tsunami", []) for _, u in tsunami.get("lines", [])[:1]):
         reasons.append("boletín de tsunami activo")
-    if biggest_last and biggest_last.mag >= ALERT_MIN_MAG:
+    if biggest_last and biggest_last.mag >= ALERT_MIN_MAG and biggest_last.id not in already.get("events", {}):
         reasons.append(f"réplica M{fmt_mag(biggest_last.mag)} a las {hhmm(biggest_last.time)}")
     if m6_recent and not (biggest_last and biggest_last.mag >= 6.0):
         reasons.append("M6+ en las últimas 3 h")

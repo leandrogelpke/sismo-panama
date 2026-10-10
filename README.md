@@ -1,6 +1,8 @@
 # sismo-panama — informe sísmico automático (texto em espanhol)
 
-**Cadência:** o workflow roda a cada hora, mas só **envia** o informe regular a cada 3 h (00, 03, 06, 09, 12, 15, 18, 21 — hora do Panamá) e, fora desses horários, **alerta imediata** quando houver réplica ≥ M5.5 na última hora, boletim de tsunami ativo ou sequência reativada. As rodadas que não enviam continuam gravando o histórico. Variáveis: `SEND_EVERY_HOURS` (padrão 3), `ALERT_MIN_MAG` (padrão 5.5), `FORCE_SEND=1` para forçar um envio manual.
+**Vigía (watch.yml):** um job contínuo revisa o USGS e o tsunami.gov **a cada 10 minutos** e manda alerta crítica no Telegram quando há réplica ≥ M5.5, sismo ≥ M4.8 a ≤120 km da Cidade do Panamá ou boletim de tsunami ativo (cada evento só alerta uma vez; estado em `reports/alerts_sent.json`). Ele se relança sozinho a cada ~6 h; os crons de 6 h são rede de segurança.
+
+**Cadência do informe (sismo.yml):** o workflow roda a cada hora, mas só **envia** o informe regular a cada 3 h (00, 03, 06, 09, 12, 15, 18, 21 — hora do Panamá) e, fora desses horários, **alerta imediata** quando houver réplica ≥ M5.5 na última hora, boletim de tsunami ativo ou sequência reativada. As rodadas que não enviam continuam gravando o histórico. Variáveis: `SEND_EVERY_HOURS` (padrão 3), `ALERT_MIN_MAG` (padrão 5.5), `FORCE_SEND=1` para forçar um envio manual.
 
 Roda no **GitHub Actions**, sem servidor e sem depender do seu computador. A cada hora:
 
