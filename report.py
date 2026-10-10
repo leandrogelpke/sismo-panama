@@ -779,7 +779,15 @@ def telegram_discover_chats(token: str, store_path: str) -> dict[str, str]:
         for upd in res.get("result", []):
             chat = None
             if "message" in upd:
-                chat = upd["message"].get("chat")
+                msg = upd["message"]
+                # un grupo que pasa a supergrupo cambia de id: migrar
+                if msg.get("migrate_to_chat_id") is not None:
+                    chats.pop(str(msg.get("chat", {}).get("id")), None)
+                    chats[str(msg["migrate_to_chat_id"])] = str(msg.get("chat", {}).get("title") or "grupo")
+                    continue
+                if msg.get("left_chat_member", {}).get("is_bot") if isinstance(msg.get("left_chat_member"), dict) else False:
+                    continue
+                chat = msg.get("chat")
             elif "my_chat_member" in upd:
                 mcm = upd["my_chat_member"]
                 if (mcm.get("new_chat_member") or {}).get("status") in ("left", "kicked"):
