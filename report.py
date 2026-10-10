@@ -132,6 +132,8 @@ SERVICE_TOPICS: list[tuple[str, str, int, tuple[str, ...]]] = [
 FIXTURES_DIR = os.environ.get("FIXTURES_DIR")
 DRY_RUN = os.environ.get("DRY_RUN", "0") == "1"
 QUIET_AFTER_HOURS = float(os.environ.get("QUIET_AFTER_HOURS", "72"))
+SEND_EVERY_HOURS = max(1, int(os.environ.get("SEND_EVERY_HOURS", "3")))   # informe regular cada N horas (00, 03, 06…)
+ALERT_MIN_MAG = float(os.environ.get("ALERT_MIN_MAG", "5.5"))            # réplica ≥ esto en la última hora → alerta inmediata
 
 LOG: list[str] = []
 
@@ -468,6 +470,8 @@ class Analysis:
     tsunami: dict
     services: list[tuple[str, list[tuple[str, str]]]]
     quiet: bool
+    alert: bool = False
+    alert_reason: str = ""
 
 
 def analyse(now: datetime, main: Quake, day: list[Quake], cum: list[Quake], fc: Forecast,
@@ -481,7 +485,7 @@ def analyse(now: datetime, main: Quake, day: list[Quake], cum: list[Quake], fc: 
 
     win45 = {h: in_win(h, 0, 4.5) for h in WINDOWS_H}
     win35 = {h: in_win(h, 0, 3.5) for h in WINDOWS_H}
-    last = [q for q in day if now - q.time <= timedelta(hours=1)]
+    last = [q for q in day if timedelta(0) <= now - q.time <= timedelta(hours=1)]
     biggest_last = max(last, key=lambda q: q.mag) if last else None
     rate_last1 = float(win45[1])
     rate_h2to5 = in_win(5, 1, 4.5) / 4.0
@@ -490,7 +494,7 @@ def analyse(now: datetime, main: Quake, day: list[Quake], cum: list[Quake], fc: 
     cum5 = sum(1 for q in after if q.mag >= 5.0)
     cum6 = sum(1 for q in after if q.mag >= 6.0)
     biggest_after = max(after, key=lambda q: q.mag) if after else None
-    m6_recent = any(q.mag >= 6.0 and now - q.time <= timedelta(hours=3) for q in after + day)
+    m6_recent = any(q.mag >= 6.0 and timedelta(0) <= now - q.time <= timedelta(hours=3) for q in after + day)
 
     # Tendencia: tasa de M≥4.5 por hora, última hora vs promedio de las horas 2–5 (y 6–10 como contexto).
     if m6_recent:
@@ -507,8 +511,18 @@ def analyse(now: datetime, main: Quake, day: list[Quake], cum: list[Quake], fc: 
         note += f"; horas 6–10: {rate_h6to10:.1f}/h"
     recent6h_45 = win45[5] > 0 or in_win(6, 5, 4.5) > 0
     quiet = hours_since > QUIET_AFTER_HOURS and not recent6h_45 and not tsunami.get("active")
+    reasons = []
+    if tsunami.get("active"):
+        reasons.append("boletín de tsunami activo")
+    if biggest_last and biggest_last.mag >= ALERT_MIN_MAG:
+        reasons.append(f"réplica M{fmt_mag(biggest_last.mag)} a las {hhmm(biggest_last.time)}")
+    if m6_recent and not (biggest_last and biggest_last.mag >= 6.0):
+        reasons.append("M6+ en las últimas 3 h")
+    if trend == "REACTIVADA" and not reasons:
+        reasons.append("secuencia reactivada")
     return Analysis(now, main, hours_since, day, after, win45, win35, rate_last1, rate_h2to5, rate_h6to10,
-                    biggest_last, cum45, cum5, cum6, biggest_after, m6_recent, trend, note, fc, tsunami, services, quiet)
+                    biggest_last, cum45, cum5, cum6, biggest_after, m6_recent, trend, note, fc, tsunami, services, quiet,
+                    bool(reasons), "; ".join(reasons))
 
 
 def actions_for(a: Analysis, short: bool = False) -> list[str]:
@@ -598,14 +612,15 @@ def family_message(a: Analysis) -> str:
     p6 = a.fc.p.get(("7d", 6))
     tag = "USGS" if a.fc.official else "modelo genérico, sin pronóstico oficial aún"
     top = actions_for(a, short=True)[:2]
+    head = f"⚠️ ALERTA sismo PA {t} — {a.alert_reason}" if a.alert else f"🔔 Sismo PA {t} (automático)"
     lines = [
-        f"🔔 Sismo PA {t} (automático)",
+        head,
         last_line,
         f"Réplicas M4.5+ en las últimas: {wins}. Tendencia: {a.trend.lower()} ({a.trend_note}).{big}",
         f"Desde el principal (M{fmt_mag(a.main.mag)}, {hhmm(a.main.time)}): {a.cum5} réplicas M5+, {a.cum6} M6+.",
         f"Tsunami: {tsu}. P(M6+ en 7 días): {pct(p6)} ({tag}).",
         "Ahora: " + " ".join(top),
-        "Próxima actualización en 1 h.",
+        f"Próximo informe regular en ≤{SEND_EVERY_HOURS} h; alerta inmediata si hay réplica M{ALERT_MIN_MAG:.1f}+ o tsunami.",
         "Emergencias: 911 · Sinaproc 520-4426/27/29 (WhatsApp 6998-4809) · lista completa en el PDF.",
         f"Fuentes: USGS {usgs_event_url(a.main.id)} · tsunami.gov · prensa (enlaces en el PDF).",
     ]
@@ -1275,13 +1290,18 @@ def main() -> int:
     os.makedirs(out_dir, exist_ok=True)
     pdf_path = os.path.join(out_dir, f"sismo-panama_{local(now):%Y-%m-%d_%H%M}.pdf")
     has_pdf = make_pdf(a, body, pdf_path)
-    caption = f"Informe completo {local(now):%d/%m %H:%M} — réplicas, tendencia, pronóstico, servicios y acciones."
-    if a.quiet and local(now).hour % 6 != 0:
-        status = [send_email(subject, body), "whatsapp: omitido (hora tranquila — solo a las 00/06/12/18 h)",
-                  "telegram: omitido (hora tranquila — solo a las 00/06/12/18 h)"]
-    else:
+    caption = f"Informe completo {local(now):%d/%m %H:%M} — réplicas, tendencia, pronóstico, servicios, acciones y teléfonos."
+    every = 6 if a.quiet else SEND_EVERY_HOURS
+    regular_slot = local(now).hour % every == 0
+    force = os.environ.get("FORCE_SEND", "0") == "1"
+    if regular_slot or a.alert or force:
+        why = "alerta: " + a.alert_reason if a.alert and not regular_slot else ("informe regular" if regular_slot else "envío forzado")
         status = [send_email(subject, body), send_callmebot(short),
                   send_telegram(short, pdf_path if has_pdf else None, caption)]
+        status.append("motivo: " + why)
+    else:
+        nxt = (local(now).hour // every + 1) * every % 24
+        status = [f"no enviado — fuera de horario (informe regular a las {nxt:02d}:00; alerta solo con M{ALERT_MIN_MAG:.1f}+, tsunami o reactivación)"]
     if has_pdf:
         try:
             os.remove(pdf_path)  # no se versiona el PDF (solo se envía)
