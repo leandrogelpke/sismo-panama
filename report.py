@@ -49,7 +49,7 @@ SERVICE_TOPICS: list[tuple[str, str, int, tuple[str, ...]]] = [
     # (etiqueta, consulta Google News, horas, palabras que el titular DEBE contener — filtra el ruido del buscador)
     ("Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA)",
      '("Punta Pacífica" OR "Pacífica Salud" OR Paitilla OR "Hospital Nacional" OR "San Fernando") (sismo OR terremoto)', 24,
-     ("punta pacífica", "pacífica salud", "paitilla", "hospital nacional", "san fernando", "hospital", "clínica")),
+     ("punta pacífica", "pacífica salud", "paitilla", "hospital nacional", "hospital san fernando", "clínica san fernando", "hospital", "clínica")),
     ("Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA)",
      '("Santo Tomás" OR "Arnulfo Arias" OR "Hospital del Niño" OR "Seguro Social" OR MINSA OR hospitales) (sismo OR terremoto) Panamá', 24,
      ("santo tomás", "arnulfo arias", "hospital del niño", "seguro social", "css", "minsa", "hospital", "urgencias", "salud")),
