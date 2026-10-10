@@ -1,31 +1,29 @@
-Sismo PA 19:31: 1 réplicas M4.5+ en la última hora, mayor M4.5 a las 18:54 — tendencia en descenso, tsunami sin alerta.
+Sismo PA 19:36: 1 réplicas M4.5+ en la última hora, mayor M4.5 a las 18:54 — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 19:31 (09/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 6.6 h.
+SISMO PANAMÁ — informe de las 19:36 (09/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 6.7 h.
 
 RÉPLICAS POR VENTANA (catálogo USGS, caja Panamá):
-  1 h: 1 M4.5+ (1 M3.5+) | 5 h: 16 M4.5+ (16 M3.5+) | 10 h: 22 M4.5+ (22 M3.5+) | 18 h: 22 M4.5+ (22 M3.5+) | 24 h: 22 M4.5+ (22 M3.5+)
+  1 h: 1 M4.5+ (1 M3.5+) | 5 h: 15 M4.5+ (15 M3.5+) | 10 h: 22 M4.5+ (22 M3.5+) | 18 h: 22 M4.5+ (22 M3.5+) | 24 h: 22 M4.5+ (22 M3.5+)
   Mayor de la última hora: M4.5 a las 18:54, 45 km SSE de Pedasí, prof. 10 km.
   Acumulado desde el principal: 22 M4.5+ | 11 M5+ | 1 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
-TENDENCIA: EN DESCENSO — 1 M4.5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h.
+TENDENCIA: EN DESCENSO — 1 M4.5+ en la última hora vs 3.5/h en las 4 anteriores; horas 6–10: 1.4/h.
 
 PRONÓSTICO [MODELO GENÉRICO (sin pronóstico oficial del USGS todavía)]:
   AVISO: el USGS todavía no publicó el pronóstico oficial de este evento; los números abajo salen de un modelo genérico mundial y suelen ser más altos que la realidad. Úselos solo como orden de magnitud; la TENDENCIA observada (arriba) pesa más que estos porcentajes.
-  próximas 24 h: M5+: 100 % (~9 esperadas) · M6+: 67 % (~1 esperadas) · M7+: 13 %
+  próximas 24 h: M5+: 100 % (~9 esperadas) · M6+: 66 % (~1 esperadas) · M7+: 13 %
   próximos 7 días: M5+: 100 % (~18 esperadas) · M6+: 90 % (~2 esperadas) · M7+: 24 %
-  próximos 30 días: M5+: 100 % (~26 esperadas) · M6+: 96 % (~3 esperadas) · M7+: 32 %
+  próximos 30 días: M5+: 100 % (~25 esperadas) · M6+: 96 % (~3 esperadas) · M7+: 32 %
   Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica típica para un M7.7 ronda M6.5, y queda una probabilidad pequeña pero no nula de un evento igual o mayor.
 
 SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; la ausencia de noticias NO confirma que un servicio esté normal):
   Tsunami (tsunami.gov): sin alerta activa
     - PTWC 09/10 15:34: PANAMA
     - NTWC 09/10 15:37: in Panama
-  Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA):
-    - 09/10 09:46 Volcano Discovery: Sismo débil mag. 2.8 - 8.4 km al noroeste de San Fernando del Valle de Catamarca, Departamento de Capital, Catamarca, Argentina, Thursday 8
-    - 09/10 06:31 Infobae: San Fernando: calidad del aire este 9 de octubre de 2026
+  Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
     - 09/10 18:10 Telemetro: Sismo en Panamá: SINAPROC reporta daños en edificios, escuelas y hospitales tras movimiento de 7.2
-    - 09/10 17:54 www.metrolibre.com: Daños en edificios, escuelas, hospitales y estaciones de Bomberos tras fuerte sismo en Panamá
+    - 09/10 18:07 Día a Día: Sinaproc reporta daños en viviendas, hospitales y edificios tras sismo de magnitud 7.2 en Panamá
   Agua (IDAAN):
     - 09/10 17:14 Infobae: Terremoto que sacudió Panamá dejó plantas de agua operando al mínimo de su capacidad y varios poblados sin electricidad
     - 09/10 15:56 Panamá América: Situación sísmica afecta la producción de plantas potabilizadoras a nivel nacional
@@ -43,7 +41,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 09/10 17:40 Destino Panamá: Bomberos inspeccionan las Línea 1 y 2 del Metro de Panamá, tras terremoto de 7.5
   Escuelas (MEDUCA):
     - 09/10 17:51 La Estrella de Panamá: Clases suspendidas en Panamá hasta nuevo aviso tras el sismo; 65 escuelas resultaron afectadas
-    - 09/10 15:08 El Siglo Panamá: Terremoto en Panamá: suspenden clases en escuelas y universidades
+    - 09/10 15:01 ElCapitalFinanciero.com: Panamá ordena el cierre de colegios a nivel nacional por temblor de 7.2
   Sinaproc / autoridades:
     - 09/10 19:10 www.panama24horas.com.pa: Gobierno activa monitoreo nacional tras sismo de magnitud 7.0 en Panamá
     - 09/10 18:27 TVN Panamá: Temblor en Panamá: primer informe reporta 15 estudiantes con lesiones menores, daños en viviendas, carreteras y estaciones de bomberos
@@ -81,9 +79,9 @@ ACCIONES AHORA:
   09/10 13:22  M5.5  3 km SW de Bajo Corral  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 19:31 (automático)
+🔔 Sismo PA 19:36 (automático)
 Última hora: 1 temblores M3.5+ (1 de M4.5+). Mayor: M4.5 a las 18:54, 45 km SSE de Pedasí.
-Réplicas M4.5+ por ventana — 1 h: 1 · 5 h: 16 · 10 h: 22 · 18 h: 22 · 24 h: 22. Tendencia: en descenso (1 M4.5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
+Réplicas M4.5+ por ventana — 1 h: 1 · 5 h: 15 · 10 h: 22 · 18 h: 22 · 24 h: 22. Tendencia: en descenso (1 M4.5+ en la última hora vs 3.5/h en las 4 anteriores; horas 6–10: 1.4/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 11 réplicas M5+, 1 M6+.
 Tsunami: sin alerta. P(M6+ en 7 días): 90 % (modelo genérico, sin pronóstico oficial aún).
 Ahora: Nada de ascensor, escaleras. Evitar viajes largos por la Panamericana (Coclé/Azuero) por 24–48 h.
@@ -97,4 +95,4 @@ FUENTES:
 
 Avisos de esta ronda: [OAF] el USGS aún no publicó pronóstico oficial para este evento
 
-ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: DRY_RUN para Leandro
+ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Leandro: ok + pdf
