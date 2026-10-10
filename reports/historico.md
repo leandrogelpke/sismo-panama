@@ -14,3 +14,4 @@
 | 09/10 19:54 | 1 | 12 | 22 | 22 | 22 | M4.5 18:54 | 11/1 | en descenso | ok | 89 % (gen.) | e-mail:-; whatsapp:-; telegram:ok |
 | 09/10 20:12 | 0 | 12 | 22 | 22 | 22 | — | 11/1 | en descenso | ok | 67 % | e-mail:-; whatsapp:-; telegram:ok |
 | 10/10 04:04 | 0 | 8 | 20 | 38 | 38 | — | 13/2 | en descenso | ok | 67 % | no enviado — fuera de horario (informe regular a las 06:ok |
+| 10/10 04:56 | 0 | 6 | 16 | 38 | 38 | — | 13/2 | en descenso | ok | 67 % | no enviado — fuera de horario (informe regular a las 06:ok |

@@ -1,12 +1,12 @@
-Sismo PA 04:04: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 04:56: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 04:04 (10/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 15.1 h.
+SISMO PANAMÁ — informe de las 04:56 (10/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 16.0 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 8 de M4.5+ y 3 de M3.5–4.4 | 10 h: 20 de M4.5+ y 4 de M3.5–4.4 | 18 h: 38 de M4.5+ y 4 de M3.5–4.4 | 24 h: 38 de M4.5+ y 4 de M3.5–4.4
+  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 6 de M4.5+ y 3 de M3.5–4.4 | 10 h: 16 de M4.5+ y 4 de M3.5–4.4 | 18 h: 38 de M4.5+ y 4 de M3.5–4.4 | 24 h: 38 de M4.5+ y 4 de M3.5–4.4
   Acumulado desde el principal: 38 M4.5+ | 13 M5+ | 2 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
-TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 2.0/h en las 4 anteriores; horas 6–10: 2.4/h.
+TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 1.5/h en las 4 anteriores; horas 6–10: 2.0/h.
 
 PRONÓSTICO [pronóstico oficial USGS emitido 09/10 19:51] — fuente: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast:
   próximas 24 h: M5+: 98 % (~8 esperadas) · M6+: 39 % (~2 esperadas) · M7+: 5 %
@@ -22,7 +22,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
       https://www.tsunami.gov/events/PAAQ/2026/10/09/tmnq2s/1/WEAK53/PAAQCAP.xml
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
-    - 10/10 01:33 La Prensa Panamá: Terremoto: 188 escuelas afectadas y daños en viviendas y hospitales
+    - 10/10 02:03 La Prensa Panamá: Terremoto: 188 escuelas afectadas y daños en viviendas y hospitales
       https://news.google.com/rss/articles/CBMioAFBVV95cUxQXzRCbWVjVFZWTmtneHJaNzd5Q0lPbklydUpyQ3RVY0VITFRSOFo5NWhLWVFOaHFDRVRLWHR2NWV6M0V0M2M5Y2pfMTlUOWpxM3lXbXIzNGRIdXp6b2tMaDY0eDZTREc5THRGSnljaEN0QVRtMjVLaTBaVktnOWRrR0ZTbF9pSUJ0QXROYi13UkVGcWxpNV9RUjVmRFBlUkNN?oc=5
     - 09/10 22:25 Día a Día: Azuero bajo emergencia por colapsos de hospitales y carreteras tras sismo
       https://news.google.com/rss/articles/CBMitgFBVV95cUxNU1N4a29zbzh5WkRuYWV0ajdYbkZoN1pQVmgzbFQ1bzdiUkh6cDBydWktOVMzeHFac2ZfRVExQUlPSVVEYW9TZWdHcU4zUXRTbzY1dnUxMkxDYTBDS05XXzA1N2xTaXJ6ajlFU0wyU3QyRzVaelZ3RnlQYTBIbnhNRzh0NHM3WVdSSGdXSmZqQXp4WDl5anV0aDZkQVlIeFVxNlJyUjRwbW5vV2hES0ZyREVkZnM2Z9IBugFBVV95cUxQWmV1TFo5dE9IX0VqVDluMUdsYnZfVmNyNVR4OV9QcHppQ3dUWl91MUxQWC1McnF5a0JDSEo2YXVYcmZRVXJrQWNvTmVWSEpBdnNnRVptdGpMX3lsblhEMXBjb254Z0U2al95a213Vl9FR3ZzT1pPOTFOem1uNGF3ajh6cnJoQWowa3RiTG9YOTExdUJnQS1ndEMzaFFNTlFxRFpmU1dVc09aTXlwWEh6UVYtaDFTSGlWSFE?oc=5
@@ -101,9 +101,9 @@ ACCIONES AHORA:
   … y 13 más
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 04:04 (automático)
+🔔 Sismo PA 04:56 (automático)
 Última hora: ningún temblor M3.5+ registrado.
-Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 8 · 10 h → 20 · 18 h → 38 · 24 h → 38. Tendencia: en descenso (0 M4.5+ en la última hora vs 2.0/h en las 4 anteriores; horas 6–10: 2.4/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
+Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 6 · 10 h → 16 · 18 h → 38 · 24 h → 38. Tendencia: en descenso (0 M4.5+ en la última hora vs 1.5/h en las 4 anteriores; horas 6–10: 2.0/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 13 réplicas M5+, 2 M6+.
 Tsunami: sin alerta. P(M6+ en 7 días): 67 % (USGS).
 Ahora: Noche: zapatos, linterna y celular junto a la cama; si tiembla fuerte, proteger la cabeza y esperar. Evitar viajes largos por la Panamericana (Coclé/Azuero) por 24–48 h.
@@ -143,7 +143,7 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-09T09%3A04%3A54&endtime=2026-10-10T09%3A04%3A54&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-09T09%3A56%3A45&endtime=2026-10-10T09%3A56%3A45&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
