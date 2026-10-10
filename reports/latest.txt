@@ -1,6 +1,6 @@
-Sismo PA 19:43: 1 réplicas M4.5+ en la última hora, mayor M4.5 a las 18:54 — tendencia en descenso, tsunami sin alerta.
+Sismo PA 19:45: 1 réplicas M4.5+ en la última hora, mayor M4.5 a las 18:54 — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 19:43 (09/10/2026), generado por GitHub Actions
+SISMO PANAMÁ — informe de las 19:45 (09/10/2026), generado por GitHub Actions
 Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 6.8 h.
 
 RÉPLICAS POR VENTANA (catálogo USGS, caja Panamá):
@@ -12,7 +12,7 @@ TENDENCIA: EN DESCENSO — 1 M4.5+ en la última hora vs 3.2/h en las 4 anterior
 PRONÓSTICO [MODELO GENÉRICO (sin pronóstico oficial del USGS todavía)]:
   AVISO: el USGS todavía no publicó el pronóstico oficial de este evento; los números abajo salen de un modelo genérico mundial y suelen ser más altos que la realidad. Úselos solo como orden de magnitud; la TENDENCIA observada (arriba) pesa más que estos porcentajes.
   próximas 24 h: M5+: 100 % (~9 esperadas) · M6+: 66 % (~1 esperadas) · M7+: 12 %
-  próximos 7 días: M5+: 100 % (~18 esperadas) · M6+: 90 % (~2 esperadas) · M7+: 24 %
+  próximos 7 días: M5+: 100 % (~18 esperadas) · M6+: 89 % (~2 esperadas) · M7+: 24 %
   próximos 30 días: M5+: 100 % (~25 esperadas) · M6+: 96 % (~3 esperadas) · M7+: 32 %
   Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica típica para un M7.7 ronda M6.5, y queda una probabilidad pequeña pero no nula de un evento igual o mayor.
 
@@ -22,8 +22,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - NTWC 09/10 15:37: in Panama
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 09/10 19:43 La Prensa Panamá: Hospitales, escuelas y estaciones de bomberos reportan daños tras el terremoto
     - 09/10 18:10 Telemetro: Sismo en Panamá: SINAPROC reporta daños en edificios, escuelas y hospitales tras movimiento de 7.2
-    - 09/10 18:10 Día a Día: Sinaproc reporta daños en viviendas, hospitales y edificios tras sismo de magnitud 7.2 en Panamá
   Agua (IDAAN):
     - 09/10 17:14 Infobae: Terremoto que sacudió Panamá dejó plantas de agua operando al mínimo de su capacidad y varios poblados sin electricidad
     - 09/10 15:56 Panamá América: Situación sísmica afecta la producción de plantas potabilizadoras a nivel nacional
@@ -52,7 +52,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
   2. [Probable] Evitar viajes largos por la Panamericana hacia Coclé/Azuero en las próximas 24–48 h: puentes y viaductos siguen en inspección.
-  3. [Estimación] Réplica M6+ en los próximos 7 días: 90 % (modelo genérico) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
+  3. [Estimación] Réplica M6+ en los próximos 7 días: 89 % (modelo genérico) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
 
 ÚLTIMAS 24 H — eventos M4.5+ (hora local, M, lugar, prof.):
   09/10 18:54  M4.5  45 km SSE de Pedasí  10 km
@@ -79,11 +79,11 @@ ACCIONES AHORA:
   09/10 13:22  M5.5  3 km SW de Bajo Corral  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 19:43 (automático)
+🔔 Sismo PA 19:45 (automático)
 Última hora: 1 temblores M3.5+ (1 de M4.5+). Mayor: M4.5 a las 18:54, 45 km SSE de Pedasí.
 Réplicas M4.5+ por ventana — 1 h: 1 · 5 h: 14 · 10 h: 22 · 18 h: 22 · 24 h: 22. Tendencia: en descenso (1 M4.5+ en la última hora vs 3.2/h en las 4 anteriores; horas 6–10: 1.6/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 11 réplicas M5+, 1 M6+.
-Tsunami: sin alerta. P(M6+ en 7 días): 90 % (modelo genérico, sin pronóstico oficial aún).
+Tsunami: sin alerta. P(M6+ en 7 días): 89 % (modelo genérico, sin pronóstico oficial aún).
 Ahora: Nada de ascensor, escaleras. Evitar viajes largos por la Panamericana (Coclé/Azuero) por 24–48 h.
 Próxima actualización en 1 h.
 
