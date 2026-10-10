@@ -1,11 +1,11 @@
-Sismo PA 19:14: 3 réplicas M4,5+ na última hora, maior M5,4 às 18:12 — tendência reativada, tsunami sem alerta.
+Sismo PA 19:23: 1 réplicas M4,5+ na última hora, maior M4,9 às 18:23 — tendência decaindo, tsunami sem alerta.
 
-SISMO PANAMÁ — relatório das 19:14 (09/10/2026), gerado pelo GitHub Actions
-Sismo principal: M7,7 em 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — há 6,3 h.
+SISMO PANAMÁ — relatório das 19:23 (09/10/2026), gerado pelo GitHub Actions
+Sismo principal: M7,7 em 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — há 6,5 h.
 
-ÚLTIMA HORA: 3 eventos M3,5+, 3 M4,5+. Maior: M5,4 às 18:12, 9 km SSE de Los Asientos, prof. 10 km.
+ÚLTIMA HORA: 1 eventos M3,5+, 1 M4,5+. Maior: M4,9 às 18:23, 9 km SW de Río Grande, prof. 10 km.
 ACUMULADO desde o principal: 21 M4,5+ | 11 M5+ | 1 M6+. Maior réplica: M6,6 às 15:25, 14 km W de Río Grande.
-TENDÊNCIA: REATIVADA — 3 M4,5+ nesta hora vs 0 na hora anterior.
+TENDÊNCIA: DECAINDO — 1 M4,5+ nesta hora vs 2 na hora anterior.
 PREVISÃO [estimativa, modelo genérico — USGS OAF indisponível]: P(M5+ em 24 h) 100% (~9 esperadas) / P(M6+ em 7 d) 90% / P(M7+ em 7 d) 25%.
 
 OFICIAL:
@@ -13,30 +13,27 @@ OFICIAL:
     - PTWC 15:34: PANAMA — 
     - NTWC 15:37: in Panama — 
   Imprensa (Google News, últimas 12 h — manchetes, não verificadas):
+    - 19:14 Mediotiempo: Mariano Rivera lanza emotivo mensaje de apoyo a Panamá que fue sacudida por un terremoto
     - 19:10 www.panama24horas.com.pa: Gobierno activa monitoreo nacional tras sismo de magnitud 7.0 en Panamá
+    - 19:07 Mobile Time Latinoamérica: +Móvil y Tigo anuncian medidas para mantener la conectividad tras sismo en Panamá
+    - 19:05 Exitosa Noticias: Panamá: SINAPROC descarta víctimas mortales tras fuertes sismos de magnitud 7.2 y 8.0 grados en El Cacao
     - 19:00 DW.com: Mulino dice que Panamá vive "un desastre grande" tras sismo
     - 18:53 Facebook: 🔴🔵#ElInformativoDeExitosa📺📺 | El presidente de Panamá, José Raúl Mulino, no descartó que haya heridos o fallecidos tras el sismo de 7.2 que sacudió su paí
-    - 18:52 Infobae: Nasry Asfura expresa su solidaridad con Panamá tras el sismo y contacta a Mulino
-    - 18:48 Infobae: Terremoto en Panamá deja al menos 15 estudiantes lesionados y daños en edificios públicos y viviendas
-    - 18:42 Facebook: #Video | Terremoto en Panamá interrumpe programa en vivo; así lo vivieron los presentadores en el set https://mile.io/4yJ5Lq4
 
 AÇÕES AGORA:
-  1. [Provável] Sequência reativada nesta hora: adiar deslocamentos não essenciais e manter a rota de saída livre.
-  2. [Certo] Elevador não — escada sempre, até o prédio ser inspecionado.
-  3. [Provável] Evitar viagens longas pela Panamericana rumo a Coclé/Azuero nas próximas 24–48 h: pontes e viadutos ainda estão sendo inspecionados.
-  4. [Estimativa] Réplica M6+ nos próximos 7 dias: 90% — sentida em prédios altos da capital; isso é esperado, não sinal de novo terremoto.
+  1. [Certo] Elevador não — escada sempre, até o prédio ser inspecionado.
+  2. [Provável] Evitar viagens longas pela Panamericana rumo a Coclé/Azuero nas próximas 24–48 h: pontes e viadutos ainda estão sendo inspecionados.
+  3. [Estimativa] Réplica M6+ nos próximos 7 dias: 90% — sentida em prédios altos da capital; isso é esperado, não sinal de novo terremoto.
 
 ÚLTIMA HORA — lista (hora local, M, local, prof.):
   18:23  M4,9  9 km SW de Río Grande  10 km
-  18:12  M5,4  9 km SSE de Los Asientos  10 km
-  18:10  M5,0  8 km ESE de La Tronosa  10 km
 
 MENSAGEM ENVIADA AO WHATSAPP:
-🔔 Sismo PA 19:14 (automático)
-Última hora: 3 tremores M3,5+ (3 de M4,5+). Maior: M5,4 às 18:12, 9 km SSE de Los Asientos.
-Desde o principal (M7,7, 12:56): 11 réplicas M5+, 1 M6+. Tendência: reativada. Maior réplica até agora: M6,6 às 15:25.
+🔔 Sismo PA 19:23 (automático)
+Última hora: 1 tremores M3,5+ (1 de M4,5+). Maior: M4,9 às 18:23, 9 km SW de Río Grande.
+Desde o principal (M7,7, 12:56): 11 réplicas M5+, 1 M6+. Tendência: decaindo. Maior réplica até agora: M6,6 às 15:25.
 Tsunami: sem alerta. P(M6+ em 7 dias): 90% (estimativa genérica).
-Agora: Réplicas aumentaram nesta hora: adiar saídas não essenciais, rota de saída livre. Elevador não, escada sempre.
+Agora: Elevador não, escada sempre. Evitar viagens longas pela Panamericana (Coclé/Azuero) nas próximas 24–48 h.
 Próxima atualização em 1 h.
 
 FONTES:
