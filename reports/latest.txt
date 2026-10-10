@@ -1,47 +1,98 @@
-Sismo PA 19:23: 1 réplicas M4,5+ na última hora, maior M4,9 às 18:23 — tendência decaindo, tsunami sem alerta.
+Sismo PA 19:24: 0 réplicas M4,5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — relatório das 19:23 (09/10/2026), gerado pelo GitHub Actions
-Sismo principal: M7,7 em 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — há 6,5 h.
+SISMO PANAMÁ — informe de las 19:24 (09/10/2026), generado por GitHub Actions
+Sismo principal: M7,7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 6,5 h.
 
-ÚLTIMA HORA: 1 eventos M3,5+, 1 M4,5+. Maior: M4,9 às 18:23, 9 km SW de Río Grande, prof. 10 km.
-ACUMULADO desde o principal: 21 M4,5+ | 11 M5+ | 1 M6+. Maior réplica: M6,6 às 15:25, 14 km W de Río Grande.
-TENDÊNCIA: DECAINDO — 1 M4,5+ nesta hora vs 2 na hora anterior.
-PREVISÃO [estimativa, modelo genérico — USGS OAF indisponível]: P(M5+ em 24 h) 100% (~9 esperadas) / P(M6+ em 7 d) 90% / P(M7+ em 7 d) 25%.
+RÉPLICAS POR VENTANA (catálogo USGS, caja Panamá):
+  1 h: 0 M4,5+ (0 M3,5+) | 5 h: 15 M4,5+ (15 M3,5+) | 10 h: 21 M4,5+ (21 M3,5+) | 18 h: 21 M4,5+ (21 M3,5+) | 24 h: 21 M4,5+ (21 M3,5+)
+  Acumulado desde el principal: 21 M4,5+ | 11 M5+ | 1 M6+. Mayor réplica: M6,6 a las 09/10 15:25, 14 km W de Río Grande.
+TENDENCIA: EN DESCENSO — 0 M4,5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h.
 
-OFICIAL:
-  Tsunami (tsunami.gov): sem alerta ativo
-    - PTWC 15:34: PANAMA — 
-    - NTWC 15:37: in Panama — 
-  Imprensa (Google News, últimas 12 h — manchetes, não verificadas):
-    - 19:14 Mediotiempo: Mariano Rivera lanza emotivo mensaje de apoyo a Panamá que fue sacudida por un terremoto
-    - 19:10 www.panama24horas.com.pa: Gobierno activa monitoreo nacional tras sismo de magnitud 7.0 en Panamá
-    - 19:07 Mobile Time Latinoamérica: +Móvil y Tigo anuncian medidas para mantener la conectividad tras sismo en Panamá
-    - 19:05 Exitosa Noticias: Panamá: SINAPROC descarta víctimas mortales tras fuertes sismos de magnitud 7.2 y 8.0 grados en El Cacao
-    - 19:00 DW.com: Mulino dice que Panamá vive "un desastre grande" tras sismo
-    - 18:53 Facebook: 🔴🔵#ElInformativoDeExitosa📺📺 | El presidente de Panamá, José Raúl Mulino, no descartó que haya heridos o fallecidos tras el sismo de 7.2 que sacudió su paí
+PRONÓSTICO [MODELO GENÉRICO (sin pronóstico oficial del USGS todavía)]:
+  AVISO: el USGS todavía no publicó el pronóstico oficial de este evento; los números abajo salen de un modelo genérico mundial y suelen ser más altos que la realidad. Úselos solo como orden de magnitud; la TENDENCIA observada (arriba) pesa más que estos porcentajes.
+  próximas 24 h: M5+: 100 % (~9 esperadas) · M6+: 67 % (~1 esperadas) · M7+: 13 %
+  próximos 7 días: M5+: 100 % (~19 esperadas) · M6+: 90 % (~2 esperadas) · M7+: 25 %
+  próximos 30 días: M5+: 100 % (~26 esperadas) · M6+: 96 % (~3 esperadas) · M7+: 32 %
+  Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica típica para un M7,7 ronda M6,5, y queda una probabilidad pequeña pero no nula de un evento igual o mayor.
 
-AÇÕES AGORA:
-  1. [Certo] Elevador não — escada sempre, até o prédio ser inspecionado.
-  2. [Provável] Evitar viagens longas pela Panamericana rumo a Coclé/Azuero nas próximas 24–48 h: pontes e viadutos ainda estão sendo inspecionados.
-  3. [Estimativa] Réplica M6+ nos próximos 7 dias: 90% — sentida em prédios altos da capital; isso é esperado, não sinal de novo terremoto.
+SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; la ausencia de noticias NO confirma que un servicio esté normal):
+  Tsunami (tsunami.gov): sin alerta activa
+    - PTWC 09/10 15:34: PANAMA — 
+    - NTWC 09/10 15:37: in Panama — 
+  Hospitales privados (red ASSA: Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando):
+    - 09/10 18:54 Ciudadoriental.com: Psiquiatra llama a superar el estigma de la salud mental
+    - 09/10 17:41 Volcano Discovery: Moderate mag. 4.6 earthquake (unconfirmed) - Provincia de Los Santos, 92 km southeast of Santiago, Panama, on Friday, Oct 9, 2026, at 05:38
+  Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño):
+    - 09/10 17:56 Canal N: Presidente Mulino evalúa daños tras sismo en Panamá y despliega auxilio
+    - 09/10 17:48 La Estrella de Panamá: Seguro Social no reporta fallecidos ni lesiones graves tras el terremoto en Panamá
+  Agua (IDAAN):
+    - 09/10 17:14 Infobae: Terremoto que sacudió Panamá dejó plantas de agua operando al mínimo de su capacidad y varios poblados sin electricidad
+    - 09/10 16:52 Infobae: Nueva réplica de 6.9 sacude Panamá y ya son más de 95 movimientos tras el terremoto
+  Electricidad (ENSA, Naturgy, ETESA):
+    - 09/10 17:25 Panamá América: ETESA confirma estabilidad en la red de transmisión eléctrica tras el sismo de 7.2
+    - 09/10 17:14 Infobae: Terremoto que sacudió Panamá dejó plantas de agua operando al mínimo de su capacidad y varios poblados sin electricidad
+  Aeropuerto de Tocumen:
+    - 09/10 19:21 La Nación Costa Rica: Aeropuerto de Tocumen reanuda operaciones tras fuerte temblor de magnitud 7,7 en Panamá
+    - 09/10 19:09 El Enviador: Terremoto en Panamá: vuelos afectados y situación de Tocumen
+  Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
+    - 09/10 18:37 Panamá América: MOP desmiente rumores de cierre en los puentes de las Américas y Centenario tras el sismo
+    - 09/10 18:26 Revista Merca2.0: Terremoto en Panamá hoy: videos captan momento exacto del fuerte sismo
+  Metro y transporte:
+    - 09/10 18:28 7dias.com.do: Metro de Panamá restablece operaciones tras suspensión preventiva por fuerte sismo
+    - 09/10 17:40 Destino Panamá: Bomberos inspeccionan las Línea 1 y 2 del Metro de Panamá, tras terremoto de 7.5
+  Escuelas (MEDUCA):
+    - 09/10 17:51 La Estrella de Panamá: Clases suspendidas en Panamá hasta nuevo aviso tras el sismo; 65 escuelas resultaron afectadas
+    - 09/10 15:01 ElCapitalFinanciero.com: Panamá ordena el cierre de colegios a nivel nacional por temblor de 7.2
+  Sinaproc / autoridades:
+    - 09/10 19:10 www.panama24horas.com.pa: Gobierno activa monitoreo nacional tras sismo de magnitud 7.0 en Panamá
+    - 09/10 19:05 Exitosa Noticias: Panamá: SINAPROC descarta víctimas mortales tras fuertes sismos de magnitud 7.2 y 8.0 grados en El Cacao
+  Daños y víctimas:
+    - 09/10 19:00 Diario del Oeste: Un terremoto sacudió Panamá hay heridos y varias réplicas intensas
+    - 09/10 18:53 Facebook: 🔴🔵#ElInformativoDeExitosa📺📺 | El presidente de Panamá, José Raúl Mulino, no descartó que haya heridos o fallecidos tras el sismo de 7.2 que sacudió 
 
-ÚLTIMA HORA — lista (hora local, M, local, prof.):
-  18:23  M4,9  9 km SW de Río Grande  10 km
+ACCIONES AHORA:
+  1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
+  2. [Probable] Evitar viajes largos por la Panamericana hacia Coclé/Azuero en las próximas 24–48 h: puentes y viaductos siguen en inspección.
+  3. [Estimación] Réplica M6+ en los próximos 7 días: 90 % (modelo genérico) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
 
-MENSAGEM ENVIADA AO WHATSAPP:
-🔔 Sismo PA 19:23 (automático)
-Última hora: 1 tremores M3,5+ (1 de M4,5+). Maior: M4,9 às 18:23, 9 km SW de Río Grande.
-Desde o principal (M7,7, 12:56): 11 réplicas M5+, 1 M6+. Tendência: decaindo. Maior réplica até agora: M6,6 às 15:25.
-Tsunami: sem alerta. P(M6+ em 7 dias): 90% (estimativa genérica).
-Agora: Elevador não, escada sempre. Evitar viagens longas pela Panamericana (Coclé/Azuero) nas próximas 24–48 h.
-Próxima atualização em 1 h.
+ÚLTIMAS 24 H — eventos M4,5+ (hora local, M, lugar, prof.):
+  09/10 18:23  M4,9  9 km SW de Río Grande  10 km
+  09/10 18:12  M5,4  9 km SSE de Los Asientos  10 km
+  09/10 18:10  M5,0  8 km ESE de La Tronosa  10 km
+  09/10 16:47  M4,6  4 km NNE de Río Grande  10 km
+  09/10 16:05  M4,9  13 km W de Río Grande  10 km
+  09/10 15:54  M4,9  16 km SSW de Calidonia  10 km
+  09/10 15:42  M5,0  13 km W de Río Grande  10 km
+  09/10 15:41  M4,9  8 km SSE de Leones Arriba  10 km
+  09/10 15:25  M6,6  14 km W de Río Grande  10 km
+  09/10 15:21  M5,0  6 km NE de La Tronosa  10 km
+  09/10 15:20  M4,9  12 km SSW de Tebario  10 km
+  09/10 14:48  M5,2  11 km SE de Río Grande  10 km
+  09/10 14:45  M4,8  2 km N de Los Asientos  10 km
+  09/10 14:42  M4,5  5 km N de Oria Arriba  10 km
+  09/10 14:32  M4,7  8 km N de La Tronosa  10 km
+  09/10 14:17  M4,8  14 km SSW de Tebario  26 km
+  09/10 14:04  M5,0  14 km SE de Río Grande  10 km
+  09/10 13:50  M5,0  18 km S de Los Asientos  10 km
+  09/10 13:47  M5,0  19 km S de Leones Arriba  10 km
+  09/10 13:37  M5,8  1 km S de El Cacao  10 km
+  09/10 13:22  M5,5  3 km SW de Bajo Corral  10 km
 
-FONTES:
+MENSAJE CORTO (Telegram/WhatsApp):
+🔔 Sismo PA 19:24 (automático)
+Última hora: ningún temblor M3,5+ registrado.
+Réplicas M4,5+ por ventana — 1 h: 0 · 5 h: 15 · 10 h: 21 · 18 h: 21 · 24 h: 21. Tendencia: en descenso (0 M4,5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h). Mayor réplica hasta ahora: M6,6 a las 15:25.
+Desde el principal (M7,7, 12:56): 11 réplicas M5+, 1 M6+.
+Tsunami: sin alerta. P(M6+ en 7 días): 90 % (modelo genérico, sin pronóstico oficial aún).
+Ahora: Nada de ascensor, escaleras. Evitar viajes largos por la Panamericana (Coclé/Azuero) por 24–48 h.
+Próxima actualización en 1 h.
+
+FUENTES:
   https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
-  https://earthquake.usgs.gov/fdsnws/event/1/ (catálogo, caixa Panamá)
+  https://earthquake.usgs.gov/fdsnws/event/1/ (catálogo, caja Panamá)
   https://www.tsunami.gov/
-  https://news.google.com/ (busca: sismo Panamá / Sinaproc)
+  https://news.google.com/ (titulares por tema, es-419/PA)
 
-Avisos desta rodada: [OAF] evento sem produto 'oaf' ainda
+Avisos de esta ronda: [OAF] el USGS aún no publicó pronóstico oficial para este evento
 
-ENVIO: e-mail: pulado (GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO ausentes) | whatsapp: pulado (CALLMEBOT_RECIPIENTS ausente) | telegram: Leandro: ok
+ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Leandro: ok
