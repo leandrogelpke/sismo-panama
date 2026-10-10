@@ -664,6 +664,99 @@ def send_callmebot(text: str) -> str:
     return "whatsapp: " + " | ".join(results)
 
 
+def strip_emoji(text: str) -> str:
+    return "".join(ch for ch in text if ord(ch) < 0x1F000 and ch not in "\u2b50\u26a0\ufe0f")
+
+
+def make_pdf(a: Analysis, body: str, path: str) -> bool:
+    """Informe completo en PDF (fpdf2 + DejaVu). Devuelve False si no hay librería/fuente."""
+    try:
+        from fpdf import FPDF  # type: ignore
+    except ImportError:
+        log("[pdf] fpdf2 no instalado — sin PDF")
+        return False
+    font_dir = "/usr/share/fonts/truetype/dejavu"
+    reg, bold = os.path.join(font_dir, "DejaVuSans.ttf"), os.path.join(font_dir, "DejaVuSans-Bold.ttf")
+    if not (os.path.exists(reg) and os.path.exists(bold)):
+        log("[pdf] fuente DejaVu no encontrada — sin PDF")
+        return False
+    try:
+        return _build_pdf(a, body, path, reg, bold)
+    except Exception as exc:  # noqa: BLE001
+        log(f"[pdf] falló la generación: {exc}")
+        return False
+
+
+def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
+    from fpdf import FPDF  # type: ignore
+    t = local(a.now)
+    pdf = FPDF(format="A4")
+    pdf.set_margins(14, 14, 14)
+    pdf.set_auto_page_break(auto=True, margin=14)
+    pdf.add_font("DV", "", reg)
+    pdf.add_font("DV", "B", bold)
+    pdf.add_page()
+    pdf.set_font("DV", "B", 15)
+    pdf.cell(0, 8, f"Sismo Panamá — informe de las {t:%H:%M} ({t:%d/%m/%Y})", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_font("DV", "", 9)
+    pdf.set_text_color(90, 90, 90)
+    pdf.cell(0, 5, f"Principal M{fmt_mag(a.main.mag)} · {dhm(a.main.time)} · {a.main.place_short} · "
+                   f"hace {a.hours_since:.1f} h · generado automáticamente (GitHub Actions)", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_text_color(0, 0, 0)
+    pdf.ln(2)
+    # Resumen en caja
+    pdf.set_fill_color(240, 244, 250)
+    pdf.set_font("DV", "B", 10)
+    pdf.multi_cell(0, 6, strip_emoji(body.split("\n", 1)[0]), fill=True, new_x="LMARGIN", new_y="NEXT")
+    pdf.ln(1)
+    # Tabla de ventanas
+    pdf.set_font("DV", "B", 9)
+    pdf.cell(0, 6, "Réplicas por ventana (M4.5+ / M3.5+)", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_font("DV", "", 9)
+    w = (pdf.w - 28) / len(WINDOWS_H)
+    for h in WINDOWS_H:
+        pdf.cell(w, 6, f"últimas {h} h", border=1, align="C")
+    pdf.ln(6)
+    for h in WINDOWS_H:
+        pdf.cell(w, 6, f"{a.win45[h]} / {a.win35[h]}", border=1, align="C")
+    pdf.ln(8)
+    # Cuerpo: secciones en negrita, resto normal
+    skip_from = "MENSAJE CORTO (Telegram/WhatsApp):"
+    lines = body.split("\n")[2:]
+    for ln in lines:
+        if ln.startswith(skip_from):
+            break
+        if ln.startswith(("RÉPLICAS POR VENTANA", "  1 h:", "SISMO PANAMÁ —", "Sismo principal:")):
+            continue
+        if not ln.strip():
+            pdf.ln(2)
+            continue
+        is_head = (ln.rstrip().endswith(":") and not ln.startswith(" ")) or ln.startswith(("TENDENCIA", "PRONÓSTICO", "ACCIONES", "FUENTES"))
+        is_sub = ln.startswith("  ") and not ln.startswith("    ") and ln.rstrip().endswith(":")
+        pdf.set_font("DV", "B" if (is_head or is_sub) else "", 10 if is_head else 9)
+        pdf.multi_cell(0, 5, strip_emoji(ln.rstrip()), new_x="LMARGIN", new_y="NEXT")
+    pdf.set_y(-12)
+    pdf.set_font("DV", "", 7)
+    pdf.set_text_color(120, 120, 120)
+    pdf.cell(0, 5, f"Fuentes: USGS, tsunami.gov, Google News. Los titulares no se verifican. Página {pdf.page_no()}", align="C")
+    try:
+        pdf.output(path)
+        return True
+    except Exception as exc:  # noqa: BLE001
+        log(f"[pdf] no se pudo escribir: {exc}")
+        return False
+
+
+def _multipart(fields: dict[str, str], file_field: str, filename: str, content: bytes, mime: str) -> tuple[bytes, str]:
+    boundary = "----sismo" + str(int(time.time() * 1000))
+    out = bytearray()
+    for k, v in fields.items():
+        out += f"--{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n".encode()
+    out += (f"--{boundary}\r\nContent-Disposition: form-data; name=\"{file_field}\"; filename=\"{filename}\"\r\n"
+            f"Content-Type: {mime}\r\n\r\n").encode() + content + f"\r\n--{boundary}--\r\n".encode()
+    return bytes(out), boundary
+
+
 def _telegram_api(token: str, method: str, data: dict | None = None, timeout: int = 30) -> dict:
     url = f"https://api.telegram.org/bot{token}/{method}"
     body = urllib.parse.urlencode(data).encode() if data else None
@@ -707,7 +800,7 @@ def telegram_discover_chats(token: str, store_path: str) -> dict[str, str]:
     return chats
 
 
-def send_telegram(text: str) -> str:
+def send_telegram(text: str, pdf_path: str | None = None, pdf_caption: str = "") -> str:
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     if not token:
         return "telegram: omitido (sin TELEGRAM_BOT_TOKEN)"
@@ -719,10 +812,26 @@ def send_telegram(text: str) -> str:
     if DRY_RUN:
         return "telegram: DRY_RUN para " + ", ".join(chats.values())
     results = []
+    pdf_bytes = None
+    if pdf_path and os.path.exists(pdf_path):
+        with open(pdf_path, "rb") as fh:
+            pdf_bytes = fh.read()
     for chat_id, label in chats.items():
         try:
             res = _telegram_api(token, "sendMessage", {"chat_id": chat_id, "text": text, "disable_web_page_preview": "true"})
-            results.append(f"{label}: {'ok' if res.get('ok') else 'FALLÓ ' + str(res.get('description'))[:60]}")
+            ok_msg = bool(res.get("ok"))
+            ok_pdf = None
+            if pdf_bytes:
+                body, boundary = _multipart({"chat_id": chat_id, "caption": pdf_caption[:1000]}, "document",
+                                            os.path.basename(pdf_path), pdf_bytes, "application/pdf")
+                req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendDocument", data=body,
+                                             headers={"User-Agent": UA, "Content-Type": f"multipart/form-data; boundary={boundary}"})
+                with urllib.request.urlopen(req, timeout=60) as resp:
+                    ok_pdf = bool(json.loads(resp.read().decode("utf-8", "ignore")).get("ok"))
+            status = "ok" if ok_msg else "FALLÓ " + str(res.get("description"))[:60]
+            if ok_pdf is not None:
+                status += " + pdf" if ok_pdf else " (pdf FALLÓ)"
+            results.append(f"{label}: {status}")
         except Exception as exc:  # noqa: BLE001
             results.append(f"{label}: FALLÓ {str(exc)[:80]}")
     return "telegram: " + " | ".join(results)
@@ -758,13 +867,22 @@ def main() -> int:
     print(body)
     print("=" * 78 + "\n")
 
-    repo = os.environ.get("GITHUB_REPOSITORY")
-    tg_text = short + (f"\n\nInforme completo: https://github.com/{repo}/blob/main/reports/latest.txt" if repo else "")
+    out_dir = os.environ.get("REPORTS_DIR", "reports")
+    os.makedirs(out_dir, exist_ok=True)
+    pdf_path = os.path.join(out_dir, f"sismo-panama_{local(now):%Y-%m-%d_%H%M}.pdf")
+    has_pdf = make_pdf(a, body, pdf_path)
+    caption = f"Informe completo {local(now):%d/%m %H:%M} — réplicas, tendencia, pronóstico, servicios y acciones."
     if a.quiet and local(now).hour % 6 != 0:
         status = [send_email(subject, body), "whatsapp: omitido (hora tranquila — solo a las 00/06/12/18 h)",
                   "telegram: omitido (hora tranquila — solo a las 00/06/12/18 h)"]
     else:
-        status = [send_email(subject, body), send_callmebot(short), send_telegram(tg_text)]
+        status = [send_email(subject, body), send_callmebot(short),
+                  send_telegram(short, pdf_path if has_pdf else None, caption)]
+    if has_pdf:
+        try:
+            os.remove(pdf_path)  # no se versiona el PDF (solo se envía)
+        except OSError:
+            pass
     for s in status:
         print(s)
 
@@ -773,9 +891,7 @@ def main() -> int:
         with open(summary_path, "a", encoding="utf-8") as fh:
             fh.write(f"## {subject}\n\n```\n{body}\n```\n\n" + "\n".join(f"- {s}" for s in status) + "\n")
 
-    out_dir = os.environ.get("REPORTS_DIR", "reports")
     try:
-        os.makedirs(out_dir, exist_ok=True)
         with open(os.path.join(out_dir, "latest.txt"), "w", encoding="utf-8") as fh:
             fh.write(body + "\n\nENVÍO: " + " | ".join(status) + "\n")
         with open(os.path.join(out_dir, "latest_short.txt"), "w", encoding="utf-8") as fh:

@@ -25,6 +25,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Instalar fpdf2 (PDF do informe) e fontes DejaVu
+        run: |
+          pip install -q fpdf2
+          sudo apt-get install -y -qq fonts-dejavu-core >/dev/null 2>&1 || true
+
       - name: Gerar e enviar relatório
         env:
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
