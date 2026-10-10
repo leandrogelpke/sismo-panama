@@ -668,6 +668,156 @@ def strip_emoji(text: str) -> str:
     return "".join(ch for ch in text if ord(ch) < 0x1F000 and ch not in "\u2b50\u26a0\ufe0f")
 
 
+BLUE = (42, 120, 214)       # serie 1 (M≥4.5)
+BLUE_LIGHT = (169, 200, 239)  # paso claro de la misma rampa (M3.5–4.4)
+ORANGE = (235, 104, 52)     # acento: sismo principal
+INK = (11, 11, 11)
+INK2 = (82, 81, 78)
+GRID = (222, 222, 218)
+
+
+def summary_bullets(a: Analysis) -> list[str]:
+    b: list[str] = []
+    if a.biggest_last:
+        b.append(f"Última hora: {a.win45[1]} réplicas M4.5+ ({a.win35[1]} M3.5+); la mayor M{fmt_mag(a.biggest_last.mag)} "
+                 f"a las {hhmm(a.biggest_last.time)} en {a.biggest_last.place_short}.")
+    else:
+        b.append("Última hora: sin réplicas M3.5+ en el catálogo USGS.")
+    b.append(f"Tendencia {a.trend.lower()}: {a.trend_note}. En 24 h: {a.win45[24]} M4.5+; desde el principal: "
+             f"{a.cum5} M5+ y {a.cum6} M6+" + (f" (mayor M{fmt_mag(a.biggest_after.mag)})." if a.biggest_after else "."))
+    p6 = a.fc.p.get(("7d", 6)); p5 = a.fc.p.get(("1d", 5))
+    b.append(f"Pronóstico ({'USGS oficial' if a.fc.official else 'modelo genérico, sin pronóstico oficial aún'}): "
+             f"M5+ en 24 h {pct(p5)}; M6+ en 7 días {pct(p6)}.")
+    b.append("Tsunami: " + ("ALERTA ACTIVA en el Pacífico." if a.tsunami.get("active") else "sin alerta activa."))
+    svc = [(label.split(" (")[0], lines[0]) for label, lines in a.services if lines]
+    for label, line in svc[:3]:
+        txt = line.split(": ", 1)[1] if ": " in line else line
+        b.append(f"{label}: {txt[:120]}")
+    acts = actions_for(a, short=True)
+    if acts:
+        b.append("Acción principal: " + acts[0])
+    return b[:7]
+
+
+def _axes_box(pdf, x: float, y: float, w: float, h: float, title: str) -> None:
+    pdf.set_font("DV", "B", 9)
+    pdf.set_text_color(*INK)
+    pdf.set_xy(x, y)
+    pdf.cell(w, 5, title, new_x="LMARGIN", new_y="NEXT")
+
+
+def draw_hourly_bars(pdf, a: Analysis) -> None:
+    """Barras apiladas por hora (últimas 24 h): M≥4.5 (azul) y M3.5–4.4 (azul claro)."""
+    x0, w = 14, pdf.w - 28
+    y0 = pdf.get_y()
+    if y0 + 62 > pdf.h - 16:
+        pdf.add_page(); y0 = pdf.get_y()
+    _axes_box(pdf, x0, y0, w, 0, "Réplicas por hora — últimas 24 h")
+    top, h = y0 + 7, 40
+    left, right = x0 + 8, x0 + w
+    plot_w = right - left
+    buckets_45 = [0] * 24
+    buckets_35 = [0] * 24
+    for q in a.day:
+        age = (a.now - q.time).total_seconds() / 3600
+        if 0 <= age < 24:
+            i = 23 - int(age)
+            if q.mag >= 4.5:
+                buckets_45[i] += 1
+            elif q.mag >= 3.5:
+                buckets_35[i] += 1
+    totals = [buckets_45[i] + buckets_35[i] for i in range(24)]
+    ymax = max(max(totals), 1)
+    step = 1 if ymax <= 5 else 2 if ymax <= 10 else 5
+    ymax = ((ymax + step - 1) // step) * step
+    # rejilla
+    pdf.set_draw_color(*GRID); pdf.set_line_width(0.2)
+    pdf.set_font("DV", "", 7); pdf.set_text_color(*INK2)
+    for v in range(0, ymax + 1, step):
+        yy = top + h - h * v / ymax
+        pdf.line(left, yy, right, yy)
+        pdf.set_xy(x0, yy - 2); pdf.cell(7, 4, str(v), align="R")
+    bw = plot_w / 24
+    gap = 0.5
+    for i in range(24):
+        bx = left + i * bw + gap / 2
+        h45 = h * buckets_45[i] / ymax
+        h35 = h * buckets_35[i] / ymax
+        if h45 > 0:
+            pdf.set_fill_color(*BLUE); pdf.rect(bx, top + h - h45, bw - gap, h45, style="F")
+        if h35 > 0:
+            pdf.set_fill_color(*BLUE_LIGHT); pdf.rect(bx, top + h - h45 - h35 - (0.4 if h45 > 0 else 0), bw - gap, h35, style="F")
+    # etiquetas x cada 4 h + etiqueta de la barra máxima y de la última hora
+    pdf.set_text_color(*INK2)
+    for i in range(0, 24, 4):
+        t = local(a.now - timedelta(hours=23 - i))
+        pdf.set_xy(left + i * bw - 4, top + h + 1); pdf.cell(bw + 8, 4, f"{t:%H}h", align="C")
+    imax = max(range(24), key=lambda k: totals[k])
+    pdf.set_text_color(*INK)
+    for i in {imax, 23}:
+        if totals[i] > 0:
+            yy = top + h - h * totals[i] / ymax - 4
+            pdf.set_xy(left + i * bw - 3, yy); pdf.cell(bw + 6, 4, str(totals[i]), align="C")
+    # leyenda
+    ly = top + h + 6
+    pdf.set_fill_color(*BLUE); pdf.rect(left, ly + 0.8, 3, 3, style="F")
+    pdf.set_xy(left + 4, ly); pdf.set_text_color(*INK2); pdf.cell(28, 5, "M4.5 o más")
+    pdf.set_fill_color(*BLUE_LIGHT); pdf.rect(left + 34, ly + 0.8, 3, 3, style="F")
+    pdf.set_xy(left + 38, ly); pdf.cell(40, 5, "M3.5 a 4.4")
+    pdf.set_xy(left + 80, ly); pdf.cell(plot_w - 80, 5, f"eje x: hora local (Panamá); barra derecha = última hora", align="R")
+    pdf.set_text_color(*INK)
+    pdf.set_y(ly + 8)
+
+
+def draw_magnitude_dots(pdf, a: Analysis) -> None:
+    """Magnitud de cada réplica M≥4.5 vs horas desde el principal (muestra el decaimiento)."""
+    events = [q for q in a.cum if q.mag >= 4.5]
+    x0, w = 14, pdf.w - 28
+    y0 = pdf.get_y()
+    if y0 + 62 > pdf.h - 16:
+        pdf.add_page(); y0 = pdf.get_y()
+    _axes_box(pdf, x0, y0, w, 0, "Magnitud de cada réplica (M4.5+) vs horas desde el sismo principal")
+    top, h = y0 + 7, 40
+    left, right = x0 + 8, x0 + w
+    plot_w = right - left
+    xmax = max(a.hours_since, 6.0)
+    xmax = math.ceil(xmax / 6) * 6
+    ymin, ymax = 4.0, max(7.5, a.main.mag + 0.4)
+    pdf.set_draw_color(*GRID); pdf.set_line_width(0.2)
+    pdf.set_font("DV", "", 7); pdf.set_text_color(*INK2)
+    for v in range(int(ymin), int(ymax) + 1):
+        yy = top + h - h * (v - ymin) / (ymax - ymin)
+        pdf.line(left, yy, right, yy)
+        pdf.set_xy(x0, yy - 2); pdf.cell(7, 4, f"M{v}", align="R")
+    xstep = 6 if xmax <= 48 else 12 if xmax <= 120 else 24
+    for v in range(0, int(xmax) + 1, xstep):
+        xx = left + plot_w * v / xmax
+        pdf.line(xx, top, xx, top + h)
+        pdf.set_xy(xx - 6, top + h + 1); pdf.cell(12, 4, f"{v} h", align="C")
+    r = 1.1
+    pdf.set_fill_color(*BLUE); pdf.set_draw_color(255, 255, 255); pdf.set_line_width(0.3)
+    for q in events:
+        hx = (q.time - a.main.time).total_seconds() / 3600
+        xx = left + plot_w * min(hx, xmax) / xmax
+        yy = top + h - h * (min(max(q.mag, ymin), ymax) - ymin) / (ymax - ymin)
+        pdf.ellipse(xx - r, yy - r, 2 * r, 2 * r, style="FD")
+    # principal
+    pdf.set_fill_color(*ORANGE)
+    yy = top + h - h * (min(a.main.mag, ymax) - ymin) / (ymax - ymin)
+    pdf.ellipse(left - 1.6, yy - 1.6, 3.2, 3.2, style="FD")
+    pdf.set_text_color(*INK); pdf.set_font("DV", "", 7)
+    pdf.set_xy(left + 3, yy - 2); pdf.cell(40, 4, f"principal M{fmt_mag(a.main.mag)}")
+    if a.biggest_after:
+        hx = (a.biggest_after.time - a.main.time).total_seconds() / 3600
+        xx = left + plot_w * min(hx, xmax) / xmax
+        yb = top + h - h * (min(a.biggest_after.mag, ymax) - ymin) / (ymax - ymin)
+        pdf.set_xy(min(xx + 2, right - 30), yb - 2); pdf.cell(30, 4, f"mayor réplica M{fmt_mag(a.biggest_after.mag)}")
+    pdf.set_text_color(*INK2)
+    pdf.set_xy(left, top + h + 6); pdf.cell(plot_w, 5, f"{len(events)} réplicas M4.5+ desde el principal · eje x: horas transcurridas", align="R")
+    pdf.set_text_color(*INK)
+    pdf.set_y(top + h + 13)
+
+
 def make_pdf(a: Analysis, body: str, path: str) -> bool:
     """Informe completo en PDF (fpdf2 + DejaVu). Devuelve False si no hay librería/fuente."""
     try:
@@ -709,6 +859,13 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
     pdf.set_font("DV", "B", 10)
     pdf.multi_cell(0, 6, strip_emoji(body.split("\n", 1)[0]), fill=True, new_x="LMARGIN", new_y="NEXT")
     pdf.ln(1)
+    # Resumen ejecutivo
+    pdf.set_font("DV", "B", 10)
+    pdf.cell(0, 6, "Resumen", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_font("DV", "", 9)
+    for ln in summary_bullets(a):
+        pdf.multi_cell(0, 5, "• " + strip_emoji(ln), new_x="LMARGIN", new_y="NEXT")
+    pdf.ln(1)
     # Tabla de ventanas
     pdf.set_font("DV", "B", 9)
     pdf.cell(0, 6, "Réplicas por ventana (M4.5+ / M3.5+)", new_x="LMARGIN", new_y="NEXT")
@@ -720,6 +877,9 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
     for h in WINDOWS_H:
         pdf.cell(w, 6, f"{a.win45[h]} / {a.win35[h]}", border=1, align="C")
     pdf.ln(8)
+    # Gráficos
+    draw_hourly_bars(pdf, a)
+    draw_magnitude_dots(pdf, a)
     # Cuerpo: secciones en negrita, resto normal
     skip_from = "MENSAJE CORTO (Telegram/WhatsApp):"
     lines = body.split("\n")[2:]
@@ -817,6 +977,11 @@ def send_telegram(text: str, pdf_path: str | None = None, pdf_caption: str = "")
     chats = {c: "TELEGRAM_CHAT_ID" for c in forced} if forced else telegram_discover_chats(token, store)
     if not chats:
         return "telegram: ningún chat todavía — envíe /start al bot (o agréguelo a un grupo) y espere la próxima ronda"
+    groups = {c: l for c, l in chats.items() if c.startswith("-")}
+    skipped = ""
+    if groups and os.environ.get("TELEGRAM_ALSO_PRIVATE", "0") != "1" and not forced:
+        skipped = " | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos)"
+        chats = groups
     if DRY_RUN:
         return "telegram: DRY_RUN para " + ", ".join(chats.values())
     results = []
@@ -842,7 +1007,7 @@ def send_telegram(text: str, pdf_path: str | None = None, pdf_caption: str = "")
             results.append(f"{label}: {status}")
         except Exception as exc:  # noqa: BLE001
             results.append(f"{label}: FALLÓ {str(exc)[:80]}")
-    return "telegram: " + " | ".join(results)
+    return "telegram: " + " | ".join(results) + skipped
 
 
 # --------------------------------------------------------------------------- Main
