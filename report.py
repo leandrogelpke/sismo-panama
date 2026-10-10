@@ -45,20 +45,26 @@ TSUNAMI_FEEDS = {
 WINDOWS_H = (1, 5, 10, 18, 24)
 
 # Temas de servicios: etiqueta → (consulta Google News, horas hacia atrás). Son TITULARES de prensa, no estado oficial.
-SERVICE_TOPICS: list[tuple[str, str, int]] = [
+SERVICE_TOPICS: list[tuple[str, str, int, tuple[str, ...]]] = [
+    # (etiqueta, consulta Google News, horas, palabras que el titular DEBE contener — filtra el ruido del buscador)
     ("Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA)",
-     '("Punta Pacífica" OR "Pacífica Salud" OR Paitilla OR "Hospital Nacional" OR "San Fernando") (sismo OR terremoto)', 24),
+     '("Punta Pacífica" OR "Pacífica Salud" OR Paitilla OR "Hospital Nacional" OR "San Fernando") (sismo OR terremoto)', 24,
+     ("punta pacífica", "pacífica salud", "paitilla", "hospital nacional", "san fernando", "hospital", "clínica")),
     ("Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA)",
-     '("Santo Tomás" OR "Arnulfo Arias" OR "Hospital del Niño" OR "Seguro Social" OR MINSA OR hospitales) (sismo OR terremoto) Panamá', 24),
-    ("Agua (IDAAN)", "IDAAN", 24),
-    ("Electricidad (ENSA, Naturgy, ETESA)", '(ENSA OR Naturgy OR ETESA OR "sin luz" OR electricidad) Panamá (sismo OR terremoto)', 24),
-    ("Aeropuerto de Tocumen", "Tocumen (aeropuerto OR vuelos)", 24),
+     '("Santo Tomás" OR "Arnulfo Arias" OR "Hospital del Niño" OR "Seguro Social" OR MINSA OR hospitales) (sismo OR terremoto) Panamá', 24,
+     ("santo tomás", "arnulfo arias", "hospital del niño", "seguro social", "css", "minsa", "hospital", "urgencias", "salud")),
+    ("Agua (IDAAN)", "IDAAN", 24, ("idaan", "agua", "acueducto", "potabilizadora")),
+    ("Electricidad (ENSA, Naturgy, ETESA)", '(ENSA OR Naturgy OR ETESA OR "sin luz" OR electricidad) Panamá (sismo OR terremoto)', 24,
+     ("ensa", "naturgy", "etesa", "luz", "eléctric", "electricidad", "energía", "apag")),
+    ("Aeropuerto de Tocumen", "Tocumen (aeropuerto OR vuelos)", 24, ("tocumen", "aeropuerto", "vuelo", "copa")),
     ("Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario)",
-     '(MOP OR "Puente de las Américas" OR "Puente Centenario" OR Panamericana OR carretera OR puente) (sismo OR terremoto) Panamá', 24),
-    ("Metro y transporte", '("Metro de Panamá" OR MiBus) (sismo OR terremoto)', 24),
-    ("Escuelas (MEDUCA)", "MEDUCA (clases OR escuelas)", 24),
-    ("Sinaproc / autoridades", "Sinaproc", 12),
-    ("Daños y víctimas", "sismo Panamá heridos daños", 12),
+     '(MOP OR "Puente de las Américas" OR "Puente Centenario" OR Panamericana OR carretera OR puente) (sismo OR terremoto) Panamá', 24,
+     ("puente", "mop", "panamericana", "carretera", "vía", "vías", "tránsito", "autopista", "corredor")),
+    ("Metro y transporte", '("Metro de Panamá" OR MiBus) (sismo OR terremoto)', 24, ("metro", "mibus", "transporte", "buses")),
+    ("Escuelas (MEDUCA)", "MEDUCA (clases OR escuelas)", 24, ("meduca", "clases", "escuela", "colegio", "universidad")),
+    ("Sinaproc / autoridades", "Sinaproc", 12, ("sinaproc", "gobierno", "mulino", "alerta", "protección civil", "bomberos")),
+    ("Daños y víctimas", "sismo Panamá heridos daños", 12,
+     ("herido", "daño", "víctima", "fallecid", "muert", "colaps", "derrumb", "lesion", "evacua")),
 ]
 
 FIXTURES_DIR = os.environ.get("FIXTURES_DIR")
@@ -323,7 +329,8 @@ def fetch_tsunami(now: datetime) -> dict:
 
 # --------------------------------------------------------------------------- Prensa por tema
 
-def fetch_news_topic(now: datetime, key: str, query: str, hours: int, limit: int = 2) -> list[str]:
+def fetch_news_topic(now: datetime, key: str, query: str, hours: int, limit: int = 2,
+                     must: tuple[str, ...] = ()) -> list[str]:
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
         {"q": f"{query} when:{hours}h", "hl": "es-419", "gl": "PA", "ceid": "PA:es-419"})
     raw = http_get(url, f"news_{key}.xml")
@@ -349,6 +356,8 @@ def fetch_news_topic(now: datetime, key: str, query: str, hours: int, limit: int
             continue
         if now - when > timedelta(hours=hours):
             continue
+        if must and not any(k in title.lower() for k in must):
+            continue
         norm = title.lower()[:60]
         if norm in seen:
             continue
@@ -362,8 +371,8 @@ def fetch_news_topic(now: datetime, key: str, query: str, hours: int, limit: int
 
 def fetch_services(now: datetime) -> list[tuple[str, list[str]]]:
     out = []
-    for i, (label, query, hours) in enumerate(SERVICE_TOPICS):
-        out.append((label, fetch_news_topic(now, f"svc{i}", query, hours)))
+    for i, (label, query, hours, must) in enumerate(SERVICE_TOPICS):
+        out.append((label, fetch_news_topic(now, f"svc{i}", query, hours, must=must)))
     return out
 
 
@@ -572,7 +581,7 @@ def email_report(a: Analysis) -> tuple[str, str]:
             for ln in lines:
                 L.append("    - " + ln)
         else:
-            L.append(f"  {label}: sin titulares recientes.")
+            L.append(f"  {label}: sin titulares específicos en las últimas horas.")
     L.append("")
     L.append("ACCIONES AHORA:")
     for i, act in enumerate(actions_for(a), 1):
