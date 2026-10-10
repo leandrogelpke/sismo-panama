@@ -506,7 +506,7 @@ def actions_for(a: Analysis, short: bool = False) -> list[str]:
 # --------------------------------------------------------------------------- Textos
 
 def windows_line(a: Analysis) -> str:
-    return " | ".join(f"{h} h: {a.win45[h]} M4.5+ ({a.win35[h]} M3.5+)" for h in WINDOWS_H)
+    return " | ".join(f"{h} h: {a.win45[h]} de M4.5+ y {a.win35[h] - a.win45[h]} de M3.5–4.4" for h in WINDOWS_H)
 
 
 def forecast_lines(a: Analysis) -> list[str]:
@@ -541,11 +541,11 @@ def family_message(a: Analysis) -> str:
                 f"Fuente: USGS {usgs_event_url(a.main.id)}")
     if a.biggest_last:
         b = a.biggest_last
-        last_line = (f"Última hora: {a.win35[1]} temblores M3.5+ ({a.win45[1]} de M4.5+). "
+        last_line = (f"Última hora: {a.win45[1]} réplicas de M4.5 o más. "
                      f"Mayor: M{fmt_mag(b.mag)} a las {hhmm(b.time)}, {b.place_short}.")
     else:
         last_line = "Última hora: ningún temblor M3.5+ registrado."
-    wins = " · ".join(f"{h} h: {a.win45[h]}" for h in WINDOWS_H)
+    wins = " · ".join(f"{h} h → {a.win45[h]}" for h in WINDOWS_H)
     big = (f" Mayor réplica hasta ahora: M{fmt_mag(a.biggest_after.mag)} a las {hhmm(a.biggest_after.time)}."
            if a.biggest_after else "")
     tsu = "ALERTA ACTIVA en el Pacífico — alejarse de la costa" if a.tsunami.get("active") else "sin alerta"
@@ -555,7 +555,7 @@ def family_message(a: Analysis) -> str:
     lines = [
         f"🔔 Sismo PA {t} (automático)",
         last_line,
-        f"Réplicas M4.5+ por ventana — {wins}. Tendencia: {a.trend.lower()} ({a.trend_note}).{big}",
+        f"Réplicas M4.5+ en las últimas: {wins}. Tendencia: {a.trend.lower()} ({a.trend_note}).{big}",
         f"Desde el principal (M{fmt_mag(a.main.mag)}, {hhmm(a.main.time)}): {a.cum5} réplicas M5+, {a.cum6} M6+.",
         f"Tsunami: {tsu}. P(M6+ en 7 días): {pct(p6)} ({tag}).",
         "Ahora: " + " ".join(top),
@@ -705,7 +705,7 @@ GRID = (222, 222, 218)
 def summary_bullets(a: Analysis) -> list[str]:
     b: list[str] = []
     if a.biggest_last:
-        b.append(f"Última hora: {a.win45[1]} réplicas M4.5+ ({a.win35[1]} M3.5+); la mayor M{fmt_mag(a.biggest_last.mag)} "
+        b.append(f"Última hora: {a.win45[1]} réplicas de M4.5 o más; la mayor M{fmt_mag(a.biggest_last.mag)} "
                  f"a las {hhmm(a.biggest_last.time)} en {a.biggest_last.place_short}.")
     else:
         b.append("Última hora: sin réplicas M3.5+ en el catálogo USGS.")
@@ -928,16 +928,25 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
     # 2. Réplicas
     section(2, "Réplicas — ventanas, por hora y decaimiento", min_space=60)
     pdf.set_font("DV", "", 9)
-    w = (pdf.w - 28) / len(WINDOWS_H)
+    lab_w = 34
+    w = (pdf.w - 28 - lab_w) / len(WINDOWS_H)
     pdf.set_fill_color(246, 246, 244)
+    pdf.cell(lab_w, 6, "réplicas en las…", border=1, fill=True)
     for h in WINDOWS_H:
         pdf.cell(w, 6, f"últimas {h} h", border=1, align="C", fill=True)
     pdf.ln(6)
-    pdf.set_font("DV", "B", 9)
-    for h in WINDOWS_H:
-        pdf.cell(w, 6, f"{a.win45[h]} / {a.win35[h]}", border=1, align="C")
-    pdf.ln(6)
-    para("Cada celda: réplicas M4.5+ / M3.5+ en la ventana (sin contar el principal). Fuente: catálogo USGS ComCat, caja Panamá.", size=7.5, color=INK2)
+    rows = (("M4.5 o más", {h: a.win45[h] for h in WINDOWS_H}, True),
+            ("M3.5 a 4.4", {h: a.win35[h] - a.win45[h] for h in WINDOWS_H}, False),
+            ("Total M3.5+", {h: a.win35[h] for h in WINDOWS_H}, True))
+    for label, vals, bold_ in rows:
+        pdf.set_font("DV", "B" if bold_ else "", 9)
+        pdf.cell(lab_w, 6, label, border=1)
+        for h in WINDOWS_H:
+            pdf.cell(w, 6, str(vals[h]), border=1, align="C")
+        pdf.ln(6)
+    para("Cuenta de réplicas registradas en cada ventana hacia atrás desde ahora, sin contar el sismo principal. "
+         "Fuente: catálogo USGS ComCat, caja Panamá. El USGS casi no incluye sismos menores de M4.5 en Panamá (los detecta la red "
+         "local del Instituto de Geociencias, que no publica un feed), por eso la fila M3.5–4.4 suele ser 0.", size=7.5, color=INK2)
     linkline("Mapa interactivo USGS:", USGS_MAP, indent=0)
     linkline("Datos crudos 24 h (CSV):", usgs_catalog_url(a.now), indent=0)
     if a.biggest_last:
