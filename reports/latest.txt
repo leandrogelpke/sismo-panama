@@ -1,17 +1,18 @@
-Sismo PA 19:28: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 19:31: 1 réplicas M4.5+ en la última hora, mayor M4.5 a las 18:54 — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 19:28 (09/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 6.5 h.
+SISMO PANAMÁ — informe de las 19:31 (09/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 6.6 h.
 
 RÉPLICAS POR VENTANA (catálogo USGS, caja Panamá):
-  1 h: 0 M4.5+ (0 M3.5+) | 5 h: 15 M4.5+ (15 M3.5+) | 10 h: 21 M4.5+ (21 M3.5+) | 18 h: 21 M4.5+ (21 M3.5+) | 24 h: 21 M4.5+ (21 M3.5+)
-  Acumulado desde el principal: 21 M4.5+ | 11 M5+ | 1 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
-TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h.
+  1 h: 1 M4.5+ (1 M3.5+) | 5 h: 16 M4.5+ (16 M3.5+) | 10 h: 22 M4.5+ (22 M3.5+) | 18 h: 22 M4.5+ (22 M3.5+) | 24 h: 22 M4.5+ (22 M3.5+)
+  Mayor de la última hora: M4.5 a las 18:54, 45 km SSE de Pedasí, prof. 10 km.
+  Acumulado desde el principal: 22 M4.5+ | 11 M5+ | 1 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
+TENDENCIA: EN DESCENSO — 1 M4.5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h.
 
 PRONÓSTICO [MODELO GENÉRICO (sin pronóstico oficial del USGS todavía)]:
   AVISO: el USGS todavía no publicó el pronóstico oficial de este evento; los números abajo salen de un modelo genérico mundial y suelen ser más altos que la realidad. Úselos solo como orden de magnitud; la TENDENCIA observada (arriba) pesa más que estos porcentajes.
   próximas 24 h: M5+: 100 % (~9 esperadas) · M6+: 67 % (~1 esperadas) · M7+: 13 %
-  próximos 7 días: M5+: 100 % (~19 esperadas) · M6+: 90 % (~2 esperadas) · M7+: 24 %
+  próximos 7 días: M5+: 100 % (~18 esperadas) · M6+: 90 % (~2 esperadas) · M7+: 24 %
   próximos 30 días: M5+: 100 % (~26 esperadas) · M6+: 96 % (~3 esperadas) · M7+: 32 %
   Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica típica para un M7.7 ronda M6.5, y queda una probabilidad pequeña pero no nula de un evento igual o mayor.
 
@@ -20,23 +21,23 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - PTWC 09/10 15:34: PANAMA
     - NTWC 09/10 15:37: in Panama
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA):
-    - 09/10 17:19 Minuto Neuquen: Un sismo se produjo en Catamarca y se sintió en diferentes provincias
-    - 09/10 16:02 Emisora Costa del Sol 93.1 FM: Un terremoto de magnitud 7,2 y muchas réplicas se han registrado en Panamá
+    - 09/10 09:46 Volcano Discovery: Sismo débil mag. 2.8 - 8.4 km al noroeste de San Fernando del Valle de Catamarca, Departamento de Capital, Catamarca, Argentina, Thursday 8
+    - 09/10 06:31 Infobae: San Fernando: calidad del aire este 9 de octubre de 2026
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
-    - 09/10 19:10 HCH: Terremoto en Panamá deja 15 estudiantes lesionados y daños
-    - 09/10 18:48 Infobae: Terremoto en Panamá deja al menos 15 estudiantes lesionados y daños en edificios públicos y viviendas
+    - 09/10 18:10 Telemetro: Sismo en Panamá: SINAPROC reporta daños en edificios, escuelas y hospitales tras movimiento de 7.2
+    - 09/10 17:54 www.metrolibre.com: Daños en edificios, escuelas, hospitales y estaciones de Bomberos tras fuerte sismo en Panamá
   Agua (IDAAN):
-    - 09/10 17:48 Mi Diario: El Puente Centenario y el de las Américas siguen operativos tras inspección por el terremoto
     - 09/10 17:14 Infobae: Terremoto que sacudió Panamá dejó plantas de agua operando al mínimo de su capacidad y varios poblados sin electricidad
+    - 09/10 15:56 Panamá América: Situación sísmica afecta la producción de plantas potabilizadoras a nivel nacional
   Electricidad (ENSA, Naturgy, ETESA):
-    - 09/10 19:17 Diario Río Negro: Pánico y destrucción en Panamá: qué se sabe del fuerte terremoto
-    - 09/10 19:07 Mobile Time Latinoamérica: +Móvil y Tigo anuncian medidas para mantener la conectividad tras sismo en Panamá
+    - 09/10 18:15 WFMZ.com: Terremoto de magnitud 7,7 sacude Panamá y provoca daños, evacuaciones y cortes de energía
+    - 09/10 17:14 Infobae: Terremoto que sacudió Panamá dejó plantas de agua operando al mínimo de su capacidad y varios poblados sin electricidad
   Aeropuerto de Tocumen:
     - 09/10 19:22 La Nación Costa Rica: Aeropuerto de Tocumen reanuda operaciones tras fuerte temblor de magnitud 7,7 en Panamá
     - 09/10 19:09 El Enviador: Terremoto en Panamá: vuelos afectados y situación de Tocumen
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
-    - 09/10 18:48 Infobae: Terremoto en Panamá deja al menos 15 estudiantes lesionados y daños en edificios públicos y viviendas
-    - 09/10 18:32 El Nuevo Día: La tierra se abrió: el aterrador instante del terremoto en Panamá
+    - 09/10 18:30 La Estrella de Panamá: Sismos en Panamá: Cuarto Puente reporta evacuación segura y sin daños
+    - 09/10 17:48 Mi Diario: El Puente Centenario y el de las Américas siguen operativos tras inspección por el terremoto
   Metro y transporte:
     - 09/10 18:28 7dias.com.do: Metro de Panamá restablece operaciones tras suspensión preventiva por fuerte sismo
     - 09/10 17:40 Destino Panamá: Bomberos inspeccionan las Línea 1 y 2 del Metro de Panamá, tras terremoto de 7.5
@@ -45,7 +46,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 09/10 15:08 El Siglo Panamá: Terremoto en Panamá: suspenden clases en escuelas y universidades
   Sinaproc / autoridades:
     - 09/10 19:10 www.panama24horas.com.pa: Gobierno activa monitoreo nacional tras sismo de magnitud 7.0 en Panamá
-    - 09/10 18:48 Infobae: Terremoto en Panamá deja al menos 15 estudiantes lesionados y daños en edificios públicos y viviendas
+    - 09/10 18:27 TVN Panamá: Temblor en Panamá: primer informe reporta 15 estudiantes con lesiones menores, daños en viviendas, carreteras y estaciones de bomberos
   Daños y víctimas:
     - 09/10 19:00 Diario del Oeste: Un terremoto sacudió Panamá hay heridos y varias réplicas intensas
     - 09/10 18:28 El 10 TV: Terremoto de 7,7 en Panamá: hubo daños en edificios, heridos y levantaron la alerta de tsunami
@@ -56,6 +57,7 @@ ACCIONES AHORA:
   3. [Estimación] Réplica M6+ en los próximos 7 días: 90 % (modelo genérico) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
 
 ÚLTIMAS 24 H — eventos M4.5+ (hora local, M, lugar, prof.):
+  09/10 18:54  M4.5  45 km SSE de Pedasí  10 km
   09/10 18:23  M4.9  9 km SW de Río Grande  10 km
   09/10 18:12  M5.4  9 km SSE de Los Asientos  10 km
   09/10 18:10  M5.0  8 km ESE de La Tronosa  10 km
@@ -79,9 +81,9 @@ ACCIONES AHORA:
   09/10 13:22  M5.5  3 km SW de Bajo Corral  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 19:28 (automático)
-Última hora: ningún temblor M3.5+ registrado.
-Réplicas M4.5+ por ventana — 1 h: 0 · 5 h: 15 · 10 h: 21 · 18 h: 21 · 24 h: 21. Tendencia: en descenso (0 M4.5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
+🔔 Sismo PA 19:31 (automático)
+Última hora: 1 temblores M3.5+ (1 de M4.5+). Mayor: M4.5 a las 18:54, 45 km SSE de Pedasí.
+Réplicas M4.5+ por ventana — 1 h: 1 · 5 h: 16 · 10 h: 22 · 18 h: 22 · 24 h: 22. Tendencia: en descenso (1 M4.5+ en la última hora vs 3.8/h en las 4 anteriores; horas 6–10: 1.2/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 11 réplicas M5+, 1 M6+.
 Tsunami: sin alerta. P(M6+ en 7 días): 90 % (modelo genérico, sin pronóstico oficial aún).
 Ahora: Nada de ascensor, escaleras. Evitar viajes largos por la Panamericana (Coclé/Azuero) por 24–48 h.
