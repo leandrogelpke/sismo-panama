@@ -43,6 +43,22 @@ TSUNAMI_FEEDS = {
     "NTWC": "https://www.tsunami.gov/events/xml/PAAQAtom.xml",
 }
 WINDOWS_H = (1, 5, 10, 18, 24)
+USGS_MAP = "https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true"
+TSUNAMI_HOME = "https://www.tsunami.gov/"
+
+
+def usgs_event_url(eid: str) -> str:
+    return f"https://earthquake.usgs.gov/earthquakes/eventpage/{eid}"
+
+
+def usgs_oaf_url(eid: str) -> str:
+    return f"https://earthquake.usgs.gov/earthquakes/eventpage/{eid}/oaf/forecast"
+
+
+def usgs_catalog_url(now: datetime, hours: int = 24, mmin: float = 3.5) -> str:
+    q = {"format": "csv", "starttime": iso(now - timedelta(hours=hours)), "endtime": iso(now), "minmagnitude": mmin,
+         "orderby": "time", **BBOX}
+    return USGS_QUERY + "?" + urllib.parse.urlencode(q)
 
 # Temas de servicios: etiqueta → (consulta Google News, horas hacia atrás). Son TITULARES de prensa, no estado oficial.
 SERVICE_TOPICS: list[tuple[str, str, int, tuple[str, ...]]] = [
@@ -300,7 +316,7 @@ def fetch_tsunami(now: datetime) -> dict:
             log(f"[tsunami] {name}: XML inválido: {exc}")
             continue
         result["ok"] = True
-        relevant: list[tuple[datetime, str, bool]] = []
+        relevant: list[tuple[datetime, str, bool, str]] = []
         for entry in root.findall("a:entry", ns):
             title = (entry.findtext("a:title", default="", namespaces=ns) or "").strip()
             updated = entry.findtext("a:updated", default="", namespaces=ns) or ""
@@ -319,9 +335,12 @@ def fetch_tsunami(now: datetime) -> dict:
             is_over = any(k in text for k in ("has now passed", "has passed", "no longer", "cancel", "no tsunami",
                                                "no threat", "ended", "final message", "is over", "not expected"))
             snippet = " ".join(summary.split())[:110]
-            relevant.append((when, f"{name} {dhm(when)}: {title[:60]}" + (f" — {snippet}" if snippet else ""), is_threat and not is_over))
+            link_el = entry.find("a:link", ns)
+            href = (link_el.get("href") if link_el is not None else "") or TSUNAMI_HOME
+            relevant.append((when, f"{name} {dhm(when)}: {title[:60]}" + (f" — {snippet}" if snippet else ""),
+                             is_threat and not is_over, href))
         relevant.sort(key=lambda r: r[0], reverse=True)
-        result["lines"].extend(r[1] for r in relevant)
+        result["lines"].extend((r[1], r[3]) for r in relevant)
         if relevant and relevant[0][2] and now - relevant[0][0] <= timedelta(hours=6):
             result["active"] = True
     return result
@@ -330,7 +349,7 @@ def fetch_tsunami(now: datetime) -> dict:
 # --------------------------------------------------------------------------- Prensa por tema
 
 def fetch_news_topic(now: datetime, key: str, query: str, hours: int, limit: int = 2,
-                     must: tuple[str, ...] = ()) -> list[str]:
+                     must: tuple[str, ...] = ()) -> list[tuple[str, str]]:
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
         {"q": f"{query} when:{hours}h", "hl": "es-419", "gl": "PA", "ceid": "PA:es-419"})
     raw = http_get(url, f"news_{key}.xml")
@@ -341,11 +360,12 @@ def fetch_news_topic(now: datetime, key: str, query: str, hours: int, limit: int
     except ET.ParseError as exc:
         log(f"[prensa] {key}: XML inválido: {exc}")
         return []
-    items: list[tuple[datetime, str]] = []
+    items: list[tuple[datetime, str, str]] = []
     seen: set[str] = set()
     for item in root.iter("item"):
         title = (item.findtext("title") or "").strip()
         source = (item.findtext("source") or "").strip()
+        link = (item.findtext("link") or "").strip()
         if source.lower() in ("facebook", "youtube", "x", "instagram", "tiktok", "threads"):
             continue
         try:
@@ -364,12 +384,12 @@ def fetch_news_topic(now: datetime, key: str, query: str, hours: int, limit: int
         seen.add(norm)
         if source and title.endswith(" - " + source):
             title = title[: -(len(source) + 3)]
-        items.append((when, f"{dhm(when)} {source}: {title}"[:170]))
+        items.append((when, f"{dhm(when)} {source}: {title}"[:170], link))
     items.sort(key=lambda x: x[0], reverse=True)
-    return [t for _, t in items[:limit]]
+    return [(t, u) for _, t, u in items[:limit]]
 
 
-def fetch_services(now: datetime) -> list[tuple[str, list[str]]]:
+def fetch_services(now: datetime) -> list[tuple[str, list[tuple[str, str]]]]:
     out = []
     for i, (label, query, hours, must) in enumerate(SERVICE_TOPICS):
         out.append((label, fetch_news_topic(now, f"svc{i}", query, hours, must=must)))
@@ -400,12 +420,12 @@ class Analysis:
     trend_note: str
     fc: Forecast
     tsunami: dict
-    services: list[tuple[str, list[str]]]
+    services: list[tuple[str, list[tuple[str, str]]]]
     quiet: bool
 
 
 def analyse(now: datetime, main: Quake, day: list[Quake], cum: list[Quake], fc: Forecast,
-            tsunami: dict, services: list[tuple[str, list[str]]]) -> Analysis:
+            tsunami: dict, services: list[tuple[str, list[tuple[str, str]]]]) -> Analysis:
     day = [q for q in day if q.id != main.id and q.time > main.time]
     after = [q for q in cum if q.id != main.id and q.time > main.time]
     hours_since = (now - main.time).total_seconds() / 3600
@@ -491,7 +511,7 @@ def windows_line(a: Analysis) -> str:
 
 def forecast_lines(a: Analysis) -> list[str]:
     f = a.fc
-    L = [f"PRONÓSTICO [{f.label}]:"]
+    L = [f"PRONÓSTICO [{f.label}] — fuente: " + (usgs_oaf_url(a.main.id) if f.official else "modelo Reasenberg-Jones (1989) con parámetros genéricos; no es un dato oficial") + ":"]
     if not f.official:
         L.append("  AVISO: el USGS todavía no publicó el pronóstico oficial de este evento; los números abajo salen de un "
                  "modelo genérico mundial y suelen ser más altos que la realidad. Úselos solo como orden de magnitud; "
@@ -517,7 +537,8 @@ def family_message(a: Analysis) -> str:
     if a.quiet:
         return (f"🔔 Sismo PA {t} (automático)\n"
                 f"Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: {a.trend.lower()}.\n"
-                f"Tsunami: sin alerta. Próxima actualización en 1 h.")
+                f"Tsunami: sin alerta. Próxima actualización en 1 h.\n"
+                f"Fuente: USGS {usgs_event_url(a.main.id)}")
     if a.biggest_last:
         b = a.biggest_last
         last_line = (f"Última hora: {a.win35[1]} temblores M3.5+ ({a.win45[1]} de M4.5+). "
@@ -539,9 +560,10 @@ def family_message(a: Analysis) -> str:
         f"Tsunami: {tsu}. P(M6+ en 7 días): {pct(p6)} ({tag}).",
         "Ahora: " + " ".join(top),
         "Próxima actualización en 1 h.",
+        f"Fuentes: USGS {usgs_event_url(a.main.id)} · tsunami.gov · prensa (enlaces en el PDF).",
     ]
     msg = "\n".join(lines)
-    return msg if len(msg) <= 1200 else msg[:1180] + "…"
+    return msg if len(msg) <= 1400 else msg[:1380] + "…"
 
 
 def email_report(a: Analysis) -> tuple[str, str]:
@@ -555,7 +577,7 @@ def email_report(a: Analysis) -> tuple[str, str]:
     L.append(f"Sismo principal: M{fmt_mag(a.main.mag)} el {dhm(a.main.time)}, {a.main.place_short}, "
              f"prof. {a.main.depth:.0f} km — hace {a.hours_since:.1f} h.")
     L.append("")
-    L.append("RÉPLICAS POR VENTANA (catálogo USGS, caja Panamá):")
+    L.append("RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: " + USGS_MAP + "):")
     L.append("  " + windows_line(a))
     if a.biggest_last:
         b = a.biggest_last
@@ -571,15 +593,17 @@ def email_report(a: Analysis) -> tuple[str, str]:
              "que un servicio esté normal):")
     if a.tsunami.get("ok"):
         L.append("  Tsunami (tsunami.gov): " + ("ALERTA ACTIVA" if a.tsunami["active"] else "sin alerta activa"))
-        for ln in a.tsunami["lines"][:2]:
+        for ln, url in a.tsunami["lines"][:2]:
             L.append("    - " + ln)
+            L.append("      " + url)
     else:
         L.append("  Tsunami: feed de tsunami.gov no disponible en esta ronda.")
     for label, lines in a.services:
         if lines:
             L.append(f"  {label}:")
-            for ln in lines:
+            for ln, url in lines:
                 L.append("    - " + ln)
+                L.append("      " + url)
         else:
             L.append(f"  {label}: sin titulares específicos en las últimas horas.")
     L.append("")
@@ -601,10 +625,12 @@ def email_report(a: Analysis) -> tuple[str, str]:
     L.append(family_message(a))
     L.append("")
     L.append("FUENTES:")
-    L.append("  https://earthquake.usgs.gov/earthquakes/eventpage/" + a.main.id)
-    L.append("  https://earthquake.usgs.gov/fdsnws/event/1/ (catálogo, caja Panamá)")
-    L.append("  https://www.tsunami.gov/")
-    L.append("  https://news.google.com/ (titulares por tema, es-419/PA)")
+    L.append("  Sismo principal (USGS): " + usgs_event_url(a.main.id))
+    L.append("  Pronóstico oficial de réplicas (USGS OAF): " + usgs_oaf_url(a.main.id))
+    L.append("  Mapa de réplicas (USGS): " + USGS_MAP)
+    L.append("  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): " + usgs_catalog_url(a.now))
+    L.append("  Boletines de tsunami (PTWC/NTWC): " + TSUNAMI_HOME)
+    L.append("  Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba")
     if a.quiet:
         L.append("")
         L.append("Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h "
@@ -689,14 +715,15 @@ def summary_bullets(a: Analysis) -> list[str]:
     b.append(f"Pronóstico ({'USGS oficial' if a.fc.official else 'modelo genérico, sin pronóstico oficial aún'}): "
              f"M5+ en 24 h {pct(p5)}; M6+ en 7 días {pct(p6)}.")
     b.append("Tsunami: " + ("ALERTA ACTIVA en el Pacífico." if a.tsunami.get("active") else "sin alerta activa."))
-    svc = [(label.split(" (")[0], lines[0]) for label, lines in a.services if lines]
+    svc = [(label.split(" (")[0], lines[0][0]) for label, lines in a.services if lines]
     for label, line in svc[:3]:
         txt = line.split(": ", 1)[1] if ": " in line else line
         b.append(f"{label}: {txt[:120]}")
     acts = actions_for(a, short=True)
     if acts:
         b.append("Acción principal: " + acts[0])
-    return b[:7]
+    b.append("Fuentes: USGS (catálogo y pronóstico), tsunami.gov, prensa vía Google News — enlaces en cada sección y en la 7.")
+    return b[:8]
 
 
 def _axes_box(pdf, x: float, y: float, w: float, h: float, title: str) -> None:
@@ -875,6 +902,14 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
         pdf.multi_cell(pdf.w - 28 - indent, 4.8, strip_emoji(text), new_x="LMARGIN", new_y="NEXT")
         pdf.set_text_color(*INK)
 
+    def linkline(label: str, url: str, size: float = 7.5, indent: float = 4) -> None:
+        """Línea azul con enlace clicable (y la URL visible, para quien imprime)."""
+        pdf.set_font("DV", "", size); pdf.set_text_color(*BLUE)
+        pdf.set_x(14 + indent)
+        shown = url if len(url) <= 95 else url[:92] + "…"
+        pdf.multi_cell(pdf.w - 28 - indent, 4, f"{label} {shown}", link=url, new_x="LMARGIN", new_y="NEXT")
+        pdf.set_text_color(*INK)
+
     # Encabezado
     pdf.set_font("DV", "B", 15)
     pdf.cell(0, 8, f"Sismo Panamá — informe de las {t:%H:%M} ({t:%d/%m/%Y})", new_x="LMARGIN", new_y="NEXT")
@@ -902,7 +937,9 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
     for h in WINDOWS_H:
         pdf.cell(w, 6, f"{a.win45[h]} / {a.win35[h]}", border=1, align="C")
     pdf.ln(6)
-    para("Cada celda: réplicas M4.5+ / M3.5+ en la ventana (catálogo USGS, caja Panamá, sin contar el principal).", size=7.5, color=INK2)
+    para("Cada celda: réplicas M4.5+ / M3.5+ en la ventana (sin contar el principal). Fuente: catálogo USGS ComCat, caja Panamá.", size=7.5, color=INK2)
+    linkline("Mapa interactivo USGS:", USGS_MAP, indent=0)
+    linkline("Datos crudos 24 h (CSV):", usgs_catalog_url(a.now), indent=0)
     if a.biggest_last:
         para(f"Mayor de la última hora: M{fmt_mag(a.biggest_last.mag)} a las {hhmm(a.biggest_last.time)}, "
              f"{a.biggest_last.place_short}, prof. {a.biggest_last.depth:.0f} km.", indent=2)
@@ -916,8 +953,13 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
     # 3. Tendencia y pronóstico
     section(3, "Tendencia y pronóstico", min_space=45)
     para(f"TENDENCIA: {a.trend} — {a.trend_note}.", bold_=True)
+    para("Calculada por este monitor a partir del catálogo USGS (tasa de M4.5+/h, última hora vs horas 2–5 y 6–10).", size=7.5, color=INK2)
     fl = forecast_lines(a)
-    para(fl[0], bold_=True)
+    para(fl[0].split(" — fuente:")[0] + ":", bold_=True)
+    if a.fc.official:
+        linkline("Pronóstico oficial USGS:", usgs_oaf_url(a.main.id), indent=0)
+    else:
+        linkline("Cuando el USGS lo publique aparecerá aquí:", usgs_oaf_url(a.main.id), indent=0)
     for ln in fl[1:]:
         if ln.strip().startswith("AVISO"):
             y = pdf.get_y(); pdf.set_fill_color(255, 244, 229)
@@ -932,13 +974,17 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
          size=7.5, color=INK2)
     para("Tsunami (tsunami.gov): " + ("ALERTA ACTIVA" if a.tsunami.get("active") else "sin alerta activa" if a.tsunami.get("ok") else "feed no disponible"),
          bold_=True, size=9)
-    for ln in a.tsunami.get("lines", [])[:2]:
+    for ln, url in a.tsunami.get("lines", [])[:2]:
         para("– " + ln, size=8.5, indent=4)
+        linkline("↗", url, indent=7)
+    if not a.tsunami.get("lines"):
+        linkline("Boletines:", TSUNAMI_HOME, indent=4)
     for label, lines in a.services:
         para(label, bold_=True, size=9)
         if lines:
-            for ln in lines:
+            for ln, url in lines:
                 para("– " + ln, size=8.5, indent=4)
+                linkline("↗", url, indent=7)
         else:
             para("– sin titulares específicos en las últimas horas", size=8.5, indent=4, color=INK2)
 
@@ -969,10 +1015,19 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
         para("Ninguna en las últimas 24 h.", indent=2)
 
     # 7. Fuentes
-    section(7, "Fuentes y avisos", min_space=25)
-    para("USGS: https://earthquake.usgs.gov/earthquakes/eventpage/" + a.main.id, size=8, indent=2)
-    para("USGS catálogo (caja Panamá): https://earthquake.usgs.gov/fdsnws/event/1/", size=8, indent=2)
-    para("Tsunami: https://www.tsunami.gov/ · Prensa: Google News (es-419, PA)", size=8, indent=2)
+    section(7, "Fuentes y avisos", min_space=40)
+    para("Datos sísmicos: USGS (Servicio Geológico de EE. UU.), catálogo ComCat y pronóstico operativo de réplicas (OAF).", size=8.5, indent=2)
+    linkline("Sismo principal:", usgs_event_url(a.main.id), size=8, indent=4)
+    linkline("Pronóstico de réplicas:", usgs_oaf_url(a.main.id), size=8, indent=4)
+    linkline("Mapa de réplicas:", USGS_MAP, size=8, indent=4)
+    linkline("Datos crudos (CSV):", usgs_catalog_url(a.now), size=8, indent=4)
+    para("Tsunami: Pacific Tsunami Warning Center / National Tsunami Warning Center (NOAA).", size=8.5, indent=2)
+    linkline("Boletines:", TSUNAMI_HOME, size=8, indent=4)
+    para("Servicios y situación oficial: titulares de prensa vía Google News (es-419, Panamá); cada titular lleva su enlace en la sección 4. "
+         "No se verifican; para confirmar un servicio consulte directamente a Sinaproc, IDAAN, ENSA/Naturgy, Tocumen, MOP, Metro de Panamá o MEDUCA.",
+         size=8.5, indent=2)
+    para("Tendencia y conteos por ventana: cálculo propio de este monitor sobre el catálogo USGS. Sin pronóstico oficial, el pronóstico usa el "
+         "modelo Reasenberg-Jones (1989) con parámetros genéricos, que suele sobreestimar.", size=8.5, indent=2)
     warnings = [x for x in LOG if x.startswith("[")]
     if warnings:
         para("Avisos de esta ronda: " + " | ".join(warnings[-6:]), size=8, indent=2, color=INK2)
