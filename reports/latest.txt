@@ -1,7 +1,7 @@
-Sismo PA 19:03: 3 réplicas M4,5+ na última hora, maior M5,4 às 18:12 — tendência reativada, tsunami sem alerta.
+Sismo PA 19:14: 3 réplicas M4,5+ na última hora, maior M5,4 às 18:12 — tendência reativada, tsunami sem alerta.
 
-SISMO PANAMÁ — relatório das 19:03 (09/10/2026), gerado pelo GitHub Actions
-Sismo principal: M7,7 em 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — há 6,1 h.
+SISMO PANAMÁ — relatório das 19:14 (09/10/2026), gerado pelo GitHub Actions
+Sismo principal: M7,7 em 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — há 6,3 h.
 
 ÚLTIMA HORA: 3 eventos M3,5+, 3 M4,5+. Maior: M5,4 às 18:12, 9 km SSE de Los Asientos, prof. 10 km.
 ACUMULADO desde o principal: 21 M4,5+ | 11 M5+ | 1 M6+. Maior réplica: M6,6 às 15:25, 14 km W de Río Grande.
@@ -13,12 +13,12 @@ OFICIAL:
     - PTWC 15:34: PANAMA — 
     - NTWC 15:37: in Panama — 
   Imprensa (Google News, últimas 12 h — manchetes, não verificadas):
+    - 19:10 www.panama24horas.com.pa: Gobierno activa monitoreo nacional tras sismo de magnitud 7.0 en Panamá
+    - 19:00 DW.com: Mulino dice que Panamá vive "un desastre grande" tras sismo
     - 18:53 Facebook: 🔴🔵#ElInformativoDeExitosa📺📺 | El presidente de Panamá, José Raúl Mulino, no descartó que haya heridos o fallecidos tras el sismo de 7.2 que sacudió su paí
     - 18:52 Infobae: Nasry Asfura expresa su solidaridad con Panamá tras el sismo y contacta a Mulino
     - 18:48 Infobae: Terremoto en Panamá deja al menos 15 estudiantes lesionados y daños en edificios públicos y viviendas
-    - 18:43 NTN24: "Reporte oficial confirma que al momento no hay víctimas fatales": Gobierno de Panamá entrega parte de tranquilidad tras el potente terremoto
     - 18:42 Facebook: #Video | Terremoto en Panamá interrumpe programa en vivo; así lo vivieron los presentadores en el set https://mile.io/4yJ5Lq4
-    - 18:31 Yahoo: Un fuerte terremoto de magnitud 7,7 sacude Panamá
 
 AÇÕES AGORA:
   1. [Provável] Sequência reativada nesta hora: adiar deslocamentos não essenciais e manter a rota de saída livre.
@@ -32,7 +32,7 @@ AÇÕES AGORA:
   18:10  M5,0  8 km ESE de La Tronosa  10 km
 
 MENSAGEM ENVIADA AO WHATSAPP:
-🔔 Sismo PA 19:03 (automático)
+🔔 Sismo PA 19:14 (automático)
 Última hora: 3 tremores M3,5+ (3 de M4,5+). Maior: M5,4 às 18:12, 9 km SSE de Los Asientos.
 Desde o principal (M7,7, 12:56): 11 réplicas M5+, 1 M6+. Tendência: reativada. Maior réplica até agora: M6,6 às 15:25.
 Tsunami: sem alerta. P(M6+ em 7 dias): 90% (estimativa genérica).
@@ -47,4 +47,4 @@ FONTES:
 
 Avisos desta rodada: [OAF] evento sem produto 'oaf' ainda
 
-ENVIO: e-mail: pulado (GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO ausentes) | whatsapp: pulado (CALLMEBOT_RECIPIENTS ausente) | telegram: nenhum chat ainda — mande /start ao bot (ou adicione o bot a um grupo) e aguarde a próxima rodada
+ENVIO: e-mail: pulado (GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO ausentes) | whatsapp: pulado (CALLMEBOT_RECIPIENTS ausente) | telegram: Leandro: ok
