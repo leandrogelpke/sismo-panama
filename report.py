@@ -47,6 +47,52 @@ USGS_MAP = "https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent
 TSUNAMI_HOME = "https://www.tsunami.gov/"
 
 
+
+# Teléfonos útiles (Panamá). ver = "oficial": tomado del sitio oficial de la entidad en la fecha indicada;
+# "directorio": tomado de directorios/prensa recientes, no confirmado en sitio oficial. Nadie llamó para probarlos.
+PHONES: list[tuple[str, str, str, str, str, str]] = [
+    # (categoría, servicio, teléfono(s), nota, verificación, fuente)
+    ("Emergencias", "Sistema Nacional de Emergencias (policía, bomberos, ambulancia, Sinaproc, Cruz Roja)", "911",
+     "gratuito desde cualquier teléfono, 24 h", "oficial", "https://www.sinaproc.gob.pa/"),
+    ("Emergencias", "Bomberos (línea histórica)", "103", "si no responde, marque 911", "directorio 2026",
+     "https://detallesdepanama.com/%F0%9F%9A%A8-numeros-de-emergencia-principales-en-panama/"),
+    ("Emergencias", "Policía Nacional (línea histórica)", "104", "si no responde, marque 911", "directorio 2026",
+     "https://detallesdepanama.com/%F0%9F%9A%A8-numeros-de-emergencia-principales-en-panama/"),
+    ("Emergencias", "Sinaproc — línea de emergencia 24 h", "520-4426 / 520-4427 / 520-4429", "WhatsApp 6998-4809; oficinas 504-4728 (8:00–16:00)",
+     "oficial 09/10/2026", "https://www.sinaproc.gob.pa/"),
+    ("Emergencias", "Cruz Roja Panameña", "315-1388", "también 315-1588 / 315-1589", "oficial 09/10/2026", "https://cruzroja.org.pa/"),
+    ("Emergencias", "Centro de Atención Ciudadana (311)", "311", "reportes de agua (IDAAN) y servicios públicos", "directorio",
+     "https://www.panamaamerica.com.pa/sociedad/sectores-de-panama-y-san-miguelito-llevan-4-dias-con-suministro-irregular-de-agua-situacion"),
+    ("Salud — públicos", "Hospital Santo Tomás", "507-5600", "central; bloque 507-58xx confirmado en boletín oficial ene/2026", "directorio",
+     "https://www.hospitalsantotomas.gob.pa/"),
+    ("Salud — públicos", "Complejo Hospitalario Dr. Arnulfo Arias Madrid (CSS)", "503-6000", "también 503-2532", "directorio (2 fuentes)",
+     "https://detallesdepanama.com/%F0%9F%9A%A8-numeros-de-emergencia-principales-en-panama/"),
+    ("Salud — públicos", "Hospital del Niño", "512-9800", "", "directorio 2026",
+     "https://detallesdepanama.com/%F0%9F%9A%A8-numeros-de-emergencia-principales-en-panama/"),
+    ("Salud — públicos", "MINSA — línea de apoyo psicológico", "147", "", "directorio 2026",
+     "https://detallesdepanama.com/%F0%9F%9A%A8-numeros-de-emergencia-principales-en-panama/"),
+    ("Salud — red ASSA (privados)", "Pacífica Salud / Hospital Punta Pacífica", "204-8000", "", "oficial ASSA jun/2026",
+     "https://www.assanet.com/servicio-al-cliente/red-de-hospitales-locales/"),
+    ("Salud — red ASSA (privados)", "Centro Médico Paitilla", "265-8800", "", "oficial ASSA jun/2026",
+     "https://www.assanet.com/servicio-al-cliente/red-de-hospitales-locales/"),
+    ("Salud — red ASSA (privados)", "Hospital Nacional", "207-8100", "", "oficial ASSA jun/2026",
+     "https://www.assanet.com/servicio-al-cliente/red-de-hospitales-locales/"),
+    ("Salud — red ASSA (privados)", "Clínica Hospital San Fernando", "305-6300", "", "oficial ASSA jun/2026",
+     "https://www.assanet.com/servicio-al-cliente/red-de-hospitales-locales/"),
+    ("Salud — red ASSA (privados)", "The Panama Clinic", "310-1111", "", "oficial ASSA jun/2026",
+     "https://www.assanet.com/servicio-al-cliente/red-de-hospitales-locales/"),
+    ("Servicios", "Aeropuerto Internacional de Tocumen", "238-2700", "", "oficial 09/10/2026", "https://www.tocumenaero.com/"),
+    ("Servicios", "IDAAN (agua) — reportes", "311", "Centro de Atención Ciudadana", "directorio", "https://www.idaan.gob.pa/"),
+    ("Servicios", "ENSA (electricidad: Panamá Este, Colón, Darién)", "323-7100 / 800-9111", "800 gratuita", "oficial 09/10/2026",
+     "https://www.ensa.com.pa/"),
+    ("Servicios", "Naturgy (electricidad: Panamá Oeste, centro, Chiriquí)", "800-8346 / 315-7222", "averías por formulario web", "oficial 09/10/2026",
+     "https://www.naturgy.com.pa/atencion-al-cliente"),
+    ("Servicios", "Metro de Panamá", "504-7200", "", "oficial 09/10/2026", "https://www.elmetrodepanama.com/"),
+    ("Consular", "Embajada de Brasil en Panamá", "263-5322", "Calle Elvira Méndez 24, Ed. El Dorado; horario de oficina", "directorio",
+     "https://www.cidade-brasil.com.br/embaixada-do-brasil-no-panama-panama-city.html"),
+]
+
+
 def usgs_event_url(eid: str) -> str:
     return f"https://earthquake.usgs.gov/earthquakes/eventpage/{eid}"
 
@@ -560,6 +606,7 @@ def family_message(a: Analysis) -> str:
         f"Tsunami: {tsu}. P(M6+ en 7 días): {pct(p6)} ({tag}).",
         "Ahora: " + " ".join(top),
         "Próxima actualización en 1 h.",
+        "Emergencias: 911 · Sinaproc 520-4426/27/29 (WhatsApp 6998-4809) · lista completa en el PDF.",
         f"Fuentes: USGS {usgs_event_url(a.main.id)} · tsunami.gov · prensa (enlaces en el PDF).",
     ]
     msg = "\n".join(lines)
@@ -623,6 +670,14 @@ def email_report(a: Analysis) -> tuple[str, str]:
     L.append("")
     L.append("MENSAJE CORTO (Telegram/WhatsApp):")
     L.append(family_message(a))
+    L.append("")
+    L.append("TELÉFONOS ÚTILES (Panamá; 'oficial' = tomado del sitio de la entidad, 'directorio' = no confirmado en sitio oficial):")
+    cat = ""
+    for c, name, tel, note, ver, url in PHONES:
+        if c != cat:
+            L.append(f"  {c}:")
+            cat = c
+        L.append(f"    {name}: {tel}" + (f" — {note}" if note else "") + f" [{ver}]")
     L.append("")
     L.append("FUENTES:")
     L.append("  Sismo principal (USGS): " + usgs_event_url(a.main.id))
@@ -907,7 +962,7 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
         pdf.set_font("DV", "", size); pdf.set_text_color(*BLUE)
         pdf.set_x(14 + indent)
         shown = url if len(url) <= 95 else url[:92] + "…"
-        pdf.multi_cell(pdf.w - 28 - indent, 4, f"{label} {shown}", link=url, new_x="LMARGIN", new_y="NEXT")
+        pdf.multi_cell(pdf.w - 28 - indent, 4, f"{label} {shown}", link=url, align="L", new_x="LMARGIN", new_y="NEXT")
         pdf.set_text_color(*INK)
 
     # Encabezado
@@ -1023,8 +1078,47 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
     else:
         para("Ninguna en las últimas 24 h.", indent=2)
 
-    # 7. Fuentes
-    section(7, "Fuentes y avisos", min_space=40)
+    # 7. Teléfonos útiles
+    section(7, "Teléfonos útiles — Panamá", min_space=60)
+    para("Marque 911 para cualquier emergencia. 'oficial' = número tomado del sitio web de la entidad en la fecha indicada; "
+         "'directorio' = tomado de directorios o prensa recientes, sin confirmar en sitio oficial. Ningún número fue probado por llamada.",
+         size=7.5, color=INK2)
+    cols = (60, 40, pdf.w - 28 - 60 - 40 - 32, 32)
+    fonts = (("", 8), ("B", 8.5), ("", 7.5), ("", 7.5))
+    lh = 4.3
+    cat = ""
+
+    def n_lines(text: str, width: float, style: str, size: float) -> int:
+        pdf.set_font("DV", style, size)
+        try:
+            return max(1, len(pdf.multi_cell(width, lh, text, dry_run=True, output="LINES")))
+        except Exception:  # noqa: BLE001
+            return max(1, math.ceil(pdf.get_string_width(text) / max(width - 2, 1)) + 1)
+
+    for c, name, tel, note, ver, url in PHONES:
+        cells = (name, tel, note or "—", ver)
+        row_h = lh * max(n_lines(t, w_, st, sz) for t, w_, (st, sz) in zip(cells, cols, fonts))
+        if pdf.get_y() + row_h + 8 > pdf.h - 18:
+            pdf.add_page()
+        if c != cat:
+            cat = c
+            pdf.set_font("DV", "B", 8.5); pdf.set_fill_color(246, 246, 244); pdf.set_text_color(*INK)
+            pdf.cell(sum(cols), 5.5, c, border="B", fill=True, new_x="LMARGIN", new_y="NEXT")
+        y = pdf.get_y(); x = 14
+        for i, (text, w_, (st, sz)) in enumerate(zip(cells, cols, fonts)):
+            pdf.set_font("DV", st, sz)
+            pdf.set_text_color(*(BLUE if i == 3 else INK2 if i == 2 else INK))
+            pdf.set_xy(x, y)
+            pdf.multi_cell(w_, lh, text, link=(url if i == 3 else ""), new_x="RIGHT", new_y="TOP", max_line_height=lh)
+            x += w_
+        pdf.set_text_color(*INK)
+        pdf.set_draw_color(*GRID); pdf.set_line_width(0.1)
+        pdf.line(14, y + row_h + 0.8, 14 + sum(cols), y + row_h + 0.8)
+        pdf.set_y(y + row_h + 1.2)
+    pdf.ln(1)
+
+    # 8. Fuentes
+    section(8, "Fuentes y avisos", min_space=40)
     para("Datos sísmicos: USGS (Servicio Geológico de EE. UU.), catálogo ComCat y pronóstico operativo de réplicas (OAF).", size=8.5, indent=2)
     linkline("Sismo principal:", usgs_event_url(a.main.id), size=8, indent=4)
     linkline("Pronóstico de réplicas:", usgs_oaf_url(a.main.id), size=8, indent=4)
