@@ -59,7 +59,7 @@ jobs:
           echo "bucle terminado"
 
       - name: Relanzarse para la siguiente ventana
-        if: always() && env.SKIP != '1'
+        if: ${{ !cancelled() && env.SKIP != '1' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
