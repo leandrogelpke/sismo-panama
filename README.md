@@ -1,4 +1,4 @@
-# sismo-panama — relatório sísmico automático de hora em hora
+# sismo-panama — informe sísmico automático de hora em hora (texto em espanhol)
 
 Roda no **GitHub Actions**, sem servidor e sem depender do seu computador. A cada hora:
 
