@@ -25,6 +25,9 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Instalar fpdf2 (PDF del informe)
+        run: pip install -q fpdf2
+
       - name: Evitar dos vigías a la vez
         env:
           GH_TOKEN: ${{ github.token }}
@@ -39,6 +42,11 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
           CALLMEBOT_RECIPIENTS: ${{ secrets.CALLMEBOT_RECIPIENTS }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAINSHOCK_ID: ${{ vars.MAINSHOCK_ID }}
+          SEND_EVERY_HOURS: ${{ vars.SEND_EVERY_HOURS || '3' }}
           ALERT_MIN_MAG: ${{ vars.ALERT_MIN_MAG || '5.5' }}
           NEAR_MIN_MAG: ${{ vars.NEAR_MIN_MAG || '4.8' }}
           NEAR_KM: ${{ vars.NEAR_KM || '120' }}
@@ -46,8 +54,9 @@ jobs:
           for i in $(seq 1 34); do
             echo "=== pasada $i $(date -u '+%H:%M') UTC ==="
             python3 watch.py || true
-            [ "$i" -lt 34 ] && sleep 600
+            if [ "$i" -lt 34 ]; then sleep 600; fi
           done
+          echo "bucle terminado"
 
       - name: Relanzarse para la siguiente ventana
         if: always() && env.SKIP != '1'

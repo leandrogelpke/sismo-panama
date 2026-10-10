@@ -50,13 +50,13 @@ def save_state(d: dict) -> None:
         json.dump(d, fh, ensure_ascii=False, indent=1)
 
 
-def git_commit_state(msg: str) -> None:
+def git_commit_state(msg: str, paths: list[str] | None = None) -> None:
     if R.DRY_RUN or not os.environ.get("GITHUB_ACTIONS"):
         return
     cmds = [
         ["git", "config", "user.name", "sismo-bot"],
         ["git", "config", "user.email", "actions@users.noreply.github.com"],
-        ["git", "add", STATE],
+        ["git", "add", *(paths or [STATE])],
         ["git", "commit", "-m", msg],
         ["git", "pull", "--rebase", "origin", "main"],
         ["git", "push"],
@@ -98,6 +98,24 @@ def main() -> int:
             if url not in state["tsunami"]:
                 alerts.append(f"TSUNAMI — boletín activo: {line}. Alejarse de la costa. Fuente: {url}")
                 tsu_new.append(url)
+
+    # Informe regular: si pasaron ≥ SEND_EVERY_HOURS desde el último envío, lo genera aquí mismo
+    # (no depende del cron de GitHub, que se salta horas).
+    if os.environ.get("WATCH_RUNS_REPORT", "1") == "1":
+        sent_path = os.path.join(os.environ.get("REPORTS_DIR", "reports"), "last_sent.json")
+        try:
+            with open(sent_path, encoding="utf-8") as fh:
+                last_at = datetime.fromisoformat(json.load(fh)["at"])
+            elapsed_h = (now - last_at).total_seconds() / 3600
+        except Exception:  # noqa: BLE001
+            elapsed_h = 1e9
+        if elapsed_h >= R.SEND_EVERY_HOURS - 10 / 60:
+            print(f"informe regular vencido ({elapsed_h:.1f} h) — generando")
+            r = subprocess.run([sys.executable, "report.py"], capture_output=True, text=True)
+            tail = "\n".join(r.stdout.splitlines()[-6:])
+            print(tail)
+            git_commit_state(f"informe {R.local(now):%d/%m %H:%M} (Panamá) desde el vigía",
+                             paths=[os.environ.get("REPORTS_DIR", "reports")])
 
     if not alerts:
         print("sin alerta crítica")

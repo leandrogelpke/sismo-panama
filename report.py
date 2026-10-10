@@ -626,7 +626,7 @@ def family_message(a: Analysis) -> str:
         f"Desde el principal (M{fmt_mag(a.main.mag)}, {hhmm(a.main.time)}): {a.cum5} réplicas M5+, {a.cum6} M6+.",
         f"Tsunami: {tsu}. P(M6+ en 7 días): {pct(p6)} ({tag}).",
         "Ahora: " + " ".join(top),
-        f"Próximo informe regular en ≤{SEND_EVERY_HOURS} h; alerta inmediata si hay réplica M{ALERT_MIN_MAG:.1f}+ o tsunami.",
+        f"Próximo informe regular en ~{SEND_EVERY_HOURS} h; vigía cada 10 min con alerta inmediata si hay réplica M{ALERT_MIN_MAG:.1f}+, sismo cercano o tsunami.",
         "Emergencias: 911 · Sinaproc 520-4426/27/29 (WhatsApp 6998-4809) · lista completa en el PDF.",
         f"Fuentes: USGS {usgs_event_url(a.main.id)} · tsunami.gov · prensa (enlaces en el PDF).",
     ]
@@ -1298,33 +1298,35 @@ def main() -> int:
     has_pdf = make_pdf(a, body, pdf_path)
     caption = f"Informe completo {local(now):%d/%m %H:%M} — réplicas, tendencia, pronóstico, servicios, acciones y teléfonos."
     every = 6 if a.quiet else SEND_EVERY_HOURS
-    regular_slot = local(now).hour % every == 0
     force = os.environ.get("FORCE_SEND", "0") == "1"
-    # Anti-duplicado: el workflow corre dos veces por hora (por si GitHub salta un cron); se envía una sola vez por hora.
+    # El cron de GitHub es poco fiable: en vez de "hora exacta", se envía cuando pasaron ≥ N horas desde el último
+    # informe regular (con 10 min de tolerancia). Así, la primera corrida que ocurra después del plazo envía.
     sent_path = os.path.join(out_dir, "last_sent.json")
-    hour_key = f"{local(now):%Y-%m-%dT%H}"
+    last_at = None
     try:
         with open(sent_path, encoding="utf-8") as fh:
-            last_sent = json.load(fh).get("hour_key")
-    except (OSError, json.JSONDecodeError):
-        last_sent = None
-    already = (last_sent == hour_key) and not force
-    if (regular_slot or a.alert or force) and not already:
-        why = "alerta: " + a.alert_reason if a.alert and not regular_slot else ("informe regular" if regular_slot else "envío forzado")
+            last_at = datetime.fromisoformat(json.load(fh).get("at"))
+    except (OSError, json.JSONDecodeError, TypeError, ValueError):
+        last_at = None
+    elapsed_h = (now - last_at).total_seconds() / 3600 if last_at else 1e9
+    regular_due = elapsed_h >= every - 10 / 60
+    recently = elapsed_h < 50 / 60  # anti-duplicado: nada dos veces en menos de 50 min
+    if force or (regular_due and not recently) or (a.alert and not recently):
+        why = ("envío forzado" if force else "informe regular" if regular_due else "alerta: " + a.alert_reason)
         status = [send_email(subject, body), send_callmebot(short),
                   send_telegram(short, pdf_path if has_pdf else None, caption)]
         status.append("motivo: " + why)
         if not DRY_RUN:
             try:
                 with open(sent_path, "w", encoding="utf-8") as fh:
-                    json.dump({"hour_key": hour_key, "at": now.isoformat(), "why": why}, fh)
+                    json.dump({"at": now.isoformat(), "why": why, "local": f"{local(now):%d/%m %H:%M}"}, fh)
             except OSError:
                 pass
-    elif already:
-        status = [f"no enviado — ya se envió en esta hora ({hour_key})"]
+    elif recently:
+        status = [f"no enviado — ya se envió hace {elapsed_h * 60:.0f} min"]
     else:
-        nxt = (local(now).hour // every + 1) * every % 24
-        status = [f"no enviado — fuera de horario (informe regular a las {nxt:02d}:00; alerta solo con M{ALERT_MIN_MAG:.1f}+, tsunami o reactivación)"]
+        status = [f"no enviado — próximo informe regular en {max(every - elapsed_h, 0):.1f} h; alerta solo con "
+                  f"M{ALERT_MIN_MAG:.1f}+, tsunami o reactivación"]
     if has_pdf:
         try:
             os.remove(pdf_path)  # no se versiona el PDF (solo se envía)
