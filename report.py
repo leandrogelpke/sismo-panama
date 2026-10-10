@@ -1294,11 +1294,28 @@ def main() -> int:
     every = 6 if a.quiet else SEND_EVERY_HOURS
     regular_slot = local(now).hour % every == 0
     force = os.environ.get("FORCE_SEND", "0") == "1"
-    if regular_slot or a.alert or force:
+    # Anti-duplicado: el workflow corre dos veces por hora (por si GitHub salta un cron); se envía una sola vez por hora.
+    sent_path = os.path.join(out_dir, "last_sent.json")
+    hour_key = f"{local(now):%Y-%m-%dT%H}"
+    try:
+        with open(sent_path, encoding="utf-8") as fh:
+            last_sent = json.load(fh).get("hour_key")
+    except (OSError, json.JSONDecodeError):
+        last_sent = None
+    already = (last_sent == hour_key) and not force
+    if (regular_slot or a.alert or force) and not already:
         why = "alerta: " + a.alert_reason if a.alert and not regular_slot else ("informe regular" if regular_slot else "envío forzado")
         status = [send_email(subject, body), send_callmebot(short),
                   send_telegram(short, pdf_path if has_pdf else None, caption)]
         status.append("motivo: " + why)
+        if not DRY_RUN:
+            try:
+                with open(sent_path, "w", encoding="utf-8") as fh:
+                    json.dump({"hour_key": hour_key, "at": now.isoformat(), "why": why}, fh)
+            except OSError:
+                pass
+    elif already:
+        status = [f"no enviado — ya se envió en esta hora ({hour_key})"]
     else:
         nxt = (local(now).hour // every + 1) * every % 24
         status = [f"no enviado — fuera de horario (informe regular a las {nxt:02d}:00; alerta solo con M{ALERT_MIN_MAG:.1f}+, tsunami o reactivación)"]

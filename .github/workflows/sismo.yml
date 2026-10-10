@@ -2,8 +2,10 @@ name: Relatório sísmico Panamá
 
 on:
   schedule:
-    # A cada hora, minuto 5 (UTC). O GitHub costuma atrasar jobs agendados em alguns minutos.
-    - cron: "5 * * * *"
+    # Duas vezes por hora em minutos "impopulares" (o GitHub atrasa ou pula crons no início da hora).
+    # O script só envia uma vez por hora (reports/last_sent.json) e só nos horários regulares ou em alerta.
+    - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
