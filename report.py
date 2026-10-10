@@ -14,7 +14,7 @@ Variables de entorno (todas opcionales — lo que falte se omite):
   MAINSHOCK_ID                                  fuerza el id USGS del sismo principal
   DRY_RUN=1                                     solo imprime
   FIXTURES_DIR, FAKE_NOW                        pruebas sin red
-  QUIET_AFTER_HOURS (72)                        modo "hora tranquila" tras N h sin M4,5+ en 6 h
+  QUIET_AFTER_HOURS (72)                        modo "hora tranquila" tras N h sin M4.5+ en 6 h
 """
 from __future__ import annotations
 
@@ -46,17 +46,17 @@ WINDOWS_H = (1, 5, 10, 18, 24)
 
 # Temas de servicios: etiqueta → (consulta Google News, horas hacia atrás). Son TITULARES de prensa, no estado oficial.
 SERVICE_TOPICS: list[tuple[str, str, int]] = [
-    ("Hospitales privados (red ASSA: Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando)",
-     '("Punta Pacífica" OR "Pacífica Salud" OR Paitilla OR "Hospital Nacional" OR "San Fernando") Panamá', 24),
-    ("Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño)",
-     '("Santo Tomás" OR "Arnulfo Arias" OR "Hospital del Niño" OR "Caja de Seguro Social" OR MINSA) sismo', 24),
-    ("Agua (IDAAN)", "IDAAN agua Panamá", 24),
-    ("Electricidad (ENSA, Naturgy, ETESA)", "(ENSA OR Naturgy OR ETESA) Panamá luz", 24),
-    ("Aeropuerto de Tocumen", "Tocumen aeropuerto", 24),
+    ("Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA)",
+     '("Punta Pacífica" OR "Pacífica Salud" OR Paitilla OR "Hospital Nacional" OR "San Fernando") (sismo OR terremoto)', 24),
+    ("Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA)",
+     '("Santo Tomás" OR "Arnulfo Arias" OR "Hospital del Niño" OR "Seguro Social" OR MINSA OR hospitales) (sismo OR terremoto) Panamá', 24),
+    ("Agua (IDAAN)", "IDAAN", 24),
+    ("Electricidad (ENSA, Naturgy, ETESA)", '(ENSA OR Naturgy OR ETESA OR "sin luz" OR electricidad) Panamá (sismo OR terremoto)', 24),
+    ("Aeropuerto de Tocumen", "Tocumen (aeropuerto OR vuelos)", 24),
     ("Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario)",
-     '(MOP OR Panamericana OR "Puente de las Américas" OR Centenario OR "Puente Centenario") sismo Panamá', 24),
-    ("Metro y transporte", '("Metro de Panamá" OR MiBus) sismo', 24),
-    ("Escuelas (MEDUCA)", "MEDUCA clases sismo", 24),
+     '(MOP OR "Puente de las Américas" OR "Puente Centenario" OR Panamericana OR carretera OR puente) (sismo OR terremoto) Panamá', 24),
+    ("Metro y transporte", '("Metro de Panamá" OR MiBus) (sismo OR terremoto)', 24),
+    ("Escuelas (MEDUCA)", "MEDUCA (clases OR escuelas)", 24),
     ("Sinaproc / autoridades", "Sinaproc", 12),
     ("Daños y víctimas", "sismo Panamá heridos daños", 12),
 ]
@@ -114,7 +114,7 @@ def dhm(dt: datetime) -> str:
 
 
 def fmt_mag(m: float) -> str:
-    return f"{m:.1f}".replace(".", ",")
+    return f"{m:.1f}"  # Panamá usa punto decimal (M7.7)
 
 
 def pct(p: float | None) -> str:
@@ -298,7 +298,8 @@ def fetch_tsunami(now: datetime) -> dict:
         for entry in root.findall("a:entry", ns):
             title = (entry.findtext("a:title", default="", namespaces=ns) or "").strip()
             updated = entry.findtext("a:updated", default="", namespaces=ns) or ""
-            summary = (entry.findtext("a:summary", default="", namespaces=ns) or "")
+            summary = (entry.findtext("a:summary", default="", namespaces=ns)
+                       or entry.findtext("a:content", default="", namespaces=ns) or "")
             try:
                 when = datetime.fromisoformat(updated.replace("Z", "+00:00"))
             except ValueError:
@@ -312,7 +313,7 @@ def fetch_tsunami(now: datetime) -> dict:
             is_over = any(k in text for k in ("has now passed", "has passed", "no longer", "cancel", "no tsunami",
                                                "no threat", "ended", "final message", "is over", "not expected"))
             snippet = " ".join(summary.split())[:110]
-            relevant.append((when, f"{name} {dhm(when)}: {title[:60]} — {snippet}", is_threat and not is_over))
+            relevant.append((when, f"{name} {dhm(when)}: {title[:60]}" + (f" — {snippet}" if snippet else ""), is_threat and not is_over))
         relevant.sort(key=lambda r: r[0], reverse=True)
         result["lines"].extend(r[1] for r in relevant)
         if relevant and relevant[0][2] and now - relevant[0][0] <= timedelta(hours=6):
@@ -338,6 +339,8 @@ def fetch_news_topic(now: datetime, key: str, query: str, hours: int, limit: int
     for item in root.iter("item"):
         title = (item.findtext("title") or "").strip()
         source = (item.findtext("source") or "").strip()
+        if source.lower() in ("facebook", "youtube", "x", "instagram", "tiktok", "threads"):
+            continue
         try:
             when = parsedate_to_datetime(item.findtext("pubDate") or "")
             if when.tzinfo is None:
@@ -371,9 +374,9 @@ class Analysis:
     now: datetime
     main: Quake
     hours_since: float
-    day: list[Quake]                     # últimas 24 h, M≥3,0 (sin el principal)
-    cum: list[Quake]                     # desde el principal, M≥4,5 (sin el principal)
-    win45: dict[int, int]                # ventana h → nº M≥4,5
+    day: list[Quake]                     # últimas 24 h, M≥3.0 (sin el principal)
+    cum: list[Quake]                     # desde el principal, M≥4.5 (sin el principal)
+    win45: dict[int, int]                # ventana h → nº M≥4.5
     win35: dict[int, int]
     rate_last1: float
     rate_h2to5: float
@@ -414,17 +417,17 @@ def analyse(now: datetime, main: Quake, day: list[Quake], cum: list[Quake], fc: 
     biggest_after = max(after, key=lambda q: q.mag) if after else None
     m6_recent = any(q.mag >= 6.0 and now - q.time <= timedelta(hours=3) for q in after + day)
 
-    # Tendencia: tasa de M≥4,5 por hora, última hora vs promedio de las horas 2–5 (y 6–10 como contexto).
+    # Tendencia: tasa de M≥4.5 por hora, última hora vs promedio de las horas 2–5 (y 6–10 como contexto).
     if m6_recent:
         trend, note = "REACTIVADA", "hubo una réplica M6+ en las últimas 3 h"
     elif rate_last1 > max(rate_h2to5, 0.5) * 1.5 and rate_last1 >= 2:
-        trend, note = "REACTIVADA", f"{win45[1]} M4,5+ en la última hora vs {rate_h2to5:.1f}/h en las 4 anteriores"
+        trend, note = "REACTIVADA", f"{win45[1]} M4.5+ en la última hora vs {rate_h2to5:.1f}/h en las 4 anteriores"
     elif rate_last1 <= rate_h2to5 * 0.75 or (rate_last1 == 0 and rate_h2to5 > 0):
-        trend, note = "EN DESCENSO", f"{win45[1]} M4,5+ en la última hora vs {rate_h2to5:.1f}/h en las 4 anteriores"
+        trend, note = "EN DESCENSO", f"{win45[1]} M4.5+ en la última hora vs {rate_h2to5:.1f}/h en las 4 anteriores"
     elif rate_last1 == 0 and rate_h2to5 == 0:
-        trend, note = "TRANQUILA", "sin M4,5+ en las últimas 5 h"
+        trend, note = "TRANQUILA", "sin M4.5+ en las últimas 5 h"
     else:
-        trend, note = "ESTABLE", f"{win45[1]} M4,5+ en la última hora vs {rate_h2to5:.1f}/h en las 4 anteriores"
+        trend, note = "ESTABLE", f"{win45[1]} M4.5+ en la última hora vs {rate_h2to5:.1f}/h en las 4 anteriores"
     if rate_h6to10 > 0 and trend != "REACTIVADA":
         note += f"; horas 6–10: {rate_h6to10:.1f}/h"
     recent6h_45 = win45[5] > 0 or in_win(6, 5, 4.5) > 0
@@ -474,7 +477,7 @@ def actions_for(a: Analysis, short: bool = False) -> list[str]:
 # --------------------------------------------------------------------------- Textos
 
 def windows_line(a: Analysis) -> str:
-    return " | ".join(f"{h} h: {a.win45[h]} M4,5+ ({a.win35[h]} M3,5+)" for h in WINDOWS_H)
+    return " | ".join(f"{h} h: {a.win45[h]} M4.5+ ({a.win35[h]} M3.5+)" for h in WINDOWS_H)
 
 
 def forecast_lines(a: Analysis) -> list[str]:
@@ -508,10 +511,10 @@ def family_message(a: Analysis) -> str:
                 f"Tsunami: sin alerta. Próxima actualización en 1 h.")
     if a.biggest_last:
         b = a.biggest_last
-        last_line = (f"Última hora: {a.win35[1]} temblores M3,5+ ({a.win45[1]} de M4,5+). "
+        last_line = (f"Última hora: {a.win35[1]} temblores M3.5+ ({a.win45[1]} de M4.5+). "
                      f"Mayor: M{fmt_mag(b.mag)} a las {hhmm(b.time)}, {b.place_short}.")
     else:
-        last_line = "Última hora: ningún temblor M3,5+ registrado."
+        last_line = "Última hora: ningún temblor M3.5+ registrado."
     wins = " · ".join(f"{h} h: {a.win45[h]}" for h in WINDOWS_H)
     big = (f" Mayor réplica hasta ahora: M{fmt_mag(a.biggest_after.mag)} a las {hhmm(a.biggest_after.time)}."
            if a.biggest_after else "")
@@ -522,7 +525,7 @@ def family_message(a: Analysis) -> str:
     lines = [
         f"🔔 Sismo PA {t} (automático)",
         last_line,
-        f"Réplicas M4,5+ por ventana — {wins}. Tendencia: {a.trend.lower()} ({a.trend_note}).{big}",
+        f"Réplicas M4.5+ por ventana — {wins}. Tendencia: {a.trend.lower()} ({a.trend_note}).{big}",
         f"Desde el principal (M{fmt_mag(a.main.mag)}, {hhmm(a.main.time)}): {a.cum5} réplicas M5+, {a.cum6} M6+.",
         f"Tsunami: {tsu}. P(M6+ en 7 días): {pct(p6)} ({tag}).",
         "Ahora: " + " ".join(top),
@@ -535,20 +538,20 @@ def family_message(a: Analysis) -> str:
 def email_report(a: Analysis) -> tuple[str, str]:
     t = local(a.now)
     tsu_s = "ALERTA ACTIVA" if a.tsunami.get("active") else "sin alerta"
-    head = (f"Sismo PA {t:%H:%M}: {a.win45[1]} réplicas M4,5+ en la última hora"
+    head = (f"Sismo PA {t:%H:%M}: {a.win45[1]} réplicas M4.5+ en la última hora"
             + (f", mayor M{fmt_mag(a.biggest_last.mag)} a las {hhmm(a.biggest_last.time)}" if a.biggest_last else "")
             + f" — tendencia {a.trend.lower()}, tsunami {tsu_s}.")
-    subject = f"[Sismo PA] {t:%d/%m %H:%M} — {a.win45[1]} M4,5+ en 1 h, tendencia {a.trend.lower()}"
+    subject = f"[Sismo PA] {t:%d/%m %H:%M} — {a.win45[1]} M4.5+ en 1 h, tendencia {a.trend.lower()}"
     L: list[str] = [head, "", f"SISMO PANAMÁ — informe de las {t:%H:%M} ({t:%d/%m/%Y}), generado por GitHub Actions"]
     L.append(f"Sismo principal: M{fmt_mag(a.main.mag)} el {dhm(a.main.time)}, {a.main.place_short}, "
-             f"prof. {a.main.depth:.0f} km — hace {str(round(a.hours_since, 1)).replace('.', ',')} h.")
+             f"prof. {a.main.depth:.0f} km — hace {a.hours_since:.1f} h.")
     L.append("")
     L.append("RÉPLICAS POR VENTANA (catálogo USGS, caja Panamá):")
     L.append("  " + windows_line(a))
     if a.biggest_last:
         b = a.biggest_last
         L.append(f"  Mayor de la última hora: M{fmt_mag(b.mag)} a las {hhmm(b.time)}, {b.place_short}, prof. {b.depth:.0f} km.")
-    L.append(f"  Acumulado desde el principal: {a.cum45} M4,5+ | {a.cum5} M5+ | {a.cum6} M6+."
+    L.append(f"  Acumulado desde el principal: {a.cum45} M4.5+ | {a.cum5} M5+ | {a.cum6} M6+."
              + (f" Mayor réplica: M{fmt_mag(a.biggest_after.mag)} a las {dhm(a.biggest_after.time)}, "
                 f"{a.biggest_after.place_short}." if a.biggest_after else ""))
     L.append(f"TENDENCIA: {a.trend} — {a.trend_note}.")
@@ -575,7 +578,7 @@ def email_report(a: Analysis) -> tuple[str, str]:
     for i, act in enumerate(actions_for(a), 1):
         L.append(f"  {i}. {act}")
     L.append("")
-    L.append("ÚLTIMAS 24 H — eventos M4,5+ (hora local, M, lugar, prof.):")
+    L.append("ÚLTIMAS 24 H — eventos M4.5+ (hora local, M, lugar, prof.):")
     big24 = [q for q in a.day if q.mag >= 4.5]
     if big24:
         for q in big24[:25]:
@@ -726,7 +729,7 @@ def main() -> int:
 
     main_q = find_mainshock(now)
     if not main_q:
-        log("Ningún sismo M6,5+ en la región en los últimos 30 días — nada que informar.")
+        log("Ningún sismo M6.5+ en la región en los últimos 30 días — nada que informar.")
         return 0
     log(f"Principal: {main_q.id} M{main_q.mag} {main_q.time:%Y-%m-%d %H:%M} UTC {main_q.place}")
 
@@ -772,7 +775,7 @@ def main() -> int:
         new_file = not os.path.exists(hist)
         with open(hist, "a", encoding="utf-8") as fh:
             if new_file:
-                fh.write("| fecha/hora (Panamá) | 1 h | 5 h | 10 h | 18 h | 24 h (M4,5+) | mayor 1 h | acum. M5+/M6+ | tendencia | tsunami | P(M6+ 7d) | envío |\n"
+                fh.write("| fecha/hora (Panamá) | 1 h | 5 h | 10 h | 18 h | 24 h (M4.5+) | mayor 1 h | acum. M5+/M6+ | tendencia | tsunami | P(M6+ 7d) | envío |\n"
                          "|---|---|---|---|---|---|---|---|---|---|---|---|\n")
             big = f"M{fmt_mag(a.biggest_last.mag)} {hhmm(a.biggest_last.time)}" if a.biggest_last else "—"
             env_short = "; ".join(s.split(":")[0] + (":ok" if ("enviado" in s or ": ok" in s or "HTTP 200" in s) else ":-")
