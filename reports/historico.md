@@ -28,3 +28,4 @@
 | 10/10 21:13 | 1 | 2 | 2 | 9 | 20 | M5.0 20:50 | 14/2 | estable | ok | 52 % | no enviado — ya se envió hace 25 min:ok |
 | 10/10 23:39 | 0 | 2 | 2 | 8 | 15 | — | 14/2 | en descenso | ok | 52 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
 | 11/10 00:55 | 0 | 1 | 2 | 8 | 15 | — | 14/2 | en descenso | ok | 52 % | no enviado — próximo informe regular en 1.7 h; alerta solo con M5.5+, tsunami o reactivación:ok |
+| 11/10 02:29 | 0 | 0 | 2 | 7 | 9 | — | 14/2 | en descenso | ok | 52 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
