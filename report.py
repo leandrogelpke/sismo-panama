@@ -188,7 +188,25 @@ def fmt_mag(m: float) -> str:
 
 
 def pct(p: float | None) -> str:
-    return "n/d" if p is None else f"{round(p * 100):d} %"
+    """Probabilidad acumulada. Nunca "100 %": ninguna réplica es segura, y "100 %" se lee como alarma."""
+    if p is None:
+        return "n/d"
+    if p >= 0.995:
+        return "casi segura (>99 %)"
+    return f"{round(p * 100):d} %"
+
+
+def pct_day(p: float | None) -> str:
+    """Probabilidad por día: un decimal por debajo de 10 % para que se vea la caída (2.6 % → 0.9 % → 0.3 %)."""
+    if p is None:
+        return "n/d"
+    if p >= 0.995:
+        return ">99 %"
+    if p < 0.0005:
+        return "<0.1 %"
+    if p < 0.0995:
+        return f"{p * 100:.1f} %"
+    return f"{round(p * 100):d} %"
 
 
 # --------------------------------------------------------------------------- USGS
@@ -292,9 +310,31 @@ def fetch_oaf(mainshock_id: str) -> dict | None:
 class Forecast:
     official: bool
     label: str
-    # probabilidad de ≥1 evento de M≥x en la ventana; n = número esperado (centro del intervalo 95 %)
+    # p = probabilidad ACUMULADA de ≥1 evento de M≥x en toda la ventana; n = número esperado (mediana del USGS;
+    # si el USGS no la da, centro del intervalo 95 %); rng = intervalo 95 %; days = duración real de la ventana
     p: dict[tuple[str, int], float | None] = field(default_factory=dict)
     n: dict[tuple[str, int], float | None] = field(default_factory=dict)
+    rng: dict[tuple[str, int], tuple[float, float]] = field(default_factory=dict)
+    days: dict[str, float] = field(default_factory=lambda: {"1d": 1.0, "7d": 7.0, "30d": 30.0})
+
+    def per_day(self, mag: int) -> list[tuple[str, float | None]]:
+        """Probabilidad POR DÍA de ≥1 evento M≥mag en tres tramos consecutivos (próximas 24 h, resto de la
+        semana, resto del mes), derivada de las acumuladas suponiendo tasa constante dentro de cada tramo:
+        q = 1 − ((1 − P_fin)/(1 − P_inicio))^(1/días del tramo). Es una conversión de este monitor, no un
+        número publicado por el USGS; sirve para ver que el riesgo diario BAJA aunque el acumulado suba."""
+        d1, d7, d30 = self.days.get("1d", 1.0), self.days.get("7d", 7.0), self.days.get("30d", 30.0)
+        p1, p7, p30 = self.p.get(("1d", mag)), self.p.get(("7d", mag)), self.p.get(("30d", mag))
+
+        def seg(pa: float | None, pb: float | None, ndays: float) -> float | None:
+            if pa is None or pb is None or ndays <= 0 or pa >= 1.0:
+                return None
+            ratio = min(max((1.0 - pb) / (1.0 - pa), 0.0), 1.0)
+            return 1.0 - ratio ** (1.0 / ndays)
+
+        first = None if p1 is None else (p1 if d1 <= 1.0 else 1.0 - (1.0 - min(p1, 1.0)) ** (1.0 / d1))
+        return [("próximas 24 h", first),
+                (f"días 2–{round(d7)}", seg(p1, p7, d7 - d1)),
+                (f"días {round(d7) + 1}–{round(d30)}", seg(p7, p30, d30 - d7))]
 
 
 def oaf_forecast(fc: dict | None) -> Forecast | None:
@@ -316,6 +356,12 @@ def oaf_forecast(fc: dict | None) -> Forecast | None:
         w = next((by_label[l] for l in labels if l in by_label), None)
         if not w:
             continue
+        try:
+            span = (float(w["timeEnd"]) - float(w["timeStart"])) / 86400000.0
+            if span > 0:
+                out.days[win] = span
+        except (KeyError, TypeError, ValueError):
+            pass
         for b in w.get("bins", []):
             try:
                 mag = int(round(float(b.get("magnitude"))))
@@ -325,7 +371,13 @@ def oaf_forecast(fc: dict | None) -> Forecast | None:
                 pr = b.get("probability")
                 lo, hi = b.get("p95minimum"), b.get("p95maximum")
                 out.p[(win, mag)] = None if pr is None else float(pr)
-                out.n[(win, mag)] = None if lo is None or hi is None else (float(lo) + float(hi)) / 2
+                med = b.get("median")
+                if med is not None:
+                    out.n[(win, mag)] = float(med)
+                else:
+                    out.n[(win, mag)] = None if lo is None or hi is None else (float(lo) + float(hi)) / 2
+                if lo is not None and hi is not None:
+                    out.rng[(win, mag)] = (float(lo), float(hi))
                 found = True
     return out if found else None
 
@@ -557,12 +609,13 @@ def actions_for(a: Analysis, short: bool = False) -> list[str]:
         acts.append(("[Probable] Evitar viajes largos por la Panamericana hacia Coclé/Azuero en las próximas 24–48 h: "
                      "puentes y viaductos siguen en inspección.",
                      "Evitar viajes largos por la Panamericana (Coclé/Azuero) por 24–48 h."))
-    p6 = a.fc.p.get(("7d", 6))
-    if p6 is not None:
-        tag = "pronóstico USGS" if a.fc.official else "modelo genérico"
-        acts.append((f"[Estimación] Réplica M6+ en los próximos 7 días: {pct(p6)} ({tag}) — se sentiría en edificios altos "
-                     "de la capital; es lo esperado, no señal de un nuevo terremoto.",
-                     f"Réplica M6+ esta semana: {pct(p6)} ({tag}) — esperado, no es un nuevo terremoto."))
+    d6 = a.fc.per_day(6)
+    if d6[0][1] is not None:
+        tag = "cálculo sobre el pronóstico USGS" if a.fc.official else "modelo genérico"
+        rest = f"; {d6[1][0]}: {pct_day(d6[1][1])} por día" if d6[1][1] is not None else ""
+        acts.append((f"[Estimación] Réplica M6+: {pct_day(d6[0][1])} en las próximas 24 h y baja cada día{rest} ({tag}) — "
+                     "se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.",
+                     f"Réplica M6+: {pct_day(d6[0][1])} hoy y bajando cada día ({tag}) — esperado, no es un nuevo terremoto."))
     if a.quiet or (a.win45[1] == 0 and a.hours_since > 24):
         acts.append(("[Probable] Hora tranquila: rutina normal con las precauciones básicas; nada nuevo que hacer.",
                      "Hora tranquila: rutina normal con precauciones básicas."))
@@ -575,6 +628,25 @@ def windows_line(a: Analysis) -> str:
     return " | ".join(f"{h} h: {a.win45[h]} de M4.5+ y {a.win35[h] - a.win45[h]} de M3.5–4.4" for h in WINDOWS_H)
 
 
+MAG_MEANING = {5: "leve o no se siente en la capital", 6: "se sentiría en la capital",
+               7: "poco probable; sería fuerte"}
+
+
+def daily_chain(f: Forecast, mag: int) -> str:
+    """'22 % → 7.8 % por día → 2.0 % por día' con la etiqueta de cada tramo."""
+    parts = []
+    for k, (name, q) in enumerate(f.per_day(mag)):
+        if q is None:
+            continue
+        parts.append(f"{name}: {pct_day(q)}" + ("" if k == 0 else " por día"))
+    return " → ".join(parts)
+
+
+def daily_falls(f: Forecast, mag: int = 6) -> bool:
+    q = [v for _, v in f.per_day(mag) if v is not None]
+    return len(q) >= 2 and all(q[k + 1] < q[k] for k in range(len(q) - 1))
+
+
 def forecast_lines(a: Analysis) -> list[str]:
     f = a.fc
     L = [f"PRONÓSTICO [{f.label}] — fuente: " + (usgs_oaf_url(a.main.id) if f.official else "modelo Reasenberg-Jones (1989) con parámetros genéricos; no es un dato oficial") + ":"]
@@ -582,16 +654,37 @@ def forecast_lines(a: Analysis) -> list[str]:
         L.append("  AVISO: el USGS todavía no publicó el pronóstico oficial de este evento; los números abajo salen de un "
                  "modelo genérico mundial y suelen ser más altos que la realidad. Úselos solo como orden de magnitud; "
                  "la TENDENCIA observada (arriba) pesa más que estos porcentajes.")
-    for win, name in (("1d", "próximas 24 h"), ("7d", "próximos 7 días"), ("30d", "próximos 30 días")):
-        parts = []
-        for mag in (5, 6, 7):
-            p = f.p.get((win, mag))
-            if p is None:
-                continue
+    src = "pronóstico oficial USGS" if f.official else "modelo genérico"
+    if daily_falls(f):
+        L.append(f"  La probabilidad de una réplica fuerte BAJA con los días. Probabilidad POR DÍA (cálculo de este monitor a partir del {src}):")
+    else:
+        L.append(f"  Probabilidad POR DÍA (cálculo de este monitor a partir del {src}); en este pronóstico NO baja en todos los tramos:")
+    for mag in (5, 6, 7):
+        chain = daily_chain(f, mag)
+        if chain:
+            L.append(f"  M{mag}+ ({MAG_MEANING[mag]}): {chain}")
+    exp_parts = []
+    for mag in (5, 6):
+        bits = []
+        for win, name in (("1d", "24 h"), ("7d", "7 días"), ("30d", "30 días")):
             n = f.n.get((win, mag))
-            parts.append(f"M{mag}+: {pct(p)}" + (f" (~{n:.0f} esperadas)" if n is not None and n >= 1 else ""))
-        if parts:
-            L.append(f"  {name}: " + " · ".join(parts))
+            if n is None:
+                continue
+            r = f.rng.get((win, mag))
+            bits.append(f"{name} {n:.0f}" + (f" (rango {r[0]:.0f}–{r[1]:.0f})" if r else ""))
+        if bits:
+            exp_parts.append(f"M{mag}+: " + ", ".join(bits))
+    if exp_parts:
+        L.append("  Cuántas se esperan en total (" + ("mediana y rango 95 % del USGS" if f.official else "modelo genérico")
+                 + "): " + " · ".join(exp_parts))
+    cum_parts = []
+    for mag in (6, 7):
+        p7, p30 = f.p.get(("7d", mag)), f.p.get(("30d", mag))
+        if p7 is not None and p30 is not None:
+            cum_parts.append(f"M{mag}+: 7 días {pct(p7)}, 30 días {pct(p30)}")
+    if cum_parts:
+        L.append("  Acumulado — probabilidad de AL MENOS UNA en todo el período (crece solo porque el plazo es más largo, "
+                 "no porque el riesgo suba): " + " · ".join(cum_parts))
     L.append("  Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica "
              f"típica para un M{fmt_mag(a.main.mag)} ronda M{fmt_mag(a.main.mag - 1.2)}, y queda una probabilidad pequeña "
              "pero no nula de un evento igual o mayor.")
@@ -615,8 +708,10 @@ def family_message(a: Analysis) -> str:
     big = (f" Mayor réplica hasta ahora: M{fmt_mag(a.biggest_after.mag)} a las {hhmm(a.biggest_after.time)}."
            if a.biggest_after else "")
     tsu = "ALERTA ACTIVA en el Pacífico — alejarse de la costa" if a.tsunami.get("active") else "sin alerta"
-    p6 = a.fc.p.get(("7d", 6))
-    tag = "USGS" if a.fc.official else "modelo genérico, sin pronóstico oficial aún"
+    tag = "cálculo sobre el pronóstico USGS" if a.fc.official else "modelo genérico, sin pronóstico oficial aún"
+    chain6 = daily_chain(a.fc, 6)
+    fc_line = (f"Réplica fuerte (M6+), probabilidad por día{' y bajando' if daily_falls(a.fc) else ''}: {chain6} ({tag})."
+               if chain6 else "Pronóstico de réplicas: no disponible en esta ronda.")
     top = actions_for(a, short=True)[:2]
     head = f"⚠️ ALERTA sismo PA {t} — {a.alert_reason}" if a.alert else f"🔔 Sismo PA {t} (automático)"
     lines = [
@@ -624,7 +719,8 @@ def family_message(a: Analysis) -> str:
         last_line,
         f"Réplicas M4.5+ en las últimas: {wins}. Tendencia: {a.trend.lower()} ({a.trend_note}).{big}",
         f"Desde el principal (M{fmt_mag(a.main.mag)}, {hhmm(a.main.time)}): {a.cum5} réplicas M5+, {a.cum6} M6+.",
-        f"Tsunami: {tsu}. P(M6+ en 7 días): {pct(p6)} ({tag}).",
+        f"Tsunami: {tsu}.",
+        fc_line,
         "Ahora: " + " ".join(top),
         f"Próximo informe regular en ~{SEND_EVERY_HOURS} h; vigía cada 10 min con alerta inmediata si hay réplica M{ALERT_MIN_MAG:.1f}+, sismo cercano o tsunami.",
         "Emergencias: 911 · Sinaproc 520-4426/27/29 (WhatsApp 6998-4809) · lista completa en el PDF.",
@@ -787,9 +883,10 @@ def summary_bullets(a: Analysis) -> list[str]:
         b.append("Última hora: sin réplicas M3.5+ en el catálogo USGS.")
     b.append(f"Tendencia {a.trend.lower()}: {a.trend_note}. En 24 h: {a.win45[24]} M4.5+; desde el principal: "
              f"{a.cum5} M5+ y {a.cum6} M6+" + (f" (mayor M{fmt_mag(a.biggest_after.mag)})." if a.biggest_after else "."))
-    p6 = a.fc.p.get(("7d", 6)); p5 = a.fc.p.get(("1d", 5))
-    b.append(f"Pronóstico ({'USGS oficial' if a.fc.official else 'modelo genérico, sin pronóstico oficial aún'}): "
-             f"M5+ en 24 h {pct(p5)}; M6+ en 7 días {pct(p6)}.")
+    chain6 = daily_chain(a.fc, 6)
+    if chain6:
+        b.append(f"Pronóstico ({'cálculo sobre el pronóstico oficial USGS' if a.fc.official else 'modelo genérico, sin pronóstico oficial aún'}): "
+                 f"réplica fuerte (M6+), probabilidad por día{' y bajando' if daily_falls(a.fc) else ''} — {chain6}.")
     b.append("Tsunami: " + ("ALERTA ACTIVA en el Pacífico." if a.tsunami.get("active") else "sin alerta activa."))
     svc = [(label.split(" (")[0], lines[0][0]) for label, lines in a.services if lines]
     for label, line in svc[:3]:
@@ -1050,6 +1147,10 @@ def _build_pdf(a: Analysis, body: str, path: str, reg: str, bold: str) -> bool:
             y = pdf.get_y(); pdf.set_fill_color(255, 244, 229)
             pdf.set_x(14); pdf.set_font("DV", "", 8.5)
             pdf.multi_cell(pdf.w - 28, 4.6, ln.strip(), fill=True, new_x="LMARGIN", new_y="NEXT")
+        elif "POR DÍA" in ln:
+            para(ln.strip(), bold_=True, indent=2)
+        elif ln.strip().startswith(("Cuántas se esperan", "Acumulado")):
+            para(ln.strip(), size=8, indent=2, color=INK2)
         else:
             para(ln.strip(), indent=2)
 
