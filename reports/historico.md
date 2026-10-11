@@ -25,3 +25,4 @@
 | 10/10 17:58 | 0 | 0 | 6 | 13 | 27 | — | 13/2 | en descenso | ok | 52 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
 | 10/10 18:37 | 0 | 0 | 5 | 13 | 24 | — | 13/2 | en descenso | ok | 52 % | no enviado — ya se envió hace 39 min:ok |
 | 10/10 20:48 | 0 | 1 | 3 | 8 | 19 | — | 13/2 | en descenso | ok | 52 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
+| 10/10 21:13 | 1 | 2 | 2 | 9 | 20 | M5.0 20:50 | 14/2 | estable | ok | 52 % | no enviado — ya se envió hace 25 min:ok |
