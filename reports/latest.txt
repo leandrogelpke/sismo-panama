@@ -1,73 +1,74 @@
-Sismo PA 21:13: 1 réplicas M4.5+ en la última hora, mayor M5.0 a las 20:50 — tendencia estable, tsunami sin alerta.
+Sismo PA 23:39: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 21:13 (10/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 32.3 h.
+SISMO PANAMÁ — informe de las 23:39 (10/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 34.7 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 1 de M4.5+ y 0 de M3.5–4.4 | 5 h: 2 de M4.5+ y 0 de M3.5–4.4 | 10 h: 2 de M4.5+ y 0 de M3.5–4.4 | 18 h: 9 de M4.5+ y 2 de M3.5–4.4 | 24 h: 20 de M4.5+ y 5 de M3.5–4.4
-  Mayor de la última hora: M5.0 a las 20:50, 3 km NW de Flores, prof. 10 km.
+  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 2 de M4.5+ y 1 de M3.5–4.4 | 10 h: 2 de M4.5+ y 1 de M3.5–4.4 | 18 h: 8 de M4.5+ y 2 de M3.5–4.4 | 24 h: 15 de M4.5+ y 6 de M3.5–4.4
   Acumulado desde el principal: 47 M4.5+ | 14 M5+ | 2 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
-TENDENCIA: ESTABLE — 1 M4.5+ en la última hora vs 0.2/h en las 4 anteriores.
+TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.5/h en las 4 anteriores.
 
 PRONÓSTICO [pronóstico oficial USGS emitido 10/10 10:51] — fuente: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast:
-  próximas 24 h: M5+: 88 % (~4 esperadas) · M6+: 22 % (~1 esperadas) · M7+: 3 %
-  próximos 7 días: M5+: 100 % (~12 esperadas) · M6+: 52 % (~2 esperadas) · M7+: 8 %
-  próximos 30 días: M5+: 100 % (~26 esperadas) · M6+: 70 % (~3 esperadas) · M7+: 13 % (~1 esperadas)
+  La probabilidad de una réplica fuerte BAJA con los días. Probabilidad POR DÍA (cálculo de este monitor a partir del pronóstico oficial USGS):
+  M5+ (leve o no se siente en la capital): próximas 24 h: 88 % → días 2–7: 44 % por día → días 8–31: 6.2 % por día
+  M6+ (se sentiría en la capital): próximas 24 h: 22 % → días 2–7: 7.8 % por día → días 8–31: 2.0 % por día
+  M7+ (poco probable; sería fuerte): próximas 24 h: 2.6 % → días 2–7: 0.9 % por día → días 8–31: 0.3 % por día
+  Cuántas se esperan en total (mediana y rango 95 % del USGS): M5+: 24 h 2 (rango 0–8), 7 días 8 (rango 2–23), 30 días 14 (rango 4–48) · M6+: 24 h 0 (rango 0–2), 7 días 1 (rango 0–4), 30 días 1 (rango 0–6)
+  Acumulado — probabilidad de AL MENOS UNA en todo el período (crece solo porque el plazo es más largo, no porque el riesgo suba): M6+: 7 días 52 %, 30 días 70 % · M7+: 7 días 8 %, 30 días 13 %
   Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica típica para un M7.7 ronda M6.5, y queda una probabilidad pequeña pero no nula de un evento igual o mayor.
 
 SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; la ausencia de noticias NO confirma que un servicio esté normal):
   Tsunami (tsunami.gov): sin alerta activa
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 10/10 22:05 La Voz de Galicia: El terremoto de Panamá causa daños en al menos 188 escuelas, casas y hospitales
+      https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZTRaY1YxZFo4bDkzVGhwd3E5MWJnV1pvaHZtQnJhWHdhVzA3STE4VG1SVUgzQmJNN0pSYUJtZlkzU0FvYUpTTzFTMjVYMVpZSGhlcy1OSEUyRGcySWsyQVBHdnVhbjJ1dHRPcjVPWFdYU1FvY3RFUHZDS1F5WW0yQ1QxbVFibjgyald5Zk5ONHlxczdZWThfTk1vRHpjZXlpWENTR3lVc2JLcDFxYWV4OF9fSEh1cVNPSnlSWTNiV2FxWmpQbi1SSmpmWFRhMGoxSWw2Vm9mYW9neVg2eXdrNGU4Z9IB_wFBVV95cUxOdHhRUjV4a2JLckJXRlJ2TnBJdW40dVJMRGUtOUZ5X2dmbGstLTQxU1RpVlA4blRQN216ajVkcloxVzl3YTB2d2FCcjl4NFZIOW9fbXJqOHJZaTlQT0ZSMnhqX3Mtdk8yUEllcF9FOHlGSFhxZk52ZHo3SkwwNlUwOFNxQXJDYW1xMW04MFFyRjJfMmtEMGN1dm9oNGxWRnlzTExWVmMtQmhZcVRKSDgyNVZmN01KTnhjcENmMWpnM0xTcmd4NkJ3bzlxcWZOZ3o4OU1aTFdsakIySU92cUt6c0tKazdPc0MyMml6SWhiS1kzRGdENl95Tmk3NFlpSGc?oc=5
     - 10/10 18:12 La Prensa Panamá: Tras el terremoto, cinco hospitales atienden fuera de sus instalaciones
       https://news.google.com/rss/articles/CBMipgFBVV95cUxORnJ4M1BGWlV2NEhhTDhHcTFqSURwOTlCRmNMYXFXY2RXTExuaVFNNk4zdE82Q19VUE1MbFB6ejdBNExWc0dfUEctT0ZCR3hyX1lRakdDeVdZcWZGdEZvMmdiblF2aWotdzVzazlkYXQtS3NGN25NOE9LVTdoVUhCdjFnbUZBT3l2Wm5mQmtPZkpKLWl6MEl5N04wMFhOUW1yZUs2dUxB?oc=5
-    - 10/10 16:00 En Segundos Panama: Panamá informa de daños en 188 escuelas, así como en viviendas, hospitales e iglesias por el terremoto
-      https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakxlUUR6dGtjZ1JLSHo0NHdqQ0tHcXgxNzBPWnREQUhvOTFiZDBrZmJ0TVlPVHRDM3BjWE52eDBEODRCTXZndmI1Q2ZMRUYwNzRpYWJuWURabDVJWncwMkxBbm9qekktenRjSkI4SUg5ZnJicnQweTFkbktmYWVSUjNucG9XSTBYTlo1ZXJCckE2YXZ0ekZQQkxzSjdPN3ZpTU5jZzNhSmVzVUNHSWlzWmZYb1g3TkxGeUdEM0xBS0d2LTc2RU1yS0JvNlFUVHJiaFFkbg?oc=5
   Agua (IDAAN):
     - 10/10 13:50 www.metrolibre.com: Potabilizadora de Chilibre al 100% de su producción de agua
       https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRXNmbm9RejJMN1drazZwVm5fdUdneXdzOTRYYVFOX2dOVlhEWHFYNEp5Q1RxT3U4Q0lIbjFMYnFmdS1Cd3lfUDdCMUpGU0hmWVJDem5BSDRXeWZVLWZtWHE3UldlRlJ4YTdvd1pOdUxCOFFmUW1VN1ROVnhpU0FORnA3cWxpd0M2Q1o4OWo4UGp1Z25EWE5kRHQ0UXR2SFNSejFUc3htRXVaVTA?oc=5
-    - 09/10 21:48 www.metrolibre.com: Planta potabilizadora de Chilibre opera al 100% y el suministro de agua se recupera
-      https://news.google.com/rss/articles/CBMiywFBVV95cUxPcDluY1k2YXRnZ180aDFRZGx5TEUzeTlqUnpZcWhSTURvMTdUR3d1Rkd0MURxMnprWFBPMWFreVFEb00xS3FDTkVLRzJXQ3JvbVkzOHQ4aDU3Nnd4SkpwNVRtOEU5SWhCU0x3ZTl2eVZ5dXgtLVJ6ZVZKVlhRYkVYaFE2Ml9aRDRXcGxXd0RUWVUtck9BSFdFdXNhY055aDg0ZWwyNUdYWkcxM2VJQWUwY3BRTUVqMkFnek9IQndGanV0YWx6SWM0TFhuUQ?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
-    - 10/10 21:03 Infobae: Tonosí, cerca del epicentro del terremoto en Panamá, sigue sin agua ni electricidad y con vías cerradas
-      https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc21TYzVTSGxQM0RTSm5WcmFtOTd6bTA1Y3NxcFRMT0lzRkdsejlfRV9wRWJVUkNXcjlfQXZjelBMQ1NSUHdSOVhXUm9hRTcyY1VkUFc0UTBtYU1DTExnVmw4OEJ4QnVOaGJYTU9Qc3l5T0RpX3RVNnBfZ1kwYUF1V0xGNnRya3htZnRsSmgxTkM2c0IySnNWWEUwMXpwVGwwT0YzZkppY3N2VUNPaUJYdWJnazNfaEJNa3BVS0UzY1hoMWpleVBBeWVKTzhRVWwzZk5ROUVXVWxTWkFC0gH3AUFVX3lxTE9lMDk3MG1Xb0hoQ0NFRXF1TjIwTkxFVGM1TnFaampLeWNJMjI2NDVaZHBXNDlhaTZZQlFfbXcyUlBKajBYRldsQjYyVWhqeHlfN09GM1lGOUVyRFRRYjRRUGtTT3dsX19ZRDJGSWMtMmkyWkFIZ0psdGxRU2l2R2VrOXI4bmpZLUhaX3VQb1liRWxDWkNROVpWQzg4aUtQUVBwTlVoQ1Fma0lscjY2a1E0UU02dVhQV3lJWk9NbDZ5U0RCM2NhYzVkS2drODA4LV9XcFRUUGxXS1VudW9YSURXTEwyQUM4cEdrYTJXRF9UeFdLMlV2Sjg?oc=5
-    - 10/10 18:34 Destino Panamá: Naturgy restablece el 97% del servicio eléctrico tras el sismo
-      https://news.google.com/rss/articles/CBMioAFBVV95cUxNS2NYamdkUnEtbGpQb3hVZVJxWWpUR192TTZlbVdxNS1tMG1iUEJxYmdpS2hfUGlUTDRpRFVSZk1USDVaYnN3dDljN01iUWdtdF9jOHMtMGd6WUZVbG5XdWYzMGViR08ydy15ZHdwakg5ckFVTXFCNjJfQVdUY2ZhTGg2dC15RUxYT2xVMHJtN0o5UEpMbllhZmNGcFVUUjVk?oc=5
+    - 10/10 22:27 expreso.ec: Panamá después del terremoto: Tonosí sigue sin agua ni luz y bajo constantes réplicas
+      https://news.google.com/rss/articles/CBMitgFBVV95cUxQRFdWMEE4Qy0yM2p5V2tNTE9pUzRIUnRBQjJOLXctelAxd0hzbUV3dVU2c0o4RGxDdWtlWXRVdjRnOHJ3ZjlhMDF2QjJHMzdVeHZoUHRob1lLRUdiVURZN2JfVG9jeW5iRndwWXZCOHBuSG1LS3ltUlBlLWxuaHpoVnVReGlJYkhXN2tSMkI4d2F3d21OVUdXOC1MTlZFUFliTmEyUDJUcWJEWVBUZXhoT0hBelZLQQ?oc=5
+    - 10/10 21:47 La Hora: Habitantes de Tonosí enfrentan emergencia sin agua ni electricidad, mientras sigue temblando
+      https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRGlsekR6OEFlRnFCZnpUT3l5VjRnWnozR1lGLVlhQ0MtQlYwMTBzN2JXUm54dWFDT1hUN3RQanRMekhHSHBla3h2WmVnMUJ4Tm9iempVSlZiT3YzbExlMkUyaFdMQmdPWEdScFAyRGpiWEIyOHlkSUgxWjdzblRZVlZDYWJOUE0tb0hpSTNoVkxDU3NISjgzM2t0REE3OC1OZl84bkZnWW5aLVRVSjZwU1pGel8wTFBHVzBUUjc4Zmhzc2ctdlZGazdfaDgxd0xkQ1Q4ejdVdEtULWliZEE?oc=5
   Aeropuerto de Tocumen:
     - 10/10 20:49 TVN Panamá: Temblor en Panamá: Réplicas del terremoto provocan retrasos y cancelaciones de vuelos en Aeropuerto de Tocumen
       https://news.google.com/rss/articles/CBMiswFBVV95cUxPdXBWRXZDVExubXBiVTVjZXdSODBia2FLeDBqTHRnbC1jTmZMN1BKSG95cHdqSC1jNXRWOEYzLXVQNExiZ0tZMXRsUVNaMnEtZlpwWkFKQ2FEQzRqMlN6cWtXa1B1d1AxV3FMZXpPcmYwZnhBbTc0X2FiR2dtQ1ZsQ1ZSNW9pNW5TdE1nZ19hQURYSlQ4OHp2Tl9sWGRqMjRjV0FoUG5lbzNSdGRqcjNHbkctWQ?oc=5
     - 10/10 20:40 TVN Panamá: Réplicas del terremoto provocan retrasos y cancelaciones de vuelos en Aeropuerto de Tocumen
       https://news.google.com/rss/articles/CBMirgFBVV95cUxNMkJRMXlYeUk1SFZYR2dxMGVaTlpXOGlDWTl0WG5wVU9uQkpzeDBOM1dreWZfVlRub0hDSkg1N2RIa20tSDV5TXdlN3p6VWdLa1JXNloxQkZ1X1lHLUgzSEJJOGg3bWxub2lURkpqTnJ4VFJ3N0J4NUdGUktGUUtmcEFjaHRNaDJNcEF2aVMxaUVkNGRzREo1VmxjLXlnUFBYTjRBX01ZR1dkeGZSdUE?oc=5
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
-    - 10/10 18:52 Teletica: Cierran puente en Aserrí: Terremoto de Panamá provoca daños en la losa
+    - 10/10 22:14 Teletica: Cierran puente en Aserrí: Terremoto de Panamá provoca daños en la losa
       https://news.google.com/rss/articles/CBMirgFBVV95cUxOWlJUUmZrSlRveVpWOXREMXhkWjFCeTlhb2pTNVU1R1FHU215UkxmSFFhU3pscUNmLWItZFFjOFdmaHlSSzRpeThZSVdGWE9wZzJ5N254RWFuSGFuUkJZbTU1WTh0Q01ZSVA4RVpZZWJfTUd0V29aNE1ab2NJcnBmUFNOV3BMUVBSTllZeTI0ZDZaSDlDNFAtb1VrWlJZMDA0Qlk2M1BmRXEwaC14YkE?oc=5
-    - 10/10 15:50 Panamá América: MOP identifica nueve puentes comprometidos; trabajan en restablecer el paso de autos livianos
-      https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcTJGMUlEbWNJTFdPekJxbjBPdmF3dUJackxsQTJGOS04SnlJaVZVZFJZLWNOYnkwQWU5MTIydFFCcE5Bd29Za2ZiZllMRklzcUFxZzhoLXEyaFhZczVMbmJKQndGNHJaMHRFNEpSWG00bzZZTnhRWk5fTHBZdGlNa29LYkhzajI2LU1tX2xOWWVSVjdqeDZ4Zm12SW9PUVY1dk03dW5xRmlaNXpwX252X1pmakFNbnNwTXl3bkJtZkNjRnc?oc=5
+    - 10/10 17:00 La Estrella de Panamá: Puente aéreo del Senan lleva ayuda a Tonosí, Mariato y otras comunidades afectadas
+      https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ2dSUXhEWTVlbVJvbktXbzRVRksxOWpZd2FPc1YxZzA0cXBydjhvWnVtYmE4SkktaUpEalVubllhX1hrX0dSRXp5cV9NUF9TU1dvYkxFNEVyRWFuTDlfSHNjbjBKaU1sQTVPcGZHa0ZzbndTOFBuN1owZlplOFIyUTZORl9LUXhWNlEwT2JXRGQzQTVKaV9LbG4ycS1melJZbzJEM3dVR0UzUnRuWGVUa215YzdTdGUtNGxUUkpKdjY2cmZiQU1nXy1zMERxaXZ3bW9HT9IB2gFBVV95cUxPLUpSX3h2NXlSWWYxdzM3T0pjcy1TSThZRjdVN1B1S08wUGZOQm1CY2l2RU1tZWZFUFlvMVFyRjVSb2VORzBYaXlka1Jack9hYndFcnJLZW9rdVJrQUVZRHFkbXNwVHN0MlNJRTBMRXl5Vy13X1IxY0hGNlYxZnFFSmh5VW54U25XNUc3SFNJR1BQc0RDOHNiX3hUWDBrT3daVm1pQ0VxcVYyWW5rcVNFTzlyWVBtOFZGZUZFT0ZnT3A1VG5WMEZEbGhDRHpOcTFwSHF5UDVZOHpZdw?oc=5
   Metro y transporte:
-    - 10/10 19:59 La Prensa Panamá: El Metro de Panamá realiza pruebas para el reinicio de operaciones
-      https://news.google.com/rss/articles/CBMioAFBVV95cUxNUjZjMzE4Mnctd1JLNVp1R3hTcGxoSFJqbTQ3S3JBbkRDVHRLY013alo1UU5DSzBra3RaNVltMGFwd3R1SHYtQmg4QVFoQXJ6MGowREdGREJqNS1Pb2ZZSzgzWGRQX0tKNkpSRUpwRTE0RmRnR256NlJGRXNlWnNSZ3hXQVRFMVZ1V2lfd2R4cEM5N0NPN1N3VEFPXzdxaDVD?oc=5
-    - 10/10 14:03 Panamá América: Metro de Panamá concluye revisiones en la Línea 1 y prepara el inicio de operaciones
-      https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnRnVXlNUldQWjFJN3NJajVrSmZDYW1tMWJJUmpDemZZMVdxMzNIR0N1ZjBqb2lWS01UQXpRdnJSd2VpNUVMNG5TR01xclZjNnpaQjNSNTFRUFdOUXBYWFBaLURCeWhMeGhuME8zcTZHMmdFU1lZR0Z6MVBSYmJSN0tnTF84WHdMejZuaHFFWndCanp6ZlFJLXlIVDFXRDdubDFxVzBabTdGZ1RRUjNyVjh0eFJtMVVrZEp2cUYzR19jOWdx?oc=5
+    - 10/10 23:07 Infobae: Metro de Panamá prevé reanudar el servicio este domingo si concluyen las pruebas de seguridad
+      https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMXpac2VOaWJJU0NHTWNvOVNveHVfVUUzQlhBNGtBaXN0cFpyUFB3T2YwdGdxM0sxcm9XYy1QcElYemJtaE9TZUhFOXo4VEYwdy1RdmtPZDA5QUNaU3R1WTIxcnBocnh3WkhUbUFKWjNRVW5wMTdxT3ZHSmo4RVFNUHY5bm56WXNfNHJoRVQ0bkhGSlRmZnAyYkswU293Z2VSaWJ0elFOVVZ2N2huQTVXTWs4a3J4RGtuOUVLZGFMR0ZTTVdnVHpMUUN2RFQycDQ2dkHSAewBQVVfeXFMTTQ3c1A0U1BxNTF6TXJmU1E1WTJUZC1UcWp2SFU1WGhVNDJLbjV6MXpKanRrN2ZjSTN3TjR2TDFmVVBYZC1oNHI3S1lxT3RRbFR2LTBGam9zVTRyZXFpQWJwSGFMSmduZkIwVTF3LWsycVJmSkR0MjRkaFhDQ2JaQklRU0x4V1p2ZDF1Z0Q3QjVUX0ZpMmNHd3hHNTF3YXdlaTd5SU5ocEx4ZlNyVVc0VlBBeVFpYUJNbC1FX0g2R0FCWW1fU09CR2YwU3k3bWlnVW1sZEtqTE43ME96ckxkbkdvRHF0QXYwb3haYlI?oc=5
+    - 10/10 20:51 Tvn Panamá: Temblor en Panamá: Metro realiza 'marchas en blanco' y pruebas operativas para reabrir este domingo
+      https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ2NBTzZReXFLQXlkbzMzUDByMDBkTG8xZVVvcHY2NFFNYlpISUxNWjZ4WmJLWDZKZFlzY1dTVXZXSDU3blpfT010dk5CMDhwbldGaW4zX2xUWTRoRUdtVXFIVDNlWGF5YWVoUG8xajJvQ3pqaEZoQUdOeVRDVnBPeTFmUVBMNWtsLUZMZWktNzk3UdIBkgFBVV95cUxOQ2NBTzZReXFLQXlkbzMzUDByMDBkTG8xZVVvcHY2NFFNYlpISUxNWjZ4WmJLWDZKZFlzY1dTVXZXSDU3blpfT010dk5CMDhwbldGaW4zX2xUWTRoRUdtVXFIVDNlWGF5YWVoUG8xajJvQ3pqaEZoQUdOeVRDVnBPeTFmUVBMNWtsLUZMZWktNzk3UQ?oc=5
   Escuelas (MEDUCA):
-    - 10/10 19:33 Mi Diario: ¡Clases suspendidas este lunes! Meduca revisará escuelas tras fuertes temblores
-      https://news.google.com/rss/articles/CBMitAFBVV95cUxNaGNWeUZ1dmN1N1NITWl4X1hod3R4cnF0TXFrbEViUlRwVEtqUDh2LVA0YnZhWTJjTFV0VnBVbUlINVZMUDZYTUpfdnAzaGpDSjRpMkpTSUFxTC1BZVM0TlJzSGV1dTNCdy1hcGRPTmVBOVg5MEt1Z3NqeW44RmJSaXhhTmJTLTdMS0R6R1RzWHNONkg1WEJZRG1Kdi1HZmRwZWRrYk1wVDg0TnpEMm4xRWw1b1U?oc=5
-    - 10/10 19:05 El Siglo Panamá: ¡Atención, padres! Meduca suspende clases: conoce hasta cuándo
-      https://news.google.com/rss/articles/CBMirwFBVV95cUxQRnAycTdLZVNoVG5qeTVOZUZ6T2U1MURlZWpVdlE5ck50S3Y2bmRqdzVXWExhQ2R2NFdxWHcwQXhERVB1QUhZT2tJT3ZYZ0Yxb0hheV9FN3Qtd1pCOFcwYzNNRmM4Sm5NOG8yRlZxY1RrT1RyNUxnaXpYUVVLSFQ2YWVoN2wxSTcxWFFrX2R0eDNpalJsX2ZPS0N4WnNUUWRhdTRuaHMtS1JVLW0wb1R30gG0AUFVX3lxTFBIcmc1TE5YTWpqUmhGbFlPTHdId0xUUUYtYzFXMW9fSXh5aXM5Nm5ldlJTd2VmaTh0VmFrWTNlTU1yVnFtbm9ONUQ3TzlBZ3pfMWQ1cW54eFNnM1M3NjlMRjRTYUZBWDY3LTZhYnNPWmVNTW1HcEtseGZEcGNtUkpJWU5xV0d4d1N3RXZBWmJ5M2F6eTF0YmJXajh0NjlZWnM4bkNXMElQUTBfQmFQR28tWUxDXw?oc=5
+    - 10/10 21:12 Destino Panamá: No habrá clases este lunes. Meduca evalúa daños en colegios afectados por el sismo
+      https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSks5TjlLdmFndTBhR1h3dzdreDNyczJwYUtJQVlsXzZ0Zm5DR0tTTmhqaXc2NTFKR21tOGpGN3NtTmVIandwcUtEMWc5VEp4LWZXTEJHUGpQRWk2Rzk2bFBkQUdhR3Qza09BNDBMR3M3RTdSMUF4dm9aUTJ4LVZKMFZTTktZTEJfUlRfeXIwX0RaWGJHYVVhNDJiNndxbUlaSUY0ZHp2RVRucWFyMm1NN2VjeHR1TkQtT1dZ?oc=5
+    - 10/10 19:38 www.metrolibre.com: Meduca suspende clases en todos los centros educativos del país tras el sismo
+      https://news.google.com/rss/articles/CBMixAFBVV95cUxQMFRyMEgzYlRpakEyendvNk9XTEtQQkl4OTZaRmhnQzVkVFBQVnN0NnE5VUtGQzdhNVFrM0VUS01udkpRWnREbUgxTGh1WVZqWEZvU3dhS0FNYUxaTWtpQnp0QkhDeW13NDVkdGF0MTg4ZlZYdG0tYXJ5cXFKRFdhbkFVTnBEWFFLUldfdDRBem9zbURzaXZ4Mzh3b29MQ2YwRXJiTGlPN2FxNUhMbnh2N2FfclpyY3JscHVPVUZJbS1XOUp4?oc=5
   Sinaproc / autoridades:
+    - 10/10 19:00 El Siglo Panamá: ¡Simulacro en pausa! Sinaproc suspende evacuación tras el terremoto
+      https://news.google.com/rss/articles/CBMiuAFBVV95cUxNanM3UDNEOE5FV1pNOFJwMnNCZWQyNFJJVHg3Wk5xU3IzSkgwUi1yYzN3LUx1cVpxcDgwVWNkYWNtY1Q2TkNhSmJDaUpqczF0N0lvU3U5WDlSSnhnN2NUMk5fQzdKcUE0MlZmUVhNNzNIeGVqMzIwU3h4cHItM1FNNVlQYlJFX3N6S2w0b2xSdURvWDhBLXZBZmNiNnZuTGEyd1JZbnJjTUoxV3JqYTZKT201a1J1ZGpp0gG-AUFVX3lxTE5VelcxdGJxc2o5emNyWG5TemhScGZUWGVTQ1VxZlU4ZEZieE1VSU5ES290OUQzOEVyQmVOWWlYdy12OU5JQzlLdFdCbk0wWV9rTUc3WHp2NldEdHRaWHlQUjMySXZxYmpwTjBIanJBR29PQjcwT1FyV1RRVF9YenFsYlNKZGlDeTNQV1ZIOGRiQi1sNkVJXzQ5a2NrSzljQmY4aDdTUGRRQno2dk9lNkxPMUhPNkVwc2VxcUxHcnc?oc=5
     - 10/10 18:55 Telemetro: SINAPROC emite aviso por lluvias y tormentas hasta el lunes 12 de octubre
       https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZzNBZmhkZ0toQU8tYXhSeFJvWmd0bHB2X2RsTFBRWDZfWmhiTlNyUm5MbndyaHhhWmpwM2d0b2RnNTFQXzQyNUVTckpldjZDdzBEb2IzZTdlSGVXakloeTZ0OHZENnBqNF9VZWFUakxsTHdxT012Mm03aWRMRkI0N0ZWNkNuZ3AwRjhKR29GRzd2MTN0aDlZZ1hSUWJMTzZ2M1l2dUN5WDdjUdIBrwFBVV95cUxPUlJ2Wlk2eU5ZcEg5TUZLUExpZnAtMl9EUVNpSFoyMFRhbXh5VU9MbW1HRVluNGlQWDU1bVFHRC1QWnZoSTA5SjVaWDNBbEx6ODhQbTZCMHQ4U2xibTZST3d2dGhqV292U29YWHZ3a2hWMkU5M3dlRDV0Q2ZHM25MZGhTem1mNTRySHJacUltczNPWVFhZTdnV3FYbk0zSXRCR202VVoxdF9lMVNQdEFB?oc=5
-    - 10/10 18:24 Telemetro: SINAPROC suspende el III Simulacro Nacional del lunes 12 de octubre tras sismo en Panamá
-      https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcVdFQXIzXzdVMHJ3dklhd1F2OVRYX1hiUkd5bl9mdzV2VzEyNDhqN0RpcHh3RDNUYUc0WnpuRklRb0FhVTB4ci0yakc2dEtIVFZ5RGNhSEhYQk1JYXpXbUVoVFJreUhzYjdPWTFfalhudlMwdmRjaExUeWVYWHhyazczZ0lLR3NWb090NHlDX0ctMTBpT1E2VXc4dG9xenhPcG02MmRSZDJuVHRXdlVQb3M0a2tpZ3hiajJ0V1J5b2_SAcYBQVVfeXFMTkZtSHF5TlNMQVFvb3MzUkhodXlzd3RTQk1iakc2TTlpcFd4REc3RjhObEROWl9MakMxb2U3bjFhLTRqaGtsTVNPV3VRYm9JRTRVR0UxcG8zeUtidFF5MmlNVFpaZ1ZlTkZmUlZ6TFVwMFdjWGh4Zl9wQ0NVZ2otSU5hYndDTDdNdTZJVVFNVG5QYVZjVFpkQkVrMlpqZm1wdDhQaDNXWXNCSUxwam5qTXRtdkVBeHZDRU9ScjdEaEIzZUwyTW5B?oc=5
   Daños y víctimas:
+    - 10/10 21:57 Perú Informa: Terremoto en Panamá: unos 27 heridos y graves daños en edificios -
+      https://news.google.com/rss/articles/CBMilwFBVV95cUxOVktQSU5iNHFOeFBfbm1YRlJBeTRKYUFkS3VrQXdUNVBXbmJ0VFJ4ZDZISEVVbHlxdktkWWVWUndSMW9CVHRheHdQSUJxQ0RyWTFmRl9IdzNVRFRqdDhGRVVLVmV1SkZtWDdWbkNJMEJXRF9MZ2JhTDZnQlAyLXI4Y0g1dmZYVHQ5eVhwTndUQU1sd2ZNWV84?oc=5
     - 10/10 19:32 Cuestión Entrerriana: Terremoto en Panamá causa heridos y daños
       https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUy1zajJrU0RLXzFkMkJRT29wODd2Yi0zUzJpdDAzc3UtMDlNeThJTWU1c2UwX01HSmZCV1R3U3pUTS1IMEFZZGx5MDJmcDJOd1hua0Y5NmlTSVIyWTRBazNnSEJ2WlJXWHk4ZnRIR0ltaTFTNlc1Q1luZ2Y4ek9nc3VGYjNPSlZhUW43azhIX01rZkstbWRoN0QtSWRPTFJHeHVLNXp3X0VFaXBPWk1PVFhaa1lfZmF4NnR5OTJoNjZURGo5Sk9uUWdnb2hJaTJnU0x2YVg3aHdWQW8?oc=5
-    - 10/10 19:00 Ruptura360: Panamá sismos: Emergencia declarada, 27 heridos y daños amplios
-      https://news.google.com/rss/articles/CBMihwFBVV95cUxNalVxSm9FTzJoWXBxeHJoWk1SYmNWS2F0cFRGM0ZQUE81TjF3MTM4eU8zT2VNcm1jaTBJeG05Qm13cnEyLVlseGJqNW9xNnJjcDlsYm9kZV9xYmNjc2dSc1ZlMndqcVhWMDgxMmV2dk9ORU1CV1BsTjg5R05PYmNDazhUOEVZMzg?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Para la noche: zapatos cerrados, linterna, llaves y celular cargado junto a la cama; puerta del cuarto sin seguro; si tiembla fuerte, proteger la cabeza junto a la cama y esperar a que pase antes de bajar.
   2. [Probable] Evitar viajes largos por la Panamericana hacia Coclé/Azuero en las próximas 24–48 h: puentes y viaductos siguen en inspección.
-  3. [Estimación] Réplica M6+ en los próximos 7 días: 52 % (pronóstico USGS) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
+  3. [Estimación] Réplica M6+: 22 % en las próximas 24 h y baja cada día; días 2–7: 7.8 % por día (cálculo sobre el pronóstico USGS) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
+  4. [Probable] Hora tranquila: rutina normal con las precauciones básicas; nada nuevo que hacer.
 
 ÚLTIMAS 24 H — eventos M4.5+ (hora local, M, lugar, prof.):
   10/10 20:50  M5.0  3 km NW de Flores  10 km
@@ -85,18 +86,14 @@ ACCIONES AHORA:
   10/10 01:27  M4.7  26 km S de Pedasí  10 km
   10/10 01:18  M4.9  10 km SSW de Cañas  10 km
   10/10 01:16  M4.5  25 km SSE de Pedasí  10 km
-  09/10 23:33  M4.5  9 km WNW de Flores  10 km
-  09/10 23:14  M6.0  7 km N de La Tronosa  10 km
-  09/10 22:56  M4.7  8 km N de La Tronosa  10 km
-  09/10 21:43  M4.5  18 km SSE de Río Grande  10 km
-  09/10 21:26  M5.1  1 km NNE de Tonosí  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 21:13 (automático)
-Última hora: 1 réplicas de M4.5 o más. Mayor: M5.0 a las 20:50, 3 km NW de Flores.
-Réplicas M4.5+ en las últimas: 1 h → 1 · 5 h → 2 · 10 h → 2 · 18 h → 9 · 24 h → 20. Tendencia: estable (1 M4.5+ en la última hora vs 0.2/h en las 4 anteriores). Mayor réplica hasta ahora: M6.6 a las 15:25.
+🔔 Sismo PA 23:39 (automático)
+Última hora: ningún temblor M3.5+ registrado.
+Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 2 · 10 h → 2 · 18 h → 8 · 24 h → 15. Tendencia: en descenso (0 M4.5+ en la última hora vs 0.5/h en las 4 anteriores). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 14 réplicas M5+, 2 M6+.
-Tsunami: sin alerta. P(M6+ en 7 días): 52 % (USGS).
+Tsunami: sin alerta.
+Réplica fuerte (M6+), probabilidad por día y bajando: próximas 24 h: 22 % → días 2–7: 7.8 % por día → días 8–31: 2.0 % por día (cálculo sobre el pronóstico USGS).
 Ahora: Noche: zapatos, linterna y celular junto a la cama; si tiembla fuerte, proteger la cabeza y esperar. Evitar viajes largos por la Panamericana (Coclé/Azuero) por 24–48 h.
 Próximo informe regular en ~3 h; vigía cada 10 min con alerta inmediata si hay réplica M5.5+, sismo cercano o tsunami.
 Emergencias: 911 · Sinaproc 520-4426/27/29 (WhatsApp 6998-4809) · lista completa en el PDF.
@@ -134,8 +131,8 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-10T02%3A13%3A49&endtime=2026-10-11T02%3A13%3A49&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-10T04%3A39%3A37&endtime=2026-10-11T04%3A39%3A37&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
-ENVÍO: no enviado — ya se envió hace 25 min
+ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular
