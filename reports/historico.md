@@ -56,3 +56,4 @@
 | 12/10 15:30 | 0 | 0 | 1 | 2 | 5 | — | 14/2 | en descenso | ok | 28 % | no enviado — próximo informe regular en 3.2 h; alerta solo con M5.5+, tsunami o reactivación:ok |
 | 12/10 15:40 | 1 | 1 | 2 | 3 | 6 | M4.8 15:05 | 14/2 | estable | ok | 28 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
 | 12/10 18:15 | 0 | 3 | 4 | 5 | 6 | — | 14/2 | en descenso | ok | 28 % | no enviado — próximo informe regular en 0.4 h; alerta solo con M5.5+, tsunami o reactivación:ok |
+| 12/10 18:31 | 0 | 3 | 3 | 5 | 6 | — | 14/2 | en descenso | ok | 28 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
