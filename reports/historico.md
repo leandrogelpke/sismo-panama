@@ -46,3 +46,4 @@
 | 11/10 22:24 | 0 | 1 | 2 | 3 | 3 | — | 14/2 | en descenso | ok | 33 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
 | 12/10 01:15 | 0 | 1 | 3 | 4 | 4 | — | 14/2 | en descenso | ok | 33 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
 | 12/10 01:35 | 0 | 1 | 3 | 4 | 4 | — | 14/2 | en descenso | ok | 33 % | no enviado — ya se envió hace 20 min:ok |
+| 12/10 04:06 | 0 | 1 | 2 | 5 | 5 | — | 14/2 | en descenso | ok | 33 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
