@@ -1,12 +1,13 @@
-Sismo PA 15:30: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 15:40: 1 réplicas M4.5+ en la última hora, mayor M4.8 a las 15:05 — tendencia estable, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 15:30 (12/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 74.6 h.
+SISMO PANAMÁ — informe de las 15:40 (12/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 74.7 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 1 de M3.5–4.4 | 18 h: 2 de M4.5+ y 2 de M3.5–4.4 | 24 h: 5 de M4.5+ y 3 de M3.5–4.4
-  Acumulado desde el principal: 53 M4.5+ | 14 M5+ | 2 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
-TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.0/h en las 4 anteriores; horas 6–10: 0.2/h.
+  1 h: 1 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 0 de M3.5–4.4 | 10 h: 2 de M4.5+ y 1 de M3.5–4.4 | 18 h: 3 de M4.5+ y 2 de M3.5–4.4 | 24 h: 6 de M4.5+ y 3 de M3.5–4.4
+  Mayor de la última hora: M4.8 a las 15:05, 25 km W de Río Grande, prof. 10 km.
+  Acumulado desde el principal: 54 M4.5+ | 14 M5+ | 2 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
+TENDENCIA: ESTABLE — 1 M4.5+ en la última hora vs 0.0/h en las 4 anteriores; horas 6–10: 0.2/h.
 
 PRONÓSTICO [pronóstico oficial USGS emitido 12/10 10:55] — fuente: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast:
   La probabilidad de una réplica fuerte BAJA con los días. Probabilidad POR DÍA (cálculo de este monitor a partir del pronóstico oficial USGS):
@@ -21,20 +22,20 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Tsunami (tsunami.gov): sin alerta activa
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 12/10 15:21 Telemetro: MINSA pide no donar fórmulas infantiles ni ciertos alimentos durante la emergencia: conoce por qué
+      https://news.google.com/rss/articles/CBMiywFBVV95cUxPN21oWGVJOEhDTnFwV1lnMzZXMTFoT1VYVTFjN0dMM042YURDSlZUUFp4aVNMRHpyVWlIYmtJcm1Zb0R2a2NuVlppbWplejhLTW1sRkFHZGxzTUdjZkZ5VXNYMlZBQkI1NEZIUXRlUG9wM0c4X1VhaVR2a3pnSFo3WTRoZW9kNVYzLU9pVEZZLVg3WmZ0Szk2ZkN1UmprYnUwbUxxVWJrVDRpNnp2bzJWQ01KWXdKSDB0Z0tXemwzYTE3d3UwbnhoSnhpc9IB0AFBVV95cUxPZkdxenRPUWhUZl9IYUFFM0tmeW5uX0Y3ZjBISHA1UGNhUHk3bEhDMHhFcFN2OXpzY21SbGV3Y0VSTFpQaExja2taZVpSLTN2N29ZYU9EWlpWclFabGVDX1I3RXpJZ1ZfTVhndFJSVDNidHNTR2RfRlIySWFOb1FtQU50WTVHelM0RWRBZUVLeWw5RVY1aEtLQjVnTVJuaWNVZzF2OW52ZlpScmFsUGtNTE1LWFdJdjdpclRfZjZZdUZTUDdVWlBQOHFQY3JHckwt?oc=5
     - 12/10 14:09 TVN Panamá: Pacientes de hemodiálisis del Santo Tomás piden soluciones tras interrupción del servicio por evaluación técnica
       https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb3ljRjctcmp2RkVDVzlvYWF1Yzl1aVpycU9SRmJmWHFPcmw2cl9TdjJMNWxibUpvT3JiVGQyRGtxb0FRZ3lDRUtHN190b2FCYkI4MEFsQjNzTUpOcU55STMyMTRIZjg1S3V2LWhuTXQ2Y2h0OXpwbnZOdUZhRjBlQTd1Nm9lcUNCMjJhVnJVWWN1SkhEeVN1YTFlSHlJcklhd09IWldWa0prdVlVMmx0c2ZQdzlGZUlMY2R3Mm44NzM5dw?oc=5
-    - 12/10 14:02 TVN Panamá: Pacientes hemodialisis piden respuestas tras clausura de sala en el Hospital Santo Tomás
-      https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMl9qZElOU05DYmhGM1lydUdtQ0hjYlNoUFhYQVZVTWE2cWNpYUFTcG50SVZkTUpVQlIydlI4a3c3ZVdvNFRWOWF2SFJxaE5HSERZMVl3aTYzRlMzU0ZrWWVnTXMtRTlDMWR1ckFxLV9oa3pFV1h6MDR3bmZKNGg0QU1IcWZiU2VJRTJ4amRuYkVSUEY4bkZiMkg3THdpam1pTlNiY0x3Q1EtNzg?oc=5
   Agua (IDAAN):
     - 12/10 15:08 Telemetro: Sismo en Panamá | Moradores de Barrio Francés en Almirante llevan tres días sin agua
       https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWJLZTdaTF85VU9wT1RvMXY1TjE0QlM5TzRJazBGblBMYm5mdDBxOTdNZ0lJVjFWakpjeU80YzlwZm9hellSMnF6MEVMTU9ETmtZclBRbURHamppNWJPWE5LaXI3Yk1HaFN6XzFtakg0ZDBQNFd4R2NsbkNsb0l5dmZDZk1aMVBMUXhjZmhXVnFLdXhQYnVnQk9ubWJsSVR0RlVEbU92UUhrQ29VbU16NXpLQ0hwZ9IBuwFBVV95cUxOdXNWbUUwVW1PWXRMNFBkczlQcTFpUVR1VVp4T2lGN1VvR0N5S0RVSVNLcDA2N1JYTHFmaTc5TlBjRzFCWENYYXBZdmM0c1JSdFhqdmtzSWt1aV9JMzFXZE1KeXZ4RGxhamc0dFp1WmZVX0FuQmdfOHJGc1RWRDdPS3RudTBFMTBYNlZzWW1PeFZncUxZUWRINEo3QXFuMnF0VmdpNVotTHpFOHBVdGpZWVcydGRQTmlmVDZF?oc=5
-    - 12/10 11:01 Telemetro: IDAAN realizará trabajos en varias potabilizadoras esta semana: ¿cuáles están incluidas?
-      https://news.google.com/rss/articles/CBMixwFBVV95cUxNWkVGSEFjdV9EZkEtR1VBekFZQnJyZFZveGtyQTZ4UXZKampXM3J0RDI1LVJNeUpMc3VrcWdWNkN5c1pCNUhpUmdwM1prd1ZWOW5CamJOTGtraU8zODFqSDVRYnFXSEJqdTJEOThZMTc3WTQ3NUdCUk9aRkdQT0VfdFUyeGFtbVpTX1NrdGtQeWg2aW52ekJubmI3Tjh6OUFORWRFSm5OaFdfdEZRRjFMMEZ6dHM4aXlvanVmNXVTV1ZleHhELTk00gHMAUFVX3lxTE1fVXFKaFJkUUlIblk2X2VfMHdaeWV6U0VuelBJb3R4S01Zd2tMVFpxSkFLaDF1TDU0Q2JqQUlNS0ppNGFPVHFkZkJIVG9vMzhYZmllZWtrNi1mY2RBQmVLR1RTZzlHdm42QWxvV0tfRDZYamZSaU8wQ18yQnRNZV9weDNRMmVyMjVTMU84ajFHcGV1ME0wMkhzeWEwNnZ2OEk2czZjZkw0OFVKTHgtbmRVX19vb0VyMVJoRTB4Qmt4VW1MTzZkVUJpbWkxSA?oc=5
+    - 12/10 13:15 Telemetro: Sismo en Panamá | Potabilizadoras de Coclé, Veraguas, Herrera y Los Santos se encuentran operativas
+      https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdVJsOTRNR1JhdS1ucVgycWhock9SN2hSeHY5d2V3ckdsb3ROaXB1ODRzRVVUeDlCQzJyaFpyLVM5Nm5sSnZLS2VlN1RlVzMxZi1FWmFUdnFBLVM5OHhsYk02WEVlZEUwV1M3d2thSTh1M3Nhc3hoOEtzVWVuaEMxTFZLZzFpa0VNbDFrUDQ2b1FIdTFLY1dMbXdhR0hxSjNSZWFTQXdVcUo3ZW94czh1dlo1Sk4tMG44bE54WENwRmJWRnZTNDhzQmNadjh1bVE0UGVoQkxR0gHWAUFVX3lxTE11Umw5NE1HUmF1LW5xWDJxaGhyT1I3aFJ4djl3ZXdyR2xvdE5pcHU4NHNFVVR4OUJDMnJoWnItUzk2bmxKdktLZWU3VGVXMzFmLUVaYVR2cUEtUzk4eGxiTTZYRWVkRTBXUzd3a2FJOHUzc2FzeGg4S3NVZW5oQzFMVktnMWlrRU1sMWtQNDZvUUh1MUtjV0xtd2FHSHFKM1JlYVNBd1VxSjdlb3hzOHV2WjVKTi0wbjhsTnhYQ3BGYlZGdlM0OHNCY1p2OHVtUTRQZWhCTFE?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
+    - 12/10 15:16 Noticias Venevisión: Terremoto en Panamá liberó energía acumulada durante un siglo en la falla Azuero-Soná
+      https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSFdjWElDdFF6VUllNkNtYXlBazJ0SHdlb1VTVlhhbEJFWDg5UGNtcW5CVlNFcmd3VTloay13dGtNWjVEWXFoOHQwUmhZdHRKSnFEeFh5Z3hyMjZIWlp2Z1NBeENhcFNWQ3NISUFlR2ZzWUZ5Vm1jT08wX05aZGRfY09ZM1BHSG1Cem9YQTBCcEVrNTN0Tzc2R19sVjJoMjhYTS1tQ3JsWDFGZURHNEVVNzJPMmRNMUctM19vQTA0dXFITkR0Qk5pNWVQLWNjZ2U0R3g0Y0JR?oc=5
     - 12/10 13:41 Ecuavisa: Los generadores de ATM estarían operando en Esmeraldas, pero no hay evidencia de cuánta energía producen
       https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbGVHV2Q4eUVZeFFFeXB6MzJjV0FNSlA0RjVHYzRXYXM0T3VmRWJtXzFsNVBGZGRDYmFkNmExOUd5ZlRrcnNiZFNIaFFibVpWbGlxdmRWYjY4TFdsYmFTOHZqMUFKR1Q1TEwxejNnQTA0T0VBaVpDVzJaSTZfdk5rSEZvWGxqbk91Wmx3dFFZZ1ZNQVE4M2g4YmYxamhXS1FWN0RxREZsazjSAa4BQVVfeXFMUG5lcnRsYXJfVEhEUjFRa0VaS2FILTFVWVZMSlRFNFdZNUZpQml5TUhoamp0R3FSMGpyNFZEVXdBR1BrOG5RTzdoR2k0dDJFOGVLSWVEX21NUVBSVmlWcXc5SzlGX2x2S1NaT3J3d3REM1FQdXlCV3RaTENXNU51N0t0YWNmU0pYa3o0a29xbm9hWWZSNlBLQzFtN0d2VGoyMzdoYVZKanhZUk82T19B?oc=5
-    - 12/10 12:01 Ecuavisa: Los apagones se extienden a Samborondón y Daule este lunes 12 de octubre
-      https://news.google.com/rss/articles/CBMikwFBVV95cUxOaHM1b0s5X1drM1h0eEdJeTVEeGhwTVM2V0FMTFp0VjZ5RWZ1ZGlnR05KbFRyVWtYTWVqRk0yZkNzTXdYenBkbGVlRUhBV2ZNdGZ5SU5MTDRZRk5rUDNvaW13Z3B1ZlFmdm1LS1FQRTE4bE1jY19ucmlTd0VvSXFWT2psd1BNTldlODFETk42TmxKX2vSAZgBQVVfeXFMT0lzeFN0RlNncXhua3NhcE5QMWhIdkktNDdkd0cxWFl4dEpBWTNJdzUyZWx2WFAwaVU5NlNuMGdaYXV2SVhCX21wWWt5NVFiUDlJZUEzcF9iY3dqa1ZnVzVLa2FNQkZZQkhwWmNsLXVwZUUxV1ptaEtzeWJpeG5TaThiYUpIZlZzeEtKZ2pQb0JlWG1ldEh5b1A?oc=5
   Aeropuerto de Tocumen:
     - 12/10 15:06 Informe Aéreo Noticias: Más de 80 inspecciones ha realizado Tocumen a las instalaciones tras el sismo
       https://news.google.com/rss/articles/CBMitgFBVV95cUxNbXdDLUE3b0lXZWhibDlweVlIU1l5UFl5RG0wOXlERkFRWWV6U2JkVWE5LUtHRmRjQzFyYlAzenVXY0VxZ0RhcTNxc1h1OFo0LXlmMERBUC1sakdXVm9xODdaMEVZMzJ0YzZHREZQMU9vd3YwdHJVd29qc01kQ1I5N09oeGlMMkhvZlBobldoaUhVaXRYMFduOHFiVjJBS2JPalg2Mlh0bC1GaU1qOHMwNE00dVk5Zw?oc=5
@@ -69,9 +70,9 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
   2. [Estimación] Réplica M6+: 7.8 % en las próximas 24 h y baja cada día; días 2–7: 4.0 % por día (cálculo sobre el pronóstico USGS) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
-  3. [Probable] Hora tranquila: rutina normal con las precauciones básicas; nada nuevo que hacer.
 
 ÚLTIMAS 24 H — eventos M4.5+ (hora local, M, lugar, prof.):
+  12/10 15:05  M4.8  25 km W de Río Grande  10 km
   12/10 08:17  M4.5  6 km W de Tonosí  10 km
   12/10 02:16  M4.5  7 km ESE de Tebario  10 km
   11/10 21:22  M4.5  7 km ENE de Lajamina  10 km
@@ -79,10 +80,16 @@ ACCIONES AHORA:
   11/10 16:19  M4.5  27 km W de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 15:30 (automático)
-Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
-Tsunami: sin alerta. Próxima actualización en 1 h.
-Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
+🔔 Sismo PA 15:40 (automático)
+Última hora: 1 réplicas de M4.5 o más. Mayor: M4.8 a las 15:05, 25 km W de Río Grande.
+Réplicas M4.5+ en las últimas: 1 h → 1 · 5 h → 1 · 10 h → 2 · 18 h → 3 · 24 h → 6. Tendencia: estable (1 M4.5+ en la última hora vs 0.0/h en las 4 anteriores; horas 6–10: 0.2/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
+Desde el principal (M7.7, 12:56): 14 réplicas M5+, 2 M6+.
+Tsunami: sin alerta.
+Réplica fuerte (M6+), probabilidad por día y bajando: próximas 24 h: 7.8 % → días 2–7: 4.0 % por día → días 8–31: 1.4 % por día (cálculo sobre el pronóstico USGS).
+Ahora: Nada de ascensor, escaleras. Réplica M6+: 7.8 % hoy y bajando cada día (cálculo sobre el pronóstico USGS) — esperado, no es un nuevo terremoto.
+Próximo informe regular en ~3 h; vigía cada 10 min con alerta inmediata si hay réplica M5.5+, sismo cercano o tsunami.
+Emergencias: 911 · Sinaproc 520-4426/27/29 (WhatsApp 6998-4809) · lista completa en el PDF.
+Fuentes: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k · tsunami.gov · prensa (enlaces en el PDF).
 
 TELÉFONOS ÚTILES (Panamá; 'oficial' = tomado del sitio de la entidad, 'directorio' = no confirmado en sitio oficial):
   Emergencias:
@@ -116,10 +123,8 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-11T20%3A30%3A12&endtime=2026-10-12T20%3A30%3A12&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-11T20%3A40%3A20&endtime=2026-10-12T20%3A40%3A20&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
-Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
-
-ENVÍO: no enviado — próximo informe regular en 3.2 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular

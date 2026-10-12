@@ -1,4 +1,10 @@
-🔔 Sismo PA 15:30 (automático)
-Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
-Tsunami: sin alerta. Próxima actualización en 1 h.
-Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
+🔔 Sismo PA 15:40 (automático)
+Última hora: 1 réplicas de M4.5 o más. Mayor: M4.8 a las 15:05, 25 km W de Río Grande.
+Réplicas M4.5+ en las últimas: 1 h → 1 · 5 h → 1 · 10 h → 2 · 18 h → 3 · 24 h → 6. Tendencia: estable (1 M4.5+ en la última hora vs 0.0/h en las 4 anteriores; horas 6–10: 0.2/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
+Desde el principal (M7.7, 12:56): 14 réplicas M5+, 2 M6+.
+Tsunami: sin alerta.
+Réplica fuerte (M6+), probabilidad por día y bajando: próximas 24 h: 7.8 % → días 2–7: 4.0 % por día → días 8–31: 1.4 % por día (cálculo sobre el pronóstico USGS).
+Ahora: Nada de ascensor, escaleras. Réplica M6+: 7.8 % hoy y bajando cada día (cálculo sobre el pronóstico USGS) — esperado, no es un nuevo terremoto.
+Próximo informe regular en ~3 h; vigía cada 10 min con alerta inmediata si hay réplica M5.5+, sismo cercano o tsunami.
+Emergencias: 911 · Sinaproc 520-4426/27/29 (WhatsApp 6998-4809) · lista completa en el PDF.
+Fuentes: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k · tsunami.gov · prensa (enlaces en el PDF).
