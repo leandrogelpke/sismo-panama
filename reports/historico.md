@@ -48,3 +48,4 @@
 | 12/10 01:35 | 0 | 1 | 3 | 4 | 4 | — | 14/2 | en descenso | ok | 33 % | no enviado — ya se envió hace 20 min:ok |
 | 12/10 04:06 | 0 | 1 | 2 | 5 | 5 | — | 14/2 | en descenso | ok | 33 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
 | 12/10 04:19 | 0 | 1 | 2 | 5 | 5 | — | 14/2 | en descenso | ok | 33 % | no enviado — ya se envió hace 13 min:ok |
+| 12/10 06:56 | 0 | 1 | 2 | 4 | 5 | M4.3 06:07 | 14/2 | en descenso | ok | 33 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
