@@ -1,10 +1,10 @@
-Sismo PA 04:06: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 04:19: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 04:06 (12/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 63.2 h.
+SISMO PANAMÁ — informe de las 04:19 (12/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 63.4 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 1 de M3.5–4.4 | 10 h: 2 de M4.5+ y 1 de M3.5–4.4 | 18 h: 5 de M4.5+ y 2 de M3.5–4.4 | 24 h: 5 de M4.5+ y 2 de M3.5–4.4
+  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 0 de M3.5–4.4 | 10 h: 2 de M4.5+ y 1 de M3.5–4.4 | 18 h: 5 de M4.5+ y 2 de M3.5–4.4 | 24 h: 5 de M4.5+ y 2 de M3.5–4.4
   Acumulado desde el principal: 52 M4.5+ | 14 M5+ | 2 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
 TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores; horas 6–10: 0.2/h.
 
@@ -29,10 +29,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 11/10 13:30 www.metrolibre.com: El Idaan suspende operaciones de potabilizadora en Veraguas
       https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGdCbXdsZERtN1FscnFyYmJkSlBnRDZOSndfTU5rc1RLMS0wSmZ1REdPSnEzUzA1MmVqejdENDZySUMzRk5oVmhUWDNfVlFIQmdUTVJKZXZWSm1zODc5ekFHbjlPNng5b1NwUW1WampnNGNsSUYtN3dlZklfRFY1OGFvVU9LTTZZMC15Zkw2TnR0dnJRMXZvbG9HV0plV2lPZmVqV1JJczVVZk9t?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
+    - 12/10 00:54 lineadirectaportal.com: Terremoto deja a comunidades de Panamá sin agua ni electricidad
+      https://news.google.com/rss/articles/CBMixwFBVV95cUxOSkZ4YWhGU1pfMzRnbGRyRU1Kd2NtSDNXVTQ5eWVOVXN5OVd0VUR5UXhIaHpOdzYxZWxwSkp4Qzd4dWpuT0xnRzNCVlUyOXFlMkZvaDVJZzJSYkJVUEtWZjJlVl95TUVaOXItYWlsYk5IMFV3RFZoWTVkYy1ETU5iblowXzZPaFBLaUNVUFU2M1REYVhSSGM2TFNtTFFSNllyeUF1RHh6NkdTRG9jV01heG9MNzREM25rcHZzbU1ic1lLTHA4TEVF?oc=5
     - 11/10 20:14 Mi Diario: Exclusiva. Terremoto en Panamá: Sin colchones, sin luz y con miedo; Residentes de La Pintada piden ayuda tras el sismo
       https://news.google.com/rss/articles/CBMi5gFBVV95cUxNN0thZVVITXdiSHNsU3hsMXlXTmZqbjBhOVNHZXpVMEdPRVAxSlJZLUZPb0RzLXpFN0pOTlQzUHhsVUZjYzN0bHI5V0l5aXFJeVdQQU80OElYVEZGMjVCd19zNEhGMHJyQ3JCX0tRU2o0UEgwdHhQYlpsbmFoREVOLUlMdlJHQ2ViVi1CX1B1NjYxY0JudlNzRmFxRXpyenR3T3hhSW5WVXpnZW5GVGpMOF93NXhTWVpxeDhfQzVjR1Bjc0dyNTRleElSMktOUUY3VEdPSW4tTnBGVDlhVlYyVTNqczl0UQ?oc=5
-    - 11/10 17:00 López-Dóriga Digital: Sin agua, electricidad ni acceso seguro tras el terremoto en Panamá
-      https://news.google.com/rss/articles/CBMiqAFBVV95cUxONkRlWl82WUM5X2dsOUlvVkg2anE5OXZZcnhqSTNZMGxOZkxuZXJpMEEwMjRFeF9EVy0xQ1RqXy1ybFZaaUZCR2ZHLWVlbmthbldadHhvakdFWWoyWmFBU05zTjdDa1dLeHRETm5qU2djajZEd0pTSGpqQVREX1ZpU3ZnMVR6ZE1JUk5LSGRZSTdDb1VsV1p6RU5VTWswRG03a0dNQlVqWGU?oc=5
   Aeropuerto de Tocumen:
     - 11/10 19:02 CRÍTICA: Tocumen mantiene revisiones por réplicas y vuelos siguen con ajustes
       https://news.google.com/rss/articles/CBMisAFBVV95cUxOVWlqMzRyWVFOV2FJSzd2cjB4aGl2ZlVpSTB1Z3BLM1FqUmpzSzUwVFBmWldHT2VaN1hFWkhCRDZSOU1YMVRLVU8zb08wNXk4T05rdzI4QldxM0ZZUEVaNVJNUFJkTGdpRkdZLVB6OVcyNFdJS3RHY280TGVkWl90Y005azhZNE5oMXduNFVyckcxazlZaVZiMUtGQWJBYW5DRjctNzkzMm96OUVXTGVFMdIBtgFBVV95cUxPOUFKM0ZfRTRXUXY5cnFqNUZ3MzJJN3VZemNva29MamtjSWlOcEdzcW9HTk1hUlBkV1lCcDZxZERpbm1nTmM2eTAyaENXQ0ZKWVVXMVBkZ1lSc3pRUVZfU19JeXJSbmdnQzJCcWdLNTlyYm9obkNibUpjTkpHZlI2TnFWY2t4Y2RXTmNjQkdlcmdGQW93aVdhNlFUbGIyVG9Md1gxNkNTZGNJdm9KSXFpLUFSNWdkZw?oc=5
@@ -59,10 +59,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 11/10 17:01 La Estrella de Panamá: Réplicas del terremoto de 7,5 en Panamá disminuyen, confirma Sinaproc
       https://news.google.com/rss/articles/CBMixwFBVV95cUxQc0pILTF1U2c3TTBXZl9OQWRvblZFck13RTNzeDY0OGl6VmR6YVFfQXlfbkwwSXJSRE1YMG5LZE53QUpsaXVQallOaDNRTWxaendvdjdyXzd4VzgtNDJWSVMtMjdEc29Idy12dFJXYnlhWFplV0ZGbXlvVFppWXdNX3lOcGZZdEFnYVp1Q3l4NDR1dWxmOEhEM0RvUVMyOVFtNzdDRElTeW5ZRExjUWx4ZGliN19WZmRiakVBSzZLU0ZVSzFZTUc00gHHAUFVX3lxTFBzSkgtMXVTZzdNMFdmX05BZG9uVkVyTXdFM3N4NjQ4aXpWZHphUV9BeV9uTDBJclJETVgwbktkTndBSmxpdVBqWU5oM1FNbFp6d292N3JfN3hXOC00MlZJUy0yN0Rzb0h3LXZ0UldieWFYWmVXRkZteW9UWmlZd01feU5wZll0QWdhWnVDeXg0NHV1bGY4SEQzRG9RUzI5UW03N0NESVN5bllETGNRbHhkaWI3X1ZmZGJqRUFLNktTRlVLMVlNRzQ?oc=5
   Daños y víctimas:
+    - 12/10 00:37 Vanguardia de Veracruz: Panamá suma 256 réplicas tras terremoto de magnitud 7.5; reportan 27 heridos
+      https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRjRlWExnMWd2MW9JZGFSUkdsVzZaeGdEVnR3SzBqSWNobTJoX194RWNZaURIR3BZMzVxaEtwdWJkckNuRHFLOVlSTEo1bnNKcXFneU1jMHd3ZU5BcERlZU42OUp2NXJzNXBnZUdGQVRzMUVHNnY4Z005SkNIU2tZYm44QzJ1YmVPcGhaLWtRSm5BQU1Uc1dTYU1GTGpFSzJGWkN2VGJkZTY3dFE?oc=5
     - 11/10 20:33 Telemetro: Sismo en Panamá | Autoridades brindan balance de daños y entrega de ayuda humanitaria
       https://news.google.com/rss/articles/CBMiwgFBVV95cUxONEhKLXNTZnpwMUJEWXgzU0tWcE00elBDV09XaUlOUXBoOGNmY3BMRzV1Z0xxcVZlV2o1RnpDOURpdjRhc0NLZ25PUGYzQlZ3cXJMTzdXVW5RU0dHVjdTeldQRHlyQ3F5Ym9DZDg3c2lWbnNlZ010NFg4RlFQR1NLZ0paaWYwUlZReFBQcDVxVEZ4UGtacG5RSFdjLV92Y1lWR29sOExPQmZPLXZRenlxOVRGYlBHeG5OOWdMejNXazY0QdIBwgFBVV95cUxONEhKLXNTZnpwMUJEWXgzU0tWcE00elBDV09XaUlOUXBoOGNmY3BMRzV1Z0xxcVZlV2o1RnpDOURpdjRhc0NLZ25PUGYzQlZ3cXJMTzdXVW5RU0dHVjdTeldQRHlyQ3F5Ym9DZDg3c2lWbnNlZ010NFg4RlFQR1NLZ0paaWYwUlZReFBQcDVxVEZ4UGtacG5RSFdjLV92Y1lWR29sOExPQmZPLXZRenlxOVRGYlBHeG5OOWdMejNXazY0QQ?oc=5
-    - 11/10 20:24 Telemetro: Sismo en Panamá | Familia sobrevive al colapso de un edificio en Playa Venao
-      https://news.google.com/rss/articles/CBMitgFBVV95cUxPLS1Kdk53bnNQU05oV25sTmprVm4zVHluT1dSS21KekgwMk82MWdkS2h0LTFtRVVfSkxXY2hLdm5lTGZuQjRxQ3lCcWtoZV96X1Z4ZWxxWGQwUTNoa09lZEQxYmxGUkdfRkhUZ0xYaS1UWXNzZFpRUjhyMFZ5ak5uWk95RFhTUFBvcGRjWW1wQ1dKc2FtV0RJTWVLQ2JfVDk1ZmF2MlZ2REhOQWJJbjByM0o2YlJCQdIBtgFBVV95cUxPLS1Kdk53bnNQU05oV25sTmprVm4zVHluT1dSS21KekgwMk82MWdkS2h0LTFtRVVfSkxXY2hLdm5lTGZuQjRxQ3lCcWtoZV96X1Z4ZWxxWGQwUTNoa09lZEQxYmxGUkdfRkhUZ0xYaS1UWXNzZFpRUjhyMFZ5ak5uWk95RFhTUFBvcGRjWW1wQ1dKc2FtV0RJTWVLQ2JfVDk1ZmF2MlZ2REhOQWJJbjByM0o2YlJCQQ?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Para la noche: zapatos cerrados, linterna, llaves y celular cargado junto a la cama; puerta del cuarto sin seguro; si tiembla fuerte, proteger la cabeza junto a la cama y esperar a que pase antes de bajar.
@@ -77,7 +77,7 @@ ACCIONES AHORA:
   11/10 12:11  M4.8  31 km W de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 04:06 (automático)
+🔔 Sismo PA 04:19 (automático)
 Última hora: ningún temblor M3.5+ registrado.
 Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 1 · 10 h → 2 · 18 h → 5 · 24 h → 5. Tendencia: en descenso (0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores; horas 6–10: 0.2/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 14 réplicas M5+, 2 M6+.
@@ -120,8 +120,8 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-11T09%3A06%3A24&endtime=2026-10-12T09%3A06%3A24&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-11T09%3A19%3A44&endtime=2026-10-12T09%3A19%3A44&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
-ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular
+ENVÍO: no enviado — ya se envió hace 13 min
