@@ -1,10 +1,10 @@
-Sismo PA 19:33: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 20:22: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 19:33 (11/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 54.6 h.
+SISMO PANAMÁ — informe de las 20:22 (11/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 55.4 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 0 de M3.5–4.4 | 10 h: 2 de M4.5+ y 0 de M3.5–4.4 | 18 h: 2 de M4.5+ y 0 de M3.5–4.4 | 24 h: 3 de M4.5+ y 1 de M3.5–4.4
+  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 1 de M3.5–4.4 | 10 h: 2 de M4.5+ y 1 de M3.5–4.4 | 18 h: 2 de M4.5+ y 1 de M3.5–4.4 | 24 h: 3 de M4.5+ y 2 de M3.5–4.4
   Acumulado desde el principal: 49 M4.5+ | 14 M5+ | 2 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
 TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores; horas 6–10: 0.2/h.
 
@@ -49,10 +49,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 11/10 11:27 Mi Diario: ¿Ya funciona el Metro de Panamá? Esto anunció la entidad sobre las líneas 1 y 2
       https://news.google.com/rss/articles/CBMitAFBVV95cUxOWTFJQ0FZOXNzYllZOVhCNU8wUkdnWEZTdy0wbnhHV0Q4d3ZMR08yZ0cwenZ5ZFEtOFNVWnR0ajBfRldRaV9iNG50UVYxSG02N0NSaHBYRC1XaFozeVJ6MUFRSnBGWnhoYUsxMTZMNHVTdnNCb3RxLUc1d3BSR3lwaHdMUDdBVDFzQ3BlcDBmYU5BU3pPMk03MVowQndaOTB5Q24yRHdjcVJ0M1ctRElnb2RiZ2k?oc=5
   Escuelas (MEDUCA):
+    - 11/10 19:53 TVN Panamá: Temblor en Panamá: Al menos 14 escuelas con daños estructurales en Bocas del Toro
+      https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2duLVNqSDhwanNxRkpNeE5kTzQzZjRDaGo3SW5VclEwRFBqZVBsRWNwNTNXeGJ3VXZfZ25DTW1SZHRhYUR6aUw2SWNZMUEwa19qT1BzVUhKdVJqRGtxNUpsb1RFSzl6Z09oT1E4MWlTVmN0VGRONGU2T3dDVjdkanJIQWFnR3dIVE5xY3dsWmJ5QXYyUDZGNy1icm9mTEFqUEZHa2FpN3A2ZmZyR1dsVE1R?oc=5
     - 11/10 17:18 TVN Panamá: Temblor en Panamá: En Veraguas, 7 escuelas destruidas y otras 200 presentan daños considerables
       https://news.google.com/rss/articles/CBMirgFBVV95cUxNVGJZUmJJYU0ySm1aVHlsaVBWTjc3cmRETm01a045aU5BWU5xVXRiaTRyYkJLNW9qMGZZcUV2NkJDRERvM3NwUzR2cHJFbkpyR3k2UXNMd19RWVhxWTVRRHRlTGNnOGFKVHRxLUNsbjYxNlRLZVFwczZsS3FTMXVtYTZuREI2NlRvZzBYUVU2V1FfWDQ2amRpYUZIUDJfQWZNYnpuTWpsMUhjQnktZXc?oc=5
-    - 11/10 16:47 CRÍTICA: ¡Aulas cerradas! Meduca suspende clases en Colón para evaluar escuelas
-      https://news.google.com/rss/articles/CBMisAFBVV95cUxNZW9PY3N5TnFjNTk0WFE5aFBfZV85TS1QQ3lnV1FNNkN6Qzk0WlJKd1Z3SUFKei1pS0JaS2ItWWZVQUJ2V2Ezcm5VRzNZRzNiWERmb1FpWU1mWnViYUJlZWpkNkdTMkNpblpQNHN0MWdOVkROSjhFemVlZTRDdXdwNXNHZ3VPQnRnTl82U09haUtUZ2U0cTJ5S2hSeEZMT29wMFBzbXB5WlZQLUN2eTg5VdIBtgFBVV95cUxQa000ajdlZEJoYkI4MGdtaGsxdzJRV3NZMmpZSDhnMnZrYUY5NUZjWlg3VEg4QVdsSy0tWmI1WlN4RGljam1DdWM4R1NvRHlmTEd0UU1RTFZCT3E5SFd5d2lieVExUGZZOER3bGlzcmlWYVlWMzRrZ1pZSHZaRkUxYmZmLVhKMzB5S3ZMOU5FV2ZlTU5XVG5hMEd5MDFzYnlhQkxaTWhnbjdpYUxNNFpmQi1VTjJSUQ?oc=5
   Sinaproc / autoridades:
     - 11/10 16:50 www.metrolibre.com: Sinaproc contabiliza 66 familias afectadas y ocho caserones con daños en Colón tras el reciente sismo
       https://news.google.com/rss/articles/CBMi5AFBVV95cUxORkdMZlR6WEJwR3NvQVZOblZEaE1TNWx3c2Z2ZnV6YUQ3NDdrSHF4VXFlNi1pWVlkYmktcU96SjN1bW1xT05Pdms5RmQ5UVBaajFTOTc5bkE1R2FrSl8ySVQ5dEdTamVSeHRqTEFWbE00VjZhTkl0T0E1ZWRVNDRiR2RJMFBPSXBfRVFuSUVoVndnb0pkVnkwYWpQT0p3TkR6cFNXMGR4WlJQeUQtelpjdi13UThiQ19Cek54WkhyS1hWaWRsZTVKT19VZEI2elB1Yy1LcTdBZFlwNHFpRjhRb19VQTg?oc=5
@@ -75,7 +75,7 @@ ACCIONES AHORA:
   10/10 20:50  M5.0  3 km NW de Flores  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 19:33 (automático)
+🔔 Sismo PA 20:22 (automático)
 Última hora: ningún temblor M3.5+ registrado.
 Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 1 · 10 h → 2 · 18 h → 2 · 24 h → 3. Tendencia: en descenso (0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores; horas 6–10: 0.2/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 14 réplicas M5+, 2 M6+.
@@ -118,8 +118,8 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-11T00%3A33%3A45&endtime=2026-10-12T00%3A33%3A45&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-11T01%3A22%3A59&endtime=2026-10-12T01%3A22%3A59&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
-ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular
+ENVÍO: no enviado — ya se envió hace 49 min
