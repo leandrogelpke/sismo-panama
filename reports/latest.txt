@@ -1,20 +1,20 @@
-Sismo PA 10:58: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 11:09: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 10:58 (13/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 94.0 h.
+SISMO PANAMÁ — informe de las 11:09 (13/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 94.2 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 0 de M3.5–4.4 | 18 h: 6 de M4.5+ y 1 de M3.5–4.4 | 24 h: 9 de M4.5+ y 1 de M3.5–4.4
   Acumulado desde el principal: 62 M4.5+ | 15 M5+ | 3 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
 TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.0/h en las 4 anteriores; horas 6–10: 0.2/h.
 
-PRONÓSTICO [pronóstico oficial USGS emitido 12/10 10:55] — fuente: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast:
+PRONÓSTICO [pronóstico oficial USGS emitido 13/10 10:57] — fuente: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast:
   La probabilidad de una réplica fuerte BAJA con los días. Probabilidad POR DÍA (cálculo de este monitor a partir del pronóstico oficial USGS):
-  M5+ (leve o no se siente en la capital): próximas 24 h: 51 % → días 2–7: 29 % por día → días 8–31: 8.7 % por día
-  M6+ (se sentiría en la capital): próximas 24 h: 7.8 % → días 2–7: 4.0 % por día → días 8–31: 1.4 % por día
-  M7+ (poco probable; sería fuerte): próximas 24 h: 0.8 % → días 2–7: 0.5 % por día → días 8–31: 0.2 % por día
-  Cuántas se esperan en total (mediana y rango 95 % del USGS): M5+: 24 h 1 (rango 0–3), 7 días 3 (rango 0–11), 30 días 7 (rango 1–24) · M6+: 24 h 0 (rango 0–1), 7 días 0 (rango 0–2), 30 días 0 (rango 0–4)
-  Acumulado — probabilidad de AL MENOS UNA en todo el período (crece solo porque el plazo es más largo, no porque el riesgo suba): M6+: 7 días 28 %, 30 días 49 % · M7+: 7 días 3 %, 30 días 7 %
+  M5+ (leve o no se siente en la capital): próximas 24 h: 45 % → días 2–7: 27 % por día → días 8–31: 8.7 % por día
+  M6+ (se sentiría en la capital): próximas 24 h: 5.9 % → días 2–7: 3.7 % por día → días 8–31: 1.4 % por día
+  M7+ (poco probable; sería fuerte): próximas 24 h: 0.5 % → días 2–7: 0.4 % por día → días 8–31: 0.2 % por día
+  Cuántas se esperan en total (mediana y rango 95 % del USGS): M5+: 24 h 0 (rango 0–3), 7 días 3 (rango 0–10), 30 días 6 (rango 1–22) · M6+: 24 h 0 (rango 0–1), 7 días 0 (rango 0–2), 30 días 0 (rango 0–4)
+  Acumulado — probabilidad de AL MENOS UNA en todo el período (crece solo porque el plazo es más largo, no porque el riesgo suba): M6+: 7 días 25 %, 30 días 46 % · M7+: 7 días 3 %, 30 días 7 %
   Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica típica para un M7.7 ronda M6.5, y queda una probabilidad pequeña pero no nula de un evento igual o mayor.
 
 SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; la ausencia de noticias NO confirma que un servicio esté normal):
@@ -68,7 +68,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
 
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
-  2. [Estimación] Réplica M6+: 7.8 % en las próximas 24 h y baja cada día; días 2–7: 4.0 % por día (cálculo sobre el pronóstico USGS) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
+  2. [Estimación] Réplica M6+: 5.9 % en las próximas 24 h y baja cada día; días 2–7: 3.7 % por día (cálculo sobre el pronóstico USGS) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
   3. [Probable] Hora tranquila: rutina normal con las precauciones básicas; nada nuevo que hacer.
 
 ÚLTIMAS 24 H — eventos M4.5+ (hora local, M, lugar, prof.):
@@ -83,7 +83,7 @@ ACCIONES AHORA:
   12/10 15:05  M4.8  25 km W de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 10:58 (automático)
+🔔 Sismo PA 11:09 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -120,10 +120,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-12T15%3A58%3A42&endtime=2026-10-13T15%3A58%3A42&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-12T16%3A09%3A17&endtime=2026-10-13T16%3A09%3A17&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 0.8 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 0.6 h; alerta solo con M5.5+, tsunami o reactivación
