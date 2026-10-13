@@ -1,12 +1,12 @@
-Sismo PA 02:54: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 04:30: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 02:54 (13/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 86.0 h.
+SISMO PANAMÁ — informe de las 04:30 (13/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 87.6 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 0 de M3.5–4.4 | 10 h: 6 de M4.5+ y 0 de M3.5–4.4 | 18 h: 9 de M4.5+ y 0 de M3.5–4.4 | 24 h: 10 de M4.5+ y 1 de M3.5–4.4
+  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 0 de M3.5–4.4 | 10 h: 5 de M4.5+ y 0 de M3.5–4.4 | 18 h: 9 de M4.5+ y 0 de M3.5–4.4 | 24 h: 10 de M4.5+ y 1 de M3.5–4.4
   Acumulado desde el principal: 62 M4.5+ | 15 M5+ | 3 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
-TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores; horas 6–10: 1.0/h.
+TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores; horas 6–10: 0.8/h.
 
 PRONÓSTICO [pronóstico oficial USGS emitido 12/10 10:55] — fuente: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast:
   La probabilidad de una réplica fuerte BAJA con los días. Probabilidad POR DÍA (cálculo de este monitor a partir del pronóstico oficial USGS):
@@ -36,7 +36,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 12/10 14:29 Diario Extra: Terremoto en Panamá liberó la energía acumulada en un siglo
       https://news.google.com/rss/articles/CBMinAFBVV95cUxQRHo1dW14aEFBbFU0MURkVjFMS0ZfcloyQTVIckVBMzJ1NVBzSXRvTi1IVVdHSWtic0JERmpsR2pZYnV5dzVaVWUxZk1rRDNTaDVxbTRoNG1CRzctTDh3bzVzeFJDSDIzYTl5bThHTjJWVUZabkFEdHhFcmk0SDZJbVR2c3NfNG5UX0lyajdoNGhhTi01UFdqQy0wZC0?oc=5
   Aeropuerto de Tocumen:
-    - 12/10 23:03 reportnews.la: Copa Airlines permite cambiar sin cargo los viajes por el terremoto en Panamá
+    - 12/10 23:18 Report News: Copa Airlines permite cambiar sin cargo los viajes por el terremoto en Panamá
       https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlVVYmN2eEpSejhRSFMwRm9oVHlfQ2VCUkVVZkFOWm55Nm1GdFA2NDJ4bzdFQk1YVkdUOGhId2FOLUE0MFdqNWJBNkRRVG8welFpV0N5dzdKbWo1cU92ZkhuSU1ISFpVLTBTcjUzT1BPVkp5c1JOSXphcDEwMExtb0VYVDcza2lpX045RjZoV2VwWmYwaWViWC1qZkcyaHZiTG9zbE9RVkdYdENtOGxlMURQWEZMOTA?oc=5
     - 12/10 20:11 CGTN: El Aeropuerto Internacional de Panamá reanuda operaciones gradualmente
       https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IdThoN2lqOV90b19nc3MySHJOQ0M2dGctMVNnOHlSUHlMZXh1NUdoZEF3Z0FUNVFNZG5zNmxDZE5SbmxIRTM3UXhPb0NuMDZwSzYxU2Fyc29EOVNUQkpIZE45Y1FFTms?oc=5
@@ -58,8 +58,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Sinaproc / autoridades:
     - 12/10 23:00 Infobae: Más de 6,000 personas resultaron afectadas por el terremoto, detalla el Presidente Mulino
       https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS2VuTjczRGJvbjA4b0UzYmN3UXVjbzZlTnBJVjBWSFhQV2ZfMGNVM3ctYkdpWVRiVlUzVmc1SXRrNlRrNmh6VnUzZHgtbkpFSUhVbm5wQlJUOGloelhVMlpDTDhtYmZGWGVxcVllYnptc3VDT0VEUWhmbXJmZWNkMVIyQm41LUpFRkJ1TENEbmI1cHRKN0c0TVJMcnUtc3pnWFVNa19NU3FVdERDdjlab1o3a2xna2tQWi1kUzFObkp5VVRtUTVyLW5fZEJqdFFCNDF3dmpDVFdnVDQ0bkY5LTNrS03SAeQBQVVfeXFMTktlbk43M0Rib24wOG9FM2Jjd1F1Y282ZU5wSVYwVkhYUFdmXzBjVTN3LWJHaVlUYlZVM1ZnNUl0azZUazZoelZ1M2R4LW5KRUlIVW5ucEJSVDhpaHpYVTJaQ0w4bWJmRlhlcXFZZWJ6bXN1Q09FRFFoZm1yZmVjZDFSMkJuNS1KRUZCdUxDRG5iNXB0SjdHNE1STHJ1LXN6Z1hVTWtfTVNxVXREQ3Y5Wm9aN2tsZ2trUFotZFMxTm5KeVVUbVE1ci1uX2RCanRRQjQxd3ZqQ1RXZ1Q0NG5GOS0za0tN?oc=5
-    - 12/10 21:56 Forbes Centroamérica: Mulino detalla ayuda humanitaria tras el sismo
-      https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnFzUUJjZC1pLVB1eldnTEUwem1FdmRidTJYY0lPWXo0SFcwRnhralN1WHBkZkJIQ0xWR1VLdXM5ZGw4anIyUnFXby1xMkFISENTend2SHFQbGtuOEZ3MEc5LXo4Xy1LN2VBX3VXbFlfYTVQMEpaZU13SXhJV3hxT2JSSVNDUHRvc25teWFoelptb1Q3?oc=5
+    - 12/10 22:00 La Estrella de Panamá: Mulino se dirige al país, colegios oficiales seguirán cerrados
+      https://news.google.com/rss/articles/CBMivwFBVV95cUxQNDgwVjRlOHd2NE4yOTFqT01nM21nZzdpRHc2TTh2ZmFXcHAxRXpFUWlZTEliTGdvYTlETmU0MmJtdTlHaU8xMnlXcHRHcUZMTmwzNGxSblVlczdReG1RTlJ4N0s1ZWJUSVZDcVdSMlFTR2kyc3RldDc1TjlZclVJeGNGLU1HRU9GR3JrSTJxUXNGYUUyZnM1QkhSYW9ZV2hkWXZ0SFp0V2JyeHkxa0MxLVN2RnZZdjZmYWRIVndSc9IBvwFBVV95cUxQNDgwVjRlOHd2NE4yOTFqT01nM21nZzdpRHc2TTh2ZmFXcHAxRXpFUWlZTEliTGdvYTlETmU0MmJtdTlHaU8xMnlXcHRHcUZMTmwzNGxSblVlczdReG1RTlJ4N0s1ZWJUSVZDcVdSMlFTR2kyc3RldDc1TjlZclVJeGNGLU1HRU9GR3JrSTJxUXNGYUUyZnM1QkhSYW9ZV2hkWXZ0SFp0V2JyeHkxa0MxLVN2RnZZdjZmYWRIVndScw?oc=5
   Daños y víctimas:
     - 12/10 22:10 eltiempomx.com: Sismo de magnitud 6.1 sacude Panamá; no reportan víctimas ni daños
       https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRVJteGF1Skk4bXZBNTNYRnQtOXpPQTluR1hQVXBlYXJDaVJBN3pEZkZKc1R6b3VhSFhXMEpjcjEtNDFBREhJUTlZaFE2TTk2TmtLZnFVeUVNTzF4Q1JPNUQwZlhMRXA4T3FEZGliZmxQQmZUUzVFSXFkaVVob0tqNzB5aEhnakp5X1dtWVlUVFc2SGVoekkzT0lqMFVGcEIzTmxkamFzaGnSAZwBQVVfeXFMUFNDWTZ3QlkyWElHdG5NNTNrbVFCZE1rVU5aajMyRnA5Tk9qMTF3VTRFZUlnV1hHZDhlWlVXcmhmQ2ZzbmdpNElUQWNJNlJtV1ZKcVFzaVF2a0F6clRzZFRUNm90bkRLWjBxcjNWb1VyOUg4cERndmFEYlVZLTd6M1JIcjlSUHZfNW95ZE9yYkhIYXd1QzZVZThxdHdP?oc=5
@@ -84,9 +84,9 @@ ACCIONES AHORA:
   12/10 08:17  M4.5  6 km W de Tonosí  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 02:54 (automático)
+🔔 Sismo PA 04:30 (automático)
 Última hora: ningún temblor M3.5+ registrado.
-Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 1 · 10 h → 6 · 18 h → 9 · 24 h → 10. Tendencia: en descenso (0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores; horas 6–10: 1.0/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
+Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 1 · 10 h → 5 · 18 h → 9 · 24 h → 10. Tendencia: en descenso (0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores; horas 6–10: 0.8/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 15 réplicas M5+, 3 M6+.
 Tsunami: sin alerta.
 Réplica fuerte (M6+), probabilidad por día y bajando: próximas 24 h: 7.8 % → días 2–7: 4.0 % por día → días 8–31: 1.4 % por día (cálculo sobre el pronóstico USGS).
@@ -127,8 +127,8 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-12T07%3A54%3A58&endtime=2026-10-13T07%3A54%3A58&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-12T09%3A30%3A10&endtime=2026-10-13T09%3A30%3A10&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
-ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular
+ENVÍO: no enviado — próximo informe regular en 1.4 h; alerta solo con M5.5+, tsunami o reactivación
