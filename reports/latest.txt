@@ -1,10 +1,10 @@
-Sismo PA 08:57: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 09:07: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 08:57 (13/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 92.0 h.
+SISMO PANAMÁ — informe de las 09:07 (13/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 92.2 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 1 de M3.5–4.4 | 18 h: 9 de M4.5+ y 1 de M3.5–4.4 | 24 h: 9 de M4.5+ y 1 de M3.5–4.4
+  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 1 de M3.5–4.4 | 18 h: 8 de M4.5+ y 1 de M3.5–4.4 | 24 h: 9 de M4.5+ y 1 de M3.5–4.4
   Acumulado desde el principal: 62 M4.5+ | 15 M5+ | 3 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 14 km W de Río Grande.
 TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.0/h en las 4 anteriores; horas 6–10: 0.2/h.
 
@@ -21,8 +21,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Tsunami (tsunami.gov): sin alerta activa
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
-    - 13/10 07:04 La Web de la Salud: ¿Cuáles alimentos se recomiendan donar a las personas afectadas por el terremoto en Panamá?
-      https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSXF2U04zSVEtNV9vNzZPbXZBamRkQjZpMUI1UWxoaU1GWndWNTVpcEpfVmY5a2N2a2NGbUVTM1ltY2dpSFVDaUJLZDJxSmwwZ3pfVzA1Q0RocExBaDk5MUZyYU55OG5UZW16ZklTeFdyUlRvVUNRM1RLMy1ZTXhLY1BLUktib2RRR0VXZ1VJbUwybEhiTTdyQUI1cV9vc25WTDNYSzR6Tjd1RGZGRW5NTTZ3blFHd0sy?oc=5
+    - 13/10 07:08 El País: Terremoto en Panamá: se anunció inversión de US$61 millones para renovar hospitales y viviendas en las zonas afectadas
+      https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSGx0bGVPUlRPLURsR0pvSVYtUm05RUttMEJFSVJ6UEx3TDlOaUtGR3JuLU5kMkJ5U19tMGlOYWI1Ynhod2p4eEl1Zk9pSjFRLTBaelAyX1ZYaU9xOEkwNXdPb21MTVhKOVctaEhnQ3dZUm1wZ0d0QzA3YkFSMFdxaExmZXNXbW9sMUY5YmktWTltM1NSZXFCYXdTdVg1U0tOOGxjdExHWjJXSGdDNnJXMGFMQTVjM3NCV1E2ZGZYSDRzSHlMajA4Y0RaX3g0NDRjWkNXX1NYbkpLR1RfXzBLLWp0MDBwNTJ6eC1MVlcyYm0xS09U0gH0AUFVX3lxTE9IbHRsZU9SVE8tRGxHSm9JVi1SbTlFS20wQkVJUnpQTHdMOU5pS0ZHcm4tTmQyQnlTX20waU5hYjVieGh3anh4SXVmT2lKMVEtMFp6UDJfVlhpT3E4STA1d09vbUxNWEo5Vy1oSGdDd1lSbXBnR3RDMDdiQVIwV3FoTGZlc1dtb2wxRjliaS1ZOW0zU1JlcUJhd1N1WDVTS044bGN0TEdaMldIZ0M2clcwYUxBNWMzc0JXUTZkZlhINHNIeUxqMDhjRFpfeDQ0NGNaQ1dfU1huSktHVF9fMEstanQwMHA1Mnp4LUxWVzJibTFLT1Q?oc=5
     - 13/10 06:38 ICNDiario: Panamá destinará US$61 millones a hospitales dañados por terremoto y comenzará la reconstrucción de 1.300 viviendas
       https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUUtwTzhFcWhKWHlydUlaSEgwUXpPUmJWa2tFVVRaV016QUdZR3Q5NnBxQmh2bDJ6YVBCSTNDZzBBUkJKNlFhckJYRG40c0IzSEhJdkJFNWtVdzZhSFRYVFhTTlQtVGlHNEwzOWtPVENHaDBONEFwYmtoUVdWQUlmbjI2Mmk2Q2JfQWJUS1RXa3ZmUlNjTGo0dHpFbGxlSjhUcHVEZXBTanY5M1lxRTJsMmN0eUlXVTlFMTc4LVAtWjJEYjg5ZGh6cWhZREwyckpsd0FJSVo1YjJTaDNITFE?oc=5
   Agua (IDAAN):
@@ -83,7 +83,7 @@ ACCIONES AHORA:
   12/10 15:05  M4.8  25 km W de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 08:57 (automático)
+🔔 Sismo PA 09:07 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -120,10 +120,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-12T13%3A57%3A02&endtime=2026-10-13T13%3A57%3A02&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-12T14%3A07%3A09&endtime=2026-10-13T14%3A07%3A09&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.8 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.6 h; alerta solo con M5.5+, tsunami o reactivación
