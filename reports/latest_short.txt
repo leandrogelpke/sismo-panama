@@ -1,10 +1,10 @@
-⚠️ ALERTA sismo PA 21:03 — M6+ en las últimas 3 h
+🔔 Sismo PA 22:54 (automático)
 Última hora: ningún temblor M3.5+ registrado.
-Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 4 · 10 h → 5 · 18 h → 6 · 24 h → 8. Tendencia: reactivada (hubo una réplica M6+ en las últimas 3 h). Mayor réplica hasta ahora: M6.6 a las 15:25.
+Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 5 · 10 h → 8 · 18 h → 9 · 24 h → 10. Tendencia: en descenso (0 M4.5+ en la última hora vs 1.2/h en las 4 anteriores; horas 6–10: 0.6/h). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 15 réplicas M5+, 3 M6+.
 Tsunami: sin alerta.
 Réplica fuerte (M6+), probabilidad por día y bajando: próximas 24 h: 7.8 % → días 2–7: 4.0 % por día → días 8–31: 1.4 % por día (cálculo sobre el pronóstico USGS).
-Ahora: Réplica fuerte (M6+) hace menos de 3 h: revisar paredes y columnas antes de dormir. Noche: zapatos, linterna y celular junto a la cama; si tiembla fuerte, proteger la cabeza y esperar.
+Ahora: Noche: zapatos, linterna y celular junto a la cama; si tiembla fuerte, proteger la cabeza y esperar. Réplica M6+: 7.8 % hoy y bajando cada día (cálculo sobre el pronóstico USGS) — esperado, no es un nuevo terremoto.
 Próximo informe regular en ~3 h; vigía cada 10 min con alerta inmediata si hay réplica M5.5+, sismo cercano o tsunami.
 Emergencias: 911 · Sinaproc 520-4426/27/29 (WhatsApp 6998-4809) · lista completa en el PDF.
 Fuentes: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k · tsunami.gov · prensa (enlaces en el PDF).
