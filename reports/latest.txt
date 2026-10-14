@@ -1,7 +1,7 @@
-Sismo PA 22:24: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 22:34: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 22:24 (13/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 105.5 h.
+SISMO PANAMÁ — informe de las 22:34 (13/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 105.6 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 2 de M4.5+ y 2 de M3.5–4.4
@@ -33,7 +33,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Electricidad (ENSA, Naturgy, ETESA):
     - 13/10 21:27 CRprensa.com: Unicef estima que más de 8.300 niños necesitan asistencia humanitaria en Panamá tras terremoto
       https://news.google.com/rss/articles/CBMixgFBVV95cUxPZEtPT1gxVzNlbWQ4RG9VNEFQT1h3Qy11MDZRMFZkUV9MSXItUjZXZ3JIeExjU0tpN1pQQ2xkUnBTTVhrRGdya1VOQmstLTVGSW9ERFU4N3J2V2YwUjBoNW44a2Fja1N5ZTVveWp4X18yUG5lbWZZMnZlYzh5NHo3MTV5bTl1bVdOWF9YRllGTkxmZDE0aWNULUJmSkNWR1lKdXRXQXozUWlQMzJ2anBEd0FlLXowVzZ1SzBIRVJRZjJ3SUFxY1E?oc=5
-    - 13/10 17:18 LaPrensa.hn: Desaparecen 35 escuelas rurales tras el terremoto en Panamá al final del año escolar
+    - 13/10 17:53 LaPrensa.hn: Desaparecen 35 escuelas rurales tras el terremoto en Panamá al final del año escolar
       https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNkxCOGJCeEdVeFZqZG9wME5EWWd0bkZUN01Zcy01VDBCLXRXelJENHFBUndNeS03YWZkb24zWFhfWkFzZXlqaWlmUGs5SHlPV2d0SE1iejRpaUtGM3pxeDFNMmgtQzdsMjdVSjllb3lDRXg3R1V3S2lRd1Y2TVdTaEVuSVBpYzZzRTRKYVJNYU9PZGpTMUozZ2ZIM0xvWTNvNFhEaFlhNGUxSU0?oc=5
   Aeropuerto de Tocumen:
     - 13/10 16:13 La Prensa Panamá: Copa recupera sus operaciones tras cancelar más de 280 vuelos por el terremoto
@@ -59,8 +59,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Daños y víctimas:
     - 13/10 20:01 Uruguay Al Día: Sismo en Panamá causa daños en Urabá con 30 casas afectadas
       https://news.google.com/rss/articles/CBMikgFBVV95cUxNTFdVMzZTTU5KUW9TRWdLQTZBZXdrUEVqYmNvUjBkSnhWbnBsaXd6S0hFcEtZTGZTM2RzVkVZTV84eXJVb1RHNkVDMkxzbVFIaGtCdFdhdWJ4SkpVV0dsbFBxdjRZRGpoRVdrTnh4bnB6M09oVzM3dXJLN0cwWmhjdF9Ra1VfLUk2cHVUd1lsNnBtdw?oc=5
-    - 13/10 16:13 www.ecotvpanama.com: Tras un terremoto sin muertos, sigue la incertidumbre por una joven herida de gravedad
-      https://news.google.com/rss/articles/CBMivwFBVV95cUxNYWI2ckJaSTM4ckM4T25kLW9nb0ZzQmdiRG9Fbk5Dc1M4TkI3Z0FsRjkxZ0I1SUNBbUMyYW1mcmczNGo0V0xHTHNoWW8wX0s3bnJBeWhYeTVSWlFWWWt5MWtRQVVaZGZVbklJWXdpTnhIOG1kZ3NxSXRmSXI5N2w3Vmh0WDRoU0dRQ2R4TUk4UFRpUjVUTk45bi1lT3lhUk9vVGV6SXpPZWJYUDM4V3g1VF9GQm1yc0w2eWF4NHpvVdIBxAFBVV95cUxPb1R2ODBudWhJczBrWWswU2duM2VpN1VoMFVzaUhaX19PV2gtSGdNNnRHQ3BvSEFwclZYbHlnN1JaMDkzTDJDNnF2c3YtczE5LTdHX1V0WnQyVmpjSExTVWhFTm9Ra1hnTzRpWldyQ0h3Yjg1NE5fN3BsZTFCS2R5MGRQN1IySENvSm96TlNNeWtvZW5yNkFwem9oQUpFME80aFFjMFBySHFIbGxkS2xvdUU2NE1RWnpIRFVIdWJrQkpqNnhM?oc=5
+    - 13/10 19:45 Radiofonica 100.7: Nuevo sismo de magnitud 6,1 en Panamá tras el terremoto de 7,7: daños, réplicas y emergencia
+      https://news.google.com/rss/articles/CBMiswFBVV95cUxQZllIUFQ2Vm5xQy14VEhkbnpyVnRBU3E0aFRBLUxkdW1YUW4tUXdQOXRXaFpsa3pnbmwyNjNLcDNoWVh3U2xBY0x3TDI1YnUtemlNc2JROFk1MElJOWVqR2huX3VLYy1ZR2pMM2JmNEV3LVRCcFRNU08tVHJhZXBwTlBwRjVxWThPUFN2YzV0VzF6X25nZC1FYm9IZDF0Mk85ZWI3LTQ1eDRkaXJKa0lPc05EYw?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Para la noche: zapatos cerrados, linterna, llaves y celular cargado junto a la cama; puerta del cuarto sin seguro; si tiembla fuerte, proteger la cabeza junto a la cama y esperar a que pase antes de bajar.
@@ -72,7 +72,7 @@ ACCIONES AHORA:
   13/10 01:39  M4.7  14 km WNW de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 22:24 (automático)
+🔔 Sismo PA 22:34 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -109,10 +109,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-13T03%3A24%3A37&endtime=2026-10-14T03%3A24%3A37&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-13T03%3A34%3A44&endtime=2026-10-14T03%3A34%3A44&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 1.3 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 1.1 h; alerta solo con M5.5+, tsunami o reactivación
