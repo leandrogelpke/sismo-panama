@@ -1,7 +1,7 @@
-Sismo PA 23:25: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 23:36: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 23:25 (13/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 106.5 h.
+SISMO PANAMÁ — informe de las 23:36 (13/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 106.7 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 2 de M4.5+ y 1 de M3.5–4.4
@@ -21,10 +21,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Tsunami (tsunami.gov): sin alerta activa
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 13/10 23:18 La Prensa Panamá: Tres heridos trasladados desde Azuero y 66 pacientes evacuados: el impacto del sismo en el Santo Tomás
+      https://news.google.com/rss/articles/CBMizwFBVV95cUxOYnZvMFl2YTM2ckk5OWpnOXctZzRsbGU3aG1ZYmN0dXU5U2FpQW4zOWhVLVdhWkdIX0lmOG90YkZ3YWM3djE4UlNvWW9jVW5Sd3N6SWJNTlZ1Q2NQWktrVS1IZU5CbTloVkQ1T2JDbnlpRDR2N3NtWUU0eE92dTJ0dEVuVTZOblhYRjdRLWFxMWtkTFpyd0NfNlo5X0NSV2ZYR29wY3pJelJhSElDeDJuX09Vd3c3aHE0c1ZocXRJYzVldTRWdmpzVk1DdUVGSVE?oc=5
     - 13/10 17:38 Panamá América: Exdirector del Santo Tomás explica el protocolo de los hospitales públicos ante una catástrofe
       https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZUdvYmtrTW9CR01lVW5EZjlrQjNtSnI2Mkh3N25ROEV6MEVtLVl5NWswMmxLaHIwUFlZUEM0UVZhdFNlbURrNWdjOERxTW5DZXlTMmFDU2ZjY1ZjcjFhOU1Wdm5zdW1YT2lTQl9jV3JpUWY4T0I2UVVKMmw0Ym9mMHBGWXQ2bVY5eGR4LTdNSTh1Wk5TRlBoa0VkdnBjYW5XeVNETHE0MUw1eG42VV9OMXhCZjAyWHZrV1hGanBhQnk5U1k?oc=5
-    - 13/10 14:50 Telemetro: Minsa informa cifra de instalaciones de salud afectadas por el sismo de 7.5
-      https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNkZQX2NxUEFfal85dno0SzdOU25xQkswMXdBNDVxNkFicDdtYS1pYVZDWlpiRlVHMDJ1TnFaSmFtWkMwQjZDY2JKaHBMaU5MSkpFOUJMcVdIdXRBc1dzVllhdnpwR2dnUmpIMDZjSmJxb1poQ3JMcjhWR2lOWmNZeU93YlU2VWNnenBsRW43MGVFc0xhanRpLUV4cWVuYXZoX0hSOU9HRFh3TzJReUh5WGhKOVh4S1RzYnQ40gHAAUFVX3lxTE1lNTg0MUl0a2I2dURwVHpPMTlMMFF2LXR5WnBHc1BCdDVtUnZCV0FPSXJsODYtUFZVU2l5SG9UZkxhWENJejhoQVUzQkppc3dnTnBsdE9qSEdQa1phU3JwZDc3SlliV25zaWJTTkNOZXQxenRGamFZWFdxZjdjMk5HSjdQY2hvYWtnMUN3bmYzdU9aTkJpalh5Um1xT2hQZlFDODc5M2RrMmlwazVGVVpnUjlzd09TMzJNVTFQc1NvaQ?oc=5
   Agua (IDAAN):
     - 13/10 11:12 El Siglo Panamá: El sismo sacude a Soná y lo deja sin agua
       https://news.google.com/rss/articles/CBMinAFBVV95cUxQcDhrUzlQRjlEaHZkaFNEcTg0OW1yWlNKWVN3eWNQV29LTnNwNGwwMEdqNld4REFiY3M2Q0x6TjZzRUxVWklFZ1h6SGJMcnBJNkdaNGg0N01ERG1BbWRQREdJM05sZnVZYjhnWDdiejFMQnF3ZGFPcFNMYUZRek9pV3ltRmlNbDU5WDhrS2VzUms5bk5BWmxscHpHNznSAZwBQVVfeXFMUHA4a1M5UEY5RGh2ZGhTRHE4NDltclpTSllTd3ljUFdvS05zcDRsMDBHajZXeERBYmNzNkNMek42c0VMVVpJRWdYekhiTHJwSTZHWjRoNDdNRERtQW1kUERHSTNObGZ1WWI4Z1g3YnoxTEJxd2RhT3BTTGFGUXpPaVd5bUZpTWw1OVg4a0tlc1JrOW5OQVpsbHB6Rzc5?oc=5
@@ -72,7 +72,7 @@ ACCIONES AHORA:
   13/10 01:39  M4.7  14 km WNW de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 23:25 (automático)
+🔔 Sismo PA 23:36 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -109,10 +109,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-13T04%3A25%3A59&endtime=2026-10-14T04%3A25%3A59&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-13T04%3A36%3A07&endtime=2026-10-14T04%3A36%3A07&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 0.2 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular
