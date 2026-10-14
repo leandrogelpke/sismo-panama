@@ -129,3 +129,4 @@
 | 13/10 23:25 | 0 | 0 | 0 | 1 | 2 | — | 15/3 | en descenso | ok | 25 % | no enviado — próximo informe regular en 0.2 h; alerta solo con M5.5+, tsunami o reactivación:ok |
 | 13/10 23:36 | 0 | 0 | 0 | 1 | 2 | — | 15/3 | en descenso | ok | 25 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
 | 14/10 02:26 | 0 | 1 | 1 | 1 | 2 | — | 15/3 | en descenso | ok | 25 % | e-mail:-; whatsapp:-; telegram:ok; motivo:- |
+| 14/10 02:43 | 0 | 1 | 1 | 1 | 2 | — | 15/3 | en descenso | ok | 25 % | no enviado — ya se envió hace 17 min:ok |
