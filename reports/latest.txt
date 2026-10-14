@@ -1,7 +1,7 @@
-Sismo PA 17:09: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 17:20: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 17:09 (14/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 124.2 h.
+SISMO PANAMÁ — informe de las 17:20 (14/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 124.4 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 1 de M4.5+ y 0 de M3.5–4.4
@@ -31,7 +31,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Electricidad (ENSA, Naturgy, ETESA):
     - 14/10 10:21 La República: Una tormenta con granizo inunda Santiago de Chile y obliga a declarar alerta roja: miles de hogares quedan sin electricidad
       https://news.google.com/rss/articles/CBMigwJBVV95cUxOaDFDY3hfVjE0a2RFUjFQYXppdURnaEpxQnpfd3N4elpDU20tQXRYR0Y2MFlmOFlPMVgzZzFPR1Eyc09hSWs4M1pWR0Vla3k0VHlKVVBfRWt0SlJ5b1ltekZEVkRPSEV0YTRRaDE1R3RfVDVJRXMtNllIcTRMZHRlR25uSUxhb2RLTEoxNDJzRXdlTjVHZGlCSld4Z2dyVXRobGFpVC15S2N5ckdiVjRESjZrSENsM3k3R1FxNmE5UUdWZTVzcTJtZVRVbWI4dEtaVWxHdlVBVlpKVHhiZnRqNmEtWHNFRzhlRVc2TGl0TW1mSnBFLWpyczlLMF9LZFNMTjRB0gGDAkFVX3lxTE5oMUNjeF9WMTRrZEVSMVBheml1RGdoSnFCel93c3h6WkNTbS1BdFhHRjYwWWY4WU8xWDNnMU9HUTJzT2FJazgzWlZHRWVreTRUeUpVUF9Fa3RKUnlvWW16RkRWRE9IRXRhNFFoMTVHdF9UNUlFcy02WUhxNExkdGVHbm5JTGFvZEtMSjE0MnNFd2VONUdkaUJKV3hnZ3JVdGhsYWlULXlLY3lyR2JWNERKNmtIQ2wzeTdHUXE2YTlRR1ZlNXNxMm1lVFVtYjh0S1pVbEd2VUFWWkpUeGJmdGo2YS1Yc0VHOGVFVzZMaXRNbWZKcEUtanJzOUswX0tkU0xONEE?oc=5
-    - 14/10 01:19 Infobae: Rusia lanza 39 misiles balísticos en ataque a energía que deja sin luz a 600.000 personas
+    - 14/10 02:15 Infobae: Rusia lanza 39 misiles balísticos en ataque a energía que deja sin luz a 600.000 personas
       https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWndTNUZKM1I0OGxobTludnFzdlFZNmwwSE52ejhnNkNQZnVDenZNUWhvaV9ZbHZaXzVUcE9oclM3Y0NDTG13czNFbm1nUk51TnlmMllzNXBWQ1BvMnd2RjgxV1ZBb3lJV2VSWjZmRkdkZEpFU00yVFV5a2VVZ3ZmSVdIMTZCRlpISm4wSldRRWR5WFEtRC1jdERUdmNGZzBheWZxQTJfYVIweGJGLVlqMDMxa2V3YTVSYmhMWnc0d2dxRnd1T1BaZFAxRnR6YnhUUFh6YkFnNlnSAfMBQVVfeXFMUDFncXBWYnB5aUZBQ09hM1dYTF9ObWNwY3BMWGs0RVN6SV9LdWt6WWJyN1BBMFNlT2UxZ05VTUctSVZEYURFNUlrVE1MYUVXSjBzLWp4MlZpYzlkdWM0NGFFQ3laeHp2RWROYkVITV9zZ2FSNDkyV21PVTdQZmVOekIwWXpoaVBkUmg5RmdwYnhlQnlWem9LLXZ2YVRPLXRsR3ItUWZkZ3l2Mm41NU4xWExUd3ZsVkVGeWZDZTBtcXF3QzV0UjFsdmo0dngta05xcm1ZUHg4eUVhV3hDRkdJTGc2VU5hRDQtY0ZDQzBFRGpuR0VZ?oc=5
   Aeropuerto de Tocumen:
     - 14/10 16:47 Infobae: 7,000 pasajeros estaban en el principal aeropuerto de Panamá cuando ocurrió el terremoto de 7.5
@@ -47,8 +47,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Escuelas (MEDUCA):
     - 14/10 15:04 La Prensa Panamá: Clases siguen suspendidas en escuelas oficiales hasta que Meduca autorice el regreso
       https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSmxvTG5Tak1yX1Bzc3YtN1JxLTV0R2syX1M0NTRvRzhJNUJyYm1GX19ja0JpYl9xWURhQllSWmJmUEZxb25EZHVkQ1NvcDlobExGbG5pVHJuNUdoTml2VnBtclZ0TEdfVjYzeXFkTV9VX1UzMjJLdVhoR1M3QWs4X0p6U2RHSlFyRnJ6Z1l2Wl8wREIxVmF1Q3RpSG9nVWZhRlh6cXY3N3dhdnB5VUgzMlBzY2dBbnNy?oc=5
-    - 14/10 14:39 Tvn Panamá: Meduca publicará lista de escuela sin afectaciones una vez culminen las inspecciones; ya se han revisado 231
-      https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSU9Zc1psbEZ3ZExuNk5XSDk1cU4wVmxQVTNHaWpTRGozRGRxeXhqZnVvTXdaQk9aMTJDeEtCbzM2T09NQ2JvLTc1alpacXE0S2c2Q0NtaUtod3RYQXVXYTBUdlh0Y0EweTJsZkRUbkxlWmJKeUo5LUdqN2J0LWJYUGtaZ2g4Vnc0UFV2NXRtaGVIYjY0V0pMdzlLbXgtRG5oSzFwak04VTVoYUh4S1phR1F2ZVFrSm9kcVZKWm5BV2LSAcABQVVfeXFMUElPWXNabGxGd2RMbjZOV0g5NXFOMFZsUFUzR2lqU0RqM0RkcXl4amZ1b013WkJPWjEyQ3hLQm8zNk9PTUNiby03NWpaWnFxNEtnNkNDbWlLaHd0WEF1V2EwVHZYdGNBMHkybGZEVG5MZVpiSnlKOS1HajdidC1iWFBrWmdoOFZ3NFBVdjV0bWhlSGI2NFdKTHc5S214LURuaEsxcGpNOFU1aGFIeEtaYUdRdmVRa0pvZHFWSlpuQVdi?oc=5
+    - 14/10 14:35 Tvn Panamá: Meduca publicará lista de escuela sin afectaciones una vez culminen las inspecciones; ya se han revisado 231
+      https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLVE4QkNuT0tKMUJ1NmRoTFdCQ1F4a3REWGFqTG1LUnJzSGhEVk03NkV0WFI1bmZ0SjBNUGE5YURwaEdHYzM2NVN5QXNzNnN5d2xrSEF2LUt1cVBjQjFKeVB6WUdzYVhZTmJoZDBaZHBhZDRXczIxaWlFZUtmTEhjZ2hqeTVPOXQ3Rlp3SzZVbkJ0TGp5clJ3UThfa1lBYUYtOUVleWlfRllQZ3dIS25PYWhkT09xVmhWVzZj0gHAAUFVX3lxTFBJT1lzWmxsRndkTG42TldIOTVxTjBWbFBVM0dpalNEajNEZHF5eGpmdW9Nd1pCT1oxMkN4S0JvMzZPT01DYm8tNzVqWlpxcTRLZzZDQ21pS2h3dFhBdVdhMFR2WHRjQTB5MmxmRFRuTGVaYkp5SjktR2o3YnQtYlhQa1pnaDhWdzRQVXY1dG1oZUhiNjRXSkx3OUtteC1EbmhLMXBqTThVNWhhSHhLWmFHUXZlUWtKb2RxVkpabkFXYg?oc=5
   Sinaproc / autoridades:
     - 14/10 17:04 ElCapitalFinanciero.com: Sinaproc eleva a 11,500 afectados y 3,390 las viviendas dañadas por el sismo
       https://news.google.com/rss/articles/CBMilAFBVV95cUxNWTFfRlYxclJzY2lYbDB3X0R6dHRmSmF5eFJxYTcyS1JSYjhuSXhVUllYNkRhVHYwUXVaQVdJNHRhNXF5MWlFYVozaXZvYjRVLV8zQjRsa0FQdHR2b2FrN2VkZjFSU09ycEl6T3FuR01uSkp6b0NyR0ExSGdKTFNvQzFEZjJwUlBuVC0wdWZyd183UjJM?oc=5
@@ -67,7 +67,7 @@ ACCIONES AHORA:
   14/10 00:09  M4.7  10 km S de La Mesa  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 17:09 (automático)
+🔔 Sismo PA 17:20 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -104,10 +104,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-13T22%3A09%3A44&endtime=2026-10-14T22%3A09%3A44&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-13T22%3A20%3A23&endtime=2026-10-14T22%3A20%3A23&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular
+ENVÍO: no enviado — ya se envió hace 11 min
