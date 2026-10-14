@@ -1,7 +1,7 @@
-Sismo PA 20:31: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 20:42: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 20:31 (13/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 103.6 h.
+SISMO PANAMÁ — informe de las 20:42 (13/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 103.8 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 3 de M4.5+ y 2 de M3.5–4.4
@@ -43,8 +43,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
     - 13/10 20:07 Telemetro: Sismo en Panamá | MOP realiza trabajos de reparación vial en sectores afectados
       https://news.google.com/rss/articles/CBMitAFBVV95cUxPR1lxc3k0ZUJIVHY2U0d3Y21SWTBiLTAxVUxpdUcybGxHTy1NNV9CMThnLUFraFZaRklRX183Nldmc1VncmFlaVFrSDRRN1l2N0hQbGszMXpJUEMtY2pZempkTlZERW92dnBOaDNxR1JKS0lvTEMwNy15WERxZldVVEx4ZXlqYjZQeDROTnhsVTJwcUkxSUs1bGk2MGtvVjk3X25KMUpUT3FPT3BIRjdXay1oc3HSAboBQVVfeXFMTWc2LWpLVzRfLVEyNVA3aGxCRFR0U1VUWlIyWTJJbXV4a053X0l6M2d4YmI4ek9BY2NaODl1dlJJdlM2c1ZYOGs4NHlOOTFKSWxNMmxYWFk0TWpvUWF4Qnk1ejAxZlY1N0NnNVRwRlRNeFpodGpGZTlRS1lQN2lkeEU2U0JqZ04zTWlFUlZzVk9CUTdNTW5YOFZjNWtrYXBHZmN2WkRzcVdaV2ltek9PTDRtWUhsRWc1QzVR?oc=5
-    - 13/10 17:21 Panamericana TV: Hoy se realiza Simulacro Nacional Multipeligro |...
-      https://news.google.com/rss/articles/CBMilAFBVV95cUxNLVRfSnpJWkdQZTFZY255T28wS01yZzdBa1hzRHluVi13Q0Roc2czcjk2XzloOHZBeDFhQnNveDFQM1dYZ0hEZnZqTldDOUxRRGVKQTFOV19NMWQtNUtEYVgwUnJIMjhUdEZieG1YclJWOFI3QndhMjZTRzFndldXVklXVTlhM3BzbDBjbl9HMlQ0dHhX0gGaAUFVX3lxTE93YTEwWlVYZGRuM1hKbC15eEgyeDcxdXlIWUNITGRwdDludmc1djZrbmFlR19QRm1DQkZnaVhRd2EzR2RPSTFob0RyWFJydU4xQTVzcFR5bjA2R3ZYVzhZdlh2R1FuUmRCLXNCT0hXQUJvT3hnSl8yVEw4M3hha281OU5fdmZMYzVpdTRtWmJVS1cxM0lvVWR4eUE?oc=5
+    - 13/10 18:47 NTN24: Carretera Maracay-Choroní seguirá cerrada tras el descenso de vehículos varados debido a derrumbes ocasionados por lluvias
+      https://news.google.com/rss/articles/CBMigAJBVV95cUxPenRPdjBwbUpwdHhsenhrY1dJZEdkNFVwNjZzVFAxVmkxVXFOZnBZVk1rYW1BSzNyMXV5dW1ZRkZlQ3gtY3REQ3FyUjZ6WDVCUVJPYW5pbTdmbXZDbU1mSGVuLXVubHl5cHl1VlZUZ2pGLUJCa1A2ZjRzR2JrSmR2d3JPaEJiRE14OW5WaDRNck51emZVTXBBa1pSMFFXWnJqbWVfRm5VOTJBajJFNTlnal91dUZKRmNDQ0tFcjNBYVg4T3JMUUxpenRXZXdPRG4wRVFPWG1LRmpxVndIMEhZeG91QjFGX2VLU3lOcG01SFBtYkYtNlpJcjd6ZUFxQkZ30gGAAkFVX3lxTE96dE92MHBtSnB0eGx6eGtjV0lkR2Q0VXA2NnNUUDFWaTFVcU5mcFlWTWthbUFLM3IxdXl1bVlGRmVDeC1jdERDcXJSNnpYNUJRUk9hbmltN2ZtdkNtTWZIZW4tdW5seXlweXVWVlRnakYtQkJrUDZmNHNHYmtKZHZ3ck9oQmJETXg5blZoNE1yTnV6ZlVNcEFrWlIwUVdacmptZV9GblU5MkFqMkU1OWdqX3V1RkpGY0NDS0VyM0FhWDhPckxRTGl6dFdld09EbjBFUU9YbUtGanFWd0gwSFl4b3VCMUZfZUtTeU5wbTVIUG1iRi02WklyN3plQXFCRnc?oc=5
   Metro y transporte: sin titulares específicos en las últimas horas.
   Escuelas (MEDUCA):
     - 13/10 19:35 Mi Diario: La Universidad de Panamá sigue virtual y las clases en los colegios oficiales continúan suspendidas
@@ -52,15 +52,15 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 13/10 19:27 Telemetro: Escuelas oficiales de Panamá aún no retomarán clases; regreso será progresivo
       https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUU1KQ3hTU0hOQXJfZmpMTUFwS2MyaTY2Z3ZCRXNqTlctNXVnbk9CX3VxQi04MHVvbDFZS0pCVVdkRDkweEFjbXN0UDhaVlh6MEFSSms2MlloRDBtMElwQk42b2t5MlQwOXV0NWU2b2tfcXBDb2RWTm5vOHk0X05jc0IzM05kRTJQSE15dm10djFEWDJOVnRpZGtMWlRzWkNJMExnVXcxamRWdXR2c05TeDZDZTgzNmJJcmU00gHAAUFVX3lxTE8wc0tIdDBUbVJkeTY3MnJnckh2MjFzLTdlZzBXd01WWnFueThiOTZjWi1fcXlvbXlHVWVvbEh5bjhWNUp5YUlZMDhwYTRNRkg0Y2VNUDN0enBONEw4NGdudlp0TlhaaGVFRHFkdWRzaDlEQS1JOGVZZEl2aU1Fc2Fmdk1EMGJQcEVzaHltY19aQ2JPZnBobjlpNXktT1h6cXNERlY3Y3puR1B6aFhIOUg2ZTAxN1ZScXdGNThnb2Z2dw?oc=5
   Sinaproc / autoridades:
+    - 13/10 20:35 Telemetro: Sinaproc reporta viviendas afectadas por deslizamientos de tierra e inundaciones
+      https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdGlWNWR4MGVFMzdzNElEcVZfQXBNcUZqQVluSHJ6cHlyQng5Z2pMUUNEWjM2WWFsUndfWGo1dGNnaGtIX2lCREtQSXlMZDNiazVlVDdqcEZFSmdZaGxQZkxIOWVXYlNyWk1pYndiN2Q5bUFMLUlic2dQQVkyUnA2WFNPN3ZtWG1hdFM2NDBha0l1WnpmWXlfenFydUU4bEg1RVI1WEVlNFVPcjdITHVUaGNSV3hDamd6aDhB0gHAAUFVX3lxTE44WUdzOFpCeVI3TDZYcnU3a0xQZzBKX3YzTFdEWDR5c09MRUV5ZlJ1ZTZ6VlZnR2VZdFZlNGhIaHpDNDNWQzktblh4bTMwTmZBcTBOV2dzQUp4cFdCZEpTVUxQZXdlcjVPN2pZaDZrVmtFM0tVRnNMUXBIMEFvaHc3dFhGd3hkVGU0OERUUDZQQ3hZaGhzeDJkS2tqTDI5ejYzeXRVMDFDaTI5U0lNaVl0bHVGdHFWNExxdkNXS0dndA?oc=5
     - 13/10 15:03 Infobae: Extienden la alerta por lluvias y vientos en todo Panamá hasta el jueves en plena emergencia por terremoto
       https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUEJYMk9YZG9HbGNDRWZMOWV5aklSMGZuRVZRWHp3OWhYNWVEaUdsZWJRMmdmLWRKdjU1VlBWYnRGSHh5UW5EX3htcm9PZTlFZnE3OXJXbC1HRVJWLUo0RTU5SHd4aVRFOFF6dXVBeFRmeWJldzdETXEzcWVtUnFHS0k2cjNmX0ZpTVJiX2RMamkyVE0wVkVRanJDMXBlUmtIdEFyZVRzWmdyRmFkdUdwcTk5bkd3N2NsLU5vNEp2X3h2V0JCYllqaHRuNzRJWmFZbVBYYlA4ckNsNXNiUFhkbFU2Z1QyNE13OG5oWGFBOC1TTGl2MDJqOEF0d2RhQdIB_gFBVV95cUxNUEJYMk9YZG9HbGNDRWZMOWV5aklSMGZuRVZRWHp3OWhYNWVEaUdsZWJRMmdmLWRKdjU1VlBWYnRGSHh5UW5EX3htcm9PZTlFZnE3OXJXbC1HRVJWLUo0RTU5SHd4aVRFOFF6dXVBeFRmeWJldzdETXEzcWVtUnFHS0k2cjNmX0ZpTVJiX2RMamkyVE0wVkVRanJDMXBlUmtIdEFyZVRzWmdyRmFkdUdwcTk5bkd3N2NsLU5vNEp2X3h2V0JCYllqaHRuNzRJWmFZbVBYYlA4ckNsNXNiUFhkbFU2Z1QyNE13OG5oWGFBOC1TTGl2MDJqOEF0d2RhQQ?oc=5
-    - 13/10 12:56 Tvn Panamá: Temblor en Panamá: Sinaproc reporta 2,164 familias afectadas y 506 viviendas con pérdida total
-      https://news.google.com/rss/articles/CBMiugFBVV95cUxONF8yY3BhWVAycU9qNUczMW9yal9TbTQ5NDE4RFlmSHZhcllidkFyUnhGMmlzbEdUS29QWVcwbmF3OVd3T05TZ1JEY0U5MzIxTkxGVkNWT2xQbDNxOFQwOG84N2pvNDBQck4tbjhER1FTV2ZZdkFWd09PenNqeHpuS0JDVUs3SEhtQ1pXRzZZUmhPWExreGlwdGJtRlhzT2k4cGNYeWhZcklmcXllYWNEcjZPcDBrNFpfa2fSAb8BQVVfeXFMTWttc1JwMzRsT0hYbF9BeklocjQ5TGhuYkphSk5WV0o3LWkwZFFrd1FLdnFVX1kyQXQ4bkw0M2IzMmVOOGxBbmxEVzFIRWFraGw3Y240VFNPMG9jekt1cFUyR21kWkkwODVmdjdqZmhva1VXYW9rdGJ5OEVkMHEyYmRqNENqWDdRUncySm9ZRkpzTUkzeUZfZTNuZDVqc3p3TDlBREFPYURyUGwyWGVfcWQzNXB0dmFYMjlzS045SlE?oc=5
   Daños y víctimas:
-    - 13/10 18:35 HolaNews: Tras un terremoto sin muertos en Panamá, sigue la incertidumbre por una joven herida grave
-      https://news.google.com/rss/articles/CBMisAFBVV95cUxNNG9Zb0F0TkkzRURRR2NVMGVXUXlUdlR3eFo1VHNjdHhicFJBd0RJYkFjRnAwNDBKbXRpdmNPMzJSaHZiYnpneXhmUFFPdjdLXzBrX056Q3lHVFBEY0ZGTnBWU1ZNc18zaDRPdHVGS25ZYlVmaGpQM0daVGRpbXpoMzRpWUhNTXBTRkRfZHk4d3huUnVrZjUwa3gtczFCaVl2NTMxNEFQcXJKdGxFeGQ0bA?oc=5
     - 13/10 16:13 www.ecotvpanama.com: Tras un terremoto sin muertos, sigue la incertidumbre por una joven herida de gravedad
-      https://news.google.com/rss/articles/CBMixAFBVV95cUxPb1R2ODBudWhJczBrWWswU2duM2VpN1VoMFVzaUhaX19PV2gtSGdNNnRHQ3BvSEFwclZYbHlnN1JaMDkzTDJDNnF2c3YtczE5LTdHX1V0WnQyVmpjSExTVWhFTm9Ra1hnTzRpWldyQ0h3Yjg1NE5fN3BsZTFCS2R5MGRQN1IySENvSm96TlNNeWtvZW5yNkFwem9oQUpFME80aFFjMFBySHFIbGxkS2xvdUU2NE1RWnpIRFVIdWJrQkpqNnhM0gHEAUFVX3lxTE9vVHY4MG51aElzMGtZazBTZ24zZWk3VWgwVXNpSFpfX09XaC1IZ002dEdDcG9IQXByVlhseWc3UlowOTNMMkM2cXZzdi1zMTktN0dfVXRadDJWamNITFNVaEVOb1FrWGdPNGlaV3JDSHdiODU0Tl83cGxlMUJLZHkwZFA3UjJIQ29Kb3pOU015a29lbnI2QXB6b2hBSkUwTzRoUWMwUHJIcUhsbGRLbG91RTY0TVFaekhEVUh1YmtCSmo2eEw?oc=5
+      https://news.google.com/rss/articles/CBMivwFBVV95cUxNYWI2ckJaSTM4ckM4T25kLW9nb0ZzQmdiRG9Fbk5Dc1M4TkI3Z0FsRjkxZ0I1SUNBbUMyYW1mcmczNGo0V0xHTHNoWW8wX0s3bnJBeWhYeTVSWlFWWWt5MWtRQVVaZGZVbklJWXdpTnhIOG1kZ3NxSXRmSXI5N2w3Vmh0WDRoU0dRQ2R4TUk4UFRpUjVUTk45bi1lT3lhUk9vVGV6SXpPZWJYUDM4V3g1VF9GQm1yc0w2eWF4NHpvVdIBxAFBVV95cUxPb1R2ODBudWhJczBrWWswU2duM2VpN1VoMFVzaUhaX19PV2gtSGdNNnRHQ3BvSEFwclZYbHlnN1JaMDkzTDJDNnF2c3YtczE5LTdHX1V0WnQyVmpjSExTVWhFTm9Ra1hnTzRpWldyQ0h3Yjg1NE5fN3BsZTFCS2R5MGRQN1IySENvSm96TlNNeWtvZW5yNkFwem9oQUpFME80aFFjMFBySHFIbGxkS2xvdUU2NE1RWnpIRFVIdWJrQkpqNnhM?oc=5
+    - 13/10 15:19 LaPatilla.com: Joven de 22 años está en estado crítico tras sufrir graves lesiones durante el terremoto en Panamá
+      https://news.google.com/rss/articles/CBMizAFBVV95cUxPdk1lVUpWMDd4YU1oUENpVTVkRWszdG1yUExLUzNSd0xCVWxRYUoxUlV3NnFIcFBTQ243Wk1yNmtLZFMxLVNWMFZuWm9ZU1d0cUg0SFlXS3hoUmwwVmVaMU5ybGhKVUd5RUtMbmtQTi1jN2l4NUstLU1sa1lwZ3BHUlJiYl8zeW0tbjRWVG94bmFwenZfQXdfbnpveTNhQnJaMGFFQmdPQWdQbFltT0dZVnVTckQ3aDFyZTZxby1DSnF2RDB3SGlYRWlxWVo?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
@@ -73,7 +73,7 @@ ACCIONES AHORA:
   12/10 21:48  M4.7  9 km SSE de La Mesa  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 20:31 (automático)
+🔔 Sismo PA 20:42 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -110,10 +110,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-13T01%3A31%3A20&endtime=2026-10-14T01%3A31%3A20&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-13T01%3A42%3A07&endtime=2026-10-14T01%3A42%3A07&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 3.1 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 3.0 h; alerta solo con M5.5+, tsunami o reactivación
