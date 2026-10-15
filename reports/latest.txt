@@ -1,6 +1,6 @@
-Sismo PA 17:24: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 17:27: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 17:24 (15/10/2026), generado por GitHub Actions
+SISMO PANAMÁ — informe de las 17:27 (15/10/2026), generado por GitHub Actions
 Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 148.5 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
@@ -25,8 +25,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
     - 15/10 16:32 Infobae: En Panamá continúa la instalación de hospitales modulares en puntos afectados por el terremoto
       https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcDJWbG1FYjN0Q3JJMkZGNGotdGpNY1k2eXhBM2VJamtpMXdYMnNwMHU1SWQwQkhkbUVlcXlwbldWYWoyRm9EeTFTQ2VIXzBrX281ZnFWUlVuMzZtSzNwdzhTQkd1clZaaXZrM3dncHAyQWRUZXR4aEI2dDBXWWh3bGpURmhZTG05VFRocW8xLVhsLTJCYjhmbUtWUzZ5NHktVHhwbGtoYlJqVXFDanFCcUlNVlRUcy1Cdjc2YlR5YUJROENlcnFVYjBRVHlwdTZPd3d30gHuAUFVX3lxTE5yUTNrcS15S2laU2p2ZURhSGFwb1dGa29xRXZia3FuVE9CT2VtbURmUmZTazRfQXI5LW1zT2Y0OGtkRnNUcDVNWlRSMGUzOGFpdkhuVlhvaWVXaDJRRDhqTjNhUTRYaTFvMndQSGJpOEJRMVFOMUlfeXJ4c0pGUkhmSEd1cVhLNC1nOEY1eTJSR19zZVRBTm4tOE00c1Y0c3VUNGROM0E3X3NGQUZFY2xzcUtKbk9HdHd0NkhQQnU2MHo2bTVDZHBXX0JsbWlXRXdXLWJFc05oZEYxQ254WGpseThEUEllMU82cVU3TWc?oc=5
-    - 15/10 14:59 Telemetro: Minsa anuncia jornada de carnet verde y blanco: requisitos, fechas y costo
-      https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcGY4MlNLZHNwazRsTWFhU1JmRFNDTlhVb0JqVE1qYUxOaUl1UVRpTEYzZVMzTC01akdLTGtPNm1heDBYcGgwMzl3SHlnX0xyek9tNmxWQ1Z4bF9tRkF6andzTUtkUXhmUTk0SjM1dVpHcjByN0tfU01adUtuY25ZOVFFTXloTGpXWWlaejdGdklvRDVjeUpFTjBQdUxvdHdCS29TMXB2ZkhOODhPaW5sNGZRWlZsRGk1Ujlv0gG7AUFVX3lxTE1wZjgyU0tkc3BrNGxNYWFTUmZEU0NOWFVvQmpUTWphTE5pSXVRVGlMRjNlUzNMLTVqR0tMa082bWF4MFhwaDAzOXdIeWdfTHJ6T202bFZDVnhsX21GQXpqd3NNS2RReGZROTRKMzV1WkdyMHI3S19TTVp1S25jblk5UUVNeWhMaldZaVp6N0Z2SW9ENWN5SkVOMFB1TG90d0JLb1MxcHZmSE44OE9pbmw0ZlFaVmxEaTVSOW8?oc=5
+    - 15/10 15:04 CRÍTICA: Minsa atiende a afectados por el sismo en Colón y evalúa centros de salud
+      https://news.google.com/rss/articles/CBMiugFBVV95cUxQTnNOcFViTlYzRVFmc0M2cmJ1Q0lwU3UwSFVWY3B1eUNRSXRsM1NWYXpXby1IQWN0TWhGM1hvcnBSVXE3WnZITG1lN1c5ajNTQklvb2VtNnh2SmVVcXQ4UU1CNmZLd3dNaGdpbDI1Wm5mQ05LYjlGWmZVQmxBcURJQksxb1gtSmgxazBZaVNCdVFVc2s4TWFDU2lDWTlReDZabG1qSXNRMHBSWm9SSzNLSGZyUW5nM212RGfSAboBQVVfeXFMUE5zTnBVYk5WM0VRZnNDNnJidUNJcFN1MEhVVmNwdXlDUUl0bDNTVmF6V28tSEFjdE1oRjNYb3JwUlVxN1p2SExtZTdXOWozU0JJb29lbTZ4dkplVXF0OFFNQjZmS3d3TWhnaWwyNVpuZkNOS2I5RlpmVUJsQXFESUJLMW9YLUpoMWswWWlTQnVRVXNrOE1hQ1NpQ1k5UXg2WmxtaklzUTBwUlpvUkszS0hmclFuZzNtdkRn?oc=5
   Agua (IDAAN):
     - 15/10 14:17 CRÍTICA: ¡Sed por el sismo! Reparan acueductos colapsados en Panamá Oeste
       https://news.google.com/rss/articles/CBMirgFBVV95cUxONTFIZmE5ODlyMVZiRmdxTEh1RWZXUUdkRm1hdmdPQVBpRlZob0JJMEQzdnpCZjRFaXdjMWpNd2VNWFZwTjBvcDlhc0YzTXRBaFlBOFVFbHhqUWxjeHVEU2FZM195ak5rdl9la1Q5MlRCNmtJQTVRaXNwanlnWUxZeXBrVS1wbVV4SUN4alZTUFRnM1g5SkJBUkVibVhKMUdRR1c4ajVxOUVVQ1hlRWfSAa4BQVVfeXFMTjUxSGZhOTg5cjFWYkZncUxIdUVmV1FHZEZtYXZnT0FQaUZWaG9CSTBEM3Z6QmY0RWl3YzFqTXdlTVhWcE4wb3A5YXNGM010QWhZQThVRWx4alFsY3h1RFNhWTNfeWpOa3ZfZWtUOTJUQjZrSUE1UWlzcGp5Z1lMWXlwa1UtcG1VeElDeGpWU1BUZzNYOUpCQVJFYm1YSjFHUUdXOGo1cTlFVUNYZUVn?oc=5
@@ -41,10 +41,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 14/10 17:40 Infobae: 7,000 pasajeros estaban en el principal aeropuerto de Panamá cuando ocurrió el terremoto de 7.5
       https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRTJpbXJpdkJjOFpVQ2kyM3FiRHI2cVgtQ3ItTzUycWNULW4yYmVCR0k2SFFDTnVQVEF6MHNpVmNLd3UwbjJsaHdWYmhsdE1uZnNmM2Y1ZG05N0lKVWRpYVdFdDVHVnAwTFdBMFJwa3czVldLWDF6S0JSd0pkNVpLczM4aUpvMmFqX3FTMmJnenhyWXFZcklBSjZsMG45SExMS3BOMENXU25JQmxkcmljWlpwY09SRVJBMmhtbG9pRXU5cDhyVkwwNGlGc3hOWmVRN1HSAewBQVVfeXFMUEc5SDVoZV9wNm9kbWhaSDNXa3M5alpzTDNOeXZGdUtJTXlvSGpsLW04NXFhWEN1TkxPOWYxTW5yMllKVGdvNGVXbHhhbHZQU2V2M0E2S3hkQzg0d2NFLVdGMmZPUzlKUXJtUG5Kc2NkeVdJYTJld09TSl85NDFVY3ZNTmZvSG5EMmd1NzMzNVpYNHhISHFibS1UaDNJSzFoSTFWVGRiZ0t4U3BJZS00Tjl2b1Y0M3Y1Vk9MZ2ZoMlFfc3U2ZUV3WEhLaWF6X3FZa2tfNzdhekwtQ2NmOFd4Sm9wUFhpeldydWhGUjE?oc=5
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
-    - 15/10 07:32 Notitarde: Venezuela envía este jueves ayuda humanitaria a Panamá tras el terremoto de 7,7
-      https://news.google.com/rss/articles/CBMiugFBVV95cUxPMmFTdUVfMHNmeExJTkdMdWlUa0J4SkdvVFZJWjdISlU5cktXQk1ka3ZRYkZSdzBudVVYRVdsMWNlM1R3bzVLTDRIQUlheVVMdnBjbEd2OHk1MllMODhvdGR5b2s2UlFXYmRRekVJcy0tX0JFYkE1VlY1enp5MkFZbGRJU25nYVNkaENxVVlZUmJoNUhVSUtfMHZkVkVZMDEtdVdlM1BlOERhRXFxMzdqaEZGVllia2d1Q3c?oc=5
-    - 15/10 07:19 El Tiempo: Tragedia en la vía Panamericana: murieron dos mujeres, un hombre y un menor, y hay 56 heridos tras atraco y ataque que causó volcamiento de bus
-      https://news.google.com/rss/articles/CBMioAJBVV95cUxOQXRIZUdBZWtjWWxTc3piQXVIV29wekpOZldaWV9neXFWSFVxNkFUeU5kamxCR1JvaFl5cTlnUGtXZG80cnczVjdndTBlQVQwUzRMYmRvOWoyRGxsd1Y5aWFvU09KZHVwam4zcTZpcTJIVm5wcnV2cExCd0k2UUt2ZHl0Zk9RRTZnRHg2MWVyTUctNjBnWEI1TTUzanZENzQ3b2tYdnFSdUF1YXZpeWlvOVhGdUowNUdxTVZSSnptNXRSRVBaTmZ1TzlfVDlxZlJHVG8wNTVzamYxUklIZktRM0xGM25YS3JIbVlOX2c1eXJaWVV4VlNwTkFMaXg3STZxREZLdTJHQW9Wd0hMMXdJOGRJVHVKRDFyRGZOeFJ3TGXSAaACQVVfeXFMTkF0SGVHQWVrY1lsU3N6YkF1SFdvcHpKTmZXWllfZ3lxVkhVcTZBVHlOZGpsQkdSb2hZeXE5Z1BrV2RvNHJ3M1Y3Z3UwZUFUMFM0TGJkbzlqMkRsbHdWOWlhb1NPSmR1cGpuM3E2aXEySFZucHJ1dnBMQndJNlFLdmR5dGZPUUU2Z0R4NjFlck1HLTYwZ1hCNU01M2p2RDc0N29rWHZxUnVBdWF2aXlpbzlYRnVKMDVHcU1WUkp6bTV0UkVQWk5mdU85X1Q5cWZSR1RvMDU1c2pmMVJJSGZLUTNMRjNuWEtySG1ZTl9nNXlyWllVeFZTcE5BTGl4N0k2cURGS3UyR0FvVndITDF3SThkSVR1SkQxckRmTnhSd0xl?oc=5
+    - 15/10 03:48 Panama 24 Horas: Autoridades del MOP evalúan daños viales causados por el sismo en la provincia de Herrera
+      https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM3dwNVUzV2VBY1pTSlFyZ1NTYlBINlQ4ZG1EVjdONDZfNWhWekx0bkFybF9tOGdta3pYZ09BMXVwdlFHSnpNX24zdXdlVFFkZlNMVHgtaEVxc2JHZ0oyYnZEMURDRHhaMTlneFFTcTRnTHFRaEt5R3FhSTVSb3hLUzRhaDFhdkRPN3lvTjYycGpudTZOQlJvU1hjZ2tmTnRNQVA3STNONFk?oc=5
+    - 14/10 20:32 Telemetro: MOP inspecciona puentes y carreteras de Bocas del Toro
+      https://news.google.com/rss/articles/CBMingFBVV95cUxONjgyTGtEUHQ2d2g1dHk1a2ZMSTJzU0FjNmhvYlZpWkJjQ0dTTHluR0NzZC1McG91VWlKUzZ3T1BDcFBlQWJ6eUh4RUJHWVpSU25BU0tsSVZ0amNhYXhYamllSXJjOHlfWm9Nd2FFMnQwbVVGQTluMHV2bWFrM3MySGFJcHlIUjlCaVBTSUwwaUJXNUNlcjdpbVl1QkV0UdIBowFBVV95cUxNZlItek5xNTdKYnJMclBvR2JPMkFYQmtjODdLYlh0LVpCX1I3bm1MTkNiNDRDamtUa3B1blhjcHBqSnM5OE81WkNZZ3ctTGx0dzJGWVF0RUlMNHVkZUNKTk9EN2c0eXNkbG9vdlJVNTFMeWFLdzRWMHUza1FDaU84Ql8zV0hUcC1jQnFCeThBREdQRElId2Z1cjhDaDhtMEo5bU9Z?oc=5
   Metro y transporte:
     - 15/10 13:57 Telemetro: Mulino anuncia que podría aumentar fondos para damnificados del sismo en juntas comunales y alcaldías
       https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYXVYcC1wT0V6bGVYR1g3X1RpcEUySEM5VmU3SDZUMUpLMGhRS2ZmMWQ3Z3pfN2tPRkM4bkVneHlZVGlGVDNncnFzVmNFZHJjTlY4VWZTUXUtRGZRQTdSdmtNZVVuZUJBS2NhZndRekQ1NDVUWFExVkhMNV9FUHVhNVBkR19pam1kSndYbkRIVHFUUXc5bWFnYzJIWHNOUF8wWl9OSS02Y2xNV0VIdHpvYlI3WUk3bDVJWHkwVEE2TGl1d3Z6b1FHMWE0MnlVV2N1UzU3YmpBdUdIWGfSAdsBQVVfeXFMTmF1WHAtcE9FemxlWEdYN19UaXBFMkhDOVZlN0g2VDFKSzBoUUtmZjFkN2d6XzdrT0ZDOG5FZ3h5WVRpRlQzZ3Jxc1ZjRWRyY05WOFVmU1F1LURmUUE3UnZrTWVVbmVCQUtjYWZ3UXpENTQ1VFhRMVZITDVfRVB1YTVQZEdfaWptZEp3WG5ESFRxVFF3OW1hZ2MySFhzTlBfMFpfTkktNmNsTVdFSHR6b2JSN1lJN2w1SVh5MFRBNkxpdXd2em9RRzFhNDJ5VVdjdVM1N2JqQXVHSFhn?oc=5
@@ -75,7 +75,7 @@ ACCIONES AHORA:
   15/10 08:31  M4.5  9 km SSE de Los Asientos  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 17:24 (automático)
+🔔 Sismo PA 17:27 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -112,10 +112,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T22%3A24%3A45&endtime=2026-10-15T22%3A24%3A45&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T22%3A27%3A09&endtime=2026-10-15T22%3A27%3A09&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 1.7 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 1.6 h; alerta solo con M5.5+, tsunami o reactivación
