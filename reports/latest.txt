@@ -1,7 +1,7 @@
-Sismo PA 02:10: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 02:20: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 02:10 (15/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 133.2 h.
+SISMO PANAMÁ — informe de las 02:20 (15/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 133.4 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 0 de M4.5+ y 0 de M3.5–4.4 | 24 h: 0 de M4.5+ y 0 de M3.5–4.4
@@ -26,10 +26,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 14/10 17:38 Telemetro: CSS confirma fallecimiento de la señora Elena Barría tras resultar herida por el terremoto en Panamá
       https://news.google.com/rss/articles/CBMiywFBVV95cUxOU1N2M0FxOW5Ua0lFNTFmancwdS12YzgxRTZFREpldWt5ZU1BQ3ozeXNnd1dsa1ZKbkRwVlZZTnNrZFJfZGNQQTZjemtvdFF5WWtpUFdnbXNvSHhtTHFrMkFIdEp2ZnV5cmdxTmMyYnU2OGJraHJDNkhoTGM2TU5kRnZxVEhwc0ZoQTE2Y3MxcHJVYkRNWUJtREVHVXl2TnJDcDZlNGN1bWU0eno0YWtVNHBVQmdYTkd0UzRtNTRhMXl3WVNZcWpoMDRWTdIB0AFBVV95cUxQdkMzZUZxLWJmNlp3Z204T2JnZ0hmbU11dld6NzJ4M2d4My04eW56Mm5HeFVXS1hIeVVPdWlVSElWcGRSQkxSM3FVS24xX1RpTW5IMTNFWm5uYzZ2MEctbUNhNXMtUFNCR2w2U05SbWtYdC1hWTFNTzBETU9vTEhEdGk5WThVNjhzN3VoNnd3RkdZTFNiblZ6U0JMVWJHUG9wRWl3bmViS2tjS0JqOGIxSjcxaEVrS2xjNmVxT1RGRzhyQTg1RlhaemZzVDdzTWs2?oc=5
   Agua (IDAAN):
-    - 14/10 14:51 El Siglo Panamá: Puntos de abastecimiento de agua para Chitré tras daño por el terremoto
-      https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTWlYd25YNFJ4aVNBVDE5b0dlQktuc3J2RnMwdWxlSnFHcHpLeWxsZ3NuaVhXdnEwaTF4WnUwNFp6QkFIakNBOTlRWktER0lNalg0cEpzYmxuaFUzZ2FKTzl6c3U3Wk1tR1Q0ZzFWb3VZdjB4VlN5SDBKUm5hM0dqZXhpSGpLVlhiLTlzVTRqcDRlUTdkOUt5bWxoVkRrd2JLMGxZcnZ0STFCU2syNEw1eEpqdVlCcDJlY0lpbEQ2QlTSAcYBQVVfeXFMTWF5Z2o1ZnN6QXZIQXNCbFZCYjFNX3JhaG1Hc3VOTDdyam1OeGVGbUlQZXhQa0dmMVNNZjNSOUxSODJ6R1dDbGl5QVlCT0NJazhicmI4blZTLVFaOE50bjV4Yk83a3ZydFRnbEQzaTR5bEp0ZnBfQ0xrYndSREo0QnRtMEZPaTFsTldiVDFNZGlDa2Y5bWlmTHdpVnNqcjV6SXYwUThwaThyLW1zaHNNVVVNOHdpNUV3X1hWY2NDaTJyaUJVREZ3?oc=5
     - 14/10 14:18 Telemetro: IDAAN reporta afectación del suministro de agua en Parita: estas son las comunidades afectadas
       https://news.google.com/rss/articles/CBMizgFBVV95cUxOYVpKcHJJTlV3NkVMR2VQbzR2TmpPQkxjNlVPQjdEelVpdnR3V3ZVUnVMNnpOWHlFaEVDeUNLVU9uMUNvSGhfOEhndVkybk9vUWJJNEpsQzZQQ1pCNVppZmN3cC1EdWJGWlY2SllUWFAtZDNrTTJmS2VPZ3JQZHlwMEp6Q2tiSU5uS2VVaG5uWXZIdGtic0ZhNEc3eFl0TGowdUx2OTh2X25ma2VjVHBmdVBoUWRVM3ZjSFpFbi1zWUhGWnJMZDY1N0cyM3FRUdIB0wFBVV95cUxNWDlSVHBVSElEdHRxTGV6cU9kb3ZubEV1WVBKellINFFnVy1WOHBfLXNSV1cxcXcyTm5WWC1HNjVHc1Yta0FXa181U1FKUlR3dzFCWExicHkyOFhMNTNJUm5ROVpSR3N2T2s4eDlHbkRjLXd5TGJlUW5DVEYxWkJ1R0JIQXduVmt4TjUtNmRNU0tRVlR1SWI1MlNCcHBOZXJXNWhaUFhLWmxNcHVDNC1vVTMwbjVBMjFMWjJBNVQ0R2g4eE4xc0xSSXV6ZHRvQlBPZEJB?oc=5
+    - 14/10 12:51 El Siglo Panamá: Puntos de abastecimiento de agua para Chitré tras daño por el terremoto
+      https://news.google.com/rss/articles/CBMixgFBVV95cUxNYXlnajVmc3pBdkhBc0JsVkJiMU1fcmFobUdzdU5MN3JqbU54ZUZtSVBleFBrR2YxU01mM1I5TFI4MnpHV0NsaXlBWUJPQ0lrOGJyYjhuVlMtUVo4TnRuNXhiTzdrdnJ0VGdsRDNpNHlsSnRmcF9DTGtid1JESjRCdG0wRk9pMWxOV2JUMU1kaUNrZjltaWZMd2lWc2pyNXpJdjBROHBpOHItbXNoc01VVU04d2k1RXdfWFZjY0NpMnJpQlVERnfSAcYBQVVfeXFMTWF5Z2o1ZnN6QXZIQXNCbFZCYjFNX3JhaG1Hc3VOTDdyam1OeGVGbUlQZXhQa0dmMVNNZjNSOUxSODJ6R1dDbGl5QVlCT0NJazhicmI4blZTLVFaOE50bjV4Yk83a3ZydFRnbEQzaTR5bEp0ZnBfQ0xrYndSREo0QnRtMEZPaTFsTldiVDFNZGlDa2Y5bWlmTHdpVnNqcjV6SXYwUThwaThyLW1zaHNNVVVNOHdpNUV3X1hWY2NDaTJyaUJVREZ3?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
     - 14/10 23:49 La Prensa Panamá: Terremoto en Panamá: quién controlará los fondos públicos y las donaciones privadas
       https://news.google.com/rss/articles/CBMitgFBVV95cUxQUUNhSnBwNmZ6aDNDRm93ZUJkYzhCN0tva2hSN1VDZDVYNGJ0d205RHBBNENmVF9YdTZkQ25PaXRnVjNKeTZtU3dOdUpBcE42dXVhTG4wLUUzbjJfZ2RFZjZna2hlN2VzWVlDbncxVDI4VV9QMGNJOGxQYlhNZUVyd2UxRFR2ZHVhNzZfLVFKMUUxMHhBUldIUFZJQ0pyazhyVDJKcEVid3hOc19SYUtNcHlIWXAwQQ?oc=5
@@ -71,7 +71,7 @@ ACCIONES AHORA:
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 02:10 (automático)
+🔔 Sismo PA 02:20 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -108,10 +108,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T07%3A10%3A07&endtime=2026-10-15T07%3A10%3A07&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T07%3A20%3A17&endtime=2026-10-15T07%3A20%3A17&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 3.0 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.8 h; alerta solo con M5.5+, tsunami o reactivación
