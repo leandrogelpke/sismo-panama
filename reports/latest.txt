@@ -1,7 +1,7 @@
-Sismo PA 07:10: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 07:54: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 07:10 (15/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 138.2 h.
+SISMO PANAMÁ — informe de las 07:54 (15/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 139.0 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 0 de M4.5+ y 0 de M3.5–4.4 | 24 h: 0 de M4.5+ y 0 de M3.5–4.4
@@ -31,10 +31,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 14/10 12:51 El Siglo Panamá: Puntos de abastecimiento de agua para Chitré tras daño por el terremoto
       https://news.google.com/rss/articles/CBMixgFBVV95cUxNYXlnajVmc3pBdkhBc0JsVkJiMU1fcmFobUdzdU5MN3JqbU54ZUZtSVBleFBrR2YxU01mM1I5TFI4MnpHV0NsaXlBWUJPQ0lrOGJyYjhuVlMtUVo4TnRuNXhiTzdrdnJ0VGdsRDNpNHlsSnRmcF9DTGtid1JESjRCdG0wRk9pMWxOV2JUMU1kaUNrZjltaWZMd2lWc2pyNXpJdjBROHBpOHItbXNoc01VVU04d2k1RXdfWFZjY0NpMnJpQlVERnfSAcYBQVVfeXFMTWF5Z2o1ZnN6QXZIQXNCbFZCYjFNX3JhaG1Hc3VOTDdyam1OeGVGbUlQZXhQa0dmMVNNZjNSOUxSODJ6R1dDbGl5QVlCT0NJazhicmI4blZTLVFaOE50bjV4Yk83a3ZydFRnbEQzaTR5bEp0ZnBfQ0xrYndSREo0QnRtMEZPaTFsTldiVDFNZGlDa2Y5bWlmTHdpVnNqcjV6SXYwUThwaThyLW1zaHNNVVVNOHdpNUV3X1hWY2NDaTJyaUJVREZ3?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
-    - 15/10 03:51 Canal UGR: El Instituto Andaluz de Geofísica de la Universidad de Granada estudiará el terremoto de Panamá del 9 de octubre, de magnitud 7,7, gracias a una re
-      https://news.google.com/rss/articles/CBMijAFBVV95cUxQSk9BZVZNY1dyRTE2akFfSzd3cm9JMzNaMkNfeGxLQWRYUnktbDY4dkJIRzdUOGlaSzJwVUlsc1F4bTdlYVVVTi15WEdHTHZveE9EX2t6QjkwbTRSZzBjNnBxeEJfYzJOWDZYaTdSRjI2NkJ5bGVXRVFBenpJcHFvRmJsWDFoeDNyS3JZZw?oc=5
     - 14/10 23:49 La Prensa Panamá: Terremoto en Panamá: quién controlará los fondos públicos y las donaciones privadas
       https://news.google.com/rss/articles/CBMitgFBVV95cUxQUUNhSnBwNmZ6aDNDRm93ZUJkYzhCN0tva2hSN1VDZDVYNGJ0d205RHBBNENmVF9YdTZkQ25PaXRnVjNKeTZtU3dOdUpBcE42dXVhTG4wLUUzbjJfZ2RFZjZna2hlN2VzWVlDbncxVDI4VV9QMGNJOGxQYlhNZUVyd2UxRFR2ZHVhNzZfLVFKMUUxMHhBUldIUFZJQ0pyazhyVDJKcEVid3hOc19SYUtNcHlIWXAwQQ?oc=5
+    - 14/10 10:21 La República: Una tormenta con granizo inunda Santiago de Chile y obliga a declarar alerta roja: miles de hogares quedan sin electricidad
+      https://news.google.com/rss/articles/CBMigwJBVV95cUxOaDFDY3hfVjE0a2RFUjFQYXppdURnaEpxQnpfd3N4elpDU20tQXRYR0Y2MFlmOFlPMVgzZzFPR1Eyc09hSWs4M1pWR0Vla3k0VHlKVVBfRWt0SlJ5b1ltekZEVkRPSEV0YTRRaDE1R3RfVDVJRXMtNllIcTRMZHRlR25uSUxhb2RLTEoxNDJzRXdlTjVHZGlCSld4Z2dyVXRobGFpVC15S2N5ckdiVjRESjZrSENsM3k3R1FxNmE5UUdWZTVzcTJtZVRVbWI4dEtaVWxHdlVBVlpKVHhiZnRqNmEtWHNFRzhlRVc2TGl0TW1mSnBFLWpyczlLMF9LZFNMTjRB0gGDAkFVX3lxTE5oMUNjeF9WMTRrZEVSMVBheml1RGdoSnFCel93c3h6WkNTbS1BdFhHRjYwWWY4WU8xWDNnMU9HUTJzT2FJazgzWlZHRWVreTRUeUpVUF9Fa3RKUnlvWW16RkRWRE9IRXRhNFFoMTVHdF9UNUlFcy02WUhxNExkdGVHbm5JTGFvZEtMSjE0MnNFd2VONUdkaUJKV3hnZ3JVdGhsYWlULXlLY3lyR2JWNERKNmtIQ2wzeTdHUXE2YTlRR1ZlNXNxMm1lVFVtYjh0S1pVbEd2VUFWWkpUeGJmdGo2YS1Yc0VHOGVFVzZMaXRNbWZKcEUtanJzOUswX0tkU0xONEE?oc=5
   Aeropuerto de Tocumen:
     - 14/10 18:15 Informe Aéreo Noticias: Emergencia en Tocumen: Así se gestionó la crisis aérea tras el terremoto en Panamá
       https://news.google.com/rss/articles/CBMitAFBVV95cUxOTzIwVVFvSVplSHB3M0h3X3dtd29FM2ozem5FMlJ0cG54aThncXdkc2JSODhhZ0ZPbG5NWkN3RGdGU1liRGg2cEQzeWxvUWk2SFNiOXJNZHA2cEE1bjFuSmhBYVRENW5wSnlEczZORExoZF94cTFOMnY4ZUFIWWotd05YNHdDc3B6YlBlck1yUW5pQzZOeFRlUjhEUWtOd2tJUDZFRHVfU20xaDhKbGo1em1iWjg?oc=5
@@ -71,7 +71,7 @@ ACCIONES AHORA:
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 07:10 (automático)
+🔔 Sismo PA 07:54 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -108,10 +108,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T12%3A10%3A00&endtime=2026-10-15T12%3A10%3A00&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T12%3A54%3A20&endtime=2026-10-15T12%3A54%3A20&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 3.9 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 3.2 h; alerta solo con M5.5+, tsunami o reactivación
