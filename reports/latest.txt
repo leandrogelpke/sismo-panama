@@ -1,7 +1,7 @@
-Sismo PA 22:49: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 22:59: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 22:49 (14/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 129.9 h.
+SISMO PANAMÁ — informe de las 22:59 (14/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 130.1 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 0 de M4.5+ y 0 de M3.5–4.4 | 24 h: 1 de M4.5+ y 0 de M3.5–4.4
@@ -32,7 +32,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
       https://news.google.com/rss/articles/CBMixgFBVV95cUxNYXlnajVmc3pBdkhBc0JsVkJiMU1fcmFobUdzdU5MN3JqbU54ZUZtSVBleFBrR2YxU01mM1I5TFI4MnpHV0NsaXlBWUJPQ0lrOGJyYjhuVlMtUVo4TnRuNXhiTzdrdnJ0VGdsRDNpNHlsSnRmcF9DTGtid1JESjRCdG0wRk9pMWxOV2JUMU1kaUNrZjltaWZMd2lWc2pyNXpJdjBROHBpOHItbXNoc01VVU04d2k1RXdfWFZjY0NpMnJpQlVERnfSAcYBQVVfeXFMTWF5Z2o1ZnN6QXZIQXNCbFZCYjFNX3JhaG1Hc3VOTDdyam1OeGVGbUlQZXhQa0dmMVNNZjNSOUxSODJ6R1dDbGl5QVlCT0NJazhicmI4blZTLVFaOE50bjV4Yk83a3ZydFRnbEQzaTR5bEp0ZnBfQ0xrYndSREo0QnRtMEZPaTFsTldiVDFNZGlDa2Y5bWlmTHdpVnNqcjV6SXYwUThwaThyLW1zaHNNVVVNOHdpNUV3X1hWY2NDaTJyaUJVREZ3?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
     - 14/10 18:39 La Prensa Panamá: Sin evaluaciones estructurales, Penonomé comienza a tantear la normalidad
-      https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdFZuVGtwZ29XXy1mV1dKaG1JYUhwaEdteGk4dTI2cVk3cVowVVpRcFR3QW42MEZzZUYxR2h0VUdKYXdSQzduZXkxTHp4ajRHTHR1cnRPYkRWRlR5c3U5NWJKaWNlaWg3ak1JemNCWS1RT2dIY0lzampvQVR4Q3BhekRXV1pVdGZ4a1VlZTFUYzI5MHlfZkMxZzllOFRyQkI2U21aQlFCTlk?oc=5
+      https://news.google.com/rss/articles/CBMi_wFBVV95cUxPcGVZaHlyQzRaMHNuaGJ5Q1NxbDVQbEVUVjdVTTlsUnhoTUhSZHk5blZsQ2NVT3dpZVV4Zng3NlBad2tBdU5LdEJYMm8zRzRXTG82RjI1em9lOC1HY3MzZFJ6MEpfejhNYXJwUmQzc3RGdThCQ29oYlZMWXAxZkJJSTFISjJwek9HU1Q5eFlfbUpBOWFPc3JxYnlDc0FEaS1tVnB5dG84TVJ1QTQxZUk0MngyUHNMcjJfU3V6SGZacnRaUzZiMTh2dGlsZGt0X1RYLVNpS0Z1cjVwaV90MTJ6N25QU3NReUFKWVJMQXJ4NW53Yk5YVjh1VXhmZDlZTlE?oc=5
     - 14/10 15:36 Infobae: Industria química mexicana reclama energía pese a tener un 30 % de capacidad ociosa
       https://news.google.com/rss/articles/CBMizwFBVV95cUxPVl85QVR1bGVjX1RFeWlmNkdCMlBPRXBOVHNLVkZoY1VFbmF5cklTM3dFbWx4YUFpaWJyOEt4TkI0alkzRlEzSEZDUWRRUzhlMWJCZkZMd0tMRDRiWm9NLWRYRlNpRlhrd3RnWWZKUGF1Q2g1RW9lcXRra2prZThRMElHaE0yNFZ4WDRhSGZ0VGRORy15a0Nzby0yV1EwU3hYLU1UVmJNUmZmMFB5WWpwZXBUelotUUFPZXpZRHYyYThGRlluZDV4RE84Q3FTYlnSAeoBQVVfeXFMUHFXcWpxczNRVXB4MUpHMnVNRTNJQ01kbndPMWRUMVNiWVJva0pjaUFtV3N5TkhUblZGRW9pcFowOFFLQ0xzamVwZ1JsNW15Q1Bxd2tTd3VRNTFHV05keXBmbW9RaWJDOUlrYlZXZTJ2TTZ6emtZSHRJUVJtSU5FVllTLTNRV0VGb3BKYnlxdXVOZklURlc3c3I2bzdtTHlOOGMxcVNtSU9QUU5SZzhZRkdDWjMxdkUyT3c4TzdISjNrYUplclh2Ui1HQlBWX01DcVU5cl9ZbjVONDdqQ21MNnloZVRrY2ozOVJn?oc=5
   Aeropuerto de Tocumen:
@@ -42,7 +42,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
       https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRTJpbXJpdkJjOFpVQ2kyM3FiRHI2cVgtQ3ItTzUycWNULW4yYmVCR0k2SFFDTnVQVEF6MHNpVmNLd3UwbjJsaHdWYmhsdE1uZnNmM2Y1ZG05N0lKVWRpYVdFdDVHVnAwTFdBMFJwa3czVldLWDF6S0JSd0pkNVpLczM4aUpvMmFqX3FTMmJnenhyWXFZcklBSjZsMG45SExMS3BOMENXU25JQmxkcmljWlpwY09SRVJBMmhtbG9pRXU5cDhyVkwwNGlGc3hOWmVRN1HSAewBQVVfeXFMUEc5SDVoZV9wNm9kbWhaSDNXa3M5alpzTDNOeXZGdUtJTXlvSGpsLW04NXFhWEN1TkxPOWYxTW5yMllKVGdvNGVXbHhhbHZQU2V2M0E2S3hkQzg0d2NFLVdGMmZPUzlKUXJtUG5Kc2NkeVdJYTJld09TSl85NDFVY3ZNTmZvSG5EMmd1NzMzNVpYNHhISHFibS1UaDNJSzFoSTFWVGRiZ0t4U3BJZS00Tjl2b1Y0M3Y1Vk9MZ2ZoMlFfc3U2ZUV3WEhLaWF6X3FZa2tfNzdhekwtQ2NmOFd4Sm9wUFhpeldydWhGUjE?oc=5
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
     - 14/10 20:32 Telemetro: MOP inspecciona puentes y carreteras de Bocas del Toro
-      https://news.google.com/rss/articles/CBMiowFBVV95cUxNZlItek5xNTdKYnJMclBvR2JPMkFYQmtjODdLYlh0LVpCX1I3bm1MTkNiNDRDamtUa3B1blhjcHBqSnM5OE81WkNZZ3ctTGx0dzJGWVF0RUlMNHVkZUNKTk9EN2c0eXNkbG9vdlJVNTFMeWFLdzRWMHUza1FDaU84Ql8zV0hUcC1jQnFCeThBREdQRElId2Z1cjhDaDhtMEo5bU9Z0gGjAUFVX3lxTE1mUi16TnE1N0pickxyUG9HYk8yQVhCa2M4N0tiWHQtWkJfUjdubUxOQ2I0NENqa1RrcHVuWGNwcGpKczk4TzVaQ1lndy1MbHR3MkZZUXRFSUw0dWRlQ0pOT0Q3ZzR5c2Rsb292UlU1MUx5YUt3NFYwdTNrUUNpTzhCXzNXSFRwLWNCcUJ5OEFER1BESUh3ZnVyOENoOG0wSjltT1k?oc=5
+      https://news.google.com/rss/articles/CBMingFBVV95cUxONjgyTGtEUHQ2d2g1dHk1a2ZMSTJzU0FjNmhvYlZpWkJjQ0dTTHluR0NzZC1McG91VWlKUzZ3T1BDcFBlQWJ6eUh4RUJHWVpSU25BU0tsSVZ0amNhYXhYamllSXJjOHlfWm9Nd2FFMnQwbVVGQTluMHV2bWFrM3MySGFJcHlIUjlCaVBTSUwwaUJXNUNlcjdpbVl1QkV0UdIBowFBVV95cUxNZlItek5xNTdKYnJMclBvR2JPMkFYQmtjODdLYlh0LVpCX1I3bm1MTkNiNDRDamtUa3B1blhjcHBqSnM5OE81WkNZZ3ctTGx0dzJGWVF0RUlMNHVkZUNKTk9EN2c0eXNkbG9vdlJVNTFMeWFLdzRWMHUza1FDaU84Ql8zV0hUcC1jQnFCeThBREdQRElId2Z1cjhDaDhtMEo5bU9Z?oc=5
     - 14/10 16:37 Panamá América: MOP descarta riesgo de colapso en 20 puentes de Mariato y Soná tras evaluaciones por el sismo
       https://news.google.com/rss/articles/CBMiywFBVV95cUxQa0c3UzE1M2puQVRBWlgzSjY1ODZ0MDBiNGNqQmNIalRSNzhSN3gzeUdCRTZGVUwtUE5RaVEtX2Iwdm56dFREUWpydXAxb0dkWUVjaE02LU5vcVNjQVZDS29nSmQwVjdqR1BrT3lDR3dTMElUeUc4R0VaZ0hQb3JMZTAzdmtzS1hVZDMzdHBkZFdHc3NZVmpUd3d0eEZfYlktaTFXVE9ISFJxY2xtTzVFdkJfdVREaUFkN0FNRkxmZF9BVV9meUJUellKSQ?oc=5
   Metro y transporte: sin titulares específicos en las últimas horas.
@@ -57,10 +57,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 14/10 14:09 Minuto60: Temblor hoy 14 de octubre en Panamá: alerta en Las Tablas, epicentro de las réplicas
       https://news.google.com/rss/articles/CBMimAFBVV95cUxQVGN4dWhsRHZGS2dzelJRblJEekpUcXJSTnRlQ0h3cFBQWG12LUQ3OFkxT1VNcTFrWG5sT0J2b2hhSlZsWXFKT0hzMXpHb2EwWjJKcWVWLWF0aG5QX1l2Ykpia1I4ZjFnS0treDlvcDBiX0dCX2NjdkhCbzJMdHR2Wl9SOGQ3c0NjSHZJNEJFbEt6UGdzOFdMaA?oc=5
   Daños y víctimas:
-    - 14/10 20:53 El Economista: Panamá registra su primera muerte por el terremoto de magnitud 7.7
-      https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOHNpVEFjazVNU3doN1NrNm11eGRsemd5aldWUUtnNWtfQ2JHQXN2VnlKVUZhUjYwZy1CaHJHelJ5YnRzMVFFUUlDbl9iOGJlTWxiMFM0Y2M1T1VYaXdqaUtxUmRqVjFVS1FBZ3prMFBXZlYtd0lxRnRqaF9iNGRYWDRTaFR0UkduUmZPYXg0dlRDM0ZVXzdoRER0U2tsOTlKZUpKcEExYjRnOV9QZkREVk4zbjVlNTl1Z2xWV3dKczVLQdIBwgFBVV95cUxNOHNpVEFjazVNU3doN1NrNm11eGRsemd5aldWUUtnNWtfQ2JHQXN2VnlKVUZhUjYwZy1CaHJHelJ5YnRzMVFFUUlDbl9iOGJlTWxiMFM0Y2M1T1VYaXdqaUtxUmRqVjFVS1FBZ3prMFBXZlYtd0lxRnRqaF9iNGRYWDRTaFR0UkduUmZPYXg0dlRDM0ZVXzdoRER0U2tsOTlKZUpKcEExYjRnOV9QZkREVk4zbjVlNTl1Z2xWV3dKczVLQQ?oc=5
-    - 14/10 20:10 News Channel 3-12: Panamá confirma la primera muerte a causa del sismo que el viernes sacudió al país
-      https://news.google.com/rss/articles/CBMiygFBVV95cUxQV09VYWFfUFRjdHlyZTVlY0ppWUdLQ1VGbGxHTkFCRHFMNGVfRVQtUHU2NUtmT1luWmJ5ZkU3RlZUc2F1eHJnbmJ0cW1KRGxvRTFaNnM1aHdzaHVmZE9CLVVnMVNsWXhrLXlGWURMeDZtRTNMdjdYRXVoeFVTc3lhR3NlM21NeGZsUHFMMlZOTGRueVo4UU5JTnlSOXBTUzVKS0VWVGJFeWJoZUU2VWktSGV0ZTBraFNvLURnSi11N054QVNLc2VvZ0tR?oc=5
+    - 14/10 22:16 Noticias Caracol: Terremoto en Panamá: reportan la primera víctima mortal tras el sismo de magnitud 7,7
+      https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcVZEOWVQNnNhZlBpVzZBUEpZVFBxbEl0YVZyVWJvU3doeG1fRjBGa1c2c1F6eDBTSXdzbDJIdXhsUS1jUmlaSWR5ckplZUJOV3hHV0J5d3BqdGVsLUFXM2ZETFp3bE40eWVpMVYxRFRQT0I4dl9reV9yY2ZfMGxGSXN1RmF1d2lyRkFIU29pMllkTldrMVFKQzgxQUhpVGc0aWNFeTJzLXdkTk5tenlHLWI5X1ZjSVRaVXE3XzZhM1lpd1laY19vaHkxby14Q1Q2TFVZ0gHTAUFVX3lxTE5xVkQ5ZVA2c2FmUGlXNkFQSllUUHFsSXRhVnJVYm9Td2h4bV9GMEZrVzZzUXp4MFNJd3NsMkh1eGxRLWNSaVpJZHlySmVlQk5XeEdXQnl3cGp0ZWwtQVczZkRMWndsTjR5ZWkxVjFEVFBPQjh2X2t5X3JjZl8wbEZJc3VGYXV3aXJGQUhTb2kyWWROV2sxUUpDODFBSGlUZzRpY0V5MnMtd2ROTm16eUctYjlfVmNJVFpVcTdfNmEzWWl3WVpjX29oeTFvLXhDVDZMVVk?oc=5
+    - 14/10 20:59 CR Hoy: Panamá registra una primera muerte por el potente terremoto
+      https://news.google.com/rss/articles/CBMikgFBVV95cUxQVnB5YnRMSmxIZHRqeFhDOGNzVWJkZG1QbFZtenFMZ3NzemhJNTNsSnpIX0phQU1lYlVhcjZ3bkUyOEdRUndaMHZIV2NmcHJpdlhkdkdWQ00xdnJ5LThUVUdoZFZWNDM5a0xLNlNZZXMwLU9UcVZjNlNERThoSEVZUDZGNXM0TWUyOThocGlyNGk4QQ?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Para la noche: zapatos cerrados, linterna, llaves y celular cargado junto a la cama; puerta del cuarto sin seguro; si tiembla fuerte, proteger la cabeza junto a la cama y esperar a que pase antes de bajar.
@@ -71,7 +71,7 @@ ACCIONES AHORA:
   14/10 00:09  M4.7  10 km S de La Mesa  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 22:49 (automático)
+🔔 Sismo PA 22:59 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -108,10 +108,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T03%3A49%3A12&endtime=2026-10-15T03%3A49%3A12&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T03%3A59%3A22&endtime=2026-10-15T03%3A59%3A22&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 0.3 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 0.2 h; alerta solo con M5.5+, tsunami o reactivación
