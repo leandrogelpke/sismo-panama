@@ -1,6 +1,6 @@
-Sismo PA 18:17: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 18:19: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 18:17 (15/10/2026), generado por GitHub Actions
+SISMO PANAMÁ — informe de las 18:19 (15/10/2026), generado por GitHub Actions
 Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 149.4 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
@@ -37,10 +37,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
       https://news.google.com/rss/articles/CBMijAFBVV95cUxQSk9BZVZNY1dyRTE2akFfSzd3cm9JMzNaMkNfeGxLQWRYUnktbDY4dkJIRzdUOGlaSzJwVUlsc1F4bTdlYVVVTi15WEdHTHZveE9EX2t6QjkwbTRSZzBjNnBxeEJfYzJOWDZYaTdSRjI2NkJ5bGVXRVFBenpJcHFvRmJsWDFoeDNyS3JZZw?oc=5
   Aeropuerto de Tocumen: sin titulares específicos en las últimas horas.
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
-    - 15/10 16:43 Tvn Panamá: Temblor en Panamá: MOP interviene zona de riesgo por derrumbes que amenazan a tres familias en Coclé
-      https://news.google.com/rss/articles/CBMiigFBVV95cUxOZWlrNFhocllsbkdRMzJqV2h3NTkzUVdVNy1VRnd1SXlucjgtWHpvbWR6UjY4RnhDTU5USXdDMFBWRHlzRl9scGtDM0FLa1huYXFvbXZWcjFFeFVxNXFVTndaTWpQbUUxVVp3Z1JCNkNTZExiWmUwMjg4Tjh3SkJzdnFQVmEtd2h2UkHSAY8BQVVfeXFMUFVMY0VZTUMxQXlKQ3FVNGY1bkhwTHJEaVRIcV9MZWdhUFNXN3lhUmpQWHNVZTZ0UXh1cm5DWWJ0dVVVRkhlZi16ZjZXQjNhN0c1LXJ5T1A3UXJhQ0draVFPa2RBMGxObElGUzVKS191anY4SWdGSS1SM25fWnhUckdyaW54MVRJaXdSaXZQN1E?oc=5
     - 15/10 16:07 Panamericana TV: Terremoto de magnitud 7.6 sacudió esta tarde...
       https://news.google.com/rss/articles/CBMilAFBVV95cUxNNzdYOG16XzVfdEQ2RmdRRFBCWTJSdGZKb3VTWU1vQXNFT1pBNmFyZzZNZlJEa1lRRjZ5RTVIeHVYY01pNlcwVVhtMEVOTWt6NzZSc3k1dU1XLXhOcFdPNTgxT0dWdU03QktIY2FVYjd2UDd5ZHBBQ1YxN1kzWjBqRXFQU3haTmo3QzFfLVlZNHlRZzZs0gGaAUFVX3lxTFBSVWQ2Qk9DVmY2bEgwSUtLeThoZlRZT1c4YXFub3UtQ0thNndqSktmVTk0Sm9sSlRYa3hPRnlRMmdyanJHdEVRU0RMbUdyRnlETmVuMTBVNUxDdHh5eHN3bklaeTZSVkZDRGhOZHhNR2w5NFBWM0tlSEUxaXd1UFhnQTA5MENvVTd4U0d6RWtjTFNHR2ZqNmM1LUE?oc=5
+    - 15/10 07:32 Notitarde: Venezuela envía este jueves ayuda humanitaria a Panamá tras el terremoto de 7,7
+      https://news.google.com/rss/articles/CBMiugFBVV95cUxPMmFTdUVfMHNmeExJTkdMdWlUa0J4SkdvVFZJWjdISlU5cktXQk1ka3ZRYkZSdzBudVVYRVdsMWNlM1R3bzVLTDRIQUlheVVMdnBjbEd2OHk1MllMODhvdGR5b2s2UlFXYmRRekVJcy0tX0JFYkE1VlY1enp5MkFZbGRJU25nYVNkaENxVVlZUmJoNUhVSUtfMHZkVkVZMDEtdVdlM1BlOERhRXFxMzdqaEZGVllia2d1Q3c?oc=5
   Metro y transporte:
     - 15/10 13:57 Telemetro: Mulino anuncia que podría aumentar fondos para damnificados del sismo en juntas comunales y alcaldías
       https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYXVYcC1wT0V6bGVYR1g3X1RpcEUySEM5VmU3SDZUMUpLMGhRS2ZmMWQ3Z3pfN2tPRkM4bkVneHlZVGlGVDNncnFzVmNFZHJjTlY4VWZTUXUtRGZRQTdSdmtNZVVuZUJBS2NhZndRekQ1NDVUWFExVkhMNV9FUHVhNVBkR19pam1kSndYbkRIVHFUUXc5bWFnYzJIWHNOUF8wWl9OSS02Y2xNV0VIdHpvYlI3WUk3bDVJWHkwVEE2TGl1d3Z6b1FHMWE0MnlVV2N1UzU3YmpBdUdIWGfSAdsBQVVfeXFMTmF1WHAtcE9FemxlWEdYN19UaXBFMkhDOVZlN0g2VDFKSzBoUUtmZjFkN2d6XzdrT0ZDOG5FZ3h5WVRpRlQzZ3Jxc1ZjRWRyY05WOFVmU1F1LURmUUE3UnZrTWVVbmVCQUtjYWZ3UXpENTQ1VFhRMVZITDVfRVB1YTVQZEdfaWptZEp3WG5ESFRxVFF3OW1hZ2MySFhzTlBfMFpfTkktNmNsTVdFSHR6b2JSN1lJN2w1SVh5MFRBNkxpdXd2em9RRzFhNDJ5VVdjdVM1N2JqQXVHSFhn?oc=5
@@ -49,8 +49,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Escuelas (MEDUCA):
     - 15/10 16:17 www.metrolibre.com: Meduca: Sismo deja 55 escuelas colapsadas que deberán ser reconstruidas
       https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX0lnSnF1czY0SjhBTEExbjRhM0VUMUJPWF9xRzZkZzdVVUFMWllHWUJqMmZNeFVLVmlqaWk4QmdJSUsyQWhJWXpUNS1pNjBnX1lRc2w2UjVEVVo2VmZNMl9HeUt6b0d3MGZyVkh6cEg4OTNLVUp3UW9PeGpMUE52eE1hVnpPMzhMeWxpRHdoUENMMnNnY045U2QyLS05bnZxODFhVnZ4eWN5VVgySENPc3FWay11YVBmcF9N?oc=5
-    - 15/10 14:38 Telemetro: MEDUCA reporta 55 escuelas colapsadas tras terremoto en Panamá
-      https://news.google.com/rss/articles/CBMiogFBVV95cUxNa1JJdXV4V0VCenl1U0YwZ1pHUVJHUU9YU0MybUJVaURacEl1UG9yUmRnd3JaNjdEd3g5b09PckhHVEY0TjdmSWhueDhiWXFzZUQ1VEt2ZHJZZlc1ZVVsbHZXWEJsdmUzYWp4T1hINVdsbFhGVGpLUk9IT002SC1jbXVjXzNnRU1jLTQtSDB2TGFoMFFabTBzbk96cWF1VXBtMUHSAacBQVVfeXFMTWRTVzR2MzhLMklyTXpmeTJJd01PeFhBWnFjamk3ejBXalItLVJ3RlpKajNyckljSThQc3QyWkZYRy02OWozYWM2eDhIR1pmSE9OS1duZVNnOTBndDNRNDlPWFppb2w2NGRCZTlGNzh2MVliUWlCejQzdW9JYVN2cDVhei1tLVBZTVk1WUVOM3FSX2NGSUIyTjVLeTB2QjhFUkxMRFB0M1E?oc=5
+    - 15/10 16:02 Panamá América: Meduca evalúa clases virtuales tras el sismo mientras en el horizonte están las 54 mil laptops con IA
+      https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmszbkV6SUdCeThPRVlVd0xVYlk5VFNUTU1zcDRYcGltS0N1S0o4RVp4SmdUeFBCdTdNSE1TZEN5R19rc1UxN0pNaGtPbWEweXJMZkl5c1BYVGFlaGhHVm56cDR4eGtvR0s3ZFdmYXo4aGVKZW9MNVRiSFdveThRT1hDNVR2emR6Qko5T2NONGNSSTVSa0lHaWctZV8zdzl2OEk3RTRHNS12cC1hWDROTXpLYV9UcmxCZFNLb1BzZlU3eUhpUWlz?oc=5
   Sinaproc / autoridades:
     - 15/10 17:03 Telemetro: Terremoto en Panamá: Sinaproc reporta 13,623 personas afectadas y 879 viviendas con daño total
       https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ21vUDNGdTRjTFc4OWxLNk5CRE1oeEx2YUVzdmFlTEdEN2stM2J6RFVBdHFTRUQ0cjl1MTBlWlRqQ2hyWXpFREJnWGp1WU5xaWJkcnl0QkI1Y2dPTC14dUY1NUxXQ250UXZSZ1NYVWdodldwOGpoNEF6NXVYejJ1d3p3WFNfd3Q5QW42M2JfcWsxcEZKNDh2RTZuUzh1N1VGT2RvTFkxcHJJVVUzUzQ5eHNlSGxrNFJyU0M3a3dwSE56WnV6RWtoVkNVa9IB0AFBVV95cUxQb1ZpaDJ3WFBXeXU1cHNEWFloS3liSjhqRGZJLWJqZ1BuanNESm8tNGJwOWxuOXE1bGR0SXFZMVNoMFhZUU93X21raTI1Q0h0blY3UW5aMHRoNF9sU19URWRMbkc4ZDVUSGdPVUhodU5jcF9WZGl3MmJ6V1c4Zy1rQlVBaWZRcEc5d3lsQkRvZk9QcWtsX1JEamFIWW1scUMzUDhBeEM2eGptTDVsSW5jSmR5NmpwdzlsOTZ4MkNyb3YtMWN0VV91QkVabW9sazFL?oc=5
@@ -71,7 +71,7 @@ ACCIONES AHORA:
   15/10 08:31  M4.5  9 km SSE de Los Asientos  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 18:17 (automático)
+🔔 Sismo PA 18:19 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -108,7 +108,7 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T23%3A17%3A45&endtime=2026-10-15T23%3A17%3A45&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T23%3A19%3A53&endtime=2026-10-15T23%3A19%3A53&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
