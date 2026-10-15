@@ -1,6 +1,6 @@
-Sismo PA 08:59: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 09:01: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 08:59 (15/10/2026), generado por GitHub Actions
+SISMO PANAMÁ — informe de las 09:01 (15/10/2026), generado por GitHub Actions
 Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 140.1 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
@@ -57,10 +57,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 14/10 23:04 ElCapitalFinanciero.com: Sinaproc eleva a 11,500 afectados y 3,390 las viviendas dañadas por el sismo
       https://news.google.com/rss/articles/CBMilAFBVV95cUxNWTFfRlYxclJzY2lYbDB3X0R6dHRmSmF5eFJxYTcyS1JSYjhuSXhVUllYNkRhVHYwUXVaQVdJNHRhNXF5MWlFYVozaXZvYjRVLV8zQjRsa0FQdHR2b2FrN2VkZjFSU09ycEl6T3FuR01uSkp6b0NyR0ExSGdKTFNvQzFEZjJwUlBuVC0wdWZyd183UjJM?oc=5
   Daños y víctimas:
+    - 15/10 07:31 Cadena 3 Argentina: Sismo de magnitud 7,7 en Panamá: Confirman la primera víctima fatal
+      https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUFkUWdGQmRNMEU2Ymo5TmU3VmJKSjVhRkdOLVRZaGJwZ195UFZBWXhROU5xVnczdFhhYW9DOWxDSHdjRm1velVCc1pITVE3b3JFbkdjQkI4cUd6TVlvN3F5LS1uMjNhUDZXNWRlejJSRFp3bHNMWF8tYlgyWm52QW1WbFpfZ2RHVDFOR0RLQ2RfMWFqcU1oc0tpQzF3SkFvYUVTaUxXVHVWd2VoRHFVcUoxWXDSAbQBQVVfeXFMTnFBZFFnRkJkTTBFNmJqOU5lN1ZiSko1YUZHTi1UWWhicGdfeVBWQVl4UTlOcVZ3M3RYYWFvQzlsQ0h3Y0Ztb3pVQnNaSE1RN29yRW5HY0JCOHFHek1ZbzdxeS0tbjIzYVA2VzVkZXoyUkRad2xzTFhfLWJYMlpudkFtVmxaX2dkR1QxTkdES0NkXzFhanFNaHNLaUMxd0pBb2FFU2lMV1R1VndlaERxVXFKMVlw?oc=5
     - 14/10 23:32 Metropolitano.gal: Miedo entre los gallegos afectados por el terremoto en Panamá tras sufrir "muchos daños" materiales
       https://news.google.com/rss/articles/CBMizAFBVV95cUxPNTZXai1FTTBwVjFCcmJlSUJINFExNU9HY1lPSm9FLWJRMTlsSTRiVmF6a29ZcmszOEx2bzRoWjhaWXJsSjA3cTd1bGJYOXpoYnlXLTN4MlFRUUxBMFVIRDV1ZTFyODdvSmhqZkd6aGFiVWVZLVhIUUpUUXh2ajNGVTE0dDZwYVI4akpRMkphMXlHRERfc3oyc3lCRDlEZ29WZHZ3ajZCT1AzUDY2eEZDUGlla01hcEFtZnp6OUVUVkQzb2RNcFdJTkMwWEnSAdIBQVVfeXFMTjZwUmQybVJ1ekZhdll0U0x5Q1lXRFdSRGZoMkRMeU1tS1NsQ0lBVFpjTlRsemotd2d5ZUJmSTFwQ0paYng1UXJmUy1NdEo5dDBHc0d6WXFwbmx4LU1jNWlmYjFxLXg0eW5IdThxN004T2lRV1A4NlBTRGFXSmkyVWxya082WUVFMzJjbVBYOWR0M3Z6MzlNdmVLNkZSUVppWDFQTW9rdGpwVUFyVjcyQXBCTFhxWXlDUFpzTmh2clZUWnFHNHVqLTM2ZUhlX1E2Q2tR?oc=5
-    - 14/10 22:16 Noticias Caracol: Terremoto en Panamá: reportan la primera víctima mortal tras el sismo de magnitud 7,7
-      https://news.google.com/rss/articles/CBMixgFBVV95cUxQVjVJVklVRUJrVmxNMTJhNnZ3QUhxbmllZ3A0dzhXWXdfay1UOVp5T0Zvd09LUHNmY2JSX2NGMTJPWXpheTFMQnZQWnZuakdqLXJGQUFsYzkyR1cySEZ2VmliMmRlQVRfRFFBcWNTNmxsZ3FudHZFeWJyaUV0SVdQUmFLZUlFNENtaTlhZG5EaFBIVkZ5dkgtaFJYMnFqbl9Od3hqZmVOa0kybkN1NUc1YkZTMWdVQVFCcUt3b3gtRk5NdUVZenfSAdMBQVVfeXFMTnFWRDllUDZzYWZQaVc2QVBKWVRQcWxJdGFWclVib1N3aHhtX0YwRmtXNnNRengwU0l3c2wySHV4bFEtY1JpWklkeXJKZWVCTld4R1dCeXdwanRlbC1BVzNmRExad2xONHllaTFWMURUUE9COHZfa3lfcmNmXzBsRklzdUZhdXdpckZBSFNvaTJZZE5XazFRSkM4MUFIaVRnNGljRXkycy13ZE5ObXp5Ry1iOV9WY0lUWlVxN182YTNZaXdZWmNfb2h5MW8teENUNkxVWQ?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
@@ -71,7 +71,7 @@ ACCIONES AHORA:
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 08:59 (automático)
+🔔 Sismo PA 09:01 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -108,10 +108,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T13%3A59%3A47&endtime=2026-10-15T13%3A59%3A47&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T14%3A01%3A17&endtime=2026-10-15T14%3A01%3A17&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.1 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.0 h; alerta solo con M5.5+, tsunami o reactivación
