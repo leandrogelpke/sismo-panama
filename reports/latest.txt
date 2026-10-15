@@ -1,7 +1,7 @@
-Sismo PA 03:42: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 03:52: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 03:42 (15/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 134.8 h.
+SISMO PANAMÁ — informe de las 03:52 (15/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 134.9 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 0 de M4.5+ y 0 de M3.5–4.4 | 24 h: 0 de M4.5+ y 0 de M3.5–4.4
@@ -41,10 +41,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 14/10 17:40 Infobae: 7,000 pasajeros estaban en el principal aeropuerto de Panamá cuando ocurrió el terremoto de 7.5
       https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRTJpbXJpdkJjOFpVQ2kyM3FiRHI2cVgtQ3ItTzUycWNULW4yYmVCR0k2SFFDTnVQVEF6MHNpVmNLd3UwbjJsaHdWYmhsdE1uZnNmM2Y1ZG05N0lKVWRpYVdFdDVHVnAwTFdBMFJwa3czVldLWDF6S0JSd0pkNVpLczM4aUpvMmFqX3FTMmJnenhyWXFZcklBSjZsMG45SExMS3BOMENXU25JQmxkcmljWlpwY09SRVJBMmhtbG9pRXU5cDhyVkwwNGlGc3hOWmVRN1HSAewBQVVfeXFMUEc5SDVoZV9wNm9kbWhaSDNXa3M5alpzTDNOeXZGdUtJTXlvSGpsLW04NXFhWEN1TkxPOWYxTW5yMllKVGdvNGVXbHhhbHZQU2V2M0E2S3hkQzg0d2NFLVdGMmZPUzlKUXJtUG5Kc2NkeVdJYTJld09TSl85NDFVY3ZNTmZvSG5EMmd1NzMzNVpYNHhISHFibS1UaDNJSzFoSTFWVGRiZ0t4U3BJZS00Tjl2b1Y0M3Y1Vk9MZ2ZoMlFfc3U2ZUV3WEhLaWF6X3FZa2tfNzdhekwtQ2NmOFd4Sm9wUFhpeldydWhGUjE?oc=5
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
+    - 15/10 03:48 Panama 24 Horas: Autoridades del MOP evalúan daños viales causados por el sismo en la provincia de Herrera
+      https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM3dwNVUzV2VBY1pTSlFyZ1NTYlBINlQ4ZG1EVjdONDZfNWhWekx0bkFybF9tOGdta3pYZ09BMXVwdlFHSnpNX24zdXdlVFFkZlNMVHgtaEVxc2JHZ0oyYnZEMURDRHhaMTlneFFTcTRnTHFRaEt5R3FhSTVSb3hLUzRhaDFhdkRPN3lvTjYycGpudTZOQlJvU1hjZ2tmTnRNQVA3STNONFk?oc=5
     - 14/10 20:32 Telemetro: MOP inspecciona puentes y carreteras de Bocas del Toro
       https://news.google.com/rss/articles/CBMingFBVV95cUxONjgyTGtEUHQ2d2g1dHk1a2ZMSTJzU0FjNmhvYlZpWkJjQ0dTTHluR0NzZC1McG91VWlKUzZ3T1BDcFBlQWJ6eUh4RUJHWVpSU25BU0tsSVZ0amNhYXhYamllSXJjOHlfWm9Nd2FFMnQwbVVGQTluMHV2bWFrM3MySGFJcHlIUjlCaVBTSUwwaUJXNUNlcjdpbVl1QkV0UdIBowFBVV95cUxNZlItek5xNTdKYnJMclBvR2JPMkFYQmtjODdLYlh0LVpCX1I3bm1MTkNiNDRDamtUa3B1blhjcHBqSnM5OE81WkNZZ3ctTGx0dzJGWVF0RUlMNHVkZUNKTk9EN2c0eXNkbG9vdlJVNTFMeWFLdzRWMHUza1FDaU84Ql8zV0hUcC1jQnFCeThBREdQRElId2Z1cjhDaDhtMEo5bU9Z?oc=5
-    - 14/10 16:37 Panamá América: MOP descarta riesgo de colapso en 20 puentes de Mariato y Soná tras evaluaciones por el sismo
-      https://news.google.com/rss/articles/CBMiywFBVV95cUxQa0c3UzE1M2puQVRBWlgzSjY1ODZ0MDBiNGNqQmNIalRSNzhSN3gzeUdCRTZGVUwtUE5RaVEtX2Iwdm56dFREUWpydXAxb0dkWUVjaE02LU5vcVNjQVZDS29nSmQwVjdqR1BrT3lDR3dTMElUeUc4R0VaZ0hQb3JMZTAzdmtzS1hVZDMzdHBkZFdHc3NZVmpUd3d0eEZfYlktaTFXVE9ISFJxY2xtTzVFdkJfdVREaUFkN0FNRkxmZF9BVV9meUJUellKSQ?oc=5
   Metro y transporte: sin titulares específicos en las últimas horas.
   Escuelas (MEDUCA):
     - 15/10 01:00 Panamá América: Meduca evalúa retorno a clases presencial, virtual y por módulos
@@ -71,7 +71,7 @@ ACCIONES AHORA:
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 03:42 (automático)
+🔔 Sismo PA 03:52 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -108,10 +108,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T08%3A42%3A15&endtime=2026-10-15T08%3A42%3A15&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T08%3A52%3A24&endtime=2026-10-15T08%3A52%3A24&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 1.5 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 1.3 h; alerta solo con M5.5+, tsunami o reactivación
