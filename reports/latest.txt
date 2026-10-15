@@ -1,7 +1,7 @@
-Sismo PA 13:05: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 13:20: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 13:05 (15/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 144.1 h.
+SISMO PANAMÁ — informe de las 13:20 (15/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 144.4 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 1 de M4.5+ y 0 de M3.5–4.4
@@ -23,10 +23,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 15/10 11:15 Telemetro: Línea 2A del Metro de Panamá: Mulino explica la ruta por Tumba Muerto hasta Paitilla
       https://news.google.com/rss/articles/CBMivAFBVV95cUxOd0Z5bW1jLUJmdmI0VUZHSVlkZzB1V0kwb0c0MndNQnpnSElBd1c1UnNOMVREZzFRZWQ3dFlGOGJ5RE5YSzc4R0I3Uy1yOHFHOXZKOVRCTmNsRUtLLVJRSGphcGxxcjdfSWFrS2FZNEYyaHd6bWpBYmRRc3RXWTdNdHgzZkNJQktWRURrVFpUM1RXUldMMkNDMUZjWHM3RERmLXlyakpqa3hmVFpIMHY2S2o0Y0E2M0FuRDhnMdIBvAFBVV95cUxOd0Z5bW1jLUJmdmI0VUZHSVlkZzB1V0kwb0c0MndNQnpnSElBd1c1UnNOMVREZzFRZWQ3dFlGOGJ5RE5YSzc4R0I3Uy1yOHFHOXZKOVRCTmNsRUtLLVJRSGphcGxxcjdfSWFrS2FZNEYyaHd6bWpBYmRRc3RXWTdNdHgzZkNJQktWRURrVFpUM1RXUldMMkNDMUZjWHM3RERmLXlyakpqa3hmVFpIMHY2S2o0Y0E2M0FuRDhnMQ?oc=5
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 15/10 13:00 ABC: Ayuda internacional en Panamá: Costa Rica y EE.UU. apoyan hospitales tras terremoto
+      https://news.google.com/rss/articles/CBMinwFBVV95cUxPNkNQektzUHR0RUZCN1ZlVHJ0a3NsVnE4QlRCMUpSRTNmTmM3WkU0QWdobDZQRVhHbVhmb0IzMzhpNU9PbWNOdXg3dDgzbEVsZTdCMGVjNTlZX2ZiNWZodV93cnV1UEF0bHZzTDlMWEdfcnZSLW9oMmhjeDVORW5pNG5NMWUyaDNVU0EyQnF3RUdqZWZPNFFCQVBxOF9Zemc?oc=5
     - 15/10 12:40 Infobae: Hospitales de zonas afectadas por el terremoto en Panamá abrazan la ayuda internacional
       https://news.google.com/rss/articles/CBMi1wFBVV95cUxORF9EelZJaEdOQjBUZ1BVUGtpMWg1SnFTd0dGNm1OeHNWUUFGOG4xcHE1OXVvS3hwX05pRXM3S0JtUlRQZU1KSUFwaC1waUNLT0VkTDNFNFBFd0hCWkZqYUxSTzJzdmI2Y3JfUzJVd3JsNHVnTDlncTYyWG5HdEM0eVVYdVBQM0I1UTVOeG0wcXdTYTVWVWg5ZDRBR3l3U0czN0lhQngtNHZJMjI1V1puaWIyUmxsTW5lUHA0LWo0LVgtdERxSEloU0VtTTMtakVIWExuWnI3b9IB8gFBVV95cUxQYWFBQUtzOVRyd2p3ZThPdFRyZmQ0cTFRWnFrSkZXT1U4dkloRWZrOVV3TDNNeFNnMHJfMmV5WWFCLUFZcEFpckxPMlo3c2lWUTVSM2VKY3AyV1ZNUkJOS21BeVpEUlNZVUhxUVdmT1dFYUF0QzBlaklJY3FZVzdUcWdiOUQxeldkRTVkZnJ0YVZHS3hlVGRZXzVjclNhQ1J4YlJYSzBURXY4Z2MzeFFaVk4yRnNlZngyU215YmlINHhlNWJGSU9SeDl4cHlDMHFBR1NNaDMzQnoxWFIyQXQyR3hYdWlnU1RYbGx5X3lVVWYtdw?oc=5
-    - 15/10 10:24 Destino Panamá: Minsa restringe acceso a cementerios de Soná e Hicaco para recuperar restos expuestos, tras terremoto
-      https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTUhRNlNSSWtjYUVzaHc4ZVBrSGgxRDdSSWlVcWNCU0dXV0hqbFdHTkwzcld2blV6aEpFRGNielVsV0d5S09JMEcyYVJJREx6WC1WN2V2cWZsZzZkYXdyNDRPSkxEUmd1bGFVYndYWHdlckx6a2t0SUd1LTFWeVhGMEJkV1FwMzIxenFtTVcyMFFUZEJaMXdoaG1lOWpycGhweWNWVHo4eUxLTzdydHF1SnRFQlFGa1FXZHFIcmZVOUR4ajF3LWI2ZUpKRGxCTUhFVVJ0YQ?oc=5
   Agua (IDAAN):
     - 14/10 14:51 El Siglo Panamá: Puntos de abastecimiento de agua para Chitré tras daño por el terremoto
       https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTWlYd25YNFJ4aVNBVDE5b0dlQktuc3J2RnMwdWxlSnFHcHpLeWxsZ3NuaVhXdnEwaTF4WnUwNFp6QkFIakNBOTlRWktER0lNalg0cEpzYmxuaFUzZ2FKTzl6c3U3Wk1tR1Q0ZzFWb3VZdjB4VlN5SDBKUm5hM0dqZXhpSGpLVlhiLTlzVTRqcDRlUTdkOUt5bWxoVkRrd2JLMGxZcnZ0STFCU2syNEw1eEpqdVlCcDJlY0lpbEQ2QlTSAcYBQVVfeXFMTWF5Z2o1ZnN6QXZIQXNCbFZCYjFNX3JhaG1Hc3VOTDdyam1OeGVGbUlQZXhQa0dmMVNNZjNSOUxSODJ6R1dDbGl5QVlCT0NJazhicmI4blZTLVFaOE50bjV4Yk83a3ZydFRnbEQzaTR5bEp0ZnBfQ0xrYndSREo0QnRtMEZPaTFsTldiVDFNZGlDa2Y5bWlmTHdpVnNqcjV6SXYwUThwaThyLW1zaHNNVVVNOHdpNUV3X1hWY2NDaTJyaUJVREZ3?oc=5
@@ -38,25 +38,25 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 15/10 05:06 Canal UGR: El Instituto Andaluz de Geofísica de la Universidad de Granada estudiará el terremoto de Panamá del 9 de octubre, de magnitud 7,7, gracias a una re
       https://news.google.com/rss/articles/CBMijAFBVV95cUxQSk9BZVZNY1dyRTE2akFfSzd3cm9JMzNaMkNfeGxLQWRYUnktbDY4dkJIRzdUOGlaSzJwVUlsc1F4bTdlYVVVTi15WEdHTHZveE9EX2t6QjkwbTRSZzBjNnBxeEJfYzJOWDZYaTdSRjI2NkJ5bGVXRVFBenpJcHFvRmJsWDFoeDNyS3JZZw?oc=5
   Aeropuerto de Tocumen:
+    - 15/10 08:14 Aviation Club Center: American Airlines suspenderá sus vuelos entre Tulum y Miami en enero de 2027
+      https://news.google.com/rss/articles/CBMivwFBVV95cUxQbTVqMTdLOVVEbjVjVTFZa0lpbXZ3eHNEd1I3VktKRUEtU0U2aWxHMlZORFcxRkIzTG4wcTBQRThQWmhrWUtEcjlVZDVuMVNqdFdCNjQ2ckY1RHgwSE9HZld6RERFeUhRRmRSRlV4RnBzdkxXQmZvTF9OWWp1bXpPdTc2UklMWm5hUGtzME95aTllYlQzNXlodklWSEdULWJEaWYxZnR5emt4aUpqTWdiN3VOOC12Z2VaWS1xU3RuZw?oc=5
     - 14/10 18:15 Informe Aéreo Noticias: Emergencia en Tocumen: Así se gestionó la crisis aérea tras el terremoto en Panamá
       https://news.google.com/rss/articles/CBMitAFBVV95cUxOTzIwVVFvSVplSHB3M0h3X3dtd29FM2ozem5FMlJ0cG54aThncXdkc2JSODhhZ0ZPbG5NWkN3RGdGU1liRGg2cEQzeWxvUWk2SFNiOXJNZHA2cEE1bjFuSmhBYVRENW5wSnlEczZORExoZF94cTFOMnY4ZUFIWWotd05YNHdDc3B6YlBlck1yUW5pQzZOeFRlUjhEUWtOd2tJUDZFRHVfU20xaDhKbGo1em1iWjg?oc=5
-    - 14/10 17:40 Infobae: 7,000 pasajeros estaban en el principal aeropuerto de Panamá cuando ocurrió el terremoto de 7.5
-      https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRTJpbXJpdkJjOFpVQ2kyM3FiRHI2cVgtQ3ItTzUycWNULW4yYmVCR0k2SFFDTnVQVEF6MHNpVmNLd3UwbjJsaHdWYmhsdE1uZnNmM2Y1ZG05N0lKVWRpYVdFdDVHVnAwTFdBMFJwa3czVldLWDF6S0JSd0pkNVpLczM4aUpvMmFqX3FTMmJnenhyWXFZcklBSjZsMG45SExMS3BOMENXU25JQmxkcmljWlpwY09SRVJBMmhtbG9pRXU5cDhyVkwwNGlGc3hOWmVRN1HSAewBQVVfeXFMUEc5SDVoZV9wNm9kbWhaSDNXa3M5alpzTDNOeXZGdUtJTXlvSGpsLW04NXFhWEN1TkxPOWYxTW5yMllKVGdvNGVXbHhhbHZQU2V2M0E2S3hkQzg0d2NFLVdGMmZPUzlKUXJtUG5Kc2NkeVdJYTJld09TSl85NDFVY3ZNTmZvSG5EMmd1NzMzNVpYNHhISHFibS1UaDNJSzFoSTFWVGRiZ0t4U3BJZS00Tjl2b1Y0M3Y1Vk9MZ2ZoMlFfc3U2ZUV3WEhLaWF6X3FZa2tfNzdhekwtQ2NmOFd4Sm9wUFhpeldydWhGUjE?oc=5
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
     - 15/10 10:03 Telemetro: Sismo en Panamá | Gobierno envía flota con ayuda humanitaria hacia las regiones más afectadas
       https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOXNWeFRpQVBlMFlGR2tuS2l1NnQ1SS04bkMzeExTSHo3V2ZhemhKM1FVcFA3YXBfQVlmNG1XcGNENkI1WkpxelNJNEJ1b3hZcTFLck05Ui1tbDBrS01McFVwQ1plOEhESl9DZndiZXNuUWxWU3B6MnY1aGZkNlIwaXJ0X1RORjNnM2lwUEx0QXNFTzdnVU1xNlA1Y0FOX0J4cklqS00xYm5XVC16aVY2Uk1mSmo0ZE1kQkp2MmtlaGxZUdIBxwFBVV95cUxQQWo3RmJPTkhLOHcxN3dSVTRpdEFVeWdPSUNWOWFjdHRHUDZfSEw0T2RPR0k3WDZ0amlzeDQwVXJjZng4aDhuMWxYTmVTaGpPdlY3b3pNS2JSU3llRURjWnNuOTZOaGk1VUZkeWgzV3kySVRuUF9JbDVDbVRhNlJBZXl1VmZidVZRTERlc19OTFVjcHdwOU9xSFR4amwyaG5tX290SmZIcHVvWkZCc1RoYlF2SHFVcWkxWFp6QlZMR01WMXc2OXVJ?oc=5
     - 15/10 06:25 El Tiempo: Reportan grave accidente en vía Panamericana que involucró bus que fue interceptado por hombres armados: hay varios muertos y más de 50 heridos
       https://news.google.com/rss/articles/CBMiqwJBVV95cUxObTNTaU1FTGZMMTNNWVZIc0tOLTN2R3pZVlZCNHhFajR5OUtWNWtVek1pY2dZNzhraUJ6dDZDR3p5eWNwYmpheEUzbU9NVFpuSFJFNnRiTHdidHM2T0Nna3F2VkM5RlhCMENEMy0xNnlab1pLdXppNEZ0NWN1aVE1TVZ3Y2JVdmRKQUNyaWpOYzdINXVKc09aQXVpbVdFN1R3U3FWMEhEbWlLRTR2OFdVNThyX0xGWTJiZkxFTUFNM05IdUI3c0s0dFRXc0JCcGdoSHdGZ1p5d3B0VjlPZjE5cXMxQ2dVM2VXbnh0V0pQQU9Hay0tTTkzWmNEdEJLTWFudmhlVXpwZmJnSEhEWW1iQ0xsei11Z2xrTTU3Yl9IdzFiODVoVVhhRUdnZ9IBqwJBVV95cUxObTNTaU1FTGZMMTNNWVZIc0tOLTN2R3pZVlZCNHhFajR5OUtWNWtVek1pY2dZNzhraUJ6dDZDR3p5eWNwYmpheEUzbU9NVFpuSFJFNnRiTHdidHM2T0Nna3F2VkM5RlhCMENEMy0xNnlab1pLdXppNEZ0NWN1aVE1TVZ3Y2JVdmRKQUNyaWpOYzdINXVKc09aQXVpbVdFN1R3U3FWMEhEbWlLRTR2OFdVNThyX0xGWTJiZkxFTUFNM05IdUI3c0s0dFRXc0JCcGdoSHdGZ1p5d3B0VjlPZjE5cXMxQ2dVM2VXbnh0V0pQQU9Hay0tTTkzWmNEdEJLTWFudmhlVXpwZmJnSEhEWW1iQ0xsei11Z2xrTTU3Yl9IdzFiODVoVVhhRUdnZw?oc=5
   Metro y transporte:
-    - 15/10 11:28 Telemetro: Pacientes con enfermedades renales piden que se avance en la discusión del proyecto sobre trasplantes
-      https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUjVOLWdUcHNteHJLSnl3U1dreUlLTk5SWDBBUVNKb3FBVlNKa08zUThVd2NNWUxnNy1ZN29fOFdESXBRamxrQUFGWHlLRWNuZUZxR3hrUHFnNHRMQ0lQVndlSkRENk0yMmtrVVgyRWpSVGRqVUZTZi11VTJ6SjRGc2ZCZHJpSlNQYlFGLUpJSVU5VGpFSUxDY1VpUURzWWJ2Q2VFRFFhMzdtb196clJ3cXFBNU1VWlIyRGw1NTNhdnlwX0hDVUZQb0hZX2ZMVzhDNVpBR1FGUlAyWlZ0WTBqbng2RnPSAeQBQVVfeXFMTlI1Ti1nVHBzbXhyS0p5d1NXa3lJS05OUlgwQVFTSm9xQVZTSmtPM1E4VXdjTVlMZzctWTdvXzhXRElwUWpsa0FBRlh5S0VjbmVGcUd4a1BxZzR0TENJUFZ3ZUpERDZNMjJra1VYMkVqUlRkalVGU2YtdVUyeko0RnNmQmRyaUpTUGJRRi1KSUlVOVRqRUlMQ2NVaVFEc1lidkNlRURRYTM3bW9fenJSd3FxQTVNVVpSMkRsNTUzYXZ5cF9IQ1VGUG9IWV9mTFc4QzVaQUdRRlJQMlpWdFkwam54NkZz?oc=5
     - 15/10 11:17 Telemetro: Teleférico de Panamá: recibe orden de proceder por $255 millones
       https://news.google.com/rss/articles/CBMipAFBVV95cUxNclJBNWlRZ2hVZ2VxVGs0Z2c3cWd6N01SZENpVVlvSU5vRjZxY0dPVlFiOTVsby14SjVpaWc1QlJ1QnY0Y3pZYXVIRVppTGt5emlmMy1kQzR2OGJ0WVhNRHBncVQ5SXJoZHhqSHNock9DT2NEZTU2emxTendXb3JpM1JwTjNrWWtlN21MVDJmdmhQNFlvV3FqWmJyb1hsZ2E2cWRXatIBpAFBVV95cUxNclJBNWlRZ2hVZ2VxVGs0Z2c3cWd6N01SZENpVVlvSU5vRjZxY0dPVlFiOTVsby14SjVpaWc1QlJ1QnY0Y3pZYXVIRVppTGt5emlmMy1kQzR2OGJ0WVhNRHBncVQ5SXJoZHhqSHNock9DT2NEZTU2emxTendXb3JpM1JwTjNrWWtlN21MVDJmdmhQNFlvV3FqWmJyb1hsZ2E2cWRXag?oc=5
+    - 15/10 11:15 Telemetro: Línea 2A del Metro de Panamá: Mulino explica la ruta por Tumba Muerto hasta Paitilla
+      https://news.google.com/rss/articles/CBMivAFBVV95cUxOd0Z5bW1jLUJmdmI0VUZHSVlkZzB1V0kwb0c0MndNQnpnSElBd1c1UnNOMVREZzFRZWQ3dFlGOGJ5RE5YSzc4R0I3Uy1yOHFHOXZKOVRCTmNsRUtLLVJRSGphcGxxcjdfSWFrS2FZNEYyaHd6bWpBYmRRc3RXWTdNdHgzZkNJQktWRURrVFpUM1RXUldMMkNDMUZjWHM3RERmLXlyakpqa3hmVFpIMHY2S2o0Y0E2M0FuRDhnMdIBvAFBVV95cUxOd0Z5bW1jLUJmdmI0VUZHSVlkZzB1V0kwb0c0MndNQnpnSElBd1c1UnNOMVREZzFRZWQ3dFlGOGJ5RE5YSzc4R0I3Uy1yOHFHOXZKOVRCTmNsRUtLLVJRSGphcGxxcjdfSWFrS2FZNEYyaHd6bWpBYmRRc3RXWTdNdHgzZkNJQktWRURrVFpUM1RXUldMMkNDMUZjWHM3RERmLXlyakpqa3hmVFpIMHY2S2o0Y0E2M0FuRDhnMQ?oc=5
   Escuelas (MEDUCA):
     - 15/10 09:38 Telemetro: MEDUCA publica lista de escuelas inspeccionadas tras terremoto: consulte los centros educativos
-      https://news.google.com/rss/articles/CBMizAFBVV95cUxOVmQ4eDUtaTdnM2ZZOFRSR09DTExpM3A3blRna0duM1MzRzB6SGxZZWp2R205eGtXbjRET20tb0JLMi0zbVdTaWNadzRDZGU0Y0p6TjNnSl91SjdGdm9TbEdTdEZBQ0dJUk95UXRWN1NZbFRaay0xQU0zTnQyc0VUdEVGQk83Nlo5VmpGWTBIVnNxQllJUEhVei10YnNhQjNhYWtLZ1JXRm5PbGoybXN6VEh0QTI1bkstQlA1ZUlmMWNWSjJhUklxZ25UVS3SAdIBQVVfeXFMTTl0UlFvZ2dwbzRLZl9ubEY3dVcyN1NfaF9janY1QlAtaXB0bzBjc2tIejBnMVZ3MVgwaXBiMXotNXFqc0JYejhHNml2bWpNaEFwclZfM1VldHBCLUVqTU5BRUxqS2EyUEdIVG1QNHNacTJHalF3a2V1Z2ZfcUJMNUt6TGUzSkpGVDFMYWZqZmw0Z3hCZ1kwbTJ5TTZyMkhsTFdyUnMyY1poOTdxYmxjVzAteUJvNUR1Vk0tZ2tGVHlGUUx4UlhWbkZ0b3V5cmdHNVNn?oc=5
-    - 14/10 20:30 Panamá América: Meduca evalúa retorno a clases presencial, virtual y por módulos
-      https://news.google.com/rss/articles/CBMisAFBVV95cUxQUmp2WFNWMXFMZVJOOGJOTjZpS2FPaG5aSWJlVlllaWcwTXJPckVqV2ZxTmEzejZIT1liRzdxVVo5SEM4MmFEbHUyOF9aU1dsVTVidm03Z01NbGN0RzBfdUJTZndxVUJhajNIaEpQNU9Pckk5Yi1najBDS3RBQW9VNHV1RktXbXRPX3VfTnpONm8wZEsxNkRzTUlsNGhZaTdVTW83d3Q4enpFRk83b01KOQ?oc=5
+      https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOXRSUW9nZ3BvNEtmX25sRjd1VzI3U19oX2NqdjVCUC1pcHRvMGNza0h6MGcxVncxWDBpcGIxei01cWpzQlh6OEc2aXZtak1oQXByVl8zVWV0cEItRWpNTkFFTGpLYTJQR0hUbVA0c1pxMkdqUXdrZXVnZl9xQkw1S3pMZTNKSkZUMUxhZmpmbDRneEJnWTBtMnlNNnIySGxMV3JSczJjWmg5N3FibGNXMC15Qm81RHVWTS1na0ZUeUZRTHhSWFZuRnRvdXlyZ0c1U2fSAdIBQVVfeXFMTTl0UlFvZ2dwbzRLZl9ubEY3dVcyN1NfaF9janY1QlAtaXB0bzBjc2tIejBnMVZ3MVgwaXBiMXotNXFqc0JYejhHNml2bWpNaEFwclZfM1VldHBCLUVqTU5BRUxqS2EyUEdIVG1QNHNacTJHalF3a2V1Z2ZfcUJMNUt6TGUzSkpGVDFMYWZqZmw0Z3hCZ1kwbTJ5TTZyMkhsTFdyUnMyY1poOTdxYmxjVzAteUJvNUR1Vk0tZ2tGVHlGUUx4UlhWbkZ0b3V5cmdHNVNn?oc=5
+    - 15/10 08:42 Panamá América: Meduca evalúa retorno a clases presencial, virtual y por módulos
+      https://news.google.com/rss/articles/CBMitgFBVV95cUxOZkhkZ0VkejExbElGYTI1R0ZEWWs3Ri1oMDlzTkYxeFlDcUx2SGtiWXllTmthZ1NyU2NENkVsWFZHVVhCMzBtdm9SMVA2UFdxVzVmY3FqaE52aXdxblpNMzRZZDI2c0pIYmFhNDZGZ01EYk11OWlRUkZFVnY1bFRrSmxRczVGWGNGbTNraHVTTXltMV9vTWpoVVlVYUt3Y01zRkdrc2w3QktabnBOWGZEUy1LZjdDdw?oc=5
   Sinaproc / autoridades: sin titulares específicos en las últimas horas.
   Daños y víctimas:
     - 15/10 10:47 France 24: Panamá registra una primera muerte por el potente terremoto
@@ -73,7 +73,7 @@ ACCIONES AHORA:
   15/10 08:31  M4.5  9 km SSE de Los Asientos  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 13:05 (automático)
+🔔 Sismo PA 13:20 (automático)
 Última hora: ningún temblor M3.5+ registrado.
 Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 1 · 10 h → 1 · 18 h → 1 · 24 h → 1. Tendencia: en descenso (0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 16 réplicas M5+, 3 M6+.
@@ -116,8 +116,8 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T18%3A05%3A04&endtime=2026-10-15T18%3A05%3A04&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-14T18%3A20%3A51&endtime=2026-10-15T18%3A20%3A51&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
-ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular
+ENVÍO: no enviado — ya se envió hace 16 min
