@@ -1,10 +1,11 @@
-Sismo PA 20:41: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 21:49: 0 réplicas M4.5+ en la última hora, mayor M4.4 a las 20:50 — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 20:41 (15/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 151.8 h.
+SISMO PANAMÁ — informe de las 21:49 (15/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 152.9 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 1 de M4.5+ y 0 de M3.5–4.4
+  1 h: 0 de M4.5+ y 1 de M3.5–4.4 | 5 h: 0 de M4.5+ y 1 de M3.5–4.4 | 10 h: 0 de M4.5+ y 1 de M3.5–4.4 | 18 h: 1 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 1 de M3.5–4.4
+  Mayor de la última hora: M4.4 a las 20:50, 12 km SSE de Tebario, prof. 10 km.
   Acumulado desde el principal: 65 M4.5+ | 16 M5+ | 3 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 12 km W de Río Grande.
 TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.0/h en las 4 anteriores.
 
@@ -25,8 +26,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
     - 15/10 20:20 www.tvn-2.com: Caja de Seguro Social refuerza inspecciones epidemiológicas en Ciudad de la Salud tras brote de malaria en Merca
       https://news.google.com/rss/articles/CBMioAFBVV95cUxPQUhGWWNDOV9IQkJQd09JWWFaMmFkT1JPWUhpUU93em9JZlZUSjJLRkduNW5iV0w4UlVWWGFHMjR5Q0t2TUNwcnRRUG9mV2dERGlDaVc0ZXpKMHZTOXFqNHlfc3pXY05Oc0otWFpZVHpyblI1OTZHQ0FxNEFudzRvVmN4SGNQS2pEM3RBdTBxaWpqM2FVbjRkOXNONFJCc3Rw?oc=5
-    - 15/10 18:52 Panamá América: Minsa decreta clausura de cementerios en Soná e Hicaco y procederá con la cremación de 70 restos por riesgo sanitario
-      https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd0FWTjhnMlFFdWw2VUwzaThZOGVxaFBlYzUzcGd3QmVBbEVxbFVxb0RIcjFYQS1uaHEzVmVDR09nYmRPM0g3dm1Ob0R4WFdzVXV6a2k4MTRRTlBTYjRKNnkzRG5qVDZtOVVGRG5oMUVWMFdXVDVBV0Y1SGJEbWxCNXlGbVhWYzk4Y19JNmxjeW1Ielg3Rm10T0VKSy15RmxDb0x2N0VMYWZlWHVNMkNUQXNJemNKMEdMVWE1QUl0dVFOVmVEbUswb1Q5Z3paY05MNkJr?oc=5
+    - 15/10 19:51 Panamá América: Arranca la reconstrucción tras el terremoto con 300 viviendas y seis centros de salud
+      https://news.google.com/rss/articles/CBMiywFBVV95cUxNNWJZMGFscE8taXNza2hXdkZLaWpUSW44UG80M0l2MzhnblV0bFBsSWpVUFRZQlEzakRVUkpRZjZXVlBjM1JlWDFIS1dtSVktUkp3N1pod25ISmtYZFhwMGpTNk85VzZuQjZjc3ZjT3FpUDcwQi1aOFJ1aDA4TEprdGNLMWpNOGZDcmpkQ3ZfNGJjNnRVTUlSdzNrZk9jRDJLSkNzWDRaT2FZSWd4Zkc1R0NXOTRsWTdVQVFNTXExdzJvTXFSTDN5Y0NfVQ?oc=5
   Agua (IDAAN):
     - 15/10 14:17 CRÍTICA: ¡Sed por el sismo! Reparan acueductos colapsados en Panamá Oeste
       https://news.google.com/rss/articles/CBMirgFBVV95cUxONTFIZmE5ODlyMVZiRmdxTEh1RWZXUUdkRm1hdmdPQVBpRlZob0JJMEQzdnpCZjRFaXdjMWpNd2VNWFZwTjBvcDlhc0YzTXRBaFlBOFVFbHhqUWxjeHVEU2FZM195ak5rdl9la1Q5MlRCNmtJQTVRaXNwanlnWUxZeXBrVS1wbVV4SUN4alZTUFRnM1g5SkJBUkVibVhKMUdRR1c4ajVxOUVVQ1hlRWfSAa4BQVVfeXFMTjUxSGZhOTg5cjFWYkZncUxIdUVmV1FHZEZtYXZnT0FQaUZWaG9CSTBEM3Z6QmY0RWl3YzFqTXdlTVhWcE4wb3A5YXNGM010QWhZQThVRWx4alFsY3h1RFNhWTNfeWpOa3ZfZWtUOTJUQjZrSUE1UWlzcGp5Z1lMWXlwa1UtcG1VeElDeGpWU1BUZzNYOUpCQVJFYm1YSjFHUUdXOGo1cTlFVUNYZUVn?oc=5
@@ -57,13 +58,13 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 15/10 14:41 Telemetro: Sismo en Panamá | Sinaproc evalúa viviendas afectadas en El Calabacito de Los Pozos
       https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGE2M1kybk5PZllnQUpuVHNfLWJRaHF4QWJiTnpManVtdzlyQ3F5QldzenIzaWJlR3REN0pzWUpuazNsZlZTUVdCSVpIVk5OeFRHNHVGbkNDV3ZTTU92ODUtdFBrUEdqaDRlOUNVS2ZXV1E4OENsc0p1RnlDVlFja0ljZUtXelJnNkpSempjZ05rVlZINDJnWERTa2FPUkxfTkZZZDMzdFdDYTJ3aE5rYnZQeGp0cTQtSXfSAb8BQVVfeXFMTXd2dGg1YjhEUjNyUEZva0Z3SV82cTlCa0k2eFFibGw0OW1iOW16M19uOGY3NU4zUmY3cGRBZlRZQ0lBc3NpMGVZeEVneUl0ZTFRRmxyclRGSlZHV0ZOenVHNEpLdHgyUV9aU0VwcVgwUVJHOG5WMlU0MEdjdWRtTzhHbUZkTjZybUhNVFhPa2ZiOW9PeEwyTF9BMkp3MjM1SFk1UTM3R3ludzQ4VVBYZGFydUdBbE9fQnNxNTZ1VEE?oc=5
   Daños y víctimas:
-    - 15/10 15:23 RTVC Noticias: Confirmada la primera víctima mortal tras el potente terremoto de magnitud 7,7 en Panamá
+    - 15/10 13:40 RTVC Noticias: Confirmada la primera víctima mortal tras el potente terremoto de magnitud 7,7 en Panamá
       https://news.google.com/rss/articles/CBMingFBVV95cUxNdFhDMGlJaEpSUnhGcmd5Y0ZJWW8wMDA2dkZvYzJFYW5YNGlBMEtPMWVZeDFDOFZIcm50N0g3YzhrSFh1VnZRblpXVGxFTWJPd1ctMmlaX3BhbllUaXV0WnMxNHQ4X1NFZDBHa1lhdDMwNUt3OUhlZ2NpeXhGbE90YjJDVnpEOEJXRW1uNGp3Wm1iX1pxeHFSdVdyRXJrUQ?oc=5
     - 15/10 11:06 El Colombiano: Murió la primera víctima del terremoto de Panamá: familia denuncia demoras en la atención médica | El Colombiano
       https://news.google.com/rss/articles/CBMi0wFBVV95cUxONFIwemg1Q1E3YlZsaUxrcFJmQW5GalI3OG4wNEJzMzNsZjlvUW16NGxoVlh4RXZsNkZVMFd6SkM2RklnVTN0aWdfVVlDcWctbDN5Ti1pVUNvelBBMzVmZnpGSU40a093MWphQS02NFk5bWcwUlp2QmlFRHZkekFGSlo3bEd0Y29tWDA0bDNHczdTNk1WZXVrbHRfdkZPZHlueU5adDBJT1lJWVAtSDJpWmxqUzF4T1JZWGgtTm5QN3NSV2xQUThWeHp4eDRVS1F3TEhj0gHTAUFVX3lxTE40UjB6aDVDUTdiVmxpTGtwUmZBbkZqUjc4bjA0QnMzM2xmOW9RbXo0bGhWWHhFdmw2RlUwV3pKQzZGSWdVM3RpZ19VWUNxZy1sM3lOLWlVQ296UEEzNWZmekZJTjRrT3cxamFBLTY0WTltZzBSWnZCaUVEdmR6QUZKWjdsR3Rjb21YMDRsM0dzN1M2TVZldWtsdF92Rk9keW55Tlp0MElPWUlZUC1IMmlabGpTMXhPUllYaC1OblA3c1JXbFBROFZ4enh4NFVLUXdMSGM?oc=5
 
 ACCIONES AHORA:
-  1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
+  1. [Seguro] Para la noche: zapatos cerrados, linterna, llaves y celular cargado junto a la cama; puerta del cuarto sin seguro; si tiembla fuerte, proteger la cabeza junto a la cama y esperar a que pase antes de bajar.
   2. [Estimación] Réplica M6+: 3.3 % en las próximas 24 h y baja cada día; días 2–7: 2.4 % por día (cálculo sobre el pronóstico USGS) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
   3. [Probable] Hora tranquila: rutina normal con las precauciones básicas; nada nuevo que hacer.
 
@@ -71,7 +72,7 @@ ACCIONES AHORA:
   15/10 08:31  M4.5  9 km SSE de Los Asientos  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 20:41 (automático)
+🔔 Sismo PA 21:49 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -108,10 +109,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T01%3A41%3A23&endtime=2026-10-16T01%3A41%3A23&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T02%3A49%3A13&endtime=2026-10-16T02%3A49%3A13&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 4.3 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 3.2 h; alerta solo con M5.5+, tsunami o reactivación
