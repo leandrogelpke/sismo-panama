@@ -1,7 +1,7 @@
-Sismo PA 16:00: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 16:10: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 16:00 (16/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 171.1 h.
+SISMO PANAMÁ — informe de las 16:10 (16/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 171.2 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 2 de M3.5–4.4
@@ -23,19 +23,19 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 16/10 10:41 Telemetro: Terremoto en Panamá: especialistas de EE. UU. evalúan posibles daños en el Hospital del Niño
       https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDNROW1WeGViTWRjRGJyVUpvNmR0dUNhclM0YnVTaWpISmZCSzdCUkMwc2xxb3NiZGdEOEZWY3pXZ3I2eWJPMmFlVGtQcUZqc2JXTjJ4OXdiWG8tb2lIcjNjTE5haUc0NU1SQlp1bEFxdjFsQVNsc25CNW9Kc0IyMzhCZUhYRENvQi0zeTlpbW1HRWhkZHZ2bHZ3Mk9wbEhDZGZWdU9mUkI4ak5QbkFMTmxpSFJJaW12S3J4MXFqZnVIYjlxdjJPM0ZB0gHKAUFVX3lxTE90M1E5bVZ4ZWJNZGNEYnJVSm82ZHR1Q2FyUzRidVNpakhKZkJLN0JSQzBzbHFvc2JkZ0Q4RlZjeldncjZ5Yk8yYWVUa1BxRmpzYldOMng5d2JYby1vaUhyM2NMTmFpRzQ1TVJCWnVsQXF2MWxBU2xzbkI1b0pzQjIzOEJlSFhEQ29CLTN5OWltbUdFaGRkdnZsdncyT3BsSENkZlZ1T2ZSQjhqTlBuQUxObGlIUklpbXZLcngxcWpmdUhiOXF2Mk8zRkE?oc=5
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 16/10 14:42 Infobae: El Congreso recibe los pedidos de fondos de Salud, Seguridad Alimentaria y Consejos de Desarrollo para el último presupuesto del gobierno de Arévalo
+      https://news.google.com/rss/articles/CBMingJBVV95cUxOckpjUmt4N2wxejhMek52RlVGbnNXelFLWWt2ZFdrbElMNE5jYUVROWhiQzh5TC00NVQxcldaekluSjFXcUdIbXlRbVc0UjJ2T0ZPRFN4WXdVMVhMd05SSEdoRi1wSGZGTkpSaEtod0hMV3o0RjB0TWdNUHNZZzE3bUptelFkMldybmltMnZfTGhWNzE2b002b2tCVVFxb2ZMWExIX3I0cHpaQmotSUxmTnhxTW5ENUkwUlBkQUkzLW1wOG1Qdy1EbDg2dGJRckkxQTZoMDUwcHNlaDdVYVI5NU81ZGh5azZqZG5FYTB6dENfb0xmTFFiR0o1RWlrWHZlY3NYcjBjZTdITkxXR0I0NldYSHJFNExyWlJkWW130gG4AkFVX3lxTE5JU19kVEx3SlhMMGtvaWU4RXkwcHNYUktHejdSSVBYek5EamFNSHFvX0k5MzJVdHBYdWJSYzRuZUplNzZNQWZseFdRVEJtZXk5TUhWTUVCa3dnNXYzd2lKeXpHaXFEdl85UzFkc3FoRDdHRG1FeHRqd01NMmFaLXNzcEgxLWMwN1I3S2FSb1E2cy1rRE83YzJrN3NFZjJXSENUZ1Q0aWJwZktlQV9CSTROMTV0eEhWQktERUJtU2l1T2tIck0tcUh2RHVtaC1CTnhncFVkaVAzZDhrbUlRVjlJSm91UVZ1UVl3RVo1U24tUEk5ZXoyOGJWa21FZzVuZEx2Z0dQbTVJUjZPanBYbjVZeEFQUlhDRWxISGFyWGtXUHR6U1hnWTNJSFVKazl1UkpKTVhwWXF1eg?oc=5
     - 16/10 11:12 LatinAmerican Post: Un autobús de barbería se convierte en salvavidas neonatal tras el terremoto que sacudió los hospitales de Panamá
       https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMkk2bnZwa2kzbVFYR1ZrQ1JWOEpVTVkyUDd5V3AxbTJhUGJQckk2ay1UZ3V6MTNJakhLcWhUdm9GOE80NUkzajZCQktKOEVBMDg4enFIa2NSRVd5MW0wdEJIV3BLcHozUzQ0eWlWNnZuYVUzOGZTcjA5c0hPaE85cWduLVdGWXpQRkRlZmUyUTB5elgwcW9pUlhWTWxta1lnblRpOVFFZm1IdXoyd3JsbWgxd3JpbTNTcEhVSFBEY3hFY2NrdzE4LVZKM0Z5aHZUdDdLZHUwNXFUQmwwZXV2dFMzUVBodnVQaFAyLWxvQXQ?oc=5
-    - 16/10 10:41 Telemetro: Terremoto en Panamá: especialistas de EE. UU. evalúan posibles daños en el Hospital del Niño
-      https://news.google.com/rss/articles/CBMixAFBVV95cUxQYXNNaGkta2dhbWFrUWhOX2Npc1pPY1RYS2NaZnZEZGR6TncyaDhDSkl0MmZZMXFpZGJ0N2g5VXNNRnJFT2U0SHgwVXNtNm9wMlBWWGZ0Si10dTd6SDlXV2hBSjVFSVduX0Y3TFZKdC1tZE5RdURrSlBvMFdqamtqTnlnTEVJNGJHa2VPdDd4VmVKZkltLXNPTFQwYVROLXh2azh0OGUxcENTS0wwSENqVkdHbHNNRnJUY1JnRVRTUFp0ZE4w0gHKAUFVX3lxTE90M1E5bVZ4ZWJNZGNEYnJVSm82ZHR1Q2FyUzRidVNpakhKZkJLN0JSQzBzbHFvc2JkZ0Q4RlZjeldncjZ5Yk8yYWVUa1BxRmpzYldOMng5d2JYby1vaUhyM2NMTmFpRzQ1TVJCWnVsQXF2MWxBU2xzbkI1b0pzQjIzOEJlSFhEQ29CLTN5OWltbUdFaGRkdnZsdncyT3BsSENkZlZ1T2ZSQjhqTlBuQUxObGlIUklpbXZLcngxcWpmdUhiOXF2Mk8zRkE?oc=5
   Agua (IDAAN): sin titulares específicos en las últimas horas.
   Electricidad (ENSA, Naturgy, ETESA):
-    - 16/10 14:30 La Estrella de Panamá: Trabajos de mantenimiento en la red eléctrica del 19 al 25 de octubre de 2026
-      https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdk9XcjI0c1FOejJPZFV3QUVyTlhLZkI5UGUtcXE1OGJSTnJXSUZtTGxWWnhlSl9Qd3RXWjNCSGtaV1p3QkVFQUU0UVNaYlFmYjJkSHJBYk0yU2xzdk9BUXMwY1p1QU5fUk1LM1NlYUE5aEJjUzdScEQzYjVLV05yRlp6Y2F1WEJ3UzgtdGxuVFFEQS1vTFFLbWV4MkdIU09pZUNkc21aeXpyLU9wTFp2QlRsRW1rN2VXR3V4MmNCWGxEcGN6M0pCNFZ1c2Vobm0tbDFlcUkxY9IB3AFBVV95cUxOblFiRDE5U0hxWXgtMjBKTXllUGtIaEFhNF9TVXJkeVFuVzdMYzcwSVJTNjZCZjg2ZHpVOGJyWDhCWTRIdGxRNVdGZ0VoWDFHdmZTellFYjhFMkJBaXRDSS1XbFhhZ01VaDdVbG00eTRjWWVYZGhaMnpsWWQ5VTltZzVQenI5dzVzX2VSOHk2ZU93VXQ4V2szRDI0WkhkTnZxUDdmQ1gzLVJwRkNIS2JGdnBMOTRtazJwWTh2el9lbXhKWnlmN3lHTzBxemoweEwxZFZ2T2dRYWhtYkpk?oc=5
     - 16/10 13:18 Lmneuquen.com: Alertan por posible terremoto de 9 grados en la frontera de Chile y Perú por energía acumulada de hace 1.000 años
       https://news.google.com/rss/articles/CBMizgFBVV95cUxPMlVrcFQxZG5GNzNsLXByV1NpWlhSVm9ITXRZbW9FWVJ3WEN1blJfUjQxVHY5OGdiX1p5VkZsUGtxMlNOdDVoWmpGOWN2Q2oyNDdpaWI1WXFmaC1GNERUYjQ2MjE0TV9zaWxMOTdYWHAyb1BQNVZxS2xJZHVQRmdtek9uV0M1TWsxWFVYcEFiOXlvS1NnWW5FSXJ4dFl1a29wV3RtdE5uUzZDNFJTZTVCUEJrVnNrWUVqalhmRk1Ld3ZqYmRldDh2Y1hySXBDd9IB0wFBVV95cUxQY20waGNEdHJNVEpYUVB1eTFGcUVTbTBLVV9aX1hleFBUY1I1dGI1OWdlNE9ZdVRQWnoyUUhvWmV3QzF0OVp4MGJudlZ4Zl95d3djTHZkN19ad0tDTDRxLWVSMnlhWmI1NDltQzl0TE9Jbm1aRllkOUdfdm1oem9lbWFrUnFSQzJJWDNVM05aWnZpMWdqWjJoclZydnJmYm4xVlVqVXBDRlR6aGNvcTJ3OUdKa1p0VFJXZXZSNmhTTmNUd1JkTlJaZGJqdW5kRHNCQmdJ?oc=5
+    - 16/10 10:20 Telemetro: Tesla presenta el nuevo Roadster: el deportivo eléctrico que puede elevarse y hacer maniobras en el aire
+      https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZlJGTDVmYmNURzJGWFF0dmoyZEtiMmFpWU55Y0owVmN5aDNWVmRCUHBVdGlLek1zbERlRUZzb1ZQQUprWUVURjF0WVFyX2pmTkVzV192MTRRWUhTNG9kcGs5cjFDa1ZyR2ZYTF80a2Q0aE5OQk4zMktob3ZsV3I3enVoQU9WOXNXUnh6Qml2RHZVclY2ampKa1lVbVFxZjJWVnpaS0p6c0dwTjRiWXVFU1oxcVdMTDV4ZG1sTEhFTHlFeHFXOVRqTXhfMEVNdkJxWUY1aThEc2RESkt5a1RN0gHkAUFVX3lxTE84ZFRkQXVOcmRSTFJmeHQ4VnpNb2hrUDk5MUUzY0V4SzhKVWJIMW1jOXdwTmRZOUFab1hiZzlwazBxbE91MUtKVC13LVltNHIzM3hUSGNfQUxzdUtDS1RDemdGLXRteXRqeGZZUkl1REFvZFVrdVFJM3RHcXFlTHpTUS0yS1VscmFNbk5VN0dRT2FnQ0lLX2tTdzNxaS1zQUpRVllwOUV5RjhxN0Fydnllc1J6ZV9qUXRSTkhIS2hZazRTcWtLdW1OYkl6ektMQzI3aG85YVNTOWJEN0g3T0VPdEZNRw?oc=5
   Aeropuerto de Tocumen:
-    - 16/10 14:51 Infobae: Aeropuerto de Tocumen, en Panamá, supera los 17,8 millones de pasajeros y crece un 15%
-      https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdHpzVXNsdGdJcndpeTBsR0lRZWdtNDFfMmFvcHFmYXhhMDFlTzlBcTJHanVMM3dxMUR5azYyWGs4dHVHRXpaMVhWN1paemk4MGtqbVVud19TY0JrZ3dxNDJjX0JRSDZaRlBUQWhuUjFVR0pSNldGX01NY2M1TU5wZUNOTTNaU0I5SXNmWm5lYUFNYUM2clNsR2o0M1RUUFltRk9nTTF2TmZ3SExaQlJEMk5vOV9hZkpHd05aYWpxVkFYQk1mSGVPNS1qM2xvaTFoSzFkbFZaZjRHQWlyV0HSAd4BQVVfeXFMTXR6c1VzbHRnSXJ3aXkwbEdJUWVnbTQxXzJhb3BxZmF4YTAxZU85QXEyR2p1TDN3cTFEeWs2MlhrOHR1R0V6WjFYVjdaWnppODBram1VbndfU2NCa2d3cTQyY19CUUg2WkZQVEFoblIxVUdKUjZXRl9NTWNjNU1OcGVDTk0zWlNCOUlzZlpuZWFBTWFDNnJTbEdqNDNUVFBZbUZPZ00xdk5md0hMWkJSRDJObzlfYWZKR3dOWmFqcVZBWEJNZkhlTzUtajNsb2kxaEsxZGxWWmY0R0FpcldB?oc=5
+    - 16/10 15:04 Panamá América: Aeropuerto de Tocumen moviliza más de 17.8 millones de pasajeros entre enero y septiembre de 2026
+      https://news.google.com/rss/articles/CBMizgFBVV95cUxNU3BRS1NJNnpWWVNfMHoyNTNEcXBmWUpVSmJLS08yc1d5a2xzZUo4aExLS2pnQmVxZkllcGNDR3lnS0lMQ0xKdUNHaW9LTmNmNzVLdnF6bDNJNWhnWHN6VmM0dGt2Q254NnpXOHFpTXlpRENlS0txSHpMbVhNZ3BoYWIwdUZNLUFYVW9oLXhQM0VEYVBzMWVhRGs3ZWJETUtNTU5IWV84eV9LUHBFcVVicElTQVNHdHliaUc4UzlkcE5XRWp2d2lNX3hsLVluUQ?oc=5
     - 16/10 14:19 Informe Aéreo Noticias: Aeropuerto de Tocumen movilizó 17.9 millones de pasajeros entre enero y septiembre
       https://news.google.com/rss/articles/CBMitAFBVV95cUxNM0ZxdkRhV2g2ck1rQXNQUE44QjNfU2FhaVVVMFFqVWpDcExqM1JxTmtpVlMtR3p1T1gxZDItNTI0V0JBeVJVYzF4aWl2UmpaSjdYZTJiUi14eDVqQ3U0ajE4LXN1Y21TYWNBeFJnSXBkRVVjaDlqTUNBbWZ6MGVlWDVlbVFLUHZQU04yZ3lSQ1ZHV2lYbWJQSm4yajJPODByWDMxQUJGWUVQdk9ZZG5ydjI5NlU?oc=5
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
@@ -73,7 +73,7 @@ ACCIONES AHORA:
   16/10 08:02  M4.5  51 km ESE de Juradó (CO)  26 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 16:00 (automático)
+🔔 Sismo PA 16:10 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -110,10 +110,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T21%3A00%3A31&endtime=2026-10-16T21%3A00%3A31&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T21%3A10%3A40&endtime=2026-10-16T21%3A10%3A40&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.6 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.5 h; alerta solo con M5.5+, tsunami o reactivación
