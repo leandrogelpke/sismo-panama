@@ -1,7 +1,7 @@
-Sismo PA 16:30: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 16:41: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 16:30 (16/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 171.6 h.
+SISMO PANAMÁ — informe de las 16:41 (16/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 171.7 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 2 de M3.5–4.4
@@ -23,10 +23,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 16/10 10:41 Telemetro: Terremoto en Panamá: especialistas de EE. UU. evalúan posibles daños en el Hospital del Niño
       https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDNROW1WeGViTWRjRGJyVUpvNmR0dUNhclM0YnVTaWpISmZCSzdCUkMwc2xxb3NiZGdEOEZWY3pXZ3I2eWJPMmFlVGtQcUZqc2JXTjJ4OXdiWG8tb2lIcjNjTE5haUc0NU1SQlp1bEFxdjFsQVNsc25CNW9Kc0IyMzhCZUhYRENvQi0zeTlpbW1HRWhkZHZ2bHZ3Mk9wbEhDZGZWdU9mUkI4ak5QbkFMTmxpSFJJaW12S3J4MXFqZnVIYjlxdjJPM0ZB0gHKAUFVX3lxTE90M1E5bVZ4ZWJNZGNEYnJVSm82ZHR1Q2FyUzRidVNpakhKZkJLN0JSQzBzbHFvc2JkZ0Q4RlZjeldncjZ5Yk8yYWVUa1BxRmpzYldOMng5d2JYby1vaUhyM2NMTmFpRzQ1TVJCWnVsQXF2MWxBU2xzbkI1b0pzQjIzOEJlSFhEQ29CLTN5OWltbUdFaGRkdnZsdncyT3BsSENkZlZ1T2ZSQjhqTlBuQUxObGlIUklpbXZLcngxcWpmdUhiOXF2Mk8zRkE?oc=5
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 16/10 14:45 CRÍTICA: Presupuesto 2027: recomiendan $199 millones más para hospitales e inversiones
+      https://news.google.com/rss/articles/CBMivwFBVV95cUxQRzN2bWVZY3o1eW9aeWs2QlRNWEVOdUxCMGxwQkIzT3JjWDJMMUFnLVBRX0lNOFA3SXJjU1h2U3h0ZFhZckpGUTVMZkotMExabzhmb3ZZd0ktbjNwOHZGNXcyT3o2aU1GUmtjSmVtdVlfVEVlc25vdGxYdTR4SERkemlfYjA0X3NueDJEdTI0UVI5OW5kSkNZUWpnOFRldC1sZk5Sc3VtVnZwRDI1Tm1Vd0dpVjh6T0gwU2c1eXdha9IBvwFBVV95cUxQRzN2bWVZY3o1eW9aeWs2QlRNWEVOdUxCMGxwQkIzT3JjWDJMMUFnLVBRX0lNOFA3SXJjU1h2U3h0ZFhZckpGUTVMZkotMExabzhmb3ZZd0ktbjNwOHZGNXcyT3o2aU1GUmtjSmVtdVlfVEVlc25vdGxYdTR4SERkemlfYjA0X3NueDJEdTI0UVI5OW5kSkNZUWpnOFRldC1sZk5Sc3VtVnZwRDI1Tm1Vd0dpVjh6T0gwU2c1eXdhaw?oc=5
     - 16/10 14:42 Infobae: El Congreso recibe los pedidos de fondos de Salud, Seguridad Alimentaria y Consejos de Desarrollo para el último presupuesto del gobierno de Arévalo
       https://news.google.com/rss/articles/CBMingJBVV95cUxOckpjUmt4N2wxejhMek52RlVGbnNXelFLWWt2ZFdrbElMNE5jYUVROWhiQzh5TC00NVQxcldaekluSjFXcUdIbXlRbVc0UjJ2T0ZPRFN4WXdVMVhMd05SSEdoRi1wSGZGTkpSaEtod0hMV3o0RjB0TWdNUHNZZzE3bUptelFkMldybmltMnZfTGhWNzE2b002b2tCVVFxb2ZMWExIX3I0cHpaQmotSUxmTnhxTW5ENUkwUlBkQUkzLW1wOG1Qdy1EbDg2dGJRckkxQTZoMDUwcHNlaDdVYVI5NU81ZGh5azZqZG5FYTB6dENfb0xmTFFiR0o1RWlrWHZlY3NYcjBjZTdITkxXR0I0NldYSHJFNExyWlJkWW130gG4AkFVX3lxTE5JU19kVEx3SlhMMGtvaWU4RXkwcHNYUktHejdSSVBYek5EamFNSHFvX0k5MzJVdHBYdWJSYzRuZUplNzZNQWZseFdRVEJtZXk5TUhWTUVCa3dnNXYzd2lKeXpHaXFEdl85UzFkc3FoRDdHRG1FeHRqd01NMmFaLXNzcEgxLWMwN1I3S2FSb1E2cy1rRE83YzJrN3NFZjJXSENUZ1Q0aWJwZktlQV9CSTROMTV0eEhWQktERUJtU2l1T2tIck0tcUh2RHVtaC1CTnhncFVkaVAzZDhrbUlRVjlJSm91UVZ1UVl3RVo1U24tUEk5ZXoyOGJWa21FZzVuZEx2Z0dQbTVJUjZPanBYbjVZeEFQUlhDRWxISGFyWGtXUHR6U1hnWTNJSFVKazl1UkpKTVhwWXF1eg?oc=5
-    - 16/10 11:12 LatinAmerican Post: Un autobús de barbería se convierte en salvavidas neonatal tras el terremoto que sacudió los hospitales de Panamá
-      https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMkk2bnZwa2kzbVFYR1ZrQ1JWOEpVTVkyUDd5V3AxbTJhUGJQckk2ay1UZ3V6MTNJakhLcWhUdm9GOE80NUkzajZCQktKOEVBMDg4enFIa2NSRVd5MW0wdEJIV3BLcHozUzQ0eWlWNnZuYVUzOGZTcjA5c0hPaE85cWduLVdGWXpQRkRlZmUyUTB5elgwcW9pUlhWTWxta1lnblRpOVFFZm1IdXoyd3JsbWgxd3JpbTNTcEhVSFBEY3hFY2NrdzE4LVZKM0Z5aHZUdDdLZHUwNXFUQmwwZXV2dFMzUVBodnVQaFAyLWxvQXQ?oc=5
   Agua (IDAAN): sin titulares específicos en las últimas horas.
   Electricidad (ENSA, Naturgy, ETESA):
     - 16/10 13:18 Lmneuquen.com: Alertan por posible terremoto de 9 grados en la frontera de Chile y Perú por energía acumulada de hace 1.000 años
@@ -56,8 +56,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Sinaproc / autoridades:
     - 16/10 12:59 La Estrella de Panamá: Magisterio Panameño Unido pide evaluación del Sinaproc y fondos al Meduca tras sismo de 7.5
       https://news.google.com/rss/articles/CBMi5gFBVV95cUxQV09tUmNZckY0dGMxQnBNMVpvU1BPZjFZakVTaTVlTFpYQnpmTWUycHZqb0Zxdk1LcUtHZnhta0xTNzM5LWdPVWh3QWVZTHo1c2tOMGhoNTV6UDlrNGluc1FPcWxhRWJyMlFDOTdKc1lfVmdiQlE4MTZ5Y25pd0p1RXRzdzBONTFnS2ZTUDh0dk8yV2Zpek5fMXRRaHh1T0VlU2ZBdmZ2clM4ZURtVXkxMXlsdWhZRFFtRGs5NXZqUHlGdWNyVGZXUDhINnE1YXFCWFB2aHF3a003RGVLaTZKX2lqRG9XZ9IB5gFBVV95cUxQV09tUmNZckY0dGMxQnBNMVpvU1BPZjFZakVTaTVlTFpYQnpmTWUycHZqb0Zxdk1LcUtHZnhta0xTNzM5LWdPVWh3QWVZTHo1c2tOMGhoNTV6UDlrNGluc1FPcWxhRWJyMlFDOTdKc1lfVmdiQlE4MTZ5Y25pd0p1RXRzdzBONTFnS2ZTUDh0dk8yV2Zpek5fMXRRaHh1T0VlU2ZBdmZ2clM4ZURtVXkxMXlsdWhZRFFtRGs5NXZqUHlGdWNyVGZXUDhINnE1YXFCWFB2aHF3a003RGVLaTZKX2lqRG9XZw?oc=5
-    - 16/10 11:13 UpInforma: SINAPROC descarta daños estructurales en el Centro Regional Universitario de Darién tras inspección técnica
-      https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EdWxUSEpXZUEwWmw0cktwdGhjSFZSeklpUDltb3BhUjV3eFBvS29NUFlQVUgtbEE5c3NSYlFOaUFhbzVrQWI2NFFYVDhIcWpZWDR2eVRmSG5fM19mZlJHTnhESTNibVBq?oc=5
+    - 16/10 12:24 Telemetro: Presidente Mulino anuncia que no habrá dianas en la Presidencia
+      https://news.google.com/rss/articles/CBMirwFBVV95cUxPTkp1YnVlMEw5V3FXbFI3VTdzczM3TzM2M2EtUy1NS0VDOGlraVpJNGg3YkxFX2ZFY0ZNakZ1dHotNktJNW8zdi1zTnZSZDB3OWVUREVZLUJuemVYbkpPM0Q4dXZ5RjZuOE9HMnhMSHZSdmQ0d3RjdmxXUEY4WDhyWVE0UjB5UWV4b1dkX3I4cmJhb21BTVgzN1RIRWpUaHFUaGlUdGlGajRveXJQcmpV0gGvAUFVX3lxTE9OSnVidWUwTDlXcVdsUjdVN3NzMzdPMzYzYS1TLU1LRUM4aWtpWkk0aDdiTEVfZkVjRk1qRnV0ei02S0k1bzN2LXNOdlJkMHc5ZVRERVktQm56ZVhuSk8zRDh1dnlGNm44T0cyeExIdlJ2ZDR3dGN2bFdQRjhYOHJZUTRSMHlRZXhvV2RfcjhyYmFvbUFNWDM3VEhFalRocVRoaVR0aUZqNG95clByalU?oc=5
   Daños y víctimas:
     - 16/10 12:03 expreso.ec: Terremoto en Panamá: una fallecida, solidaridad y pueblos arrasados tras una semana del hecho
       https://news.google.com/rss/articles/CBMiugFBVV95cUxORDlxZ3F2bEJhX2lkbFBiN3F5b2hnbENUQWltOTdoaHdwTXhoamlDRzc1cXNFajRYQ1hNNlRRazl5RGVCaXp2dFlOeFVkaDk2SzN6VWFYVGloR1ZVUks0RHI3dkNIdDNRVVpzcm5GaU9jbXdrU1g4VkxraXJSWlNDMFZmLVY2TDV5TzI3bElNTkZ2TURZT2ZVWnltb3FyV2UxbWRpejJIR0UxSmRpdHZDYXA4OHdlanh0anc?oc=5
@@ -73,7 +73,7 @@ ACCIONES AHORA:
   16/10 08:02  M4.5  51 km ESE de Juradó (CO)  26 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 16:30 (automático)
+🔔 Sismo PA 16:41 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -110,10 +110,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T21%3A30%3A57&endtime=2026-10-16T21%3A30%3A57&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T21%3A41%3A05&endtime=2026-10-16T21%3A41%3A05&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.1 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.0 h; alerta solo con M5.5+, tsunami o reactivación
