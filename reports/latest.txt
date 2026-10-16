@@ -1,7 +1,7 @@
-Sismo PA 00:11: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 00:21: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 00:11 (16/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 155.3 h.
+SISMO PANAMÁ — informe de las 00:21 (16/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 155.4 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 1 de M3.5–4.4 | 10 h: 0 de M4.5+ y 1 de M3.5–4.4 | 18 h: 1 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 1 de M3.5–4.4
@@ -31,10 +31,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 15/10 14:17 CRÍTICA: ¡Sed por el sismo! Reparan acueductos colapsados en Panamá Oeste
       https://news.google.com/rss/articles/CBMirgFBVV95cUxONTFIZmE5ODlyMVZiRmdxTEh1RWZXUUdkRm1hdmdPQVBpRlZob0JJMEQzdnpCZjRFaXdjMWpNd2VNWFZwTjBvcDlhc0YzTXRBaFlBOFVFbHhqUWxjeHVEU2FZM195ak5rdl9la1Q5MlRCNmtJQTVRaXNwanlnWUxZeXBrVS1wbVV4SUN4alZTUFRnM1g5SkJBUkVibVhKMUdRR1c4ajVxOUVVQ1hlRWfSAa4BQVVfeXFMTjUxSGZhOTg5cjFWYkZncUxIdUVmV1FHZEZtYXZnT0FQaUZWaG9CSTBEM3Z6QmY0RWl3YzFqTXdlTVhWcE4wb3A5YXNGM010QWhZQThVRWx4alFsY3h1RFNhWTNfeWpOa3ZfZWtUOTJUQjZrSUE1UWlzcGp5Z1lMWXlwa1UtcG1VeElDeGpWU1BUZzNYOUpCQVJFYm1YSjFHUUdXOGo1cTlFVUNYZUVn?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
+    - 16/10 00:00 La Estrella de Panamá: Comunidades indígenas definirán la próxima semana el futuro de la interconexión eléctrica Panamá–Colombia
+      https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeGpDWnd2WXdXWWRVTHkyRmtpamtlbGE3aHdwRkVOMXB1Qld1TlBOcjNZRVlGY0hWMEJQRWFuamFaeVkzUWJhM0gzMUpGdmwwWkt6cTlwSEZzZHJjQkg1d1A1V1daZVRENnNnVkVlV0JoVkVQcllJT3ZIdGxtZkpqa3ZHc1R2N3M5RlNWc0tDUG9TMXVxZDNPcnc1MHNHZ3ZHcUpsS1g3QkV5S2Nid3ZIRkpBdFhNU0xGZERZT3dhQWl1ZlZkT2ZJS3dBb3l3SDFGSzJDQVAycXpNNkNvNTA5SGRmZGFGNGE1aW1R0gHwAUFVX3lxTFBrbGVKYm84R2NxUnFTbTE0ZzUxZldmQ0E2UFkzUWZGVktHdkVOcW5KR3VSWk9EcUdBTzAyUEdZVlBfM3hySE5HaTY4aEZScXVzX29fQXRRcEdBT2REY01GSHgzbXlTMS1xOFJZdlVuempKQTBLV2dZUEg0UERRaXpTMjh5VjEwNUlOaDc0QVhKYnNidDZ4NHdMNS16Tk8tMmo5RmZqRERfRWJFYm5NTjNHNWFJZ2x0cE9ISGltWW9KODd6Ujk4OUplb2t1eGFYY3B2aVpWa1JmVXVmNHRXcmg0UzNRSlI2eTdKclN4RUtNSw?oc=5
     - 15/10 21:32 CRprensa.com: Terremoto en Panamá deja un fallecido y 27 lesionados, con más de 19.000 afectados
       https://news.google.com/rss/articles/CBMitAFBVV95cUxPd2tlS1RDcUhqZTBqMjY5QlBmbllrRkZhOVNmZ25ySWRzejFVbGEzZW9JQl9ZZ3BfMkI0SHJhX0hsdlNlSEJ1bWJLbTJaTWNHLWhRaTV4bFdvTnNaY2luN0lRTm52U3paa0ZwOXR6UFhhZDlBVEVyRG15c0R2bGNwRlZnU3BwN0I0bGY0NWJBd3BUNF9mSFltdzdTcUpaTkEtTjFsRUh0bk15YktqVTh5Njc5X1k?oc=5
-    - 15/10 19:04 Destino Panamá: Naturgy completa el restablecimiento del suministro eléctrico
-      https://news.google.com/rss/articles/CBMioAFBVV95cUxNbFQ0cE5QRm5Ic3p5UFN5d3BCM0ZiSm1YYXFTT1V0bldnZDlvXzd3cEs2a0hfQ2IwdlZYX1gyUWk4VU42ZmxyVWpaU3pIcUwwQ1NOS3lMWW1BVm02MTlha25mVmgtQWpCYmMtZVlTT09FaFJ6UEd2NklRMDBhLWlUU2pmdzNZelJTMHJjUzRFcG5RYnd3bXBhb2tET2p3c0Vl?oc=5
   Aeropuerto de Tocumen: sin titulares específicos en las últimas horas.
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
     - 15/10 19:48 www.tvn-2.com: Vídeo | Inician trabajos para recuperar la vía en Mariato
@@ -57,6 +57,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 15/10 14:41 Telemetro: Sismo en Panamá | Sinaproc evalúa viviendas afectadas en El Calabacito de Los Pozos
       https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGE2M1kybk5PZllnQUpuVHNfLWJRaHF4QWJiTnpManVtdzlyQ3F5QldzenIzaWJlR3REN0pzWUpuazNsZlZTUVdCSVpIVk5OeFRHNHVGbkNDV3ZTTU92ODUtdFBrUEdqaDRlOUNVS2ZXV1E4OENsc0p1RnlDVlFja0ljZUtXelJnNkpSempjZ05rVlZINDJnWERTa2FPUkxfTkZZZDMzdFdDYTJ3aE5rYnZQeGp0cTQtSXfSAb8BQVVfeXFMTXd2dGg1YjhEUjNyUEZva0Z3SV82cTlCa0k2eFFibGw0OW1iOW16M19uOGY3NU4zUmY3cGRBZlRZQ0lBc3NpMGVZeEVneUl0ZTFRRmxyclRGSlZHV0ZOenVHNEpLdHgyUV9aU0VwcVgwUVJHOG5WMlU0MEdjdWRtTzhHbUZkTjZybUhNVFhPa2ZiOW9PeEwyTF9BMkp3MjM1SFk1UTM3R3ludzQ4VVBYZGFydUdBbE9fQnNxNTZ1VEE?oc=5
   Daños y víctimas:
+    - 15/10 15:15 Vanguardia: Primera víctima del terremoto en Panamá murió tras quedar herida en derrumbe de su casa
+      https://news.google.com/rss/articles/CBMizAFBVV95cUxNRHBEbDhPX3hKNGNLc1NVOXRXVktQUTZKdnlZXzZTeW1wbWxkN3Fqb0JNQWJESkF2cnNZbFZ0QzQ1ZlBoa1l6cnppRW54MXRKY1BXbEc4UUhJMW84R1l6dXZuSE1BX3Y4QkVtQTdLdmYtc3VkUUZndmhhR2RzUTNUc1FZdnZzMFEyZ2xlNF9PdlhIb21XaF85QUJIRW15SXg1TF9xNk40T0NRcWptNlhWaWVtcnY3cHo0enpSdVdkZVVodTBMZWVVU3BpbFU?oc=5
     - 15/10 13:40 RTVC Noticias: Confirmada la primera víctima mortal tras el potente terremoto de magnitud 7,7 en Panamá
       https://news.google.com/rss/articles/CBMingFBVV95cUxNdFhDMGlJaEpSUnhGcmd5Y0ZJWW8wMDA2dkZvYzJFYW5YNGlBMEtPMWVZeDFDOFZIcm50N0g3YzhrSFh1VnZRblpXVGxFTWJPd1ctMmlaX3BhbllUaXV0WnMxNHQ4X1NFZDBHa1lhdDMwNUt3OUhlZ2NpeXhGbE90YjJDVnpEOEJXRW1uNGp3Wm1iX1pxeHFSdVdyRXJrUQ?oc=5
 
@@ -69,7 +71,7 @@ ACCIONES AHORA:
   15/10 08:31  M4.5  9 km SSE de Los Asientos  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 00:11 (automático)
+🔔 Sismo PA 00:21 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -106,10 +108,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T05%3A11%3A19&endtime=2026-10-16T05%3A11%3A19&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T05%3A21%3A28&endtime=2026-10-16T05%3A21%3A28&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 0.8 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 0.6 h; alerta solo con M5.5+, tsunami o reactivación
