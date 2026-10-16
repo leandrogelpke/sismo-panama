@@ -1,7 +1,7 @@
-Sismo PA 17:41: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 17:52: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 17:41 (16/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 172.8 h.
+SISMO PANAMÁ — informe de las 17:52 (16/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 172.9 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 2 de M3.5–4.4
@@ -61,8 +61,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Daños y víctimas:
     - 16/10 16:05 Infobae: 746 réplicas, 13 mil damnificados y un solo muerto oficial: el terremoto de Panamá que no cuadra con las imágenes de pueblos arrasados
       https://news.google.com/rss/articles/CBMioAJBVV95cUxOY080Mk9hUzNLLXVCcWVLMkR5Y1l0aVNZc3l5YXpNOXAwdUhoWThjbGd0X0hiVFF2Vmpvc01Udm5HQUhvV0tuRUhCNkVtM0twNmcteENEdTl1RmRhTkVKUTljSnk5WVBPbGJuVEJPcnJHWU5vX2NGNFcxSHdUYTJiWjZMdVBVRFNYaXN1TE5uN00ybWVLZGVZckpyWGVLOXVwc3lFcU5JcXNJc1V0WXZEejM0T0t3b0RIQ2dLY2lqVDVoN2JQcG5STUhhSEUtazhWbUVHNUlZSmMyeG9pRUdRSnpiR2NDY2lmb2Rmcl9pdVlQRkFWNFJzdTRCVjhPbnpjWHJlVkFGXzJRMmNXRDd6dk5FMnFoSmlOYXkxOEdjQzDSAaACQVVfeXFMTmNPNDJPYVMzSy11QnFlSzJEeWNZdGlTWXN5eWF6TTlwMHVIaFk4Y2xndF9IYlRRdlZqb3NNVHZuR0FIb1dLbkVIQjZFbTNLcDZnLXhDRHU5dUZkYU5FSlE5Y0p5OVlQT2xiblRCT3JyR1lOb19jRjRXMUh3VGEyYlo2THVQVURTWGlzdUxObjdNMm1lS2RlWXJKclhlSzl1cHN5RXFOSXFzSXNVdFl2RHozNE9Ld29ESENnS2NpalQ1aDdiUHBuUk1IYUhFLWs4Vm1FRzVJWUpjMnhvaUVHUUp6YkdjQ2NpZm9kZnJfaXVZUEZBVjRSc3U0QlY4T256Y1hyZVZBRl8yUTJjV0Q3enZORTJxaEppTmF5MThHY0Mw?oc=5
-    - 16/10 12:03 expreso.ec: Terremoto en Panamá: una fallecida, solidaridad y pueblos arrasados tras una semana del hecho
-      https://news.google.com/rss/articles/CBMiugFBVV95cUxORDlxZ3F2bEJhX2lkbFBiN3F5b2hnbENUQWltOTdoaHdwTXhoamlDRzc1cXNFajRYQ1hNNlRRazl5RGVCaXp2dFlOeFVkaDk2SzN6VWFYVGloR1ZVUks0RHI3dkNIdDNRVVpzcm5GaU9jbXdrU1g4VkxraXJSWlNDMFZmLVY2TDV5TzI3bElNTkZ2TURZT2ZVWnltb3FyV2UxbWRpejJIR0UxSmRpdHZDYXA4OHdlanh0anc?oc=5
+    - 16/10 11:43 AlbertoNews: Una fallecida, solidaridad y pueblos arrasados a una semana del terremoto de 7,7 en Panamá
+      https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTy1LVmhBN0pLNmlMZ1NsSVh3UnY4T2ttcExWcXl5MVNYQ3h4d3ZkSFJEdzdfVzkxQVJSWlB2bVY0V2xLbVo3Sy00ZmNTeFEwNmI2TzZqQXhQX2k1d1VMbGpncFdJZjZId0RNenM2OGgwbmcwakNUOEpPdG5ibDUxVnI3S1BReWw4WEI5QUU0NjRiMm9SMktPM1RrQ3JXZkIwV3EyZU5XMlhRS3pBc0RFWE03WXZBdFM2emhyaDdWNWxTV0tqOURMNQ?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
@@ -73,7 +73,7 @@ ACCIONES AHORA:
   16/10 08:02  M4.5  51 km ESE de Juradó (CO)  26 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 17:41 (automático)
+🔔 Sismo PA 17:52 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -110,10 +110,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T22%3A41%3A52&endtime=2026-10-16T22%3A41%3A52&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-15T22%3A52%3A00&endtime=2026-10-16T22%3A52%3A00&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 1.0 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 0.8 h; alerta solo con M5.5+, tsunami o reactivación
