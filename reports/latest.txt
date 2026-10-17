@@ -1,7 +1,7 @@
-Sismo PA 06:28: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 06:38: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 06:28 (17/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 185.5 h.
+SISMO PANAMÁ — informe de las 06:38 (17/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 185.7 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 2 de M4.5+ y 0 de M3.5–4.4
@@ -23,10 +23,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 16/10 10:41 Telemetro: Terremoto en Panamá: especialistas de EE. UU. evalúan posibles daños en el Hospital del Niño
       https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDNROW1WeGViTWRjRGJyVUpvNmR0dUNhclM0YnVTaWpISmZCSzdCUkMwc2xxb3NiZGdEOEZWY3pXZ3I2eWJPMmFlVGtQcUZqc2JXTjJ4OXdiWG8tb2lIcjNjTE5haUc0NU1SQlp1bEFxdjFsQVNsc25CNW9Kc0IyMzhCZUhYRENvQi0zeTlpbW1HRWhkZHZ2bHZ3Mk9wbEhDZGZWdU9mUkI4ak5QbkFMTmxpSFJJaW12S3J4MXFqZnVIYjlxdjJPM0ZB0gHKAUFVX3lxTE90M1E5bVZ4ZWJNZGNEYnJVSm82ZHR1Q2FyUzRidVNpakhKZkJLN0JSQzBzbHFvc2JkZ0Q4RlZjeldncjZ5Yk8yYWVUa1BxRmpzYldOMng5d2JYby1vaUhyM2NMTmFpRzQ1TVJCWnVsQXF2MWxBU2xzbkI1b0pzQjIzOEJlSFhEQ29CLTN5OWltbUdFaGRkdnZsdncyT3BsSENkZlZ1T2ZSQjhqTlBuQUxObGlIUklpbXZLcngxcWpmdUhiOXF2Mk8zRkE?oc=5
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 17/10 06:30 La Web de la Salud: Sismo en Panamá: Sinaproc reporta 3,696 personas en albergues
+      https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEVCVkt2MjRYOTI4SDFSak5NZTVlQ3RmNk5hT0s4QXVYVGhZTUpSU3BCT2RYQ09NV1dnTllkZ3JucnYtdzlsN0stMG1DM01SaHJURDBDRzlXdTZuengwS3E4S0NwcXdVejVOUEhyTXZoVkVIRWVGTTI1YXVudERWdkVBZTJuQlFzWlBiZUM5TjU?oc=5
     - 16/10 21:19 Panamá América: Balance a una semana del sismo: Panamá restablece el 92% de las vías y el 96% de la red de salud
       https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcGhYVnk3M2JhS3RsSHdXWjBEVVZmRm1rMkg1OTB3eG1SZm9JWG9uRFBZT0RWVWYtaF9ZakR0NUVod1ZnNmdINjZ0eEd5Tmw2cVd6aU50d0NUVFVHdkZLeTRiWV8wZFF5c2UxbFRubjhwbHcwanZOZ0kzTWo1NzliWEZvenhsSkVJS25NOExsUXZLeEF4RmVYbHNRLUZFME9MYUtvdjlIbDFrUThBTVhzeHpuTV8xdGhjbGViemJwN0NDTzRsc0ttbHBzZmRvUV8tbklr?oc=5
-    - 16/10 17:58 Telemetro: Enrique Lau Cortés, exdirector de la CSS, fue trasladado a la Ciudad de la Salud por problemas de salud
-      https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOHFLZVhuVmp5Y0VBbFFZZWk2Wk9lOXBqcjBQZWNtVkItazlaalFGMEEwOWkzaGw3RlBielE1Q1JXaHVrVF9oYU0yNW5FdnVtTjUwNDZHS25tVmg0M01nQ0VoZzl6MzVzQ05FbTBTcGdWUFJpbUk1blB4TUZnVF9TWnBuVEp0NF80TzJ4NktsTTV2QnZJdTA4Qk9rUjJTWUZjQjBtVFlwV094TERlbUdwNFJwQm51LXJQb3dsUGEzd1ktc2JGQnBoR3hidl9icy1OTmfSAdIBQVVfeXFMTzhxS2VYblZqeWNFQWxRWWVpNlpPZTlwanIwUGVjbVZCLWs5WmpRRjBBMDlpM2hsN0ZQYnpRNUNSV2h1a1RfaGFNMjVuRXZ1bU41MDQ2R0tubVZoNDNNZ0NFaGc5ejM1c0NORW0wU3BnVlBSaW1JNW5QeE1GZ1RfU1pwblRKdDRfNE8yeDZLbE01dkJ2SXUwOEJPa1IyU1lGY0IwbVRZcFdPeExEZW1HcDRScEJudS1yUG93bFBhM3dZLXNiRkJwaEd4YnZfYnMtTk5n?oc=5
   Agua (IDAAN):
     - 16/10 20:07 TVN Panamá: Temblor en Panamá: Idaan prevé normalizar gradualmente el suministro de agua en Chitré
       https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVo0ZGNlR0VXek44RWlqYTAxU2VOSmlaLTQ4YWFZYmpucWZuT1paZVl5YmtINTRHZ0lwQXVTY3Z5ZFNEOElaeHU3QmpXOWMxaFBjRXNZRVBHTzBkUWxQME5obmJ3Y25zUExCQjlYUDU3WDVJalN0QjFXY21qVmk1ZE1uR3d3UTJ0ajZudTZ3?oc=5
@@ -58,8 +58,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 16/10 13:30 TVN Panamá: Temblor en Panamá: Meduca inspecciona 49 escuelas en San Miguelito; esperan informes técnicos
       https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaWlBOVVKV3FoejdLSFlhdVptRnBaUVVqdzR2ajNCOXdyT1VmRTRtTU9wRVFKajBBMUFMcFA2LTNCTC1aWF8wODg5Y3BqSTBZelRaV2J0eEJaOVFhOGlmaTU2cXRpVUVCeW10NXlKXzZHRlFmZU5WYk9nY2FYVDFpYW1iQTV3LUUtQVp4SFJFLVhjVHRPa2FJUWpRa1d4OGFrZFZ5ZXJPU2d4SUZYWlRXcnZ6a3ZYNThnWFJrU0lkMW4?oc=5
   Sinaproc / autoridades:
-    - 16/10 18:32 La Estrella de Panamá: Desplome de caserón en Colón revive alerta por estructuras viejas
-      https://news.google.com/rss/articles/CBMixAFBVV95cUxOUWlqUFJid2c2ay16Yld6WUo0ZW9IU3JXSXBhNVhXVXZrVjJDM1cxaHo3Y2VoLXo5ZTM2dVltcjdVNm53ZUM4dUhPNEItUTI1VUZRd3dGUE9OQXZxclVxRlJvM2c3YldxSndYWVpjRkRDWUFMOVNySlFkazJWSXZlSk40SmRLcTNXMUtoRjlwWF9RTEJ5dVNLUWhtb3JxUGd4SktqbndTLXJJMk5kNXNkbVlRNUUyN2NxM1U3cXdPZXRuYTNB0gHEAUFVX3lxTE5RaWpQUmJ3ZzZrLXpiV3pZSjRlb0hTcldJcGE1WFdVdmtWMkMzVzFoejdjZWgtejllMzZ1WW1yN1U2bndlQzh1SE80Qi1RMjVVRlF3d0ZQT05BdnFyVXFGUm8zZzdiV3FKd1hZWmNGRENZQUw5U3JKUWRrMlZJdmVKTjRKZEtxM1cxS2hGOXBYX1FMQnl1U0tRaG1vcnFQZ3hKS2pud1MtckkyTmQ1c2RtWVE1RTI3Y3EzVTdxd09ldG5hM0E?oc=5
+    - 17/10 06:30 La Web de la Salud: Sismo en Panamá: Sinaproc reporta 3,696 personas en albergues
+      https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEVCVkt2MjRYOTI4SDFSak5NZTVlQ3RmNk5hT0s4QXVYVGhZTUpSU3BCT2RYQ09NV1dnTllkZ3JucnYtdzlsN0stMG1DM01SaHJURDBDRzlXdTZuengwS3E4S0NwcXdVejVOUEhyTXZoVkVIRWVGTTI1YXVudERWdkVBZTJuQlFzWlBiZUM5TjU?oc=5
   Daños y víctimas:
     - 16/10 20:36 Metropolitano.gal: Miedo entre los gallegos afectados por el terremoto en Panamá tras sufrir "muchos daños" materiales
       https://news.google.com/rss/articles/CBMizAFBVV95cUxPNTZXai1FTTBwVjFCcmJlSUJINFExNU9HY1lPSm9FLWJRMTlsSTRiVmF6a29ZcmszOEx2bzRoWjhaWXJsSjA3cTd1bGJYOXpoYnlXLTN4MlFRUUxBMFVIRDV1ZTFyODdvSmhqZkd6aGFiVWVZLVhIUUpUUXh2ajNGVTE0dDZwYVI4akpRMkphMXlHRERfc3oyc3lCRDlEZ29WZHZ3ajZCT1AzUDY2eEZDUGlla01hcEFtZnp6OUVUVkQzb2RNcFdJTkMwWEnSAdIBQVVfeXFMTjZwUmQybVJ1ekZhdll0U0x5Q1lXRFdSRGZoMkRMeU1tS1NsQ0lBVFpjTlRsemotd2d5ZUJmSTFwQ0paYng1UXJmUy1NdEo5dDBHc0d6WXFwbmx4LU1jNWlmYjFxLXg0eW5IdThxN004T2lRV1A4NlBTRGFXSmkyVWxya082WUVFMzJjbVBYOWR0M3Z6MzlNdmVLNkZSUVppWDFQTW9rdGpwVUFyVjcyQXBCTFhxWXlDUFpzTmh2clZUWnFHNHVqLTM2ZUhlX1E2Q2tR?oc=5
@@ -74,7 +74,7 @@ ACCIONES AHORA:
   16/10 08:02  M4.5  51 km ESE de Juradó (CO)  26 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 06:28 (automático)
+🔔 Sismo PA 06:38 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -111,10 +111,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T11%3A28%3A27&endtime=2026-10-17T11%3A28%3A27&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T11%3A38%3A36&endtime=2026-10-17T11%3A38%3A36&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.3 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.1 h; alerta solo con M5.5+, tsunami o reactivación
