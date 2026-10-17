@@ -1,7 +1,7 @@
-Sismo PA 18:36: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 18:46: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 18:36 (17/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 197.7 h.
+SISMO PANAMÁ — informe de las 18:46 (17/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 197.8 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 1 de M3.5–4.4 | 18 h: 0 de M4.5+ y 1 de M3.5–4.4 | 24 h: 0 de M4.5+ y 1 de M3.5–4.4
@@ -55,10 +55,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 17/10 12:48 TVN Panamá: Más de 24 mil personas han sido evaluadas luego del sismo, informa Sinaproc
       https://news.google.com/rss/articles/CBMiwwFBVV95cUxNank4eGpCRWFRbDNRVGJjTi13YktDLUZWaDB4N3pkbDk1Tm13OHB6RDdQTmV1RVFYQ1h4am1qVUo3T2lqTWNlV3hRNG9XRFRaenVmRlJaWDhjejhndEFBUmFRZkFYby1JbkVSTHh1QWJUSm0ycnlZdzNIR3VLanpzQ0dGTWdlUVgxRDdRUU9wN2k1SmtiM183bTZ0S1BsSGJGR3NhbFhpSUVkSkRFOHNYanpIRFRhUWFlem5TMEg1Y0F4ajg?oc=5
   Daños y víctimas:
+    - 17/10 17:36 Panamá América: Disparos en sala de espera dejan dos heridos en el Centro de Salud de Veracruz
+      https://news.google.com/rss/articles/CBMizAFBVV95cUxQSHE4TUE5OHFnbUhIYU5nQm5nOFR1SUQ5MXpMOFlCVm1xRTVCZ096Q1dhclZLTGwtVlpXcG5mb3pKZDdzSEpQTWZOMXE1RkZvTmFORGNlVHB5Q09rNHgtTlpCRXBaMEdEVVZvWThMUEd0SlAzSnBIRW1DOGtMbzJ6S1U1UHM1UnRab1duQTlyQWY5Y05nN2ExUkRBX3BEc0s1NXlJbXRELTNXNkw4QnhGcHlDUlZ5MXZvV2VyRXRySDJQNUktRFJKbGRXYkc?oc=5
     - 17/10 16:16 Telemetro: Centro de Salud de Veracruz cerrará este domingo tras incidente con arma de fuego que dejó dos heridos
       https://news.google.com/rss/articles/CBMizwFBVV95cUxPLXlmSGlrd3pXeU0zQnFJY0FaeFhrRklyaUMyU243R3dpTmxlRGFjSHluZFRXX2lsRWJBeHNWbl9WSm94TVNMS1JSejVyN29YajllRDdBbExlRENGaGN5ZWpyakdnUGJVWXNQeWR1TDZ2MUZqNTVObFAtb2xJWW1sYTN0NmFZTVFqQktzbmdRc2tVZExESnJhN2VOWHJwaV94LWRGXzNtSjR4anFjWGVfUmFvanlaekEwZ3FZRTMwOFpodkNtQVljQzF5WmhGWlHSAc8BQVVfeXFMTy15Zkhpa3d6V3lNM0JxSWNBWnhYa0ZJcmlDMlNuN0d3aU5sZURhY0h5bmRUV19pbEViQXhzVm5fVkpveE1TTEtSUno1cjdvWGo5ZUQ3QWxMZURDRmhjeWVqcmpHZ1BiVVlzUHlkdUw2djFGajU1TmxQLW9sSVltbGEzdDZhWU1RakJLc25nUXNrVWRMREpyYTdlTlhycGlfeC1kRl8zbUo0eGpxY1hlX1Jhb2p5WnpBMGdxWUUzMDhaaHZDbUFZY0MxeVpoRlpR?oc=5
-    - 17/10 16:07 Tvn Panamá: Dos heridos tras incidente con arma de fuego en el Centro de Salud de Veracruz
-      https://news.google.com/rss/articles/CBMixwFBVV95cUxOT3Q2cFU0QWlJNzBHMzQ1ZTRXcmxTRDVlUEhweEtoTlV1X1k0NFl6czA2d0E1MEc0NWlLOHBCdHotUHFXYU40MTZlRmdxSWRHZEg5eXdNWDR1X1c2bW5QR2NBSVVONHRteDU5ZVN1YWk4QktTd0NQdnVFRkRKS1VEZlJtVF9tNHY0ZnhicFljcEZQbFhxVGdqSEZBZ0M4S2lDTjZ2NGxzRElBYlhoT1Q3bUplUFpMTU1SS2lIMlZvWk1iTE5yOHNB0gHHAUFVX3lxTE5PdDZwVTRBaUk3MEczNDVlNFdybFNENWVQSHB4S2hOVXVfWTQ0WXpzMDZ3QTUwRzQ1aUs4cEJ0ei1QcVdhTjQxNmVGZ3FJZEdkSDl5d01YNHVfVzZtblBHY0FJVU40dG14NTllU3VhaThCS1N3Q1B2dUVGREpLVURmUm1UX200djRmeGJwWWNwRlBsWHFUZ2pIRkFnQzhLaUNONnY0bHNESUFiWGhPVDdtSmVQWkxNTVJLaUgyVm9aTWJMTnI4c0E?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
@@ -69,7 +69,7 @@ ACCIONES AHORA:
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 18:36 (automático)
+🔔 Sismo PA 18:46 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -106,10 +106,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T23%3A36%3A35&endtime=2026-10-17T23%3A36%3A35&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T23%3A46%3A43&endtime=2026-10-17T23%3A46%3A43&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.0 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 1.8 h; alerta solo con M5.5+, tsunami o reactivación
