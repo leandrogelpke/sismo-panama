@@ -1,7 +1,7 @@
-Sismo PA 12:42: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 12:52: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 12:42 (17/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 191.8 h.
+SISMO PANAMÁ — informe de las 12:52 (17/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 191.9 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 1 de M3.5–4.4 | 10 h: 0 de M4.5+ y 1 de M3.5–4.4 | 18 h: 0 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 1 de M3.5–4.4
@@ -31,10 +31,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 16/10 19:43 www.tvn-2.com: Vídeo | Se normaliza suministro de agua tras afectaciones en la potabilizadora de Chitré
       https://news.google.com/rss/articles/CBMipgFBVV95cUxQaGx0aEhqVGFZZ05aVURyTExsbG5fRktNV0x0bkxCRU9Sc3lmSUtBaEhiT1NTM1NqV0drejdTRGRzd3R2cW5CUXBUa0VNNHR3azRKZUZTYlYyeTIyd1BuVjk3WFE2V0kwVmdtUXNlV1VmRERGQWx0Ymx0RDVNVlFMTE1sNnQtbldYNUpGaXBHQUc2NG9BSHRBcWZnSGVwSEU4WXEyc1hn?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
-    - 17/10 10:29 La Estrella de Panamá: Falla en planta de generación provoca apagón de 12 minutos en Panamá y Panamá Oeste
-      https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVlRnbFVfblBnLV9OUnZLU0NRVVVmUXBfQ1BDN1dwbllZNEZNSWhkSkxxUUc0Mnc4Rmg0RHNYZjNYRE9YOEluaVdSTUQ0NTJvcWVCUXR4emVFT2RpenpnNTd3TXBvaFRqZXg0SXpFcXByNktkdENWVVhXLXVYSm5VX2dBSU5tNDlfVW91XzBSTWZwSnVRbkRrbjk1enN2bGh1d2hFMXVfS0t6b0l0R0V4VHlfZmx3YmFRUlZNVFVFMWRpQU10X1lwNm5RZWdvOWh1SC1Hbmd2d9IB3AFBVV95cUxQSDN5WjFWbUxJRFJhMnpiT1FzZVQ3Z3lTbDN4d1VJdjRYbzhWU2VoX2l0RHcwUnNPMzl0cG1PYnA2eFZKUmdnUzVacll1YUppcFFYZHZnVlRWUGlGdVdlU0s0X2NCbW54a3NjaWlFMGMwTG1HYUFoSlp4dmpxRWtBblVWVld5TVJKWVZXYXNlekxrUFBTamNZand3cFBSYUQyNmo2Wm5XVzlISWNnck5hcVBMWlMwQ2Znc3BHc1A4OGFTbS1USWtSSjJMZGJvdGFLRVdDRHZyMUhDTGUw?oc=5
     - 16/10 20:51 El Momento Yucatán: NASA ofrece 2.7 millones de pesos por resolver un problema de electricidad estática en la Luna
       https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLTZnZzVOcy0zSDc1aWR3MmNIQ3BrQmg0THR1cnI3bWNWc3FVX0h3cXp6NzVFYTZwa19jQnFtbWZacVprYmdaQ2Zxa3htVG1kVTUzemczaXl1cktFYVE4LXE3Ri1zeHVHU1hRQnc1cWtMRjEtZUhfTm5TRnVlQzNUWldidENxVmlkRklEbHZWcmNJTUthXzFfQ1E3eHVQbW5qOUtDeXY5TkpZQ01CX2hpZDZPdUtmeXpHSFhWeUY0VHM?oc=5
+    - 16/10 20:37 El Siglo Panamá: Apagón en Panamá: ETESA informa que se restableció el servicio eléctrico
+      https://news.google.com/rss/articles/CBMisgFBVV95cUxNQXdNNGdoVWd1N2ZsdE0xaTFlUC10NnZ2VlhDcXo1M25oSnBvbXprZ2VQQnFoNW9tbjlGc2JwMzVBakc1T3dudVQ5aVg3RjFjdEVNSE1JZ2FOZGNFUGY2cnlUNFpvMG8zSkFtYTZzSXhfWXFJUkV1LWxEV1pSYXBfZTJvZy1SVGtmQTd5TnZ2U1Q5VjFCZUNqVEo0MVNhdDM4Z2FqRTd5TnM2ZDN3YkVSckpR0gG3AUFVX3lxTFBWM2FfckVhU251Sm5sdzZ5Y3JYbjJZM1RVOUt6R3VxU1BfOTJVMmpPN0VhcnRDaFo0OUdNVUF5bGs2OVczVl9HVXNCaXktUzZ4YUFNSlZ6eUdTcjk4ZkduUjZLX2FqRkg5OTY3UTJqUjBsMENoZ3hhdHJWaGxJdERKVXNKX05FSXRtS1JmczEwQnBXRWg2RWdiamVCanJVLXZvMTBENjQ1Y01MWnYtLVJkQ0l6b0xsZw?oc=5
   Aeropuerto de Tocumen:
     - 16/10 20:51 Aviación al Día: Panamá: Aeropuerto de Tocumen supera los 17,8 millones de pasajeros entre enero y septiembre de 2026
       https://news.google.com/rss/articles/CBMi0wFBVV95cUxQamxLRV9PenZJZ08wSDBINzk1eXYxdHB5ZENKRU14UWNmbEExV2VqTnpUank3NjB6dUMtaUNTbXctMHR0WHBKZHZLcDVBZF9ULWE3SjQxbkhpd19ENXRGOEFtLUp3X2d1cTFqcTZHaWZBR25Pa3lGbTdzZGpzVUY2VEEyYTd5N1lIQk5Zc1d4eEVuZ0RBRFVKeVhieFFNZG1ndWU1eC1qTExWM3Zmc3FPMUpKSGN6c0lPcWsxZEhUdFZfdS15b3RIOXRralg4U1JyM0Nn0gHYAUFVX3lxTE1CTkp6WlROWUdZTy0tUzNULVdQQzNvZDhjN3B1ZUhCTngxSXVKckZzVFBsZVRVaHB2TllNUU5oa05yeU5LVG5qaVRhcW96X3hCZkttaktmZV9sT29SWXFDTXNMdXdrNnptSVhTbE5aQnJXRXRMb3VFakVCNGJid2NsWkZYeE9jRWtaeS1Ib2J5QXpiTURWcU14SDVtNVdtc0dMajFpX1d6YVNSTFc5X1hLMkNxdlREaEZCaGdyVDJ0dmNkVlJ6TUI5cmNka2hNeVJ1V0VzMGlhZA?oc=5
@@ -69,7 +69,7 @@ ACCIONES AHORA:
   16/10 17:41  M4.6  12 km SSE de Tebario  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 12:42 (automático)
+🔔 Sismo PA 12:52 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -106,10 +106,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T17%3A42%3A51&endtime=2026-10-17T17%3A42%3A51&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T17%3A52%3A58&endtime=2026-10-17T17%3A52%3A58&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.0 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 1.8 h; alerta solo con M5.5+, tsunami o reactivación
