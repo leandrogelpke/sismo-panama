@@ -1,7 +1,7 @@
-Sismo PA 00:45: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 00:55: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 00:45 (17/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 179.8 h.
+SISMO PANAMÁ — informe de las 00:55 (17/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 180.0 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 0 de M3.5–4.4 | 18 h: 2 de M4.5+ y 0 de M3.5–4.4 | 24 h: 2 de M4.5+ y 0 de M3.5–4.4
@@ -43,10 +43,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 16/10 15:46 Infobae: Aeropuerto de Tocumen, en Panamá, supera los 17,8 millones de pasajeros y crece un 15%
       https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN3MzeXlZMFAwOUNxZE5DUlFoNkhBUkhHVUJCS2VKME5yeVI1UDBFSWZVUVpzQUVlOHJwd0NMVjZ0STh5VklzTWp3NnNYOXRhVzFyX2JLSzM5SE1hMjM5cl91bzhEblR6TFVwOFBqemltTzRGUjBXZ21LVkhXNkFHZE9VRE8xUklUb2VjVlJyZ0xjV1NneWgxa1piU0lueFZYNFJyNk9VZVBibTluUWUzbHF1VE1WZnVwZzhTZ09oYlE4SW_SAd4BQVVfeXFMTXR6c1VzbHRnSXJ3aXkwbEdJUWVnbTQxXzJhb3BxZmF4YTAxZU85QXEyR2p1TDN3cTFEeWs2MlhrOHR1R0V6WjFYVjdaWnppODBram1VbndfU2NCa2d3cTQyY19CUUg2WkZQVEFoblIxVUdKUjZXRl9NTWNjNU1OcGVDTk0zWlNCOUlzZlpuZWFBTWFDNnJTbEdqNDNUVFBZbUZPZ00xdk5md0hMWkJSRDJObzlfYWZKR3dOWmFqcVZBWEJNZkhlTzUtajNsb2kxaEsxZGxWWmY0R0FpcldB?oc=5
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
-    - 16/10 20:19 Panamá América: Balance a una semana del sismo: Panamá restablece el 92% de las vías y el 96% de la red de salud
-      https://news.google.com/rss/articles/CBMizgFBVV95cUxNcDJOa1UzNzBoX0VTMW54X2ZWWTBkTloyOHpHXzBSWFZsVFh1b3RGcFRvcV9aTnZkV1FKNFJSX29IOGQ2d2xJSW5SQmd4OGlFOG9pa1lfc2hvb3p1aXFycm0yMWtvblNTS2gta252andrLS15NFl4UlZYSW1RVlY2T2pHR3BBb0dXd093VWFTaG1wbmFaUkRQN0RHcFpYSkw3eVpINThWUUdwenc1V1ZmWmhJejBxcnRvSE5HUUd5TDVYSy1uc283dFlER0s5Zw?oc=5
-    - 16/10 16:00 Telemetro: Camión furgón se vuelca en la Vía Panamericana: Bomberos controlan fuga de diésel
-      https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZHpLaXZTYmNKMXl1dmJBVy1HZUtkWHBrUnpEMkxoSEpYTTlFenduZGFqNXVVRkZIU2VZejZzRldwX1QwRkx2QTlHV1BqRGdkLU1fYkVDbXlqa1JrX3NwYzR5RjVDdDJObDM0enJYSGRISXBENnNBeUdPVHJ4Si1Qa2ZwUFlFMl95aDQ2NmZDZTQ3MVJ3VTlicnVJUHdRcmpINVladU16VEpIeXc0S1BIS3pwdkFCUzRwaGlhcDBYMmVFUdIBwgFBVV95cUxQZHpLaXZTYmNKMXl1dmJBVy1HZUtkWHBrUnpEMkxoSEpYTTlFenduZGFqNXVVRkZIU2VZejZzRldwX1QwRkx2QTlHV1BqRGdkLU1fYkVDbXlqa1JrX3NwYzR5RjVDdDJObDM0enJYSGRISXBENnNBeUdPVHJ4Si1Qa2ZwUFlFMl95aDQ2NmZDZTQ3MVJ3VTlicnVJUHdRcmpINVladU16VEpIeXc0S1BIS3pwdkFCUzRwaGlhcDBYMmVFUQ?oc=5
+    - 16/10 21:19 Panamá América: Balance a una semana del sismo: Panamá restablece el 92% de las vías y el 96% de la red de salud
+      https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcGhYVnk3M2JhS3RsSHdXWjBEVVZmRm1rMkg1OTB3eG1SZm9JWG9uRFBZT0RWVWYtaF9ZakR0NUVod1ZnNmdINjZ0eEd5Tmw2cVd6aU50d0NUVFVHdkZLeTRiWV8wZFF5c2UxbFRubjhwbHcwanZOZ0kzTWo1NzliWEZvenhsSkVJS25NOExsUXZLeEF4RmVYbHNRLUZFME9MYUtvdjlIbDFrUThBTVhzeHpuTV8xdGhjbGViemJwN0NDTzRsc0ttbHBzZmRvUV8tbklr?oc=5
+    - 16/10 18:11 Panamá América: Construcción del puente sobre el río Perequeté en Capira alcanza un 55 % de avance
+      https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLVYtdXEzVXBhUGZPeVRRX0w5RlRXNmotN3VsSnhvazVPZ0xyNC1GWlZYVUhaNlFpeW5WWHpZcDdYQm11Sk5qZVNYVDB0QU83VkZ0dE9KOVZmRFpwcWR0MEh5OUtIdHQzdFpTWUIybWlOV1hlWXljWVJkN3dUb2NyaHRobWJmOHlPendsSVZVemtOdXRCcFljNU8tQU1oeTYwcnFmR2tRcWZxSk80M21laEw3RWl6Z1c5VkFHZ3BuY2w5ak5aYk9LVzBYbENZNGJZVFE?oc=5
   Metro y transporte:
     - 16/10 11:11 Telemetro: Potabilizadora de Monte Esperanza suspenderá operaciones este sábado 17 de octubre en Colón
       https://news.google.com/rss/articles/CBMizAFBVV95cUxNRVoyMHZkSDlhOVlXbjQ2Sm9hb1lfNS0tVDBzWjNJLTAwN1B3RGNrNU15MUZYbW85N1VFdV9JNmRXeEVVV2UtSndWZld3VXdzSWFZRnQzamdhYkYzQ0hhWlBYWkoxMGk2NkdQUGpTNW9nTmdXc1N3NFpPRE01QmhiTWptWUE5d1VxMHVXTHFoN1ltYk9HUlF6NFNfMFJJZ1ZyaGhuY3RIR2RDbmprWDRvc0xqU1VqMzF5Q3VtU1I5OWpLbkstLTlxTVRFQ3jSAcwBQVVfeXFMTUVaMjB2ZEg5YTlZV240NkpvYW9ZXzUtLVQwc1ozSS0wMDdQd0RjazVNeTFGWG1vOTdVRXVfSTZkV3hFVVdlLUp3VmZXd1V3c0lhWUZ0M2pnYWJGM0NIYVpQWFpKMTBpNjZHUFBqUzVvZ05nV3NTdzRaT0RNNUJoYk1qbVlBOXdVcTB1V0xxaDdZbWJPR1JRejRTXzBSSWdWcmhobmN0SEdkQ25qa1g0b3NMalNVajMxeUN1bVNSOTlqS25LLS05cU1URUN4?oc=5
@@ -78,7 +78,7 @@ ACCIONES AHORA:
   16/10 08:02  M4.5  51 km ESE de Juradó (CO)  26 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 00:45 (automático)
+🔔 Sismo PA 00:55 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -115,10 +115,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T05%3A45%3A04&endtime=2026-10-17T05%3A45%3A04&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T05%3A55%3A12&endtime=2026-10-17T05%3A55%3A12&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.1 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.0 h; alerta solo con M5.5+, tsunami o reactivación
