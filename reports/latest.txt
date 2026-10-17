@@ -1,7 +1,7 @@
-Sismo PA 14:43: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 15:40: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 14:43 (17/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 193.8 h.
+SISMO PANAMÁ — informe de las 15:40 (17/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 194.7 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 1 de M3.5–4.4 | 10 h: 0 de M4.5+ y 1 de M3.5–4.4 | 18 h: 0 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 1 de M3.5–4.4
@@ -21,8 +21,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Tsunami (tsunami.gov): sin alerta activa
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
-    - 17/10 06:30 La Web de la Salud: Sismo en Panamá: Sinaproc reporta 3,696 personas en albergues
-      https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEVCVkt2MjRYOTI4SDFSak5NZTVlQ3RmNk5hT0s4QXVYVGhZTUpSU3BCT2RYQ09NV1dnTllkZ3JucnYtdzlsN0stMG1DM01SaHJURDBDRzlXdTZuengwS3E4S0NwcXdVejVOUEhyTXZoVkVIRWVGTTI1YXVudERWdkVBZTJuQlFzWlBiZUM5TjU?oc=5
+    - 17/10 13:06 Telemetro: Malaria en Merca Panamá: MINSA reporta 37 casos y aclara si es seguro comprar alimentos
+      https://news.google.com/rss/articles/CBMizgFBVV95cUxOM09OcFFTSHNVYjhCNERuYW1RVnRsSUNCaklpOUpUMmhXSWxHbUkzZ0pJU1FGOWZkMWU0bVpRQ3FrbzFWdjVtOUNiTUtCU3FJYUVsMUhPaXBwYldkRkFINjBiRkh3M05VSEJtdzltN0FLLVBWNDVSaElEMXdYeGJEbjk0WVRmS1RLNEJpRzRxS3U0MjFueEtDWGZlVV9takplcU0xVDlJeWdBMkJYb2JmSkhoZW9QYlktWFI3QkRUUW9XV2lueTUwSHowZ2syUdIBzgFBVV95cUxOM09OcFFTSHNVYjhCNERuYW1RVnRsSUNCaklpOUpUMmhXSWxHbUkzZ0pJU1FGOWZkMWU0bVpRQ3FrbzFWdjVtOUNiTUtCU3FJYUVsMUhPaXBwYldkRkFINjBiRkh3M05VSEJtdzltN0FLLVBWNDVSaElEMXdYeGJEbjk0WVRmS1RLNEJpRzRxS3U0MjFueEtDWGZlVV9takplcU0xVDlJeWdBMkJYb2JmSkhoZW9QYlktWFI3QkRUUW9XV2lueTUwSHowZ2syUQ?oc=5
     - 16/10 20:19 Panamá América: Balance a una semana del sismo: Panamá restablece el 92% de las vías y el 96% de la red de salud
       https://news.google.com/rss/articles/CBMizgFBVV95cUxNcDJOa1UzNzBoX0VTMW54X2ZWWTBkTloyOHpHXzBSWFZsVFh1b3RGcFRvcV9aTnZkV1FKNFJSX29IOGQ2d2xJSW5SQmd4OGlFOG9pa1lfc2hvb3p1aXFycm0yMWtvblNTS2gta252andrLS15NFl4UlZYSW1RVlY2T2pHR3BBb0dXd093VWFTaG1wbmFaUkRQN0RHcFpYSkw3eVpINThWUUdwenc1V1ZmWmhJejBxcnRvSE5HUUd5TDVYSy1uc283dFlER0s5Zw?oc=5
   Agua (IDAAN):
@@ -67,7 +67,7 @@ ACCIONES AHORA:
   16/10 17:41  M4.6  12 km SSE de Tebario  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 14:43 (automático)
+🔔 Sismo PA 15:40 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -104,10 +104,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T19%3A43%3A39&endtime=2026-10-17T19%3A43%3A39&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T20%3A40%3A42&endtime=2026-10-17T20%3A40%3A42&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — ya se envió hace 9 min
+ENVÍO: no enviado — próximo informe regular en 4.9 h; alerta solo con M5.5+, tsunami o reactivación
