@@ -1,7 +1,7 @@
-Sismo PA 05:51: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 05:58: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 05:51 (17/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 184.9 h.
+SISMO PANAMÁ — informe de las 05:58 (17/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 185.0 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 2 de M4.5+ y 0 de M3.5–4.4
@@ -63,8 +63,6 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Daños y víctimas:
     - 16/10 20:36 Metropolitano.gal: Miedo entre los gallegos afectados por el terremoto en Panamá tras sufrir "muchos daños" materiales
       https://news.google.com/rss/articles/CBMizAFBVV95cUxPNTZXai1FTTBwVjFCcmJlSUJINFExNU9HY1lPSm9FLWJRMTlsSTRiVmF6a29ZcmszOEx2bzRoWjhaWXJsSjA3cTd1bGJYOXpoYnlXLTN4MlFRUUxBMFVIRDV1ZTFyODdvSmhqZkd6aGFiVWVZLVhIUUpUUXh2ajNGVTE0dDZwYVI4akpRMkphMXlHRERfc3oyc3lCRDlEZ29WZHZ3ajZCT1AzUDY2eEZDUGlla01hcEFtZnp6OUVUVkQzb2RNcFdJTkMwWEnSAdIBQVVfeXFMTjZwUmQybVJ1ekZhdll0U0x5Q1lXRFdSRGZoMkRMeU1tS1NsQ0lBVFpjTlRsemotd2d5ZUJmSTFwQ0paYng1UXJmUy1NdEo5dDBHc0d6WXFwbmx4LU1jNWlmYjFxLXg0eW5IdThxN004T2lRV1A4NlBTRGFXSmkyVWxya082WUVFMzJjbVBYOWR0M3Z6MzlNdmVLNkZSUVppWDFQTW9rdGpwVUFyVjcyQXBCTFhxWXlDUFpzTmh2clZUWnFHNHVqLTM2ZUhlX1E2Q2tR?oc=5
-    - 16/10 17:57 Radio Mitre: Terremoto en Panamá: el sismo de magnitud 7,7 dejó 30 heridos y registró 746 réplicas en una semana
-      https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaWJtVy10RHdqbnJ3dDVYYkEtcU5HWW9ZTXRrTjlkRHFEdnN0OTA2NmVtTkRwNTkzVXNFOFR3SU5ieEFqY1k0QndpZ1hHVDVESmhzUmVsYlduSFVsNFNTekg4MTJxd2NnQ3Bkc2F5bHBhVjh5WXNPQU1jRTVGLVNTWklYTzdXalJUVU1SaUM2TFdUaEtOWFdfTkt2R2xqN3BqRXNuel9wQWxfY2xEYVA0R0JjWlI1dEVxaUwtR2d2YVcyVnlDS0hlcmwwMVFBZkcxLTczMzJIaVRIT0cyMzR6NXB3?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Para la noche: zapatos cerrados, linterna, llaves y celular cargado junto a la cama; puerta del cuarto sin seguro; si tiembla fuerte, proteger la cabeza junto a la cama y esperar a que pase antes de bajar.
@@ -76,7 +74,7 @@ ACCIONES AHORA:
   16/10 08:02  M4.5  51 km ESE de Juradó (CO)  26 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 05:51 (automático)
+🔔 Sismo PA 05:58 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -113,10 +111,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T10%3A51%3A49&endtime=2026-10-17T10%3A51%3A49&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T10%3A58%3A00&endtime=2026-10-17T10%3A58%3A00&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.9 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.8 h; alerta solo con M5.5+, tsunami o reactivación
