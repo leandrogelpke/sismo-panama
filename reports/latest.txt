@@ -1,7 +1,7 @@
-Sismo PA 16:46: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 17:25: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 16:46 (17/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 195.8 h.
+SISMO PANAMÁ — informe de las 17:25 (17/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 196.5 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 1 de M3.5–4.4 | 18 h: 0 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 1 de M3.5–4.4
@@ -21,20 +21,20 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Tsunami (tsunami.gov): sin alerta activa
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 17/10 13:45 La Estrella de Panamá: ¿Por qué puedes sentir mareos días después del sismo? Esto explica la CSS
+      https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYW9UNWY0NTJIdEJzOGtQSHZwVE80bGdyLVQ2TG5kT19TT3liT3lva3FjTnJoemtaZk8yV3YyZ29LS1hBTy1ESWF3c3JBaEtzaFQ4ODVYNFUwNkw4RlhlSVhPOEhnZVpZeDY3Rng3SENpMDU2YnVaN2lDdEhlY1YzaF9UN3ItakZUUDZzQVptWTFZNkFrUVRCa3RyNXdYMHB4TEF6VkQ3YXlZWFA2V1F2TVVBYXp5b1Nhd0Y0bURvRUtsUWIyaUFUNnBybldZenBGTGg40gHTAUFVX3lxTE5hb1Q1ZjQ1Mkh0QnM4a1BIdnBUTzRsZ3ItVDZMbmRPX1NPeWJPeW9rcWNOcmh6a1pmTzJXdjJnb0tLWEFPLURJYXdzckFoS3NoVDg4NVg0VTA2TDhGWGVJWE84SGdlWll4NjdGeDdIQ2kwNTZidVo3aUN0SGVjVjNoX1Q3ci1qRlRQNnNBWm1ZMVk2QWtRVEJrdHI1d1gwcHhMQXpWRDdheVlYUDZXUXZNVUFhenlvU2F3RjRtRG9FS2xRYjJpQVQ2cHJuV1l6cEZMaDg?oc=5
     - 17/10 13:06 Telemetro: Malaria en Merca Panamá: MINSA reporta 37 casos y aclara si es seguro comprar alimentos
       https://news.google.com/rss/articles/CBMizgFBVV95cUxOM09OcFFTSHNVYjhCNERuYW1RVnRsSUNCaklpOUpUMmhXSWxHbUkzZ0pJU1FGOWZkMWU0bVpRQ3FrbzFWdjVtOUNiTUtCU3FJYUVsMUhPaXBwYldkRkFINjBiRkh3M05VSEJtdzltN0FLLVBWNDVSaElEMXdYeGJEbjk0WVRmS1RLNEJpRzRxS3U0MjFueEtDWGZlVV9takplcU0xVDlJeWdBMkJYb2JmSkhoZW9QYlktWFI3QkRUUW9XV2lueTUwSHowZ2syUdIBzgFBVV95cUxOM09OcFFTSHNVYjhCNERuYW1RVnRsSUNCaklpOUpUMmhXSWxHbUkzZ0pJU1FGOWZkMWU0bVpRQ3FrbzFWdjVtOUNiTUtCU3FJYUVsMUhPaXBwYldkRkFINjBiRkh3M05VSEJtdzltN0FLLVBWNDVSaElEMXdYeGJEbjk0WVRmS1RLNEJpRzRxS3U0MjFueEtDWGZlVV9takplcU0xVDlJeWdBMkJYb2JmSkhoZW9QYlktWFI3QkRUUW9XV2lueTUwSHowZ2syUQ?oc=5
-    - 16/10 20:19 Panamá América: Balance a una semana del sismo: Panamá restablece el 92% de las vías y el 96% de la red de salud
-      https://news.google.com/rss/articles/CBMizgFBVV95cUxNcDJOa1UzNzBoX0VTMW54X2ZWWTBkTloyOHpHXzBSWFZsVFh1b3RGcFRvcV9aTnZkV1FKNFJSX29IOGQ2d2xJSW5SQmd4OGlFOG9pa1lfc2hvb3p1aXFycm0yMWtvblNTS2gta252andrLS15NFl4UlZYSW1RVlY2T2pHR3BBb0dXd093VWFTaG1wbmFaUkRQN0RHcFpYSkw3eVpINThWUUdwenc1V1ZmWmhJejBxcnRvSE5HUUd5TDVYSy1uc283dFlER0s5Zw?oc=5
   Agua (IDAAN):
     - 16/10 20:07 TVN Panamá: Temblor en Panamá: Idaan prevé normalizar gradualmente el suministro de agua en Chitré
       https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVo0ZGNlR0VXek44RWlqYTAxU2VOSmlaLTQ4YWFZYmpucWZuT1paZVl5YmtINTRHZ0lwQXVTY3Z5ZFNEOElaeHU3QmpXOWMxaFBjRXNZRVBHTzBkUWxQME5obmJ3Y25zUExCQjlYUDU3WDVJalN0QjFXY21qVmk1ZE1uR3d3UTJ0ajZudTZ3?oc=5
     - 16/10 19:43 www.tvn-2.com: Vídeo | Se normaliza suministro de agua tras afectaciones en la potabilizadora de Chitré
       https://news.google.com/rss/articles/CBMipgFBVV95cUxQaGx0aEhqVGFZZ05aVURyTExsbG5fRktNV0x0bkxCRU9Sc3lmSUtBaEhiT1NTM1NqV0drejdTRGRzd3R2cW5CUXBUa0VNNHR3azRKZUZTYlYyeTIyd1BuVjk3WFE2V0kwVmdtUXNlV1VmRERGQWx0Ymx0RDVNVlFMTE1sNnQtbldYNUpGaXBHQUc2NG9BSHRBcWZnSGVwSEU4WXEyc1hn?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
-    - 17/10 13:31 Infobae: El bolsillo no descansa en Panamá: gasolina, luz y comida empujaron el costo de vida en septiembre
-      https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVFI0Zjd4TmN6Tlk5LUNxa2o1Ymg2MERwLUFudndnT0VqUXNQUURZQkFrWkVQamhxLWs3Y05qV1U3NFFwYVRfcmt1YlNuWGNlNXNhdjhPMjNVWTB6dERHWUx5VW9EODQ5SXdRQ0MyTDRPcDlSenBuQWtiS0pPUm42VWxNVGd1aEdPRF9QWW5jeDFzLWxzbVduRlJMcFRhTnNQOFdfeGtRR2JlSUhicDdoSE0xcDhuTmZJbmlpb1lEUzlZeFJPWEV1ZjgzM0hYR3lqZzRjMEl30gHwAUFVX3lxTE5LcTBZTWFncjRQY0pud2lhY0Y0c3ZGckVQSGJvRkw0M1M4Q1lnNUN4MnA0OUo5dVROVzhHUGl0WTdBM2I1UXJFQXVXTV84T3NEd3VaZWxVempMaFpCWmFsTkQtT0tFeGhyOEFqOE90RWNxOTJaSlk1aEZOSTl0a1VPaGtjVlA4TE9EcnhBcE56T1JwUHN1STJ1RTFtYXFOMXY2ZzlxWHlVRTRuQjF2bXRkRzRuT19ha25yd3hKOHJ0bWtVUklkXzNJRzM4MXdxNEtEajFjTk9kNTI3QlRDdnVxZThOZDlYOVdWNjJsTDF1SQ?oc=5
     - 17/10 08:25 La Estrella de Panamá: Falla en planta de generación provoca apagón de 12 minutos en Panamá y Panamá Oeste
       https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVlRnbFVfblBnLV9OUnZLU0NRVVVmUXBfQ1BDN1dwbllZNEZNSWhkSkxxUUc0Mnc4Rmg0RHNYZjNYRE9YOEluaVdSTUQ0NTJvcWVCUXR4emVFT2RpenpnNTd3TXBvaFRqZXg0SXpFcXByNktkdENWVVhXLXVYSm5VX2dBSU5tNDlfVW91XzBSTWZwSnVRbkRrbjk1enN2bGh1d2hFMXVfS0t6b0l0R0V4VHlfZmx3YmFRUlZNVFVFMWRpQU10X1lwNm5RZWdvOWh1SC1Hbmd2d9IB3AFBVV95cUxQSDN5WjFWbUxJRFJhMnpiT1FzZVQ3Z3lTbDN4d1VJdjRYbzhWU2VoX2l0RHcwUnNPMzl0cG1PYnA2eFZKUmdnUzVacll1YUppcFFYZHZnVlRWUGlGdVdlU0s0X2NCbW54a3NjaWlFMGMwTG1HYUFoSlp4dmpxRWtBblVWVld5TVJKWVZXYXNlekxrUFBTamNZand3cFBSYUQyNmo2Wm5XVzlISWNnck5hcVBMWlMwQ2Znc3BHc1A4OGFTbS1USWtSSjJMZGJvdGFLRVdDRHZyMUhDTGUw?oc=5
+    - 16/10 20:51 El Momento Yucatán: NASA ofrece 2.7 millones de pesos por resolver un problema de electricidad estática en la Luna
+      https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLTZnZzVOcy0zSDc1aWR3MmNIQ3BrQmg0THR1cnI3bWNWc3FVX0h3cXp6NzVFYTZwa19jQnFtbWZacVprYmdaQ2Zxa3htVG1kVTUzemczaXl1cktFYVE4LXE3Ri1zeHVHU1hRQnc1cWtMRjEtZUhfTm5TRnVlQzNUWldidENxVmlkRklEbHZWcmNJTUthXzFfQ1E3eHVQbW5qOUtDeXY5TkpZQ01CX2hpZDZPdUtmeXpHSFhWeUY0VHM?oc=5
   Aeropuerto de Tocumen:
     - 17/10 14:19 Metro World News: Los 10 aeropuertos mejor conectados del mundo en 2026: Estambul lidera el ranking
       https://news.google.com/rss/articles/CBMizAFBVV95cUxOTDhIZDNadjdCcDJrd3JxbFB6Q0ZGbEE2cTR6X0VvWmgwdzhnbXpFREdoaEozaDBfdUoxNXNHekxXNDVwX2xkbTZUd3lLcGdvX2FkS3BUaTdWUWkyc2pkSzFLeEIxRzFtcFJPZGZuaHBUSDZvM2NIV0RtWDhXNlVuQ2hhZG1nOE83YWFvRDIwZnZaVlA5bWt4eHI1LWlrLVFyQkZpZTItbVhab0ZNV1hsODIzNU9pUlcxWVkyR2kwTWRaSWZ6SDJ4QWQxZUk?oc=5
@@ -55,6 +55,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 17/10 12:48 TVN Panamá: Más de 24 mil personas han sido evaluadas luego del sismo, informa Sinaproc
       https://news.google.com/rss/articles/CBMiwwFBVV95cUxNank4eGpCRWFRbDNRVGJjTi13YktDLUZWaDB4N3pkbDk1Tm13OHB6RDdQTmV1RVFYQ1h4am1qVUo3T2lqTWNlV3hRNG9XRFRaenVmRlJaWDhjejhndEFBUmFRZkFYby1JbkVSTHh1QWJUSm0ycnlZdzNIR3VLanpzQ0dGTWdlUVgxRDdRUU9wN2k1SmtiM183bTZ0S1BsSGJGR3NhbFhpSUVkSkRFOHNYanpIRFRhUWFlem5TMEg1Y0F4ajg?oc=5
   Daños y víctimas:
+    - 17/10 16:16 Telemetro: Centro de Salud de Veracruz cerrará este domingo tras incidente con arma de fuego que dejó dos heridos
+      https://news.google.com/rss/articles/CBMizwFBVV95cUxPLXlmSGlrd3pXeU0zQnFJY0FaeFhrRklyaUMyU243R3dpTmxlRGFjSHluZFRXX2lsRWJBeHNWbl9WSm94TVNMS1JSejVyN29YajllRDdBbExlRENGaGN5ZWpyakdnUGJVWXNQeWR1TDZ2MUZqNTVObFAtb2xJWW1sYTN0NmFZTVFqQktzbmdRc2tVZExESnJhN2VOWHJwaV94LWRGXzNtSjR4anFjWGVfUmFvanlaekEwZ3FZRTMwOFpodkNtQVljQzF5WmhGWlHSAc8BQVVfeXFMTy15Zkhpa3d6V3lNM0JxSWNBWnhYa0ZJcmlDMlNuN0d3aU5sZURhY0h5bmRUV19pbEViQXhzVm5fVkpveE1TTEtSUno1cjdvWGo5ZUQ3QWxMZURDRmhjeWVqcmpHZ1BiVVlzUHlkdUw2djFGajU1TmxQLW9sSVltbGEzdDZhWU1RakJLc25nUXNrVWRMREpyYTdlTlhycGlfeC1kRl8zbUo0eGpxY1hlX1Jhb2p5WnpBMGdxWUUzMDhaaHZDbUFZY0MxeVpoRlpR?oc=5
     - 17/10 09:37 El Economista: Sismo hoy 17 de octubre: temblor de magnitud 5.1 sacude Chiapas; ¿hay daños o alerta de tsunami?
       https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUEtM05pa2YxOFE3QlhhSThSVkd0RGdfN3o2OFRMV0hJU013NlVWRVh0X1hTT3N6dnMyVmhuZmkyT1U4by1GT25TdkNuSW5pd3lha2F6QnlUWjd0ZTZJbTJsZDIwNWhQaGhFaDJIYkVMV1RVSEFvc1JqU1EwZWRDWjhlbUE5OGV3aVF1UGRlZDlTZU9OZTZVeGp1amRlNmZvOTdoYnFmYV9mQzdRZ2FxVGo1NXduNkRvbEVDaUh1cVVDTy1xWFNDLUFrUkNOdlBUNWQ2MjRuOHNsdVHSAeABQVVfeXFMT1ZCUUhtWWxNZkE1ZEpURHltLWtsSk1DS1g5WU1UUE00WG1mdVA5Q3NFWVNWSXhPZjBHM2RqVkpkVjl4TnFHUlBxUmdIZndPWW9mZW5CSXVlcE02Z1poWUVYR2JpOE4tUzN1R05IQi1wN3RKU2xKTVFaM05TalZ6d3M3ZTExQ214UnBfenowUXRjTXV1NGJWTWx6SnhwcDR5VGZybGR3b0hWOE1hZ1lPSFBycFk2ekNXX0s3QVpia2k2ZE5Dd0RwaHByRUYxUlgtRkQ5REZLZHYxQXVpNXA3UTQ?oc=5
 
@@ -67,7 +69,7 @@ ACCIONES AHORA:
   16/10 17:41  M4.6  12 km SSE de Tebario  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 16:46 (automático)
+🔔 Sismo PA 17:25 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -104,10 +106,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T21%3A46%3A35&endtime=2026-10-17T21%3A46%3A35&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-16T22%3A25%3A44&endtime=2026-10-17T22%3A25%3A44&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 3.8 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 3.2 h; alerta solo con M5.5+, tsunami o reactivación
