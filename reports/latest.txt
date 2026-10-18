@@ -1,7 +1,7 @@
-Sismo PA 01:30: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 01:37: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 01:30 (18/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 204.6 h.
+SISMO PANAMÁ — informe de las 01:37 (18/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 204.7 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 1 de M3.5–4.4 | 10 h: 0 de M4.5+ y 1 de M3.5–4.4 | 18 h: 0 de M4.5+ y 2 de M3.5–4.4 | 24 h: 0 de M4.5+ y 2 de M3.5–4.4
@@ -31,8 +31,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Electricidad (ENSA, Naturgy, ETESA):
     - 17/10 21:17 Tvn Panamá: Restablecen suministro eléctrico en Isla Cañas tras daños causados por el sismo
       https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZ2lQaWIzVC1nbnJ3THRtNWxoMGlqQ1JTNmxQTW1YT3YwQl9PYTZTWE1CRlZ2MTBuR29HTHpSSWNqN1hPR0JBRHNORXNxQ3d5VnRSQ3N0bXdnZy1OZWhaYXAxWVFZQzRFZER1OWdyOEpFeDlCa0lkVzJLYUJDVjNwR3hzWEJqVVJ2Z3lZanNGQ3JPbHN0MVNrdmlxYWw0cXl5aTdWZmhDLWhMMDZ0aUpNaHFIMnNONU9wb0xZR1FyU0lreUkwcGV4OTZyVXR3dkJsQWfSAdcBQVVfeXFMTXNkRE1RQUZ2RVNiMkFNX3RsLUFmWXp4RmdxZ1hSSGw5WVRVdGpscnI2M0ZfMW40UTdSWkgtSkZrV1lNekd5bVliUFRoRHkzMG1XOVhFOXVkSjNLdWNzVndSbkpxZS1peTBfbHhRS2xObkNWd2RlWGpRbU9fRHFabV9rTGlLYlNZMFgwLVRCVUpzamFjZDVDckpIZU80WlJETG5ZQ0dyTXJiSDRRUWJTYVhTeDF1Q1paM2VtaGxQaWNxVFA1RlU4WkFGcVpybUg4ZWc5bGhBaWc?oc=5
-    - 17/10 14:29 Infobae: El bolsillo no descansa en Panamá: gasolina, luz y comida empujaron el costo de vida en septiembre
-      https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVFI0Zjd4TmN6Tlk5LUNxa2o1Ymg2MERwLUFudndnT0VqUXNQUURZQkFrWkVQamhxLWs3Y05qV1U3NFFwYVRfcmt1YlNuWGNlNXNhdjhPMjNVWTB6dERHWUx5VW9EODQ5SXdRQ0MyTDRPcDlSenBuQWtiS0pPUm42VWxNVGd1aEdPRF9QWW5jeDFzLWxzbVduRlJMcFRhTnNQOFdfeGtRR2JlSUhicDdoSE0xcDhuTmZJbmlpb1lEUzlZeFJPWEV1ZjgzM0hYR3lqZzRjMEl30gHwAUFVX3lxTE5LcTBZTWFncjRQY0pud2lhY0Y0c3ZGckVQSGJvRkw0M1M4Q1lnNUN4MnA0OUo5dVROVzhHUGl0WTdBM2I1UXJFQXVXTV84T3NEd3VaZWxVempMaFpCWmFsTkQtT0tFeGhyOEFqOE90RWNxOTJaSlk1aEZOSTl0a1VPaGtjVlA4TE9EcnhBcE56T1JwUHN1STJ1RTFtYXFOMXY2ZzlxWHlVRTRuQjF2bXRkRzRuT19ha25yd3hKOHJ0bWtVUklkXzNJRzM4MXdxNEtEajFjTk9kNTI3QlRDdnVxZThOZDlYOVdWNjJsTDF1SQ?oc=5
+    - 17/10 08:25 La Estrella de Panamá: Falla en planta de generación provoca apagón de 12 minutos en Panamá y Panamá Oeste
+      https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVlRnbFVfblBnLV9OUnZLU0NRVVVmUXBfQ1BDN1dwbllZNEZNSWhkSkxxUUc0Mnc4Rmg0RHNYZjNYRE9YOEluaVdSTUQ0NTJvcWVCUXR4emVFT2RpenpnNTd3TXBvaFRqZXg0SXpFcXByNktkdENWVVhXLXVYSm5VX2dBSU5tNDlfVW91XzBSTWZwSnVRbkRrbjk1enN2bGh1d2hFMXVfS0t6b0l0R0V4VHlfZmx3YmFRUlZNVFVFMWRpQU10X1lwNm5RZWdvOWh1SC1Hbmd2d9IB3AFBVV95cUxQSDN5WjFWbUxJRFJhMnpiT1FzZVQ3Z3lTbDN4d1VJdjRYbzhWU2VoX2l0RHcwUnNPMzl0cG1PYnA2eFZKUmdnUzVacll1YUppcFFYZHZnVlRWUGlGdVdlU0s0X2NCbW54a3NjaWlFMGMwTG1HYUFoSlp4dmpxRWtBblVWVld5TVJKWVZXYXNlekxrUFBTamNZand3cFBSYUQyNmo2Wm5XVzlISWNnck5hcVBMWlMwQ2Znc3BHc1A4OGFTbS1USWtSSjJMZGJvdGFLRVdDRHZyMUhDTGUw?oc=5
   Aeropuerto de Tocumen:
     - 18/10 00:18 Aviation Club Center: El aeropuerto de Tocumen supera los 17 millones de pasajeros y aumenta su conectividad
       https://news.google.com/rss/articles/CBMizAFBVV95cUxNdkhDaWE1TFdOVm1DYzR0aUlZRWtvUWFzVEMwTmN5T0dzX09pQ3JpODluM192RHJoSV9yd3N5TkNfUEUtTDU1MndmWjJUUnpqdlQ2aWlnTG9aRWNzWHVweGJqcEdfc2lfaTJRRktUUGN0YVpTaTlqLVRXdlJOa0pvRXBTTGNsa2gycGhxeGJRLTUxMmIydUQ0S0t1clJqZldjeERyb1kxZDRVVUU5bXhLUGU4M19YTTdfWjJVb29GakQ4cko4SWZiOFE5OXE?oc=5
@@ -65,7 +65,7 @@ ACCIONES AHORA:
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 01:30 (automático)
+🔔 Sismo PA 01:37 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -102,10 +102,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T06%3A30%3A47&endtime=2026-10-18T06%3A30%3A47&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T06%3A37%3A45&endtime=2026-10-18T06%3A37%3A45&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 1.0 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 0.8 h; alerta solo con M5.5+, tsunami o reactivación
