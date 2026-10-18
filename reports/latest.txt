@@ -1,7 +1,7 @@
-Sismo PA 12:16: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 12:27: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 12:16 (18/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 215.3 h.
+SISMO PANAMÁ — informe de las 12:27 (18/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 215.5 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 0 de M4.5+ y 2 de M3.5–4.4 | 24 h: 0 de M4.5+ y 2 de M3.5–4.4
@@ -29,10 +29,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 18/10 00:11 La Prensa Panamá: Bella Vista, sin agua constante y con 868 nuevos apartamentos en construcción
       https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1pdVNfdlJUbE5vZllaT2Y1QUdldUxhWjlPbjd2Q1d4clBSRHZtLWpMaVhBZ1RNNGdiQVdWaXNhYzFicWtRSmh3ZHBPbjFXWHV2dXFRUmhyRjZhZ1dNSDFFdC1ndksxX19hWW5uc1hISFpjOUpZTTNfYUIyb0I1M2RwWnE5Uy1lYmxYaUZ3cklvdWttSDJLSVRTV3FqNGcwUHZ4eGJRam92VF9XaWc?oc=5
   Electricidad (ENSA, Naturgy, ETESA):
+    - 18/10 12:19 Destino Panamá: Naturgy se solidariza con las familias afectadas por el sismo en Azuero
+      https://news.google.com/rss/articles/CBMirgFBVV95cUxOM3F0RHR6ekprbGlOdVRoWFBzSlVJMUV5WmZ6TTBfTFJuazRMRmpiRERhWDUzS3VMa1h2Z2w0X0RELXRjY2lrQW1laExfLThUZ1o5UklpZGNCTzAtYU1KYVJuOHdrQzV1N0ZteWlkbktTb2tnWGtwWkhtRHdnbkpZZVlrM3pvbVloOENVLVBxcHFCR2o5N1ZwSmFmX1Nid3pLQ2FjbnNvTEtEelo0enc?oc=5
     - 18/10 09:32 Destino Panamá: Naturgy restablece el suministro eléctrico en Isla Cañas tras reparar cable submarino dañado por el sismo
       https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLWo4c0dXajFvZ01qY0YxSllrV3hiZkwtb3lYYkZpbjFUejJsOGpUSjVEbkNrbENGY3NqT3NrUGZZM2s0MHgzZWFmaU5ibkxUU3dINEluejZLMkJTVDc4aG9sYnd5MHR0WGkxelM2SDRVSllGcWs4dlFldDNBZFA2WVd3M1JtbVJOdlBucU82eUZJN19hazVOZjhRQURzRkpDQ1BYd2lOcV9sU0dfbXgtUXhFMFJpOGxudTlOZ2Nib3dMQ2ZHRWluTUNGQmJNMjItNzMtVElMUHVkZmc?oc=5
-    - 18/10 09:02 La Estrella de Panamá: Restablecen energía en Isla Cañas tras nueve días de interrupción por sismo
-      https://news.google.com/rss/articles/CBMizAFBVV95cUxQRDZXTnhnN0RGN1dfQTN2cXNlSXpOelI0NW5PTW92QS0tSFJncHZzbUdkb1MzbnNQTExwVUx1VWhVbUxIR2xIRXRqakc2Z3hNTHBISXEybWdodEN0WFVBRy1pT25MUDFKLUVCektfN1dGSGM5Z1R3S1FRNWFEZHQ1MXdQZTF6cUlVMW5yWjlIVkNqV3RzNnVnaUJWSlhHTklFNTMycl9Ca0ZpODNzUVFQaEJtY2hOS1BMaGdLQzdLOUtxa1UwMkdhTVRvTzPSAdIBQVVfeXFMTVQtenlXSDdQQnQ3aDF2ZlQ4Q2pqQnlhVzA2cmtldmZFSzZET20zcVRwMEVmRTFVRXFvOS1ZVGdKSHpadUpNY2RsajJGYndleURLYlRJODdNYldOS21iTkhmc2tfS1JpV0lxN210N2lld2ItNkU2dEpBTWJ1WnRjUlU1dThUaE9jN1RTVzFqYzlCZ2JJWFpTVUdUYjhwNkJZa2FMcUtKNndzOE8xWjhCS0QxR0IycmZ3LTNJWVB1TXdneVNGYWtOUGNtY3lyUDlGaWxn?oc=5
   Aeropuerto de Tocumen:
     - 18/10 10:19 Blu Radio: Ciudadano colombiano con circular roja de Interpol fue detectado en aeropuerto de Tocumen en Panamá
       https://news.google.com/rss/articles/CBMi4gFBVV95cUxQc253Um56RzU2Z21aVGRLYnBxWWhCRUZDYUZ4TlduOXJrVkJNdnNLdE52OEpwa0VKSWc4d2xsRnRFcjB5R3Q0Y29yRlQ5Y2FqWkd3cjFjQmd5TklUUS1PS2lhaU9jeV91bjdrc2M5Z3VkQTdCRXJrcndHbHMwYnFLNjJ6aHhfM2xGdWNYb3p1d3l4VmdfR3Z2T1pfVWI1YkpIOUpSMElvYUlna2RTQjFVMWZIS01BMGlzekNtT29aQ19pdTFEbkotR01pQjFTQlMwamFIbVl1SGhLNEhHbGJ2NW13?oc=5
@@ -53,7 +53,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 18/10 11:16 Telemetro: Sinaproc ha evaluado 3,268 viviendas en Los Santos, prioriza las comunidades con casas derrumbadas
       https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbWMyOEdFUkl0bzBVY2dPSHZaVlBzZmxhRDdiaWEzVVV5SHJ6OGZZMnJhYl9XM04tak1vQTdxMmVCcE1YT05GaFhsUVUzNk9hRnV1dmwxZFgtQWMycFpoN0toV01yMWRVWGppOGF1V044YUNtdTZKQnlLY2tsRkZXYWMxR25FSlBodUNybUpCSUYyM3VJQ0hhWUNhamxfalZCSDNLV3MtS25YYll4ZnR2UmVnUF8xdWFLRGNnem1ZZWJYY0ZhVngyOG5yRmlLQ3o10gHWAUFVX3lxTE53VnNQRDE3NlYyanFjQXlkSndRbUR0S21iQTQyWGo2bVBaQzJYVTh3U1MzbUE1YWRraUhrV29CdFFEelRGSEtTTnFrTHU0N2xBdWo4b1ZiSDlGSmg3SWZRTE1KSXlBc25FQzZyNXptTDJuNV9lcG1NNmdLTGxKZDhmTm9wMHdxMF9YTlhZWmZsNVcwT2NVZHlxUHV3bnhYLXNQV2JHYjV3eUw3QlR4d2U5Z0R3Sk5WSjZvSFBhY0NmWV9seHMzUGVBSWpFa2tDU2NkNjhPS0E?oc=5
     - 18/10 11:00 La Estrella de Panamá: Sinaproc extiende alerta nacional por lluvias hasta el 21 de octubre
-      https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdTlXdkF2RDd2TUktXzhaZS03NTVkYldsZmxvQ1RiWGZTdDRURll3OWJpQWo4MXhvOUpYMDRaT3pQdDlhQ1d4Rmp6WFdzZWRSNFlBc1hfVzFqMDV1VVpBMlM0YVJVMlBuRlVzUDJLckJZRnladEdKa2JiT2trM3VNazVTOFhNMWU3QWk3OWlodWFodFIzTkxwd0FjTVQ3WWMxY2FCQXRJVDZhOGplSmpGVHV0R1VZTWgwTDh4aHpwY3BnMkpHUEtmY9IByAFBVV95cUxNdTlXdkF2RDd2TUktXzhaZS03NTVkYldsZmxvQ1RiWGZTdDRURll3OWJpQWo4MXhvOUpYMDRaT3pQdDlhQ1d4Rmp6WFdzZWRSNFlBc1hfVzFqMDV1VVpBMlM0YVJVMlBuRlVzUDJLckJZRnladEdKa2JiT2trM3VNazVTOFhNMWU3QWk3OWlodWFodFIzTkxwd0FjTVQ3WWMxY2FCQXRJVDZhOGplSmpGVHV0R1VZTWgwTDh4aHpwY3BnMkpHUEtmYw?oc=5
+      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUjFtU3dtUWZyLV8temxuOUdpWmJRQWgzSDFNSVZQbkE4OW5NRjB5YmJsTEYwSXZwQ2VhbmRJR0RmZURweE54UDNNeWM4WTd3WV9jcU04WjBWMzBFTDJaN2w2M2g5YUs0ZlNzRXZVdmdzdU4tZ25XUmh5bkxrbkdYcUl4TmRabHdTcGo3djlHeVdWZjRaUnREOWtYSW9ubFgzMnRLLUR6bml4dGRyLWRMdDk1eFB2RHJwdTBlMkhkdWFudGfSAcgBQVVfeXFMTXU5V3ZBdkQ3dk1JLV84WmUtNzU1ZGJXbGZsb0NUYlhmU3Q0VEZZdzliaUFqODF4bzlKWDA0Wk96UHQ5YUNXeEZqelhXc2VkUjRZQXNYX1cxajA1dVVaQTJTNGFSVTJQbkZVc1AyS3JCWUZ5WnRHSmtiYk9razN1TWs1UzhYTTFlN0FpNzlpaHVhaHRSM05McHdBY01UN1ljMWNhQkF0SVQ2YThqZUpqRlR1dEdVWU1oMEw4eGh6cGNwZzJKR1BLZmM?oc=5
   Daños y víctimas: sin titulares específicos en las últimas horas.
 
 ACCIONES AHORA:
@@ -65,7 +65,7 @@ ACCIONES AHORA:
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 12:16 (automático)
+🔔 Sismo PA 12:27 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -102,10 +102,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T17%3A16%3A57&endtime=2026-10-18T17%3A16%3A57&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T17%3A27%3A05&endtime=2026-10-18T17%3A27%3A05&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.0 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 1.8 h; alerta solo con M5.5+, tsunami o reactivación
