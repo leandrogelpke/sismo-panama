@@ -1,7 +1,7 @@
-Sismo PA 13:47: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 15:50: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 13:47 (18/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 216.9 h.
+SISMO PANAMÁ — informe de las 15:50 (18/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 218.9 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 1 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 2 de M3.5–4.4 | 24 h: 1 de M4.5+ y 2 de M3.5–4.4
@@ -41,19 +41,19 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
     - 18/10 12:40 Destino Panamá: MOP atenderá talud con socavación cercano a escuela de Alto La Gloria tras sismo
       https://news.google.com/rss/articles/CBMiugFBVV95cUxQSVl6UnFXYjBlV3E5U2lQUWg5U3Z2eDVOSEpWODRLZVRhdzF1MlVBdmRZT0tsaFZTRUxLZU5QVWVSWTVrT3FNVUJPQzdoMzVsVmxXMlhVLTc2SGt2d1UxODhMT1QxRlpEY0N4Ql8ta1ZBWGxYYUhZYnY0dzcta000V3VRWTdYdDJrTWQ0MTFlMjlTSXMzbFoxcnFuTnFjU08yQUtWWjR3VHNzdmNfeTBna2F6cGE4RXplMXc?oc=5
-    - 17/10 18:06 La Estrella de Panamá: MOP confirma paso habilitado hacia Tonosí y detalla rutas disponibles
-      https://news.google.com/rss/articles/CBMiygFBVV95cUxPVUgyeVhYQU5SRDFFSHFMdm9DUTc1Rmozc0Z0c2x4VzdlRmJvV3hlSkluVDNmVWtBQVVVYUYtYjU3Z2JOVGg2dXFHTDhjLTJDdnpsRWJPTkZtcFIwcUFhZm1iTEZMeU1ubmlrV3ZTSjJOWTlhZmJ6bEE1YXQ1RFVGaTRNUVRVLWlfaHppRk1EZkkzM3ZrLUVBZFBHM2w3eUl3VUd0V3ZZcWNaZ0xyMktmdkd1WDNtOVRHODMwRUtaOGZtZFJjVzUwV1VB0gHKAUFVX3lxTE9VSDJ5WFhBTlJEMUVIcUx2b0NRNzVGajNzRnRzbHhXN2VGYm9XeGVKSW5UM2ZVa0FBVVVhRi1iNTdnYk5UaDZ1cUdMOGMtMkN2emxFYk9ORm1wUjBxQWFmbWJMRkx5TW5uaWtXdlNKMk5ZOWFmYnpsQTVhdDVEVUZpNE1RVFUtaV9oemlGTURmSTMzdmstRUFkUEczbDd5SXdVR3RXdllxY1pnTHIyS2Z2R3VYM205VEc4MzBFS1o4Zm1kUmNXNTBXVUE?oc=5
+    - 18/10 12:09 El Comercio Perú: Entrenadores coinciden: “A los 60 años, el puente de glúteos es el mejor ejercicio para fortalecer la cadera si sobrecargar la espalda”
+      https://news.google.com/rss/articles/CBMiowJBVV95cUxQTzZtQ3dJZGUtendnc1J2cTBZemV1eHliNFpTR1RrVE5qU2FyX0NUWDhCdW9tRmFUMHZnMFFOQ3d0ZjlROGpxQ3U1dzlQdmQ2TkcxT0x6SDYyZDFfQWhsaXQxOGtXMW13eVFSdHM2TmJOM2RKMHNlNmx4MklEelEtRU8ydFZIWmpXVDZrX2ZOeGJhUjV1NnR3cnEtWGdmRlJhNXd5OWF0V2ppM3JYQzNvbjR1cjZCek5BS2JYWkdEWkQ5V3owU3hzRzg4XzNnRUNSZkExNk9RTkJ0dzRCVEY5U25nYTBaLUpIZUdxb2ZJYm93WlFoU2tpa21FNWU3VTYtUy11MmxsUTNkYnVlMWNOMnFOanJaNy14V085NDluaEtmT2fSAaMCQVVfeXFMUE82bUN3SWRlLXp3Z3NSdnEwWXpldXh5YjRaU0dUa1ROalNhcl9DVFg4QnVvbUZhVDB2ZzBRTkN3dGY5UThqcUN1NXc5UHZkNk5HMU9Mekg2MmQxX0FobGl0MThrVzFtd3lRUnRzNk5iTjNkSjBzZTZseDJJRHpRLUVPMnRWSFpqV1Q2a19mTnhiYVI1dTZ0d3JxLVhnZkZSYTV3eTlhdFdqaTNyWEMzb240dXI2QnpOQUtiWFpHRFpEOVd6MFN4c0c4OF8zZ0VDUmZBMTZPUU5CdHc0QlRGOVNuZ2EwWi1KSGVHcW9mSWJvd1pRaFNraWttRTVlN1U2LVMtdTJsbFEzZGJ1ZTFjTjJxTmpyWjcteFdPOTQ5bmhLZk9n?oc=5
   Metro y transporte: sin titulares específicos en las últimas horas.
   Escuelas (MEDUCA):
     - 17/10 20:28 Radio Mitre: Sismo en Panamá: padres reclamaron una nueva inspección en una escuela con daños estructurales
       https://news.google.com/rss/articles/CBMi3AFBVV95cUxQREtiTVhCUTJTNVJ4b3pKTjJhQXowX0Qwc2NKR2VBUmlOVWUzendtcWlIY29SVHVtMm54cHg3cU5OVTVFbUVmUXdDdFBzZXhRVlZ2TkcySjFyTkoyVkZVS05sZmZlTnd0eS13Z1A0dFNJZ2lqZm94TG1fY29ZUWdoaUloWlMzU0pZUmxBbVRrWS1ueW96YnExR0xKVV9Xa0NVRldjQ2UzcWhqVklzdDN6Mk5kMzRZNzlld2RGSzB4dGtyUUtxZndULWVtek10cGFnQV9Td28zRXZ3Y21L?oc=5
-    - 17/10 16:10 Día a Día: Padres de familia exigen nueva inspección técnica en colegio de La Chorrera tras sismo
-      https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcnpUWTB0bjVnNnRUU1ppVDFra0Y4a3RXVTlLbUFCRldtS1JBbVUyZllsQWZpTUhkWGhheDFQX2tBNnUzV1k2TXJhVnNDLVFDdHlfMWVFRzQwcjgwWUVqODdyVk9Dbld3RDNVQUF3bE5ORUcxeWx2RmhRZEhpeUZyNDBhSUZtbDl1Zzl2bnJqaTUwTUNEaG4tcXVoYjlvTGFycjNXdkNUT2xNazhkU0JjNEExMnFHMlBmSGRHLVRRT0Q5Z9IBwgFBVV95cUxPcnpUWTB0bjVnNnRUU1ppVDFra0Y4a3RXVTlLbUFCRldtS1JBbVUyZllsQWZpTUhkWGhheDFQX2tBNnUzV1k2TXJhVnNDLVFDdHlfMWVFRzQwcjgwWUVqODdyVk9Dbld3RDNVQUF3bE5ORUcxeWx2RmhRZEhpeUZyNDBhSUZtbDl1Zzl2bnJqaTUwTUNEaG4tcXVoYjlvTGFycjNXdkNUT2xNazhkU0JjNEExMnFHMlBmSGRHLVRRT0Q5Zw?oc=5
+    - 17/10 16:06 Día a Día: Padres de familia exigen nueva inspección técnica en colegio de La Chorrera tras sismo
+      https://news.google.com/rss/articles/CBMivAFBVV95cUxOcXRnamlVRzFzUUV0QmtSSjVzcm0tMXZOVHdBb29jaGk0NTlCN1AwSmU5ZUZRRFBMQkVzSmotcTU5a3pRSFl5UmpUNkhhZm1TRnp1Y08wQkRCRzBOUDRrNTYzZkJoWkV6QnBJQW1kOWxXSGNfSnVTWjBuWC03eDdIeFJ3U3FmUzc4WFR2T2xiWmF6eEx1dzlibElEdGplNTFaRzk3R0Z0enk1S1NvWEZoR092ME85aTFUYWFaedIBwgFBVV95cUxPcnpUWTB0bjVnNnRUU1ppVDFra0Y4a3RXVTlLbUFCRldtS1JBbVUyZllsQWZpTUhkWGhheDFQX2tBNnUzV1k2TXJhVnNDLVFDdHlfMWVFRzQwcjgwWUVqODdyVk9Dbld3RDNVQUF3bE5ORUcxeWx2RmhRZEhpeUZyNDBhSUZtbDl1Zzl2bnJqaTUwTUNEaG4tcXVoYjlvTGFycjNXdkNUT2xNazhkU0JjNEExMnFHMlBmSGRHLVRRT0Q5Zw?oc=5
   Sinaproc / autoridades:
+    - 18/10 11:48 Telemetro: Sismo en Panamá | Sinaproc cumple 10 días de operaciones ininterrumpidas
+      https://news.google.com/rss/articles/CBMirwFBVV95cUxNanpkSE1aMm5SajU3OEFTaTBWYXNvS0x2YUxMcHNVNk81YlNBQXhDRFBiMWp4UGNlTXNkYjJsRlhQUmRzc3ZhZWJhWWFPV2tHOGxvNUJLbHJYTktPVDBqVk5LcVlEbUQyYmxicVR2aFhKZk5EU2RPTlJFWFNOZVN3MWhvTk1tT3dWei1QaHRXWVFfOEJZeldBUS1GNlUtWUg3S2ROcVVocUQ3TEdDSkxv0gG0AUFVX3lxTE0xTG1wX01YZW9QN3lkUTdNajl6cUtRNzZVc0Y0S1hwQVI4UkU2ZS1DOFlpb1N5OVU0TjZuWC0ta1QtaGRlWXlrV1IyY0pUQm5uX1ZKQmZ6QTFVQ2U5Z3BYNnAyeEFpNlgwUXBSR0QwVlFvbEVpUGJiS3g1SzhvdXpublV0REQxSi1SS3VWT0haZ3dqa3N4SU1ONDcwNldHQUJhLU9kd09yNFJadWhjZ2N4bWk2UA?oc=5
     - 18/10 11:16 Telemetro: Sinaproc ha evaluado 3,268 viviendas en Los Santos, prioriza las comunidades con casas derrumbadas
       https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbWMyOEdFUkl0bzBVY2dPSHZaVlBzZmxhRDdiaWEzVVV5SHJ6OGZZMnJhYl9XM04tak1vQTdxMmVCcE1YT05GaFhsUVUzNk9hRnV1dmwxZFgtQWMycFpoN0toV01yMWRVWGppOGF1V044YUNtdTZKQnlLY2tsRkZXYWMxR25FSlBodUNybUpCSUYyM3VJQ0hhWUNhamxfalZCSDNLV3MtS25YYll4ZnR2UmVnUF8xdWFLRGNnem1ZZWJYY0ZhVngyOG5yRmlLQ3o10gHWAUFVX3lxTE53VnNQRDE3NlYyanFjQXlkSndRbUR0S21iQTQyWGo2bVBaQzJYVTh3U1MzbUE1YWRraUhrV29CdFFEelRGSEtTTnFrTHU0N2xBdWo4b1ZiSDlGSmg3SWZRTE1KSXlBc25FQzZyNXptTDJuNV9lcG1NNmdLTGxKZDhmTm9wMHdxMF9YTlhZWmZsNVcwT2NVZHlxUHV3bnhYLXNQV2JHYjV3eUw3QlR4d2U5Z0R3Sk5WSjZvSFBhY0NmWV9seHMzUGVBSWpFa2tDU2NkNjhPS0E?oc=5
-    - 18/10 11:00 La Estrella de Panamá: Sinaproc extiende alerta nacional por lluvias hasta el 21 de octubre
-      https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdTlXdkF2RDd2TUktXzhaZS03NTVkYldsZmxvQ1RiWGZTdDRURll3OWJpQWo4MXhvOUpYMDRaT3pQdDlhQ1d4Rmp6WFdzZWRSNFlBc1hfVzFqMDV1VVpBMlM0YVJVMlBuRlVzUDJLckJZRnladEdKa2JiT2trM3VNazVTOFhNMWU3QWk3OWlodWFodFIzTkxwd0FjTVQ3WWMxY2FCQXRJVDZhOGplSmpGVHV0R1VZTWgwTDh4aHpwY3BnMkpHUEtmY9IByAFBVV95cUxNdTlXdkF2RDd2TUktXzhaZS03NTVkYldsZmxvQ1RiWGZTdDRURll3OWJpQWo4MXhvOUpYMDRaT3pQdDlhQ1d4Rmp6WFdzZWRSNFlBc1hfVzFqMDV1VVpBMlM0YVJVMlBuRlVzUDJLckJZRnladEdKa2JiT2trM3VNazVTOFhNMWU3QWk3OWlodWFodFIzTkxwd0FjTVQ3WWMxY2FCQXRJVDZhOGplSmpGVHV0R1VZTWgwTDh4aHpwY3BnMkpHUEtmYw?oc=5
   Daños y víctimas:
     - 18/10 05:33 Impacto Castex: Un ex Gran Hermano fue víctima del terremoto en Panamá: "Que se termine ya"
       https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4d0pnTDVTelR1ZjhsNXNuZVFlWWQ5Nl9CMXB0eXNtdTJ3b2luYmJfNlo5MUZBNFc1Q05OMXNzVG9FcHAyckxyZGFOc3VfUjdJVHhaLWNLdnA?oc=5
@@ -67,7 +67,7 @@ ACCIONES AHORA:
   18/10 11:12  M4.5  0 km NE de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 13:47 (automático)
+🔔 Sismo PA 15:50 (automático)
 Última hora: ningún temblor M3.5+ registrado.
 Réplicas M4.5+ en las últimas: 1 h → 0 · 5 h → 1 · 10 h → 1 · 18 h → 1 · 24 h → 1. Tendencia: en descenso (0 M4.5+ en la última hora vs 0.2/h en las 4 anteriores). Mayor réplica hasta ahora: M6.6 a las 15:25.
 Desde el principal (M7.7, 12:56): 16 réplicas M5+, 3 M6+.
@@ -110,8 +110,8 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T18%3A47%3A57&endtime=2026-10-18T18%3A47%3A57&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T20%3A50%3A45&endtime=2026-10-18T20%3A50%3A45&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
-ENVÍO: e-mail: omitido (faltan GMAIL_USER/GMAIL_APP_PASSWORD/MAIL_TO) | whatsapp: omitido (sin CALLMEBOT_RECIPIENTS) | telegram: Sismo Panama - reportes: ok + pdf | chats privados omitidos (hay grupo; TELEGRAM_ALSO_PRIVATE=1 para enviar a ambos) | motivo: informe regular
+ENVÍO: no enviado — próximo informe regular en 1.0 h; alerta solo con M5.5+, tsunami o reactivación
