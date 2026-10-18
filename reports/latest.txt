@@ -1,20 +1,20 @@
-Sismo PA 11:06: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 11:16: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 11:06 (18/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 214.2 h.
+SISMO PANAMÁ — informe de las 11:16 (18/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 214.3 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
-  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 1 de M3.5–4.4 | 18 h: 0 de M4.5+ y 2 de M3.5–4.4 | 24 h: 0 de M4.5+ y 3 de M3.5–4.4
+  1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 0 de M4.5+ y 2 de M3.5–4.4 | 24 h: 0 de M4.5+ y 3 de M3.5–4.4
   Acumulado desde el principal: 67 M4.5+ | 16 M5+ | 3 M6+. Mayor réplica: M6.6 a las 09/10 15:25, 12 km W de Río Grande.
 TENDENCIA: EN DESCENSO — 0 M4.5+ en la última hora vs 0.0/h en las 4 anteriores.
 
-PRONÓSTICO [pronóstico oficial USGS emitido 17/10 10:56] — fuente: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast:
+PRONÓSTICO [pronóstico oficial USGS emitido 18/10 11:11] — fuente: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast:
   La probabilidad de una réplica fuerte BAJA con los días. Probabilidad POR DÍA (cálculo de este monitor a partir del pronóstico oficial USGS):
-  M5+ (leve o no se siente en la capital): próximas 24 h: 20 % → días 2–7: 14 % por día → días 8–31: 5.5 % por día
-  M6+ (se sentiría en la capital): próximas 24 h: 2.4 % → días 2–7: 1.7 % por día → días 8–31: 0.8 % por día
+  M5+ (leve o no se siente en la capital): próximas 24 h: 18 % → días 2–7: 12 % por día → días 8–31: 5.4 % por día
+  M6+ (se sentiría en la capital): próximas 24 h: 2.1 % → días 2–7: 1.6 % por día → días 8–31: 0.7 % por día
   M7+ (poco probable; sería fuerte): próximas 24 h: 0.2 % → días 2–7: 0.2 % por día → días 8–31: 0.1 % por día
   Cuántas se esperan en total (mediana y rango 95 % del USGS): M5+: 24 h 0 (rango 0–2), 7 días 1 (rango 0–5), 30 días 3 (rango 0–11) · M6+: 24 h 0 (rango 0–0), 7 días 0 (rango 0–1), 30 días 0 (rango 0–2)
-  Acumulado — probabilidad de AL MENOS UNA en todo el período (crece solo porque el plazo es más largo, no porque el riesgo suba): M6+: 7 días 12 %, 30 días 27 % · M7+: 7 días 1 %, 30 días 3 %
+  Acumulado — probabilidad de AL MENOS UNA en todo el período (crece solo porque el plazo es más largo, no porque el riesgo suba): M6+: 7 días 11 %, 30 días 25 % · M7+: 7 días 1 %, 30 días 3 %
   Lectura: la cantidad de réplicas cae aproximadamente con 1/tiempo desde el principal; la mayor réplica típica para un M7.7 ronda M6.5, y queda una probabilidad pequeña pero no nula de un evento igual o mayor.
 
 SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; la ausencia de noticias NO confirma que un servicio esté normal):
@@ -31,8 +31,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Electricidad (ENSA, Naturgy, ETESA):
     - 18/10 09:32 Destino Panamá: Naturgy restablece el suministro eléctrico en Isla Cañas tras reparar cable submarino dañado por el sismo
       https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLWo4c0dXajFvZ01qY0YxSllrV3hiZkwtb3lYYkZpbjFUejJsOGpUSjVEbkNrbENGY3NqT3NrUGZZM2s0MHgzZWFmaU5ibkxUU3dINEluejZLMkJTVDc4aG9sYnd5MHR0WGkxelM2SDRVSllGcWs4dlFldDNBZFA2WVd3M1JtbVJOdlBucU82eUZJN19hazVOZjhRQURzRkpDQ1BYd2lOcV9sU0dfbXgtUXhFMFJpOGxudTlOZ2Nib3dMQ2ZHRWluTUNGQmJNMjItNzMtVElMUHVkZmc?oc=5
-    - 17/10 21:21 Tvn Panamá: Restablecen suministro eléctrico en Isla Cañas tras daños causados por el sismo
-      https://news.google.com/rss/articles/CBMi1wFBVV95cUxNc2RETVFBRnZFU2IyQU1fdGwtQWZZenhGZ3FnWFJIbDlZVFV0amxycjYzRl8xbjRRN1JaSC1KRmtXWU16R3ltWWJQVGhEeTMwbVc5WEU5dWRKM0t1Y3NWd1JuSnFlLWl5MF9seFFLbE5uQ1Z3ZGVYalFtT19EcVptX2tMaUtiU1kwWDAtVEJVSnNqYWNkNUNySkhlTzRaUkRMbllDR3JNcmJINFFRYlNhWFN4MXVDWlozZW1obFBpY3FUUDVGVThaQUZxWnJtSDhlZzlsaEFpZ9IB1wFBVV95cUxNc2RETVFBRnZFU2IyQU1fdGwtQWZZenhGZ3FnWFJIbDlZVFV0amxycjYzRl8xbjRRN1JaSC1KRmtXWU16R3ltWWJQVGhEeTMwbVc5WEU5dWRKM0t1Y3NWd1JuSnFlLWl5MF9seFFLbE5uQ1Z3ZGVYalFtT19EcVptX2tMaUtiU1kwWDAtVEJVSnNqYWNkNUNySkhlTzRaUkRMbllDR3JNcmJINFFRYlNhWFN4MXVDWlozZW1obFBpY3FUUDVGVThaQUZxWnJtSDhlZzlsaEFpZw?oc=5
+    - 18/10 09:02 La Estrella de Panamá: Restablecen energía en Isla Cañas tras nueve días de interrupción por sismo
+      https://news.google.com/rss/articles/CBMizAFBVV95cUxQRDZXTnhnN0RGN1dfQTN2cXNlSXpOelI0NW5PTW92QS0tSFJncHZzbUdkb1MzbnNQTExwVUx1VWhVbUxIR2xIRXRqakc2Z3hNTHBISXEybWdodEN0WFVBRy1pT25MUDFKLUVCektfN1dGSGM5Z1R3S1FRNWFEZHQ1MXdQZTF6cUlVMW5yWjlIVkNqV3RzNnVnaUJWSlhHTklFNTMycl9Ca0ZpODNzUVFQaEJtY2hOS1BMaGdLQzdLOUtxa1UwMkdhTVRvTzPSAdIBQVVfeXFMTVQtenlXSDdQQnQ3aDF2ZlQ4Q2pqQnlhVzA2cmtldmZFSzZET20zcVRwMEVmRTFVRXFvOS1ZVGdKSHpadUpNY2RsajJGYndleURLYlRJODdNYldOS21iTkhmc2tfS1JpV0lxN210N2lld2ItNkU2dEpBTWJ1WnRjUlU1dThUaE9jN1RTVzFqYzlCZ2JJWFpTVUdUYjhwNkJZa2FMcUtKNndzOE8xWjhCS0QxR0IycmZ3LTNJWVB1TXdneVNGYWtOUGNtY3lyUDlGaWxn?oc=5
   Aeropuerto de Tocumen:
     - 18/10 10:19 Blu Radio: Ciudadano colombiano con circular roja de Interpol fue detectado en aeropuerto de Tocumen en Panamá
       https://news.google.com/rss/articles/CBMi4gFBVV95cUxQc253Um56RzU2Z21aVGRLYnBxWWhCRUZDYUZ4TlduOXJrVkJNdnNLdE52OEpwa0VKSWc4d2xsRnRFcjB5R3Q0Y29yRlQ5Y2FqWkd3cjFjQmd5TklUUS1PS2lhaU9jeV91bjdrc2M5Z3VkQTdCRXJrcndHbHMwYnFLNjJ6aHhfM2xGdWNYb3p1d3l4VmdfR3Z2T1pfVWI1YkpIOUpSMElvYUlna2RTQjFVMWZIS01BMGlzekNtT29aQ19pdTFEbkotR01pQjFTQlMwamFIbVl1SGhLNEhHbGJ2NW13?oc=5
@@ -50,6 +50,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
     - 17/10 16:10 Día a Día: Padres de familia exigen nueva inspección técnica en colegio de La Chorrera tras sismo
       https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcnpUWTB0bjVnNnRUU1ppVDFra0Y4a3RXVTlLbUFCRldtS1JBbVUyZllsQWZpTUhkWGhheDFQX2tBNnUzV1k2TXJhVnNDLVFDdHlfMWVFRzQwcjgwWUVqODdyVk9Dbld3RDNVQUF3bE5ORUcxeWx2RmhRZEhpeUZyNDBhSUZtbDl1Zzl2bnJqaTUwTUNEaG4tcXVoYjlvTGFycjNXdkNUT2xNazhkU0JjNEExMnFHMlBmSGRHLVRRT0Q5Z9IBwgFBVV95cUxPcnpUWTB0bjVnNnRUU1ppVDFra0Y4a3RXVTlLbUFCRldtS1JBbVUyZllsQWZpTUhkWGhheDFQX2tBNnUzV1k2TXJhVnNDLVFDdHlfMWVFRzQwcjgwWUVqODdyVk9Dbld3RDNVQUF3bE5ORUcxeWx2RmhRZEhpeUZyNDBhSUZtbDl1Zzl2bnJqaTUwTUNEaG4tcXVoYjlvTGFycjNXdkNUT2xNazhkU0JjNEExMnFHMlBmSGRHLVRRT0Q5Zw?oc=5
   Sinaproc / autoridades:
+    - 18/10 11:00 La Estrella de Panamá: Sinaproc extiende alerta nacional por lluvias hasta el 21 de octubre
+      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUjFtU3dtUWZyLV8temxuOUdpWmJRQWgzSDFNSVZQbkE4OW5NRjB5YmJsTEYwSXZwQ2VhbmRJR0RmZURweE54UDNNeWM4WTd3WV9jcU04WjBWMzBFTDJaN2w2M2g5YUs0ZlNzRXZVdmdzdU4tZ25XUmh5bkxrbkdYcUl4TmRabHdTcGo3djlHeVdWZjRaUnREOWtYSW9ubFgzMnRLLUR6bml4dGRyLWRMdDk1eFB2RHJwdTBlMkhkdWFudGfSAcgBQVVfeXFMTXU5V3ZBdkQ3dk1JLV84WmUtNzU1ZGJXbGZsb0NUYlhmU3Q0VEZZdzliaUFqODF4bzlKWDA0Wk96UHQ5YUNXeEZqelhXc2VkUjRZQXNYX1cxajA1dVVaQTJTNGFSVTJQbkZVc1AyS3JCWUZ5WnRHSmtiYk9razN1TWs1UzhYTTFlN0FpNzlpaHVhaHRSM05McHdBY01UN1ljMWNhQkF0SVQ2YThqZUpqRlR1dEdVWU1oMEw4eGh6cGNwZzJKR1BLZmM?oc=5
     - 18/10 09:55 www.metrolibre.com: El SINAPROC localiza cuerpo de hombre desaparecido en río Gatú
       https://news.google.com/rss/articles/CBMisAFBVV95cUxPOGwxT3hEZkhFQko1UjhKaWd2clY5eTFUdko1bldoSVRjVWVxOHZPMGpmRUtYM2s4NlEzMmFYei1oVnhzdC1HVlBQLTF6NWhsZHlnYmFaQmplMHBFTnA3bXRWeEpQR2RCRXphYW5OTEFRSFdaRVd4bGtnWVczbVEyNVdudnZ3WFJiMDZQU0dJUzgwMlFzdWdKejlCMGI1aFRuMS1aRVlLdDlNenhyT0x4Ng?oc=5
   Daños y víctimas:
@@ -58,14 +60,14 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
 
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
-  2. [Estimación] Réplica M6+: 2.4 % en las próximas 24 h y baja cada día; días 2–7: 1.7 % por día (cálculo sobre el pronóstico USGS) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
+  2. [Estimación] Réplica M6+: 2.1 % en las próximas 24 h y baja cada día; días 2–7: 1.6 % por día (cálculo sobre el pronóstico USGS) — se sentiría en edificios altos de la capital; es lo esperado, no señal de un nuevo terremoto.
   3. [Probable] Hora tranquila: rutina normal con las precauciones básicas; nada nuevo que hacer.
 
 ÚLTIMAS 24 H — eventos M4.5+ (hora local, M, lugar, prof.):
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 11:06 (automático)
+🔔 Sismo PA 11:16 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -102,10 +104,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T16%3A06%3A08&endtime=2026-10-18T16%3A06%3A08&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T16%3A16%3A15&endtime=2026-10-18T16%3A16%3A15&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 3.1 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 3.0 h; alerta solo con M5.5+, tsunami o reactivación
