@@ -1,7 +1,7 @@
-Sismo PA 18:18: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 18:41: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 18:18 (18/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 221.4 h.
+SISMO PANAMÁ — informe de las 18:41 (18/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 221.8 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 1 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 1 de M3.5–4.4 | 24 h: 1 de M4.5+ y 2 de M3.5–4.4
@@ -21,10 +21,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Tsunami (tsunami.gov): sin alerta activa
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 18/10 16:00 El Siglo Panamá: ¿Hantavirus en Guararé? Esto dice el Minsa
+      https://news.google.com/rss/articles/CBMilgFBVV95cUxNWU1OYjM3YXQxTUw0MUhYV3QzOERQQ0NmbVBMNEh2MFA2bHFsOUhKbFhlVS04alFYckktMkNHU3VoMDVqVDRqbHNlN3BZVmZfV2paOWF2NzMwLWJqVUp6TE9tNXJLd21GdUt2eGRwc2pZVk5jWUlibV9qYWE2RXZwenp4eEZqQTBGWFFYRmIxeG1oTm1RRWfSAZsBQVVfeXFMTXpwX3VaWDkwMzFjcGtWN2VTQ3I1azFmdExJcHlwRjdXNkFpbEJYc3E3d29jN3R3NG4xZWtTTWhtVlBUcWpGQTNlNDlZbURXbXo5VkE5WHZBcF9BZzBkOGxDRUFSemZyRTRzYkhJTXB5VXBLanlLYUtEX1V3R0NoUXJTU19wcUhLM3ZzWUttc0NfYndTS29VcnFNZjQ?oc=5
     - 18/10 15:54 Tvn Panamá: Minsa espera resultados para confirmar posible caso de hantavirus en Los Santos
       https://news.google.com/rss/articles/CBMizwFBVV95cUxQeGViZHg2ZjU1bS1wRUc5VzJvTGlRWV92eDlVazhfR3lzNDVpX0g3aVNBY0ZIbHdtMU1ITElxc3E2Y2FEMUoxUW54SFhFNVcwb2JiTUl3cnMzdHd6T212QnBLeDZBZWxWa1J0OUNTTjFCZlhmVVZmaU04dEszTDNNQ1RYbHJzTkNPMGJTNFlIQlZXRWtfVGRFS3ZKYUtEVEU3UGlUcHFkZjRMaHFlNVl2cnRxVUNhRHlaWnZMQzVydk91YzV5dWZ3c1F0UnFZWDDSAc8BQVVfeXFMUHhlYmR4NmY1NW0tcEVHOVcyb0xpUVlfdng5VWs4X0d5czQ1aV9IN2lTQWNGSGx3bTFNSExJcXNxNmNhRDFKMVFueEhYRTVXMG9iYk1Jd3JzM3R3ek9tdkJwS3g2QWVsVmtSdDlDU04xQmZYZlVWZmlNOHRLM0wzTUNUWGxyc05DTzBiUzRZSEJWV0VrX1RkRUt2SmFLRFRFN1BpVHBxZGY0TGhxZTVZdnJ0cVVDYUR5Wlp2TEM1cnZPdWM1eXVmd3NRdFJxWVgw?oc=5
-    - 18/10 15:52 Telemetro: Minsa aclara que no hay caso confirmado de hantavirus en Los Santos: paciente está estable
-      https://news.google.com/rss/articles/CBMizgFBVV95cUxNdTk1Ri1rYm1HUjE2QjFWVkFIWXI2LThnRXZuLWZmTUpmZVVITFVJSUtXZVI5bkR5a2gwR0U3UklwWDBDVHB4ZXdYT25BREQyd0ZHQzdYZGhiTXFmMm1LaXBBRXdDVE5GaU5wbTZtOVQ1ZXIxSjdVTm43Y1JXVFhxdldQMlJSMHNOWm0wNlYxT0hmcTlTekNoQWFkQmFHQU5XM2JDcEdSYjV2UVRFYnpxbXJfYUwwVUE4RUpJYnFJSXRWWjc3V1FNaXkwR0Zvd9IBzgFBVV95cUxNdTk1Ri1rYm1HUjE2QjFWVkFIWXI2LThnRXZuLWZmTUpmZVVITFVJSUtXZVI5bkR5a2gwR0U3UklwWDBDVHB4ZXdYT25BREQyd0ZHQzdYZGhiTXFmMm1LaXBBRXdDVE5GaU5wbTZtOVQ1ZXIxSjdVTm43Y1JXVFhxdldQMlJSMHNOWm0wNlYxT0hmcTlTekNoQWFkQmFHQU5XM2JDcEdSYjV2UVRFYnpxbXJfYUwwVUE4RUpJYnFJSXRWWjc3V1FNaXkwR0Zvdw?oc=5
   Agua (IDAAN):
     - 18/10 00:11 La Prensa Panamá: Bella Vista, sin agua constante y con 868 nuevos apartamentos en construcción
       https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1pdVNfdlJUbE5vZllaT2Y1QUdldUxhWjlPbjd2Q1d4clBSRHZtLWpMaVhBZ1RNNGdiQVdWaXNhYzFicWtRSmh3ZHBPbjFXWHV2dXFRUmhyRjZhZ1dNSDFFdC1ndksxX19hWW5uc1hISFpjOUpZTTNfYUIyb0I1M2RwWnE5Uy1lYmxYaUZ3cklvdWttSDJLSVRTV3FqNGcwUHZ4eGJRam92VF9XaWc?oc=5
@@ -40,15 +40,15 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
       https://news.google.com/rss/articles/CBMi4gFBVV95cUxQc253Um56RzU2Z21aVGRLYnBxWWhCRUZDYUZ4TlduOXJrVkJNdnNLdE52OEpwa0VKSWc4d2xsRnRFcjB5R3Q0Y29yRlQ5Y2FqWkd3cjFjQmd5TklUUS1PS2lhaU9jeV91bjdrc2M5Z3VkQTdCRXJrcndHbHMwYnFLNjJ6aHhfM2xGdWNYb3p1d3l4VmdfR3Z2T1pfVWI1YkpIOUpSMElvYUlna2RTQjFVMWZIS01BMGlzekNtT29aQ19pdTFEbkotR01pQjFTQlMwamFIbVl1SGhLNEhHbGJ2NW13?oc=5
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
     - 18/10 16:44 Telemetro: Cierran carretera de Penonomé hacia El Valle de Antón por derrumbe: recomiendan ruta alterna
-      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb2xKQUtIVkJUTHZXRU4tVF9GZ1BlajdMdkY5ZVh4LVhCYWRjRnlQNUc4c3RxUVZNellTQkZMS2t4QmdiMjFJN3JGS0xBamM0VGRVdDFoblZYRW50VElFV09kNThTc0lGZ3dOZFpuc2c3YnFEcXBDeU5BSXV0bmZPSDJXdno0M1NlOEJyV01NbFRpS2lGelFMbHE5S2RaUjlEbXpkSVpaWTdFdUtaOXpYdGZtZ1J0QW12bWZzeWttakJQcVHSAcMBQVVfeXFMTW9sSkFLSFZCVEx2V0VOLVRfRmdQZWo3THZGOWVYeC1YQmFkY0Z5UDVHOHN0cVFWTXpZU0JGTEtreEJnYjIxSTdyRktMQWpjNFRkVXQxaG5WWEVudFRJRVdPZDU4U3NJRmd3TmRabnNnN2JxRHFwQ3lOQUl1dG5mT0gyV3Z6NDNTZThCcldNTWxUaUtpRnpRTGxxOUtkWlI5RG16ZElaWlk3RXVLWjl6WHRmbWdSdEFtdm1mc3lrbWpCUHFR?oc=5
+      https://news.google.com/rss/articles/CBMivgFBVV95cUxQSWpVZktlQ1J4NnI1dC1PWHZ0RmRXdWVwNXVoVDZNcFlvWDdsN0RjNlA3TFkyeVJsQzNLb0VTQm5NVGZzYmhUczA3bFFwVWRteU9FbUtwLW1uTVY5MUdubE1zU200SEFJV3A3UUNiSGJ3UW5FbWZjT21QaXdTSHNGN2NuY0tUU0Y2eVc4SEhXOFU1aWFVZlIwMVhralJ1Yzg3Z0JiWk1ROTlzWkJ0cjdETVVweVQ0TlZIN0VWSE130gHDAUFVX3lxTE1vbEpBS0hWQlRMdldFTi1UX0ZnUGVqN0x2RjllWHgtWEJhZGNGeVA1RzhzdHFRVk16WVNCRkxLa3hCZ2IyMUk3ckZLTEFqYzRUZFV0MWhuVlhFbnRUSUVXT2Q1OFNzSUZnd05kWm5zZzdicURxcEN5TkFJdXRuZk9IMld2ejQzU2U4QnJXTU1sVGlLaUZ6UUxscTlLZFpSOURtemRJWlpZN0V1S1o5elh0Zm1nUnRBbXZtZnN5a21qQlBxUQ?oc=5
     - 18/10 15:45 La Estrella de Panamá: MOP prevé iniciar el lunes trabajos por deslizamiento en Cerro La Cruz
       https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0pna0hVOW00aDJfTFJSc1VZVFJsNWRFd2lwT1gtNXI0dDFURmdhdkR3Q2VOQy1OMVVKUS0wZEM4VE1vTFJSUm1pRFIxUnozMGcxUTNqeFdUd19zdG1qU0I0WHZXcmhsREtsaFlVaEJJTE9tSnAwY3gtUWYyX0NHeExGWTZIU21FdHdZbGREbEh1Q3B4a3NqZnBjTFYzaE5jdVo2X3JSR1JFcDRsLWhBRzZ1TmgzUEdxYnJxSGlxZENmNlliaWfSAcsBQVVfeXFMTUNqT19JNi1rV1p6NVh0d01hVnpLR21ZaFNfN3MwV0FPZzdnOHE3RkZfWF92WmRoYkhYdEZ3VmV2X0xkcHhSY3BxOEV1Y0VoTTlPSm9BbllxRG5Pb1JTOGtZdUp0c2o2WEt4dHNBVDFBQTFIWUljWDNuSUpuQkNaMmExWDR2dFNYS1ZPMWRmOGhVZ1RsRU5ON1ZGVUpIMWt6YlNBTHZRV1B2MVBHRmp3U001MEpCMFlySFdYdXd5YjRYa0w2ZTBuYjF4dUE?oc=5
   Metro y transporte: sin titulares específicos en las últimas horas.
   Escuelas (MEDUCA):
-    - 18/10 18:17 www.metrolibre.com: El Meduca reanudará clases el 21 de octubre en 12 regiones educativas
-      https://news.google.com/rss/articles/CBMiugFBVV95cUxQeGdlNzFSVjBmd1U5aUkzOGp2amNKNzNSWDBLcXNocmVBbkR2X1Uxb3liMl9Ld0NpVE9PTWFTREsyODBqbVpxeEZzeGNtRTlBT2dKcV9vOGZWc2tLcUFkeGtQOWZrdzZmRVM0Ui11T1gzRXJ5azJRcFRjQmRNaFpKT3lPU1dvT3RMbllwX1h0Um5oYmhJV2hjZDFuLWVUQ2RpaFE1LW56TGRHOE9UcTdTdzB1b09UbV90S2c?oc=5
-    - 18/10 18:11 La Prensa Panamá: Las clases en las escuelas oficiales se reanudarán progresivamente a partir del miércoles
+    - 18/10 18:31 La Prensa Panamá: Las clases en las escuelas oficiales se reanudarán progresivamente a partir del miércoles
       https://news.google.com/rss/articles/CBMivwFBVV95cUxNd2xYZTliNU03NndfTUxQOUNzUjJENkJzMm9sRHVxNkQwdzRHck9hQTBwSld4SWFkN1pvZERnVjM2ZGJSWDY4OFJZUnlmcktpZHA3UTVfNEhuUXp5T1U1NnFHNkw4MGoxN1FtYmFyNkZ6SlI4Z3cyODNLVzUzTlc1azctQW1CRTU1eTI5RVV0MVJyWVBhQXlHdzU3TTM3Vk9OeUV4U0oxUjRJSEZVY0dod1B0U2xOUlh6ZTU1VlpGTQ?oc=5
+    - 18/10 18:22 Tvn Panamá: Meduca anuncia retorno progresivo a clases desde el miércoles en 12 regiones educativas
+      https://news.google.com/rss/articles/CBMirAFBVV95cUxPbWQzS3BSZ3UxUk5iX0gtaG1YMkJqNW5iN1VaRm04UnU2bTdwaldmNW12cW9aWXhTdmhsRVNpYVBzN21USlktc1hsM3pGbHVrU2c2RnNkQ3lPNkM4VlJYTFBPNTQ1TW5yMjdrLVdlMnBwamlTb0hkcEIyQUd1T0t6RWptNUo2STVNd2s3cmVRQUFmZ205VFZLSUhuclVXWG80cVZnYkRQV3Q1XzFE0gGyAUFVX3lxTE1vS1JPcElCcHB5U0ZGbmhKY1l6d1VrT1hvOGlZTmJDOExfZ0RRUWRUVmtvWU1DdmtxZFlaczlhS3pFbk5aWWxQd0lJaXVsd3UxcTNqUmhEbHR5WVFEd1RKdU05SmxGRWVNbDBVNlF0ZGhLVEx1SkdKQ1h5WGxQYkQtS0lGa3VlLU4xSHd4U3BXanBpOFFlYmFfb3Z0N2tnRU9lVU0ySllxN3ZHbk1ldzNtYmc?oc=5
   Sinaproc / autoridades:
     - 18/10 13:10 www.ecotvpanama.com: Sinaproc extiende aviso por lluvias y tormentas en Panamá hasta el 21 de octubre
       https://news.google.com/rss/articles/CBMisgFBVV95cUxOU280SERPZi1uMERoNFBRR2x4WjU5ZWhIU0U4MUlka0RyTHg3dWtEVWFBLUJOUTZ3Z0tFOUlpbXc4ajFnd3FTNlNCaFgyTV9CRWU2YUdtZEdKZlB1aS1GV2d1anFTSHVCSHlwT1hDeHFaajU4RHltR01RTFhzS29xMklza0hPS2Fkam1YcnUzc2VGUThKSUZGQXpVOWxvSnZ0cTZneHBLSVMwRUZLbDJqUG5n0gG3AUFVX3lxTFB6eHFmUzhDdkRjeWo1VlZfcmJPYUhhNFF5UENQcmVRMUtETG5tc2l6TDE3M1FNS0QzTVJobVM5Zmp6dGhhZlQ2XzNkMjk4eHFFUEdLU0UzU3JUb1oyUnNRN0xUbE4tTU50SG9yNUllWXloY1BoZzJlOGdSMmdDdTNubmVzamVEM0dQS0NSOURaQlppVTZUUWx1T2w2NS1pN2NFNGJObXROSmNGZ1JwT0xVSEt5a212NA?oc=5
@@ -67,7 +67,7 @@ ACCIONES AHORA:
   18/10 11:12  M4.5  0 km NE de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 18:18 (automático)
+🔔 Sismo PA 18:41 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -104,10 +104,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T23%3A18%3A46&endtime=2026-10-18T23%3A18%3A46&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-17T23%3A41%3A33&endtime=2026-10-18T23%3A41%3A33&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 4.3 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 4.0 h; alerta solo con M5.5+, tsunami o reactivación
