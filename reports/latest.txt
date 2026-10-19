@@ -1,7 +1,7 @@
-Sismo PA 03:55: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 04:05: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 03:55 (19/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 231.0 h.
+SISMO PANAMÁ — informe de las 04:05 (19/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 231.2 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 1 de M4.5+ y 0 de M3.5–4.4
@@ -29,8 +29,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Electricidad (ENSA, Naturgy, ETESA):
     - 19/10 00:00 La Estrella de Panamá: Energía cara, economía expuesta: ¿cuánto le cuesta a Panamá depender del mercado internacional?
       https://news.google.com/rss/articles/CBMi2AFBVV95cUxQelJGMkZtUkU0a0JIYjl5cWNqVkY3RWpOT254cmdDcUdKWGdwYXQ0akVXQTJJbjlrb01lQmJqWUwyVF9rVkR2SEhjU09lN0luUnhuTUZ2SzFTWHQxaC1WeDhDTTJXLXBwN1ZsTzZ4Tlp1MW9mVjVYaVdpV0VoZUlkME9mSkxKTGp5c1FETTRqUGRscTNTRXBYMzZEYldWVkE1N1RpVFNLR0sxeExpTW5sZURSM2dNQ1gwMFFjZ0JkZW4yQmcyZW90WFRaUVBLa3BNcElRUXlmZ04?oc=5
-    - 18/10 22:57 Infobae: Dirigente del partido de la dictadura cubana admite apagones de más de 90 horas en circuitos de Pinar del Río
-      https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWW1Ia0NycG1UeXZmTmFhcnlabG1TX2JvLTN3d3hyX3lNc2ZWUkV4RkhwazFkMWlYWmZNRTZXWnZOT2swcHZIaEtOekpHV2lfelRUazc2NnJZOGRkekpQYzc1cnc1ZjhXYlpRSF9NQ2dxclpJQlhKYUdpQzdvLTVWT1pOU1NkZFh2V0R4MV8wRVJSYWVNRzV0WnozNFFXby0yaUEzcEVpVFZPVTBrWUVFYmZUbVB3MnhUd3g2VnNBX2E1MUoxMmExSUF1VUF4YzE3VTJsWFFfcXhDSnFESG9PcTZpQ2_SAf8BQVVfeXFMT1JKSktmVUIwU3RZeENNQTNMY3hmUU1hZVdzeEZUVjdnRFlkeENCcjFhd3VDVVd0ekhwaklrYzBDbmdORHl0dFhBb3RRQi1nek53eXRRTHMxbUQzRVRsR05EeWFLR1AweEhSNTZMUUpIUTZiZXNJMmRjNHpQOFZROWxDa3FTZE9XQVR3Tjk2c19zSTR0OURKRnRTTjF6S3RocWo3VVBDZjNwYURSMTJfVmNzVGNrU1BMWVZwZ1BJYlVMYUU4N1NTWi1uRVd1QVMwVkJ6UVBmdUVYN2NzcGYtdHNLeFBPUHdjNGlSd0lyQ19ZS2ZDZnE5ajAwT3lhdnVF?oc=5
+    - 18/10 12:19 Destino Panamá: Naturgy se solidariza con las familias afectadas por el sismo en Azuero
+      https://news.google.com/rss/articles/CBMirgFBVV95cUxOM3F0RHR6ekprbGlOdVRoWFBzSlVJMUV5WmZ6TTBfTFJuazRMRmpiRERhWDUzS3VMa1h2Z2w0X0RELXRjY2lrQW1laExfLThUZ1o5UklpZGNCTzAtYU1KYVJuOHdrQzV1N0ZteWlkbktTb2tnWGtwWkhtRHdnbkpZZVlrM3pvbVloOENVLVBxcHFCR2o5N1ZwSmFmX1Nid3pLQ2FjbnNvTEtEelo0enc?oc=5
   Aeropuerto de Tocumen:
     - 18/10 10:19 Blu Radio: Ciudadano colombiano con circular roja de Interpol fue detectado en aeropuerto de Tocumen en Panamá
       https://news.google.com/rss/articles/CBMi4gFBVV95cUxQc253Um56RzU2Z21aVGRLYnBxWWhCRUZDYUZ4TlduOXJrVkJNdnNLdE52OEpwa0VKSWc4d2xsRnRFcjB5R3Q0Y29yRlQ5Y2FqWkd3cjFjQmd5TklUUS1PS2lhaU9jeV91bjdrc2M5Z3VkQTdCRXJrcndHbHMwYnFLNjJ6aHhfM2xGdWNYb3p1d3l4VmdfR3Z2T1pfVWI1YkpIOUpSMElvYUlna2RTQjFVMWZIS01BMGlzekNtT29aQ19pdTFEbkotR01pQjFTQlMwamFIbVl1SGhLNEhHbGJ2NW13?oc=5
@@ -63,7 +63,7 @@ ACCIONES AHORA:
   18/10 11:12  M4.5  0 km NE de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 03:55 (automático)
+🔔 Sismo PA 04:05 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -100,10 +100,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T08%3A55%3A44&endtime=2026-10-19T08%3A55%3A44&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T09%3A05%3A51&endtime=2026-10-19T09%3A05%3A51&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 0.6 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 0.4 h; alerta solo con M5.5+, tsunami o reactivación
