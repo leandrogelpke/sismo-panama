@@ -517,3 +517,4 @@
 | 18/10 20:30 | 0 | 0 | 1 | 1 | 1 | — | 16/3 | en descenso | ok | 11 % | no enviado — próximo informe regular en 2.1 h; alerta solo con M5.5+, tsunami o reactivación:ok |
 | 18/10 20:40 | 0 | 0 | 1 | 1 | 1 | — | 16/3 | en descenso | ok | 11 % | no enviado — próximo informe regular en 2.0 h; alerta solo con M5.5+, tsunami o reactivación:ok |
 | 18/10 20:46 | 0 | 0 | 1 | 1 | 1 | — | 16/3 | en descenso | ok | 11 % | no enviado — próximo informe regular en 1.9 h; alerta solo con M5.5+, tsunami o reactivación:ok |
+| 18/10 20:51 | 0 | 0 | 1 | 1 | 1 | — | 16/3 | en descenso | ok | 11 % | no enviado — próximo informe regular en 1.8 h; alerta solo con M5.5+, tsunami o reactivación:ok |
