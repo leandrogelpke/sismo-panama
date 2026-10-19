@@ -1,7 +1,7 @@
-Sismo PA 12:31: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 13:14: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 12:31 (19/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 239.6 h.
+SISMO PANAMÁ — informe de las 13:14 (19/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 240.3 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 0 de M4.5+ y 0 de M3.5–4.4 | 24 h: 0 de M4.5+ y 0 de M3.5–4.4
@@ -33,22 +33,24 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
       https://news.google.com/rss/articles/CBMi2AFBVV95cUxQelJGMkZtUkU0a0JIYjl5cWNqVkY3RWpOT254cmdDcUdKWGdwYXQ0akVXQTJJbjlrb01lQmJqWUwyVF9rVkR2SEhjU09lN0luUnhuTUZ2SzFTWHQxaC1WeDhDTTJXLXBwN1ZsTzZ4Tlp1MW9mVjVYaVdpV0VoZUlkME9mSkxKTGp5c1FETTRqUGRscTNTRXBYMzZEYldWVkE1N1RpVFNLR0sxeExpTW5sZURSM2dNQ1gwMFFjZ0JkZW4yQmcyZW90WFRaUVBLa3BNcElRUXlmZ04?oc=5
   Aeropuerto de Tocumen: sin titulares específicos en las últimas horas.
   Vías y puentes (MOP, Panamericana, Puente de las Américas, Centenario):
+    - 19/10 12:50 La Estrella de Panamá: Cierran vía del Cerro La Cruz por un mes tras deslizamiento
+      https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTQtUUNtQXZkejdHRGMtX3h5V3pKN1RKT0VrUlF3YWg0RTNKcXZVa3NCRmRXd1dObGpwTnFHc19HTGFBb2NpUXQ2b1UzWWgxeFkyQVRWUl84T0JrTXhCWEwtMXVqUUY5ZGg0bnRMakhqY3d3QXQxVTV4a2tUTFBtZzh4LWRON3dqTGRwaWhkN2hUcGpUVkRQdVFvRVBjZXc5V0FrWTFfZVlGRDRkb3Y1ODVXdld4UXM?oc=5
     - 19/10 12:11 Infobae: Las cifras del terremoto en Panamá: un fallecido, 27 lesionados, 619 escuelas y 42 centros de salud afectados, entre puentes y edificios
       https://news.google.com/rss/articles/CBMihgJBVV95cUxQNUlXczJhV2lKVVQ2Y29NR0huenRuWnBGWHc0RWprc05zeXp5UDhnU1dKRHlQb2RxUC1EMkhpa3A3ZUN5MGlOS01aVnFYNkplcnJOTlFIeEY2RGhNdkZKMkRWV3RhTWdmY0FBM20wRlpfOTlZYzZoM2hVTmRTM1lXTVZ1VXJpYVJma0NiMnZYX29DcE1ibGFUd2lweFFvVUVIRk5tT0plSGtNMzd1dzNRLTQwV1BOVXllT05fT3c3Tm1Bc0VmbDAyWnJ1d0djQWNITTRHWFdRTVNKd213MzlkRFRFejIyLW5QSWlwdjQzelVGWlJyTDBoV2ZpUUVaa28yQ25wOE1B0gGgAkFVX3lxTE1mTHpmdU1fS2NNUGY2b1gwekhadFRVRlBnODJXbS1LLXk5MUxvWDFFczhLUXdBMTJFTzZvODBtaFl0ZjFTOVJ5NTVzdW9BWUhESGUtMno2cmRBV0I2ZzgzS1FxSG1LN0hDRmg0MURQUDJoYWlIOE9WUTFBdlNxcEpyMTVEOXdEcEdhTHM1N1ptZ1J0dk8zM2dkbEZZOVRmc2lGVFBRNFExX2RDSV94MTlTcFBscGtxRzZFXzNKT0lnUjJwZ2dSRjUtWXRDOWZMNE9YeXZZN05PV2YySmpLV1doR3pwTWIyVGN1WkZSTHZqOTRNRm1VLXNKbVlveHh5VFBjM3gzMk1xR05MWlkxQnQ1ejFtd1VELW00eTUyRnE1VA?oc=5
-    - 18/10 16:44 Telemetro: Cierran carretera de Penonomé hacia El Valle de Antón por derrumbe: recomiendan ruta alterna
-      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb2xKQUtIVkJUTHZXRU4tVF9GZ1BlajdMdkY5ZVh4LVhCYWRjRnlQNUc4c3RxUVZNellTQkZMS2t4QmdiMjFJN3JGS0xBamM0VGRVdDFoblZYRW50VElFV09kNThTc0lGZ3dOZFpuc2c3YnFEcXBDeU5BSXV0bmZPSDJXdno0M1NlOEJyV01NbFRpS2lGelFMbHE5S2RaUjlEbXpkSVpaWTdFdUtaOXpYdGZtZ1J0QW12bWZzeWttakJQcVHSAcMBQVVfeXFMTW9sSkFLSFZCVEx2V0VOLVRfRmdQZWo3THZGOWVYeC1YQmFkY0Z5UDVHOHN0cVFWTXpZU0JGTEtreEJnYjIxSTdyRktMQWpjNFRkVXQxaG5WWEVudFRJRVdPZDU4U3NJRmd3TmRabnNnN2JxRHFwQ3lOQUl1dG5mT0gyV3Z6NDNTZThCcldNTWxUaUtpRnpRTGxxOUtkWlI5RG16ZElaWlk3RXVLWjl6WHRmbWdSdEFtdm1mc3lrbWpCUHFR?oc=5
   Metro y transporte: sin titulares específicos en las últimas horas.
   Escuelas (MEDUCA):
-    - 19/10 10:01 Telemetro: MEDUCA: lista de escuelas y colegios que reabrirán este miércoles
-      https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZUM2djhKUkV5c1dwQXpRdFdGMXdlbFJPQWpDUlE1THFaMy1fRnUtd2xhT1hHN25HM3VINF9yTDFuN1lfYkxlaHhDR1NETXB6NUUwMEVlQ1BPS3RSSnVZcW50QWFqbFdRR3JsMXFSNTlteXdLWDdrU0U5X2hLY2FTcGpZZnFQa3FTMVZ4QUo4Vms3Rjk5NmQySlBwdGhRZ3FGbkg2bkxtWU9nb1HSAbABQVVfeXFMUGVXQXpEa3dBLTI3VmxYYXpOUDdyeFpXUU81MkNuTnpNc0dyRjRwelNaU3ZmeGZ3aXB6QUYzSlByM1RrQXdKTFloX1dUbHdPOUQ1enNIZXNSRlVqVDVQUUFFdWxkMGpvMHlxYUNpY3JMbnZxVjNGc3JxNUxDeFZCb3FDc2V4RWZlUHpXZHV4SzQ5Z3RBYzBZRkJ6dV9BQlFfVWZGWExFTlM2amd4RjJVMVA?oc=5
-    - 19/10 08:43 TVN Panamá: Temblor en Panamá: Cerca del 80% de las escuelas están listas para volver a clases; confirma Meduca
-      https://news.google.com/rss/articles/CBMinAFBVV95cUxPd2RUVVVQbUV6c3FDa24tcUVDTEx0VXp6dU14cEdxTXVqUlNYM1cxZ192QUpyTDkxRzR4VEFPdkFacnRNNXN0ZWlqVUFva2paN3JBdkxPZ2dpMXFIS0VQaHQxdlRsS2tQMm5JN0ZjdldDeGw1Q0ExWHRHS3k0azhSQ0tpX214ZnlHSl82ZV9jXzROQ0paTkZIei1fVnY?oc=5
+    - 19/10 13:04 TVN Panamá: Temblor en Panamá: Panamá Centro prepara retorno a clases; 103 de sus 116 escuelas han sido inspeccionadas
+      https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcUw2ZnlGbE9IZnhsdURBWDNqNnR4OEdwSFNmUmszTDNPbnhON2NsbndWdEw1cVgxTE9FbXV0TUFDQzVzRHRFQk9jcmdiNk11YzlMLWZCQmMxYWZ4TmtOdnVQSU5MLVBfUXlfWVlhdnZ4OGY0NlJ0aGV5MC1jYWd6dGt1c2lBV0htM0V4YzRzM1RZUTRob1ZxanF6cUJzV05CRm5Od3ljU09pMkxLQnVHeWxSMVhHVVpaMUF1UzBGUEhha2cwc09aM3lvYmZzZnpJU3F3ZGlER2NoaE0?oc=5
+    - 19/10 12:50 TVN Panamá: Temblor en Panamá: Padres del Colegio José Daniel Crespo recogen firmas para terminar el año con módulos
+      https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUXRYT182dnFOOUwyYkkyNm9NNUkyLWg0S2VlS1Z1T1hPdFdzNHZyUldFRFItYnVLc3oyR1BCUjZkYW02M3hsdFFBSG1CZTgyOVBBVERYaTNhYzVNYmpSOVNoYUc3Vi1wbTZQQzFJdUFMMHJJbTFRdnNxNmNPeFB3VzcxaS1ZWlU2ZVRCTGpIWGk2b25wd1lIcHBqamdVMUVOZ2llQmZwT1FjcXdyXzFIZnFmUFBhN3NGX01FOHVuMXc?oc=5
   Sinaproc / autoridades:
     - 19/10 09:35 Mingob.gob.pa: Sinaproc mantiene las evaluaciones de daños y la asistencia humanitaria tras el sismo
       https://news.google.com/rss/articles/CBMisgFBVV95cUxOaUd1Y0s2NVk2a3FjbXY0dVA4S2RSRjFWV2hTRVhVc3QzWXBMVlA0N0lIZGoxY3dxVWh4WjZtcnNfQU5BQ2p6T0FPQXBXenotakN5MWNBamVPTFAzdmJXUUppNmNUZzRVRjVfVG9OMjFQZEJFOFNnYkJSU3k2NjZxUW9TQkF4YXhlTEhrdkx1TldJZndXX3I2X1NsVkwxNHZkMGV3Y0w4ekhsR2Y1a3V5a1pR?oc=5
     - 19/10 09:04 ElCapitalFinanciero.com: Sinaproc extiende aviso de prevención por lluvias hasta el 21 de octubre
       https://news.google.com/rss/articles/CBMikgFBVV95cUxPZDU4Qi0xVGdxOGgyQjNCZ3ptNEQwc3RKWERubGhrcVJtdUowQjJESjk2YVc2MjRiNmZEdzEwOUJXdDFqdlpJV240Y3U4bVY5eFNaclczdjVubUpnYUNLSzhzdTljcGVoQ184SWlKRHVZWDFEc0kzZFZJSWl5cnRtTFEwWTdnYXpPYi1iU0JpX3MtUQ?oc=5
-  Daños y víctimas: sin titulares específicos en las últimas horas.
+  Daños y víctimas:
+    - 19/10 12:31 TVN Panamá: Temblor en Panamá: más de 9,200 viviendas evaluadas; continúa clasificación de daños
+      https://news.google.com/rss/articles/CBMivwFBVV95cUxOWTJ1YU9TMXdtQzdZSUtZYlRmLU5iajRad2Y3RTdYSFRLXzBsODRKczBXWDVxdUtrSXNoa2tPQ0NrMU9BTVZhZ1M4U3BRUjBjLVdrZlZJenJheWlIclA1aHVUVV85ODJ5WGR1eVdDNVZwUV9idFhyOEhuV2d2enBkTUNSRndQcFpDa2xOVzdjOGhYOEhWNzljTXE1WmduajE4cjk3eU80X2JVVC1aSGFqd2F6LUQxWVpTanEyZXp6RQ?oc=5
 
 ACCIONES AHORA:
   1. [Seguro] Nada de ascensor — escaleras, hasta que el edificio sea inspeccionado.
@@ -59,7 +61,7 @@ ACCIONES AHORA:
   (ninguno)
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 12:31 (automático)
+🔔 Sismo PA 13:14 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -96,10 +98,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T17%3A31%3A45&endtime=2026-10-19T17%3A31%3A45&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T18%3A14%3A14&endtime=2026-10-19T18%3A14%3A14&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 3.8 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 3.1 h; alerta solo con M5.5+, tsunami o reactivación
