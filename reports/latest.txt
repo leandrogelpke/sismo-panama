@@ -1,7 +1,7 @@
-Sismo PA 07:47: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 07:57: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 07:47 (19/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 234.9 h.
+SISMO PANAMÁ — informe de las 07:57 (19/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 235.0 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 0 de M4.5+ y 0 de M3.5–4.4 | 24 h: 1 de M4.5+ y 0 de M3.5–4.4
@@ -45,8 +45,8 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Escuelas (MEDUCA):
     - 19/10 07:24 Telemetro: MEDUCA: ¿qué regiones regresan a clases este miércoles 21 de octubre?
       https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYkItTFZRejJFRlR3UUJMcld1U3h5M2pYWC0zM2lmVzY0eF9uWGU1WDVpNHlfUGM2VmhZaFVpRlRVcm5ReXZPbGczanJYeVZvYkxwTHp2cjVPNWpkbmpPaGJIU0Q3YjdLdk9kckp3UWw4QmpJLU4zQ21iT012eXd5UU1CSzJUMXNVaDFHZHJHNjBKRGN0WWozQkcyRlZFS2ludGhqUFNkblV4dGfSAbABQVVfeXFMTjM0ZGdaUG1BZE9IeWZHUFVWRHg4M2M2c3dOQTVzQ1E2RXZicy1Td05LS1kxVmlPd050MUp3bkFGWDRzZ094Q1laRkNoUGMxcTBtY2lCNzU2UDFhcTZnWXZ2ckpxZmI1V2IxTmZwMU00dXJYRUR0YnBlZXNvNTZDRmFvcXJ2cWxlSHlVcDg3VUFaMTZXNGJpdk9fYXcxb1dEcG1WOWhKbXRybU53TmVGNkE?oc=5
-    - 19/10 02:05 www.metrolibre.com: Meduca: Sismo deja 55 escuelas colapsadas que deberán ser reconstruidas
-      https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX0lnSnF1czY0SjhBTEExbjRhM0VUMUJPWF9xRzZkZzdVVUFMWllHWUJqMmZNeFVLVmlqaWk4QmdJSUsyQWhJWXpUNS1pNjBnX1lRc2w2UjVEVVo2VmZNMl9HeUt6b0d3MGZyVkh6cEg4OTNLVUp3UW9PeGpMUE52eE1hVnpPMzhMeWxpRHdoUENMMnNnY045U2QyLS05bnZxODFhVnZ4eWN5VVgySENPc3FWay11YVBmcF9N?oc=5
+    - 19/10 00:00 CRÍTICA: A clases 770 escuelas desde el miércoles
+      https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQzZDdGswV0JuMEJscTVBU1NoS0pDaUthVl9xZXpOVHBVR1ZfYlU5LV9SYjB2R3p0bDlnWUVHM1VrUnVQcDRNMXVCdmtMaVJ1blVWQmRHTXN2S2dOT0hxNFhXVW1MZ1NocDAxbWR4VXlwSlNWMjBNLVRVVWVqQ0oxOTc0SlNDRllN0gGOAUFVX3lxTE9HbXNOSjdDQzF0MzFKeGZwZHhCQ0ZrX3FGN254dUVrYWpySkM0Wms4cDN0cmxYSWJDcy1OUXVWQ2pfRm1XN29yYzFNQ0NjclhGejAyZnhpVWt0aVV6cTJUcEFqZ0w0QWpCM3FHbnNvRFNvOGVVaDhpV2loS1dodUF3Z09pa3hQY1ZSd29wYWc?oc=5
   Sinaproc / autoridades:
     - 18/10 21:24 Día a Día: Sinaproc extiende aviso por lluvias, tormentas eléctricas y vientos hasta el 21 de octubre
       https://news.google.com/rss/articles/CBMiwgFBVV95cUxOXzA4Zk0wWmJ5UkVpUk5yU3FGbkZuQl9jZU5FbUdJWGRhYll3allwSk1jenczdUlCUlZpSDQxOEI3Zzl0SV8tUDN0bGpKYjczVnhDWWh6TEtBOHFRaGREY0NFaTdaQTNPNUFXUzBGMVF2WnlmRmZBOXc2c3Z2bTBtc1FVRmJYNmszblFDUlFRWVlJVWM1cTFKR0x0N2kzcVNZSWpsbFZEb0hDanQxZ280NkhtQ3JBUmxJQlhVQkh1SEVxQdIBxgFBVV95cUxNVnJ1ZkxDMWQyanVrUTVqX1BiRE9CR0IyX2pLdGhUTWl0VkhDUmlCYjloTTFBdWFKY25JS1dsdW1MeHFmNEs3LWpHSWJoTXhSWDlwU3FZQ18zRjRNblVBX05PRGlLWXJuWFNCWEowX3FOLXRnZWJuUjVYMkd6SldqVTJhRHZLRk1Fa0kyemRrekJRUHNya19ob3RSUVlLT1lSTndHWDZnZ2wxbUI5RlJ4b2Y4ZFFqU3RKQTR0LUxYVnBMcV9EUXc?oc=5
@@ -63,7 +63,7 @@ ACCIONES AHORA:
   18/10 11:12  M4.5  0 km NE de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 07:47 (automático)
+🔔 Sismo PA 07:57 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -100,10 +100,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T12%3A47%3A30&endtime=2026-10-19T12%3A47%3A30&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T12%3A57%3A38&endtime=2026-10-19T12%3A57%3A38&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 2.6 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 2.5 h; alerta solo con M5.5+, tsunami o reactivación
