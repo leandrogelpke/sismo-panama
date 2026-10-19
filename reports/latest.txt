@@ -1,7 +1,7 @@
-Sismo PA 21:21: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 21:31: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 21:21 (18/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 224.4 h.
+SISMO PANAMÁ — informe de las 21:31 (18/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 224.6 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 1 de M4.5+ y 2 de M3.5–4.4
@@ -47,13 +47,13 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Escuelas (MEDUCA):
     - 18/10 19:12 Mi Diario: A preparar las mochilas: Meduca anuncia regreso gradual a clases en 12 regiones desde el 21 de octubre
       https://news.google.com/rss/articles/CBMitgFBVV95cUxOUzl1a3MzcGhqZERwWlUta0RwTURPaUZDU1NhZjlYSVVWa3M5WU1xb1ozOUlBaWF0NERKZGRvUVA2bjNQZkJNM3dWREJHeHdFMDZORkhFZXlidmtreC1HNGxqNDYyX0hHQnhUeXZ2U2VPM3JOOUtUektLLXE1bU5CUHJIMEZnMXZMbXJpNnprT0VOUldJamxDaXQ1NW9aUWtqM2U4WXJHTzdEcS0tMWF6RmZYaW9xUQ?oc=5
-    - 18/10 18:44 La Estrella de Panamá: Retorno a clases: Meduca confirma operatividad de 760 centros educativos a nivel nacional
-      https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZW80cHFFUmM2OEdHd3lDWU5KdTJIZEdWcFc3YTkweUEyVlV0Zlp2THNOSTVfR192bzVSa3NBeWxWZnQ5aDlfYkZ1eWhOX2Y2aU5JeGp3TVJnWGlxbUhjQ0U2a1lNTmw3UDV3QnhRUzlERjF5ZGxOcnB1aWR3Q0UtdklOaGRKOWpkVTdYZnNRM0dVYy1sTlRlU2xCenRaM2dWNndXY2hNUG1YTnluSllkTnBfQVZaZU1EY3d4cnJlRWczR3R3bDhEd1JxdzFia2pJYzBpOWJES0lNLUxsUm1ia3lRWdIB4wFBVV95cUxOZW80cHFFUmM2OEdHd3lDWU5KdTJIZEdWcFc3YTkweUEyVlV0Zlp2THNOSTVfR192bzVSa3NBeWxWZnQ5aDlfYkZ1eWhOX2Y2aU5JeGp3TVJnWGlxbUhjQ0U2a1lNTmw3UDV3QnhRUzlERjF5ZGxOcnB1aWR3Q0UtdklOaGRKOWpkVTdYZnNRM0dVYy1sTlRlU2xCenRaM2dWNndXY2hNUG1YTnluSllkTnBfQVZaZU1EY3d4cnJlRWczR3R3bDhEd1JxdzFia2pJYzBpOWJES0lNLUxsUm1ia3lRWQ?oc=5
+    - 18/10 18:45 El Siglo Panamá: ¡A clases otra vez! 770 escuelas reabren el miércoles
+      https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcl9TTEp4d1NzMW9LeW1XWDEzdVdjbU01UDR2X3pUWUM0T0RTNmJya1N3UVJxZ29QTVVIa0Y4XzRBUTRBNkpfTEZCWlVYaUdOSE0teUx6YzNGeS1LRl9SQVdLQ3J4QkdPZjJZQXUzdEZzdVdNWS1WTnIzT1JpRkQ5WEppaWh5QUVLTzh0ZlpwRTRiTkNtZEEtczlzMm1qQnB3Rm5iSHNBaHg5bU3SAasBQVVfeXFMTnJfU0xKeHdTczFvS3ltV1gxM3VXY21NNVA0dl96VFlDNE9EUzZicmtTd1FScWdvUE1VSGtGOF80QVE0QTZKX0xGQlpVWGlHTkhNLXlMemMzRnktS0ZfUkFXS0NyeEJHT2YyWUF1M3RGc3VXTVktVk5yM09SaUZEOVhKaWloeUFFS084dGZacEU0Yk5DbWRBLXM5czJtakJwd0ZuYkhzQWh4OW1N?oc=5
   Sinaproc / autoridades:
+    - 18/10 20:28 Telemetro: Sismo en Panamá | Director del Sinaproc brinda balance del trabajo realizado a nivel nacional
+      https://news.google.com/rss/articles/CBMizAFBVV95cUxQbVByYjY2S2tsUEJVSWJGcFJtaVBGUXlocFllTVVYNEQtUFBsMXpRWWMwZ1dhQk9xRDh0WGdyQ3JqQWpfQ0YyY00xQmRJVnM2YVlRMWo0cmNFdk8tLWFuRkJIYm5sMndycEhCLU5ZWmh4ZGluOFZJY2lLTjlfUGl6ZGprYXhleU55RVNDQlh3cGdBZUFXdnNkY2N6SzMyTjh0ZUdUckJjWVl2NmFHdlZZQWdMa3A4cGN2c24tT29QSUtZRjFadUJVX1Q0NFfSAdIBQVVfeXFMUDhRNVQ4d0dlWUpFN0pBUVFLY21HbTdTTlVlaXlOWkc4dkhpSDJMZ3lSNzhfbEFHWlR0U194MDJTM3BJc1M1bFdvRFlhdzFqTWJGOXliRkhkeUwyQTdrc2s0LWdvWkNKNm5JOTF6dUR1Z0VHc1BGcVVWRzlaNm03M09ZM3dwdS0wNGVxSDV5R0FWVFBHYjVLRVJmN1dTa0pITkk2WWN3SXlTYTNwRUV1dDlMSTdTN2NWZFdiV1pRUlRNV050azMydXlvblRYZEZXbTF3?oc=5
     - 18/10 19:31 Tvn Panamá: Sinaproc reevaluará viviendas afectadas por el sismo ante daños provocados por réplicas
       https://news.google.com/rss/articles/CBMimAFBVV95cUxPQlQ2dWtrbGpETnF6d3NUc1FfS1FtS1psWXRXUTNuWUdmeGNRY0JwaVlVZk8xQ04xTEc1cHVBYkJFYjhWb1huSEtoV0h0MExnTkZZSl9iNUdVMGZUeDRwRTFiWng3cGNocUJzd0tNMDc0SnZ0UVhlTlN6NVJCRnRsb0FlX3B4RzJUODg3ZUo2UFVoT0xLMVlNRtIBngFBVV95cUxQTEo1MGxnaHJQY0prT0dsVXU5QmdGNHBkRE0yRlhJNGdrc3dWVFZyQmJ4NFpSdTB1TzBKY3hlMzVFbC1kOHZLUnN3S2dQbzY2cWdra2hDb0tNWWRSbzU5bF9LenN6c0dReEw5SjFEUVBlSGlGbWU2RUN5cjZIVzlJUHRlNXQzZHVFRE5XUXQ2emo5NkRFY0ExMVNWOGQ0Zw?oc=5
-    - 18/10 13:10 www.ecotvpanama.com: Sinaproc extiende aviso por lluvias y tormentas en Panamá hasta el 21 de octubre
-      https://news.google.com/rss/articles/CBMisgFBVV95cUxOU280SERPZi1uMERoNFBRR2x4WjU5ZWhIU0U4MUlka0RyTHg3dWtEVWFBLUJOUTZ3Z0tFOUlpbXc4ajFnd3FTNlNCaFgyTV9CRWU2YUdtZEdKZlB1aS1GV2d1anFTSHVCSHlwT1hDeHFaajU4RHltR01RTFhzS29xMklza0hPS2Fkam1YcnUzc2VGUThKSUZGQXpVOWxvSnZ0cTZneHBLSVMwRUZLbDJqUG5n0gG3AUFVX3lxTFB6eHFmUzhDdkRjeWo1VlZfcmJPYUhhNFF5UENQcmVRMUtETG5tc2l6TDE3M1FNS0QzTVJobVM5Zmp6dGhhZlQ2XzNkMjk4eHFFUEdLU0UzU3JUb1oyUnNRN0xUbE4tTU50SG9yNUllWXloY1BoZzJlOGdSMmdDdTNubmVzamVEM0dQS0NSOURaQlppVTZUUWx1T2w2NS1pN2NFNGJObXROSmNGZ1JwT0xVSEt5a212NA?oc=5
   Daños y víctimas:
     - 18/10 10:14 Impacto Castex: Por qué Panamá no fue Venezuela: las claves del terremoto de 7,7 que no dejó muertos
       https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LaEJTa1NXamJuNU5meWpvS3BoT3BoYldudENsYUFlMGFzUUM4TGJDMHZvekUwdk16WUU0OHE0QkN0UXF2WkZmZDRSRzUtMW5HSFBicmdzRTY?oc=5
@@ -67,7 +67,7 @@ ACCIONES AHORA:
   18/10 11:12  M4.5  0 km NE de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 21:21 (automático)
+🔔 Sismo PA 21:31 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -104,10 +104,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T02%3A21%3A25&endtime=2026-10-19T02%3A21%3A25&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T02%3A31%3A33&endtime=2026-10-19T02%3A31%3A33&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 1.3 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 1.1 h; alerta solo con M5.5+, tsunami o reactivación
