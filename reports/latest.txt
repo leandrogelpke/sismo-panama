@@ -1,7 +1,7 @@
-Sismo PA 22:12: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
+Sismo PA 22:22: 0 réplicas M4.5+ en la última hora — tendencia en descenso, tsunami sin alerta.
 
-SISMO PANAMÁ — informe de las 22:12 (18/10/2026), generado por GitHub Actions
-Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 225.3 h.
+SISMO PANAMÁ — informe de las 22:22 (18/10/2026), generado por GitHub Actions
+Sismo principal: M7.7 el 09/10 12:56, 12 km WSW de Pitaloza Arriba, prof. 13 km — hace 225.4 h.
 
 RÉPLICAS POR VENTANA (fuente: catálogo USGS ComCat, caja Panamá — mapa: https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true):
   1 h: 0 de M4.5+ y 0 de M3.5–4.4 | 5 h: 0 de M4.5+ y 0 de M3.5–4.4 | 10 h: 0 de M4.5+ y 0 de M3.5–4.4 | 18 h: 1 de M4.5+ y 0 de M3.5–4.4 | 24 h: 1 de M4.5+ y 2 de M3.5–4.4
@@ -21,10 +21,10 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
   Tsunami (tsunami.gov): sin alerta activa
   Hospitales privados (Pacífica Salud/Punta Pacífica, Paitilla, Nacional, San Fernando — confirme cuáles acepta su seguro ASSA): sin titulares específicos en las últimas horas.
   Hospitales públicos y CSS (Santo Tomás, Arnulfo Arias, Hospital del Niño, MINSA):
+    - 18/10 19:52 CRÍTICA: Minsa aclara que aún no se confirma caso de hantavirus en Los Santos
+      https://news.google.com/rss/articles/CBMitgFBVV95cUxNaV9vT05IdFA2UlFxQ25Md0VVOWRDTFF2a0ZUSVp2bS0yMlpYT2Q3bmlyenNQWHd0aV9jdDNWc2xVenFNaW5LNXAtNUhnQVhnTGM2dE55V0ZpRE9LdXZWaHVQRmx4WFkwYnk2ZmVnaUVDLWU1ejJJMWNEazZYTTltUmtNRzJqWWlFZGR0QzhVVGtvZnJpYS02UWtDQmk1YTYwS0tWenh6VzJVZlhsSVE2eFBlUVQzQdIBtgFBVV95cUxNaV9vT05IdFA2UlFxQ25Md0VVOWRDTFF2a0ZUSVp2bS0yMlpYT2Q3bmlyenNQWHd0aV9jdDNWc2xVenFNaW5LNXAtNUhnQVhnTGM2dE55V0ZpRE9LdXZWaHVQRmx4WFkwYnk2ZmVnaUVDLWU1ejJJMWNEazZYTTltUmtNRzJqWWlFZGR0QzhVVGtvZnJpYS02UWtDQmk1YTYwS0tWenh6VzJVZlhsSVE2eFBlUVQzQQ?oc=5
     - 18/10 19:07 www.metrolibre.com: CSS habilita carpas y hospitales modulares para atender pacientes tras daños por el sismo
       https://news.google.com/rss/articles/CBMi1AFBVV95cUxNam93STJRSmRlakxZZEJkOU1LekZucnBoX2FJQ1RZZy03U1NUa3VmS21pa1lDdVlrYTZZRElIY3ZTdFR3UkRNanM3bFY3V2FOZ2IwTWZZeWxyQkQ3b01DTmNOZ2hZR1Mwdnl5cHVtWWhvekVORWNKanhmMlNUUXRPM2FadEN6VEtTelBfQUtwbE5jV01WTm5mVFY2R2tiN0o1dUxBN21kT3kwck1UVW44UHZXdWlGdzJlcURZZVhDSUo0TWxoNnlNaExDTi0tbFZiMDAzNQ?oc=5
-    - 18/10 16:00 El Siglo Panamá: ¿Hantavirus en Guararé? Esto dice el Minsa
-      https://news.google.com/rss/articles/CBMilgFBVV95cUxNWU1OYjM3YXQxTUw0MUhYV3QzOERQQ0NmbVBMNEh2MFA2bHFsOUhKbFhlVS04alFYckktMkNHU3VoMDVqVDRqbHNlN3BZVmZfV2paOWF2NzMwLWJqVUp6TE9tNXJLd21GdUt2eGRwc2pZVk5jWUlibV9qYWE2RXZwenp4eEZqQTBGWFFYRmIxeG1oTm1RRWfSAZsBQVVfeXFMTXpwX3VaWDkwMzFjcGtWN2VTQ3I1azFmdExJcHlwRjdXNkFpbEJYc3E3d29jN3R3NG4xZWtTTWhtVlBUcWpGQTNlNDlZbURXbXo5VkE5WHZBcF9BZzBkOGxDRUFSemZyRTRzYkhJTXB5VXBLanlLYUtEX1V3R0NoUXJTU19wcUhLM3ZzWUttc0NfYndTS29VcnFNZjQ?oc=5
   Agua (IDAAN):
     - 18/10 00:11 La Prensa Panamá: Bella Vista, sin agua constante y con 868 nuevos apartamentos en construcción
       https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1pdVNfdlJUbE5vZllaT2Y1QUdldUxhWjlPbjd2Q1d4clBSRHZtLWpMaVhBZ1RNNGdiQVdWaXNhYzFicWtRSmh3ZHBPbjFXWHV2dXFRUmhyRjZhZ1dNSDFFdC1ndksxX19hWW5uc1hISFpjOUpZTTNfYUIyb0I1M2RwWnE5Uy1lYmxYaUZ3cklvdWttSDJLSVRTV3FqNGcwUHZ4eGJRam92VF9XaWc?oc=5
@@ -54,9 +54,7 @@ SITUACIÓN OFICIAL Y SERVICIOS (titulares de prensa de las últimas 12–24 h; l
       https://news.google.com/rss/articles/CBMizAFBVV95cUxQbVByYjY2S2tsUEJVSWJGcFJtaVBGUXlocFllTVVYNEQtUFBsMXpRWWMwZ1dhQk9xRDh0WGdyQ3JqQWpfQ0YyY00xQmRJVnM2YVlRMWo0cmNFdk8tLWFuRkJIYm5sMndycEhCLU5ZWmh4ZGluOFZJY2lLTjlfUGl6ZGprYXhleU55RVNDQlh3cGdBZUFXdnNkY2N6SzMyTjh0ZUdUckJjWVl2NmFHdlZZQWdMa3A4cGN2c24tT29QSUtZRjFadUJVX1Q0NFfSAdIBQVVfeXFMUDhRNVQ4d0dlWUpFN0pBUVFLY21HbTdTTlVlaXlOWkc4dkhpSDJMZ3lSNzhfbEFHWlR0U194MDJTM3BJc1M1bFdvRFlhdzFqTWJGOXliRkhkeUwyQTdrc2s0LWdvWkNKNm5JOTF6dUR1Z0VHc1BGcVVWRzlaNm03M09ZM3dwdS0wNGVxSDV5R0FWVFBHYjVLRVJmN1dTa0pITkk2WWN3SXlTYTNwRUV1dDlMSTdTN2NWZFdiV1pRUlRNV050azMydXlvblRYZEZXbTF3?oc=5
     - 18/10 19:31 Tvn Panamá: Sinaproc reevaluará viviendas afectadas por el sismo ante daños provocados por réplicas
       https://news.google.com/rss/articles/CBMimAFBVV95cUxPQlQ2dWtrbGpETnF6d3NUc1FfS1FtS1psWXRXUTNuWUdmeGNRY0JwaVlVZk8xQ04xTEc1cHVBYkJFYjhWb1huSEtoV0h0MExnTkZZSl9iNUdVMGZUeDRwRTFiWng3cGNocUJzd0tNMDc0SnZ0UVhlTlN6NVJCRnRsb0FlX3B4RzJUODg3ZUo2UFVoT0xLMVlNRtIBngFBVV95cUxQTEo1MGxnaHJQY0prT0dsVXU5QmdGNHBkRE0yRlhJNGdrc3dWVFZyQmJ4NFpSdTB1TzBKY3hlMzVFbC1kOHZLUnN3S2dQbzY2cWdra2hDb0tNWWRSbzU5bF9LenN6c0dReEw5SjFEUVBlSGlGbWU2RUN5cjZIVzlJUHRlNXQzZHVFRE5XUXQ2emo5NkRFY0ExMVNWOGQ0Zw?oc=5
-  Daños y víctimas:
-    - 18/10 10:14 Impacto Castex: Por qué Panamá no fue Venezuela: las claves del terremoto de 7,7 que no dejó muertos
-      https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LaEJTa1NXamJuNU5meWpvS3BoT3BoYldudENsYUFlMGFzUUM4TGJDMHZvekUwdk16WUU0OHE0QkN0UXF2WkZmZDRSRzUtMW5HSFBicmdzRTY?oc=5
+  Daños y víctimas: sin titulares específicos en las últimas horas.
 
 ACCIONES AHORA:
   1. [Seguro] Para la noche: zapatos cerrados, linterna, llaves y celular cargado junto a la cama; puerta del cuarto sin seguro; si tiembla fuerte, proteger la cabeza junto a la cama y esperar a que pase antes de bajar.
@@ -67,7 +65,7 @@ ACCIONES AHORA:
   18/10 11:12  M4.5  0 km NE de Río Grande  10 km
 
 MENSAJE CORTO (Telegram/WhatsApp):
-🔔 Sismo PA 22:12 (automático)
+🔔 Sismo PA 22:22 (automático)
 Hora tranquila: sin réplicas relevantes en las últimas 6 h. Tendencia: en descenso.
 Tsunami: sin alerta. Próxima actualización en 1 h.
 Fuente: USGS https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
@@ -104,10 +102,10 @@ FUENTES:
   Sismo principal (USGS): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k
   Pronóstico oficial de réplicas (USGS OAF): https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/oaf/forecast
   Mapa de réplicas (USGS): https://earthquake.usgs.gov/earthquakes/map/?extent=5.5,-84.5&extent=10.5,-76.5&range=week&magnitude=all&listOnlyShown=true
-  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T03%3A12%3A10&endtime=2026-10-19T03%3A12%3A10&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
+  Datos crudos 24 h, M3.5+ (USGS ComCat, CSV): https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2026-10-18T03%3A22%3A20&endtime=2026-10-19T03%3A22%3A20&minmagnitude=3.5&orderby=time&minlatitude=5.5&maxlatitude=10.5&minlongitude=-84.5&maxlongitude=-76.5
   Boletines de tsunami (PTWC/NTWC): https://www.tsunami.gov/
   Titulares: Google News (es-419, PA) — cada titular lleva su enlace arriba
 
 Sugerencia: ya pasaron más de 72 h sin réplicas relevantes — reducir la cadencia a cada 6 h (editar el cron en .github/workflows/sismo.yml).
 
-ENVÍO: no enviado — próximo informe regular en 0.4 h; alerta solo con M5.5+, tsunami o reactivación
+ENVÍO: no enviado — próximo informe regular en 0.3 h; alerta solo con M5.5+, tsunami o reactivación
